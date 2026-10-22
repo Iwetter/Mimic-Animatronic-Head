@@ -1,0 +1,56 @@
+[
+  {
+    "image": "renders/assembly_exploded_labeled.png",
+    "ids": [
+      "P20",
+      "P21",
+      "P22",
+      "P23",
+      "P24",
+      "P25",
+      "P26",
+      "P27",
+      "P28",
+      "P29",
+      "P30",
+      "P31",
+      "P32",
+      "P33",
+      "P42",
+      "P43",
+      "P36",
+      "P41",
+      "P44",
+      "P01",
+      "P03",
+      "P34",
+      "P35",
+      "P37",
+      "P49",
+      "P38",
+      "P39",
+      "P40",
+      "P45",
+      "P46"
+    ],
+    "method": "projection of exact scene bounding-box centers; camera constants from render_blender.py"
+  },
+  {
+    "image": "renders/mechanism_view_labeled.png",
+    "ids": [
+      "P33",
+      "P36",
+      "P41",
+      "P44",
+      "P34",
+      "P37",
+      "P49",
+      "P38",
+      "P39",
+      "P40",
+      "P45",
+      "P46"
+    ],
+    "method": "projection of exact scene bounding-box centers; camera constants from render_blender.py"
+  }
+]

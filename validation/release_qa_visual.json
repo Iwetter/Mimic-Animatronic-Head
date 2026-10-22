@@ -1,0 +1,18 @@
+{
+  "physical_tested": false,
+  "passed": true,
+  "files": [
+    {
+      "file": "docs/Assembly_Manual.pdf",
+      "sha256": "50f622b977d09064862c45f3a665bdb180b9742320b082c6d18f3e62fff75e82",
+      "passed": true,
+      "method": "Prior33-page Poppler review retained; final addendum rendered and visually inspected"
+    },
+    {
+      "file": "docs/Mechanical_Drawings.pdf",
+      "sha256": "847a044687d62ef9189930212a312038917a07f97ced39023026a96db3aba05f",
+      "passed": true,
+      "method": "All32 corrected pages rendered with Poppler and visually reviewed on eight contact sheets; text bounds pass"
+    }
+  ]
+}

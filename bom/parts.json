@@ -1,0 +1,4050 @@
+{
+  "revision": "R5a-E1",
+  "status": "ENGINEERING BUILD \u2014 digital verification in progress; hardware-fit release gates remain",
+  "parts": [
+    {
+      "id": "P01",
+      "name": "torso_spine_socket",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P01_torso_spine_socket.step",
+      "stl": "stl_backup/P01_torso_spine_socket.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 39684.20503929456,
+      "size_mm": [
+        60.0,
+        52.0,
+        42.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Exact named embedded R4 reference recovered from supplied complete R5a assembly; original standalone R4 absent. Do not scale.",
+      "assembly_instances": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "skeletal_neck_tenon",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P03_skeletal_neck_tenon.step",
+      "stl": "stl_backup/P03_skeletal_neck_tenon.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 60396.76369940792,
+      "size_mm": [
+        96.0,
+        61.0,
+        55.0
+      ],
+      "print_rotation_xyz_deg": [
+        180,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified. Print flange down, tenon upward; preserve flange face and remove cable-channel support.",
+      "installation": "Exact named embedded R4 reference recovered from supplied complete R5a assembly; original standalone R4 absent. Do not scale.",
+      "assembly_instances": [
+        "P03"
+      ]
+    },
+    {
+      "id": "P20",
+      "name": "skull_base_plate",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P20_skull_base_plate.step",
+      "stl": "stl_backup/P20_skull_base_plate.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 52591.2478338675,
+      "size_mm": [
+        136.0,
+        86.0,
+        6.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Jaw-cradle and frame-foot through holes; neck pattern preserved.",
+      "assembly_instances": [
+        "P20"
+      ]
+    },
+    {
+      "id": "P21",
+      "name": "lower_wall_L",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P21_lower_wall_L.step",
+      "stl": "stl_backup/P21_lower_wall_L.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 41026.52123218901,
+      "size_mm": [
+        19.0,
+        101.0,
+        128.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        -90,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified. Print outer boss side down; supports beneath wall are required and accessible.",
+      "installation": "Jaw pivot bearing \u00d84.2 accepts smooth \u00d84 metal sleeve; M3 screw never runs on FDM bearing.",
+      "assembly_instances": [
+        "P21"
+      ]
+    },
+    {
+      "id": "P22",
+      "name": "lower_wall_R",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P22_lower_wall_R.step",
+      "stl": "stl_backup/P22_lower_wall_R.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 41352.664947811136,
+      "size_mm": [
+        19.0,
+        101.0,
+        128.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Jaw pivot bearing \u00d84.2 accepts smooth \u00d84 metal sleeve; M3 screw never runs on FDM bearing.",
+      "assembly_instances": [
+        "P22"
+      ]
+    },
+    {
+      "id": "P23",
+      "name": "upper_cranial_plate_L",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P23_upper_cranial_plate_L.step",
+      "stl": "stl_backup/P23_upper_cranial_plate_L.stl",
+      "material": "PLA",
+      "appearance_material": "frame_steel",
+      "volume_mm3": 31509.48585398769,
+      "size_mm": [
+        8.500000000000014,
+        140.1689453125,
+        69.015625
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        -90,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified. Print broad outer cranial face down for continuous first-layer adhesion.",
+      "installation": "Mechanism deck side bolts; solid nut bosses added only at attachment interfaces.",
+      "assembly_instances": [
+        "P23"
+      ]
+    },
+    {
+      "id": "P24",
+      "name": "upper_cranial_plate_R",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P24_upper_cranial_plate_R.step",
+      "stl": "stl_backup/P24_upper_cranial_plate_R.stl",
+      "material": "PLA",
+      "appearance_material": "frame_steel",
+      "volume_mm3": 31509.485853987688,
+      "size_mm": [
+        8.500000000000014,
+        140.1689453125,
+        69.015625
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Mechanism deck side bolts; solid nut bosses added only at attachment interfaces.",
+      "assembly_instances": [
+        "P24"
+      ]
+    },
+    {
+      "id": "P25",
+      "name": "cranial_arch_front",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P25_cranial_arch_front.step",
+      "stl": "stl_backup/P25_cranial_arch_front.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 12102.04158209013,
+      "size_mm": [
+        148.0,
+        8.000000100000008,
+        48.54960937499999
+      ],
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Two M3x20 at end tabs; one M2x16 through crest lap, washer and plain nut.",
+      "assembly_instances": [
+        "P25"
+      ]
+    },
+    {
+      "id": "P26",
+      "name": "cranial_arch_mid",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P26_cranial_arch_mid.step",
+      "stl": "stl_backup/P26_cranial_arch_mid.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 15090.525052782483,
+      "size_mm": [
+        148.0,
+        8.0000002,
+        76.79169564604649
+      ],
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Mid arch underside relieved for lid servo body with0.6mm nominal envelope allowance; exterior upper curve retained.",
+      "assembly_instances": [
+        "P26"
+      ]
+    },
+    {
+      "id": "P27",
+      "name": "cranial_arch_rear",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P27_cranial_arch_rear.step",
+      "stl": "stl_backup/P27_cranial_arch_rear.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 14133.947618880433,
+      "size_mm": [
+        148.0,
+        8.000000100000001,
+        66.69999999999999
+      ],
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Two M3x20 at end tabs; one M2x16 through crest lap, washer and plain nut.",
+      "assembly_instances": [
+        "P27"
+      ]
+    },
+    {
+      "id": "P28",
+      "name": "sagittal_crest",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P28_sagittal_crest.step",
+      "stl": "stl_backup/P28_sagittal_crest.stl",
+      "material": "PLA",
+      "appearance_material": "frame_steel",
+      "volume_mm3": 6562.076143443939,
+      "size_mm": [
+        6.000000000000002,
+        129.1123046875,
+        55.6298828125
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Three M2x16 vertical through bolts retain the existing half-lap crest joints.",
+      "assembly_instances": [
+        "P28"
+      ]
+    },
+    {
+      "id": "P29",
+      "name": "face_mask",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P29_face_mask.step",
+      "stl": "stl_backup/P29_face_mask.stl",
+      "material": "PLA",
+      "appearance_material": "frame_steel",
+      "volume_mm3": 25452.7414325341,
+      "size_mm": [
+        158.0,
+        4.500000000000021,
+        83.05555555555557
+      ],
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Two M2x16 front-to-rear nasal-floor bolts with rear nuts; dry fit before teeth.",
+      "assembly_instances": [
+        "P29"
+      ]
+    },
+    {
+      "id": "P30",
+      "name": "zygoma_L",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P30_zygoma_L.step",
+      "stl": "stl_backup/P30_zygoma_L.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 2757.8842809740145,
+      "size_mm": [
+        20.695652173913054,
+        50.0,
+        15.000000000000014
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Hidden root relieved around fixed eye-deck pitch supports; root shoe retained by M3x25. Approved visible zygoma retained.",
+      "assembly_instances": [
+        "P30"
+      ]
+    },
+    {
+      "id": "P31",
+      "name": "zygoma_R",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P31_zygoma_R.step",
+      "stl": "stl_backup/P31_zygoma_R.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 2757.884280974014,
+      "size_mm": [
+        20.695652173913054,
+        50.0,
+        15.000000000000014
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Hidden root relieved around fixed eye-deck pitch supports; root shoe retained by M3x25. Approved visible zygoma retained.",
+      "assembly_instances": [
+        "P31"
+      ]
+    },
+    {
+      "id": "P32",
+      "name": "maxilla_arch",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P32_maxilla_arch.step",
+      "stl": "stl_backup/P32_maxilla_arch.stl",
+      "material": "PLA",
+      "appearance_material": "frame_steel",
+      "volume_mm3": 13677.421972234177,
+      "size_mm": [
+        135.99999999999997,
+        58.0,
+        18.5
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Rear carrier M1.6 through bolts; install after free-motion testing.",
+      "assembly_instances": [
+        "P32"
+      ]
+    },
+    {
+      "id": "P33",
+      "name": "mandible",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P33_mandible.step",
+      "stl": "stl_backup/P33_mandible.stl",
+      "material": "PLA",
+      "appearance_material": "frame_steel",
+      "volume_mm3": 37989.599709045426,
+      "size_mm": [
+        129.0,
+        95.50000000000001,
+        59.00000000000001
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Driven-left ramus takes M3x4 heat-set insert and M3x18 outboard pivot screw. Right M3x25 retained pivot and M3x25 stop pin. OEM double-arm horn at +/-8mm, two M2 screws.",
+      "assembly_instances": [
+        "P33"
+      ]
+    },
+    {
+      "id": "P34",
+      "name": "eye_globe",
+      "qty": 2,
+      "revision": "R5a-E1",
+      "step": "step/parts/P34_eye_globe.step",
+      "stl": "stl_backup/P34_eye_globe.stl",
+      "material": "PLA",
+      "appearance_material": "eye_white",
+      "volume_mm3": 5969.456644732989,
+      "size_mm": [
+        31.924285426615324,
+        29.338409953687467,
+        26.416743457554034
+      ],
+      "print_rotation_xyz_deg": [
+        -90,
+        0,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "Organic shell: baseline5mm outer brim and automatic supports; protect front/iris surface. Remove support inside before installing shaft. Review slicer layer preview.",
+      "installation": "Retained front sphere/iris; hidden rear access, 49-degree lower opening and internal shaft hub. M2x8 grub/setscrew in captive nut secures 3mm shaft; verify clamp strength physically.",
+      "assembly_instances": [
+        "P34_L",
+        "P34_R"
+      ]
+    },
+    {
+      "id": "P35",
+      "name": "iris_insert",
+      "qty": 2,
+      "revision": "R5a-E1",
+      "step": "step/parts/P35_iris_insert.step",
+      "stl": "stl_backup/P35_iris_insert.stl",
+      "material": "PLA",
+      "appearance_material": "iris",
+      "volume_mm3": 175.07467539925244,
+      "size_mm": [
+        14.0,
+        1.2000000000000028,
+        14.0
+      ],
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Nonstructural iris retained by two tiny removable neutral-cure RTV dots at rim. Cure off mechanism; do not contaminate pupil/LED aperture. Cut dots to replace iris.",
+      "assembly_instances": [
+        "P35_L",
+        "P35_R"
+      ]
+    },
+    {
+      "id": "P36",
+      "name": "eye_deck",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P36_eye_deck.step",
+      "stl": "stl_backup/P36_eye_deck.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 31782.950574779585,
+      "size_mm": [
+        136.0000002,
+        46.0,
+        54.31769313614649
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Fixed eye/lid deck lowered internally10mm for yaw-link/nut travel; common-pitch outboard pivots, lid/pitch stop slots and sidewall bolts.",
+      "assembly_instances": [
+        "P36"
+      ]
+    },
+    {
+      "id": "P37",
+      "name": "yaw_crank",
+      "qty": 2,
+      "revision": "R5a-E1",
+      "step": "step/parts/P37_yaw_crank.step",
+      "stl": "stl_backup/P37_yaw_crank.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 425.3020656828043,
+      "size_mm": [
+        10.000000200000002,
+        20.5000001,
+        3.8000001999999853
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "R12 crank clamped to 3mm shaft by M2x8 captive-nut set screw. Do not use printed spline.",
+      "assembly_instances": [
+        "P37_L",
+        "P37_R"
+      ]
+    },
+    {
+      "id": "P38",
+      "name": "yaw_tie_half",
+      "qty": 2,
+      "revision": "R5a-E1",
+      "step": "step/parts/P38_yaw_tie_half.step",
+      "stl": "stl_backup/P38_yaw_tie_half.stl",
+      "material": "PLA",
+      "appearance_material": "frame_steel",
+      "volume_mm3": 446.3433593212417,
+      "size_mm": [
+        39.75,
+        6.0,
+        2.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Two independent links, 33.75mm centres; second link shifted +33.75mm X and -2.5mm Z. M2 bolts, washers, metal spacers; retain pivot freedom.",
+      "assembly_instances": [
+        "P38_L",
+        "P38_R"
+      ]
+    },
+    {
+      "id": "P39",
+      "name": "upper_lid_L",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P39_upper_lid_L.step",
+      "stl": "stl_backup/P39_upper_lid_L.stl",
+      "material": "PLA",
+      "appearance_material": "lid",
+      "volume_mm3": 2213.183779846444,
+      "size_mm": [
+        38.599999999999994,
+        30.3,
+        25.799999999999983
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        -90,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "Organic shell: baseline5mm outer brim and automatic supports; protect front/iris surface. Remove support inside before installing shaft. Review slicer layer preview.",
+      "installation": "Original visible lid shell, retained M2 pivots, M2 stop pin at R8, flat pushrod at outer lever.",
+      "assembly_instances": [
+        "P39_L"
+      ]
+    },
+    {
+      "id": "P40",
+      "name": "upper_lid_R",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P40_upper_lid_R.step",
+      "stl": "stl_backup/P40_upper_lid_R.stl",
+      "material": "PLA",
+      "appearance_material": "lid",
+      "volume_mm3": 2213.183804678193,
+      "size_mm": [
+        38.60000000000001,
+        30.3,
+        25.799999999999983
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "Organic shell: baseline5mm outer brim and automatic supports; protect front/iris surface. Remove support inside before installing shaft. Review slicer layer preview.",
+      "installation": "Original visible lid shell, retained M2 pivots, M2 stop pin at R8, flat pushrod at outer lever.",
+      "assembly_instances": [
+        "P40_R"
+      ]
+    },
+    {
+      "id": "P41",
+      "name": "mechanism_deck",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P41_mechanism_deck.step",
+      "stl": "stl_backup/P41_mechanism_deck.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 30727.54055359303,
+      "size_mm": [
+        148.0,
+        53.60847955711009,
+        48.335764363510464
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Fixed pitch/lid servo deck. Four M3 side bolts; M2 tab screws; paired cable-tie slots. Route cables rearward, service loop for moving yaw servo.",
+      "assembly_instances": [
+        "P41"
+      ]
+    },
+    {
+      "id": "P42",
+      "name": "upper_teeth_row",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P42_upper_teeth_row.step",
+      "stl": "stl_backup/P42_upper_teeth_row.stl",
+      "material": "PLA",
+      "appearance_material": "teeth",
+      "volume_mm3": 1629.8904490096727,
+      "size_mm": [
+        71.0,
+        25.995009014997066,
+        10.200000000000003
+      ],
+      "print_rotation_xyz_deg": [
+        180,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified. Print root carrier down and teeth upward; preserve tooth sockets and fastener bores.",
+      "installation": "Rear carrier M1.6 through bolts; install after free-motion testing.",
+      "assembly_instances": [
+        "P42"
+      ]
+    },
+    {
+      "id": "P43",
+      "name": "lower_teeth_row",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P43_lower_teeth_row.step",
+      "stl": "stl_backup/P43_lower_teeth_row.stl",
+      "material": "PLA",
+      "appearance_material": "teeth",
+      "volume_mm3": 1537.3245859516962,
+      "size_mm": [
+        69.0,
+        23.403773982407827,
+        9.5
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Rear carrier M1.6 through bolts; install after free-motion testing.",
+      "assembly_instances": [
+        "P43"
+      ]
+    },
+    {
+      "id": "P44",
+      "name": "jaw_servo_cradle",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P44_jaw_servo_cradle.step",
+      "stl": "stl_backup/P44_jaw_servo_cradle.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 4225.846910743157,
+      "size_mm": [
+        20.0,
+        39.0,
+        60.25
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_group": "structure",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "M3x16 base feet; M2x10 servo tabs at nominal28mm centres. Centre horn before attaching jaw.",
+      "assembly_instances": [
+        "P44"
+      ]
+    },
+    {
+      "id": "P45",
+      "name": "common_pitch_carrier",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P45_common_pitch_carrier.step",
+      "stl": "stl_backup/P45_common_pitch_carrier.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 11865.806547425595,
+      "size_mm": [
+        130.0,
+        46.0,
+        24.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Rigid pitch carrier fixes both yaw-axis bearings. CH0 servo moves with carrier. Two outboard M3 pivots on X axis; two M2x10 servo-tab screws.",
+      "assembly_instances": [
+        "P45"
+      ]
+    },
+    {
+      "id": "P46",
+      "name": "eye_pitch_pushrod",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P46_eye_pitch_pushrod.step",
+      "stl": "stl_backup/P46_eye_pitch_pushrod.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 1011.679199151552,
+      "size_mm": [
+        2.5,
+        6.0,
+        70.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "64mm centre distance. Lower pivot M2 to common carrier tab; upper pivot M2 to OEM R14 pitch horn. Spacers align pin axes; no spherical rods.",
+      "assembly_instances": [
+        "P46"
+      ]
+    },
+    {
+      "id": "P49",
+      "name": "lid_pushrod",
+      "qty": 2,
+      "revision": "R5a-E1",
+      "step": "step/parts/P49_lid_pushrod.step",
+      "stl": "stl_backup/P49_lid_pushrod.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 972.5433593212415,
+      "size_mm": [
+        2.0,
+        6.0,
+        83.6
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_group": "mechanism",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "77.6mm centres, M2 pinned at both ends. Outer rod plane X\u00b158.5. Metal spacer aligns original lid lever to rod. No printed ball joints.",
+      "assembly_instances": [
+        "P49_L",
+        "P49_R"
+      ]
+    },
+    {
+      "id": "P90",
+      "name": "hardware_fit_coupon",
+      "qty": 1,
+      "revision": "R5a-E1",
+      "step": "step/parts/P90_hardware_fit_coupon.step",
+      "stl": "stl_backup/P90_hardware_fit_coupon.stl",
+      "material": "PLA",
+      "appearance_material": "frame_dark",
+      "volume_mm3": 19131.45137564325,
+      "size_mm": [
+        80.0,
+        45.0,
+        6.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_group": "coupon",
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "installation": "Bench coupon only, not installed. X-row bores from left:2.0,2.2,2.4,3.0,3.2,3.4,4.4,4.6,4.8mm. Servo aperture13.2x24; flange pitch28. Print and measure before all hardware-dependent parts.",
+      "assembly_instances": []
+    }
+  ],
+  "hardware": [
+    {
+      "id": "H_BASE_P21",
+      "description": "M3x16 socket screw + 2 flat washers + M3 hex nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -63,
+          33,
+          0
+        ],
+        [
+          -63,
+          41,
+          0
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M3x16",
+      "nominal_grip_mm": 10,
+      "installation": "Screw from above; hold nut below base before P03 installation.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_BASE_P22",
+      "description": "M3x16 socket screw + 2 flat washers + M3 hex nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          63,
+          33,
+          0
+        ],
+        [
+          63,
+          41,
+          0
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M3x16",
+      "nominal_grip_mm": 10,
+      "installation": "Screw from above; hold nut below base before P03 installation.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_PLATE_P23",
+      "description": "M3x18 socket screw + 2 washers + M3 hex nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -79,
+          5,
+          122
+        ],
+        [
+          -79,
+          68,
+          124
+        ]
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "size": "M3x18",
+      "nominal_grip_mm": 11,
+      "installation": "Heads outside, nuts accessible inside before installing mechanism deck.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_PLATE_P24",
+      "description": "M3x18 socket screw + 2 washers + M3 hex nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          79,
+          5,
+          122
+        ],
+        [
+          79,
+          68,
+          124
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x18",
+      "nominal_grip_mm": 11,
+      "installation": "Heads outside, nuts accessible inside before installing mechanism deck.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_ARCH_P25",
+      "description": "M3x20 socket screw + 2 washers + M3 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -79,
+          -45,
+          151.5
+        ],
+        [
+          79,
+          -45,
+          151.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x20",
+      "nominal_grip_mm": 14,
+      "installation": "Outside heads, inward nuts; fit arch before crest.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_ARCH_P26",
+      "description": "M3x20 socket screw + 2 washers + M3 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -79,
+          2,
+          151.5
+        ],
+        [
+          79,
+          2,
+          151.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x20",
+      "nominal_grip_mm": 14,
+      "installation": "Outside heads, inward nuts; fit arch before crest.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_ARCH_P27",
+      "description": "M3x20 socket screw + 2 washers + M3 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -79,
+          52,
+          151.5
+        ],
+        [
+          79,
+          52,
+          151.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x20",
+      "nominal_grip_mm": 14,
+      "installation": "Outside heads, inward nuts; fit arch before crest.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_CREST",
+      "description": "M2x16 socket screw + 2 washers + M2 nut",
+      "qty": 3,
+      "location_mm": [
+        [
+          0,
+          -45,
+          210
+        ],
+        [
+          0,
+          2,
+          210
+        ],
+        [
+          0,
+          52,
+          210
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M2x16",
+      "nominal_grip_mm": 10,
+      "installation": "Trim screw only if measured joint differs; confirm at least 1.5 threads beyond nut.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_FACE_P23",
+      "description": "M3x20 socket screw + 2 washers + M3 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          -74.5,
+          -62,
+          125.5
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "size": "M3x20",
+      "nominal_grip_mm": 12.5,
+      "installation": "Nut at rear of pad; mount mask after eye cassette.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_ZYG_P30",
+      "description": "M2x10 screw + washers + M2 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          -59,
+          -62,
+          90
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 6.5,
+      "installation": "Front screw, nut behind zygoma root; inspect actual mating overlap before tightening.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_FACE_P24",
+      "description": "M3x20 socket screw + 2 washers + M3 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          74.5,
+          -62,
+          125.5
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "size": "M3x20",
+      "nominal_grip_mm": 12.5,
+      "installation": "Nut at rear of pad; mount mask after eye cassette.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_ZYG_P31",
+      "description": "M2x10 screw + washers + M2 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          59,
+          -62,
+          90
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 6.5,
+      "installation": "Front screw, nut behind zygoma root; inspect actual mating overlap before tightening.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_MAX_P21",
+      "description": "M2x16 screw + 2 washers + M2 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          -74,
+          -16,
+          60
+        ]
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "size": "M2x16",
+      "nominal_grip_mm": 12,
+      "installation": "Fit before jaw; align and clamp side strut to lower wall.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_MAX_P22",
+      "description": "M2x16 screw + 2 washers + M2 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          74,
+          -16,
+          60
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x16",
+      "nominal_grip_mm": 12,
+      "installation": "Fit before jaw; align and clamp side strut to lower wall.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_MAX_FACE",
+      "description": "M2x16 screw + washers + M2 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -8,
+          -62,
+          67
+        ],
+        [
+          8,
+          -62,
+          67
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "size": "M2x16",
+      "nominal_grip_mm": 8.5,
+      "installation": "Straight front access; nuts behind new maxilla pad atY-53.5.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_TEETH_P42",
+      "description": "M1.6x16 screw + 2 washers + M1.6 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -33,
+          -40.5,
+          56.6
+        ],
+        [
+          33,
+          -40.5,
+          56.6
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M1.6x16",
+      "nominal_grip_mm": 10,
+      "installation": "Rear carrier only; upper grip8mm, lower10mm. Trim excess only after confirming nut engagement and travel.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_TEETH_P43",
+      "description": "M1.6x16 screw + 2 washers + M1.6 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -32,
+          -41,
+          35.5
+        ],
+        [
+          32,
+          -41,
+          35.5
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M1.6x16",
+      "nominal_grip_mm": 10,
+      "installation": "Rear carrier only; upper grip8mm, lower10mm. Trim excess only after confirming nut engagement and travel.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_EYE_DECK_-1",
+      "description": "M3x18 screw + 2 washers + M3 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          -74,
+          -12,
+          76
+        ]
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "size": "M3x18",
+      "nominal_grip_mm": 12,
+      "installation": "Bolt wall to fixed eye deck; inside nut accessible before globes.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_ZYG_ROOT_-1",
+      "description": "M3x25 screw + 2 washers + M3 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          -65,
+          -15,
+          90
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M3x25",
+      "nominal_grip_mm": 16,
+      "installation": "One root bolt joins P30/P31 to eye deck shoe. Nested shoe is relieved from fixed support; verify nut engagement at underside.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_PITCH_PIVOT_-1",
+      "description": "M3x16 screw + 3 washers + M3 nyloc nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          -68,
+          -36.25,
+          112.5
+        ]
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "size": "M3x16",
+      "nominal_grip_mm": 8,
+      "installation": "Stationary screw, moving carrier running bore. Set nyloc for 0.2\u20130.4 axial play, not clamped.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_LID_STOP_-1",
+      "description": "M2x12 screw + 2 washers + M2 nyloc nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          -52.3,
+          -28.25,
+          112.5
+        ]
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "size": "M2x12",
+      "nominal_grip_mm": 5,
+      "installation": "Pin traverses fixed curved slot. Nut outside; retain loose enough to slide.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_EYE_DECK_1",
+      "description": "M3x18 screw + 2 washers + M3 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          74,
+          -12,
+          76
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x18",
+      "nominal_grip_mm": 12,
+      "installation": "Bolt wall to fixed eye deck; inside nut accessible before globes.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_ZYG_ROOT_1",
+      "description": "M3x25 screw + 2 washers + M3 nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          65,
+          -15,
+          90
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M3x25",
+      "nominal_grip_mm": 16,
+      "installation": "One root bolt joins P30/P31 to eye deck shoe. Nested shoe is relieved from fixed support; verify nut engagement at underside.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_PITCH_PIVOT_1",
+      "description": "M3x16 screw + 3 washers + M3 nyloc nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          68,
+          -36.25,
+          112.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x16",
+      "nominal_grip_mm": 8,
+      "installation": "Stationary screw, moving carrier running bore. Set nyloc for 0.2\u20130.4 axial play, not clamped.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_LID_STOP_1",
+      "description": "M2x12 screw + 2 washers + M2 nyloc nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          52.3,
+          -28.25,
+          112.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x12",
+      "nominal_grip_mm": 5,
+      "installation": "Pin traverses fixed curved slot. Nut outside; retain loose enough to slide.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_YAW_SHAFT_-1",
+      "description": "Ground steel shaft \u00d83 x33mm; collars separately H_YAW_COLLARS",
+      "qty": 1,
+      "location_mm": [
+        [
+          -33.75,
+          -36.25,
+          84
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "\u00d83x33",
+      "nominal_grip_mm": 0,
+      "installation": "Deburr cut shaft84..117; 3.2 running bore in carrier, upper collar105.2..108.2; shaft clamped independently to globe and crank.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_YAW_SHAFT_1",
+      "description": "Ground steel shaft \u00d83 x33mm; collars separately H_YAW_COLLARS",
+      "qty": 1,
+      "location_mm": [
+        [
+          33.75,
+          -36.25,
+          84
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "\u00d83x33",
+      "nominal_grip_mm": 0,
+      "installation": "Deburr cut shaft84..117; 3.2 running bore in carrier, upper collar105.2..108.2; shaft clamped independently to globe and crank.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_PITCH_STOP",
+      "description": "M2x12 screw + 2 washers + M2 nyloc nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          -62,
+          -22.25,
+          112.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x12",
+      "nominal_grip_mm": 7.5,
+      "installation": "Left carrier pin slides in R14 fixed slot. Set washer/nyloc gap; approximately\u00b114deg physical stop.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_SERVO_YAW",
+      "description": "M2x10 screw + washers + M2 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          0,
+          -44.25,
+          99
+        ],
+        [
+          0,
+          -16.25,
+          99
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 6,
+      "installation": "Measure actual flange pitch before purchase/print; nominal 28mm. Bottom-access nuts.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_GLOBE_CLAMP",
+      "description": "M2x8 set screw + M2 plain nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -33.75,
+          -31.25,
+          112.5
+        ],
+        [
+          33.75,
+          -31.25,
+          112.5
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "size": "M2x8",
+      "nominal_grip_mm": 5,
+      "installation": "Trap nut in radial pocket before inserting axle; flats filed on steel shaft improve repeatable grip.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_YAW_CRANK_CLAMP",
+      "description": "M2x8 set screw + M2 plain nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -33.75,
+          -32.25,
+          91.5
+        ],
+        [
+          33.75,
+          -32.25,
+          91.5
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "size": "M2x8",
+      "nominal_grip_mm": 5,
+      "installation": "File local shaft flat and align both R12 crank holes rearward before tightening.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_YAW_LINK_LEFT",
+      "description": "M2x20 screw + 2 washers + M2 nyloc nut + 1mm spacer",
+      "qty": 1,
+      "location_mm": [
+        [
+          -33.75,
+          -24.25,
+          90.5
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M2x20",
+      "nominal_grip_mm": 12,
+      "installation": "Left pin extends upward through carrier R12 curved stop slot. Head above carrier, nut below link; maintain sliding clearance.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_YAW_LINK_RIGHT",
+      "description": "M2x16 screw + 2 washers + M2 nyloc nut + 3.5mm spacer",
+      "qty": 1,
+      "location_mm": [
+        [
+          33.75,
+          -24.25,
+          90.5
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M2x16",
+      "nominal_grip_mm": 8,
+      "installation": "Right link is lower in stack. Spacer\u00d82.2ID; leave free to rotate.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_YAW_LINK_CENTRE",
+      "description": "M2x16 screw + 3 washers + M2 nyloc nut + 1mm spacer",
+      "qty": 1,
+      "location_mm": [
+        [
+          0,
+          -24.25,
+          90.5
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M2x16",
+      "nominal_grip_mm": 8,
+      "installation": "Two links stacked on one retained OEM horn R12 pin. Validate horn has an R12 hole; adjust parameter consistently if measured otherwise.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_DECK_-1",
+      "description": "M3x20 screw + 2 washers + M3 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -79,
+          -15,
+          153
+        ],
+        [
+          -79,
+          15,
+          153
+        ]
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "size": "M3x20",
+      "nominal_grip_mm": 13,
+      "installation": "Nuts inside, access before lid/pitch servo installation.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_SERVO_LID_-1",
+      "description": "M2x10 screw + 2 washers + M2 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -48,
+          -26.258479557110082,
+          191.73576436351047
+        ],
+        [
+          -48,
+          1.741520442889918,
+          191.73576436351047
+        ]
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 5,
+      "installation": "Two nominal28mm pitch flange screws; retain OEM horn and centre screw.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_DECK_1",
+      "description": "M3x20 screw + 2 washers + M3 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          79,
+          -15,
+          153
+        ],
+        [
+          79,
+          15,
+          153
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x20",
+      "nominal_grip_mm": 13,
+      "installation": "Nuts inside, access before lid/pitch servo installation.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_SERVO_LID_1",
+      "description": "M2x10 screw + 2 washers + M2 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          48,
+          -26.258479557110082,
+          191.73576436351047
+        ],
+        [
+          48,
+          1.741520442889918,
+          191.73576436351047
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 5,
+      "installation": "Two nominal28mm pitch flange screws; retain OEM horn and centre screw.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_SERVO_PITCH",
+      "description": "M2x10 screw + 2 washers + M2 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -12.5,
+          -6.25,
+          176.5
+        ],
+        [
+          -12.5,
+          21.75,
+          176.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 5,
+      "installation": "Nominal pitch servo tabs. Inspect rear hole support on actual servo.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_PITCH_ROD",
+      "description": "M2x16 screw + 2 washers + M2 nyloc nut + metal spacer",
+      "qty": 2,
+      "location_mm": [
+        [
+          6,
+          -12.25,
+          112.5
+        ],
+        [
+          6,
+          -12.25,
+          176.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x16",
+      "nominal_grip_mm": 9,
+      "installation": "Rod plane X6. Lower washer at carrier edgeX4; upper metal spacer from hornX0 to rodX4.75. Verify pin support and axial clearance.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_LID_PIVOTS",
+      "description": "M2x10 screw + 2 washers + M2 nyloc nut",
+      "qty": 4,
+      "location_mm": [
+        [
+          -53.75,
+          -36.25,
+          112.5
+        ],
+        [
+          -13.75,
+          -36.25,
+          112.5
+        ],
+        [
+          13.75,
+          -36.25,
+          112.5
+        ],
+        [
+          53.75,
+          -36.25,
+          112.5
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 5,
+      "installation": "Four independent retained pivots. Washers in 0.5mm lid/prong gaps. Set axial play, no clamp on moving lid.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_LID_RODS",
+      "description": "M2x14 screw + 2 washers + M2 nyloc nut + metal spacer",
+      "qty": 4,
+      "location_mm": [
+        [
+          -58.5,
+          -26.45,
+          108.4
+        ],
+        [
+          -58.5,
+          -26.45,
+          186
+        ],
+        [
+          58.5,
+          -26.45,
+          108.4
+        ],
+        [
+          58.5,
+          -26.45,
+          186
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x14",
+      "nominal_grip_mm": 8,
+      "installation": "Lower spacer4.45mm; upper spacer1mm nominal. Measure actual horns before selecting spacers.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_JAW_LEFT_PIVOT",
+      "description": "M3x18 socket screw + one0.5mm washer + M3x4 heat-set insert",
+      "qty": 1,
+      "location_mm": [
+        [
+          -77.9,
+          12.5,
+          56.25
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x18",
+      "nominal_grip_mm": 13.4,
+      "installation": "Clamp on \u00d84OD/\u00d83.2ID sleeve12.9\u00b10.05 long between jaw outer faceX-64.5 and washer inner faceX-77.4. Sleeve rotates in\u00d84.2 wall bore;0.4mm outside axial gap. InsertOD4.6x4 in pocket\u00d84.6x4.1; actual insert coupon required. Screw tipX-59.9 gives3.6mm engagement without horn intrusion.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_JAW_RIGHT_PIVOT",
+      "description": "M3x25 socket screw + two0.5mm washers + M3 nyloc nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          77.9,
+          12.5,
+          56.25
+        ]
+      ],
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "size": "M3x25",
+      "nominal_grip_mm": 18.4,
+      "installation": "Same12.9mm sleeve between jaw outer faceX64.5 and washer inner faceX77.4. Nut/second washer at jaw inner faceX59.5; sleeve and screw rotate with jaw, not a loose pivot thread.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_JAW_SLEEVE",
+      "description": "Brass/stainless tube \u00d84OD/\u00d83.2ID, cut12.9\u00b10.05mm, square deburred ends",
+      "qty": 2,
+      "location_mm": [
+        [
+          -70.95,
+          12.5,
+          56.25
+        ],
+        [
+          70.95,
+          12.5,
+          56.25
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "\u00d84/3.2x12.9",
+      "nominal_grip_mm": 0,
+      "installation": "Clamp with jaw pivot screws. Confirm12.5mm wall-to-ramus stack and0.4mm free play before fully tightening.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_JAW_STOP",
+      "description": "M3x25 screw + 2 washers + M3 nyloc nut",
+      "qty": 1,
+      "location_mm": [
+        [
+          62,
+          26.5,
+          56.25
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x25",
+      "nominal_grip_mm": 14.5,
+      "installation": "Pin slides in curved wall slot; do not clamp moving ramus to wall.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_JAW_HORN",
+      "description": "M2x10 screw + 2 washers + M2 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -60,
+          4.5,
+          56.25
+        ],
+        [
+          -60,
+          20.5,
+          56.25
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 7,
+      "installation": "OEM double-arm horn requires holes at \u00b18mm and centre screw. Actual horn pattern must be measured; no printed spline.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_JAW_CRADLE_BASE",
+      "description": "M3x16 screw + 2 washers + M3 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -55,
+          34,
+          0
+        ],
+        [
+          -41,
+          34,
+          0
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M3x16",
+      "nominal_grip_mm": 10,
+      "installation": "Install before neck; nuts accessible from base underside.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_SERVO_JAW",
+      "description": "M2x10 screw + 2 washers + M2 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -51.25,
+          4.5,
+          56.25
+        ],
+        [
+          -51.25,
+          32.5,
+          56.25
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M2x10",
+      "nominal_grip_mm": 4.5,
+      "installation": "Check servo dimensions and nominal28mm flange pitch.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_NECK_FLANGE",
+      "description": "M3x20 screw + 2 washers + M3 nut",
+      "qty": 4,
+      "location_mm": [
+        [
+          -40,
+          -22.5,
+          0
+        ],
+        [
+          -40,
+          22.5,
+          0
+        ],
+        [
+          40,
+          -22.5,
+          0
+        ],
+        [
+          40,
+          22.5,
+          0
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "M3x20",
+      "nominal_grip_mm": 12,
+      "installation": "P20/P03 80x45 pattern; cable opening16x18 atY8 preserved.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_NECK_LOCK",
+      "description": "M3x45 screw + 2 washers + M3 nut",
+      "qty": 2,
+      "location_mm": [
+        [
+          -19,
+          21,
+          -48
+        ],
+        [
+          -19,
+          21,
+          -38
+        ]
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "size": "M3x45",
+      "nominal_grip_mm": 38,
+      "installation": "P01 socket side-lock bores; preserve torso interface. Stand has not been physically loaded.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_IRIS_RTV",
+      "description": "Neutral-cure flexible RTV adhesive, two1mm dots per iris",
+      "qty": 1,
+      "location_mm": [
+        [
+          -33.75,
+          -50.25,
+          112.5
+        ],
+        [
+          33.75,
+          -50.25,
+          112.5
+        ]
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "size": "consumable",
+      "nominal_grip_mm": 0,
+      "installation": "Only cosmetic insert; removable. No structural glue joints.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_OEM_HORNS",
+      "description": "OEM horns plus manufacturer-specific spline centre screws",
+      "qty": 5,
+      "location_mm": [
+        [
+          0,
+          -36.25,
+          91.5
+        ],
+        [
+          -57.5,
+          12.5,
+          56.25
+        ],
+        [
+          -1,
+          1.75,
+          176.5
+        ],
+        [
+          -54.5,
+          -18.258479557110082,
+          191.73576436351047
+        ],
+        [
+          54.5,
+          -18.258479557110082,
+          191.73576436351047
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        0
+      ],
+      "size": "R12,R14,R10x2,double\u00b18",
+      "nominal_grip_mm": 0,
+      "installation": "Use supplied OEM centre screw for actual servo. No universal replacement thread assumed. Never print spline.",
+      "physical_fit": "UNVERIFIED"
+    },
+    {
+      "id": "H_YAW_COLLARS",
+      "description": "Split shaft collar \u00d83ID/\u22647OD/3mm long, screw retained",
+      "qty": 4,
+      "location_mm": [
+        [
+          -33.75,
+          -36.25,
+          85.5
+        ],
+        [
+          -33.75,
+          -36.25,
+          106.7
+        ],
+        [
+          33.75,
+          -36.25,
+          85.5
+        ],
+        [
+          33.75,
+          -36.25,
+          106.7
+        ]
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "size": "\u00d83x\u22647x3",
+      "nominal_grip_mm": 0,
+      "installation": "Two per33mm shaft. Upper collar105.2..108.2 lies between bearing and globe hub; lower collar84..87 lies below crank. Verify actual clamp-screw envelope and axial stack before purchase. Collars counted only here.",
+      "physical_fit": "UNVERIFIED"
+    }
+  ],
+  "joints": [
+    {
+      "id": "H_BASE_P21",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -63,
+          33,
+          0
+        ],
+        [
+          -63,
+          41,
+          0
+        ]
+      ],
+      "hardware_id": "H_BASE_P21",
+      "quantity": 2,
+      "nominal_grip_mm": 10,
+      "tool_access": "Screw from above; hold nut below base before P03 installation.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_BASE_P22",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          63,
+          33,
+          0
+        ],
+        [
+          63,
+          41,
+          0
+        ]
+      ],
+      "hardware_id": "H_BASE_P22",
+      "quantity": 2,
+      "nominal_grip_mm": 10,
+      "tool_access": "Screw from above; hold nut below base before P03 installation.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_PLATE_P23",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -79,
+          5,
+          122
+        ],
+        [
+          -79,
+          68,
+          124
+        ]
+      ],
+      "hardware_id": "H_PLATE_P23",
+      "quantity": 2,
+      "nominal_grip_mm": 11,
+      "tool_access": "Heads outside, nuts accessible inside before installing mechanism deck.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_PLATE_P24",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          79,
+          5,
+          122
+        ],
+        [
+          79,
+          68,
+          124
+        ]
+      ],
+      "hardware_id": "H_PLATE_P24",
+      "quantity": 2,
+      "nominal_grip_mm": 11,
+      "tool_access": "Heads outside, nuts accessible inside before installing mechanism deck.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_ARCH_P25",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -79,
+          -45,
+          151.5
+        ],
+        [
+          79,
+          -45,
+          151.5
+        ]
+      ],
+      "hardware_id": "H_ARCH_P25",
+      "quantity": 2,
+      "nominal_grip_mm": 14,
+      "tool_access": "Outside heads, inward nuts; fit arch before crest.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_ARCH_P26",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -79,
+          2,
+          151.5
+        ],
+        [
+          79,
+          2,
+          151.5
+        ]
+      ],
+      "hardware_id": "H_ARCH_P26",
+      "quantity": 2,
+      "nominal_grip_mm": 14,
+      "tool_access": "Outside heads, inward nuts; fit arch before crest.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_ARCH_P27",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -79,
+          52,
+          151.5
+        ],
+        [
+          79,
+          52,
+          151.5
+        ]
+      ],
+      "hardware_id": "H_ARCH_P27",
+      "quantity": 2,
+      "nominal_grip_mm": 14,
+      "tool_access": "Outside heads, inward nuts; fit arch before crest.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_CREST",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          0,
+          -45,
+          210
+        ],
+        [
+          0,
+          2,
+          210
+        ],
+        [
+          0,
+          52,
+          210
+        ]
+      ],
+      "hardware_id": "H_CREST",
+      "quantity": 3,
+      "nominal_grip_mm": 10,
+      "tool_access": "Trim screw only if measured joint differs; confirm at least 1.5 threads beyond nut.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_FACE_P23",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centres_mm": [
+        [
+          -74.5,
+          -62,
+          125.5
+        ]
+      ],
+      "hardware_id": "H_FACE_P23",
+      "quantity": 1,
+      "nominal_grip_mm": 12.5,
+      "tool_access": "Nut at rear of pad; mount mask after eye cassette.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_ZYG_P30",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centres_mm": [
+        [
+          -59,
+          -62,
+          90
+        ]
+      ],
+      "hardware_id": "H_ZYG_P30",
+      "quantity": 1,
+      "nominal_grip_mm": 6.5,
+      "tool_access": "Front screw, nut behind zygoma root; inspect actual mating overlap before tightening.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_FACE_P24",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centres_mm": [
+        [
+          74.5,
+          -62,
+          125.5
+        ]
+      ],
+      "hardware_id": "H_FACE_P24",
+      "quantity": 1,
+      "nominal_grip_mm": 12.5,
+      "tool_access": "Nut at rear of pad; mount mask after eye cassette.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_ZYG_P31",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centres_mm": [
+        [
+          59,
+          -62,
+          90
+        ]
+      ],
+      "hardware_id": "H_ZYG_P31",
+      "quantity": 1,
+      "nominal_grip_mm": 6.5,
+      "tool_access": "Front screw, nut behind zygoma root; inspect actual mating overlap before tightening.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_MAX_P21",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -74,
+          -16,
+          60
+        ]
+      ],
+      "hardware_id": "H_MAX_P21",
+      "quantity": 1,
+      "nominal_grip_mm": 12,
+      "tool_access": "Fit before jaw; align and clamp side strut to lower wall.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_MAX_P22",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          74,
+          -16,
+          60
+        ]
+      ],
+      "hardware_id": "H_MAX_P22",
+      "quantity": 1,
+      "nominal_grip_mm": 12,
+      "tool_access": "Fit before jaw; align and clamp side strut to lower wall.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_MAX_FACE",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centres_mm": [
+        [
+          -8,
+          -62,
+          67
+        ],
+        [
+          8,
+          -62,
+          67
+        ]
+      ],
+      "hardware_id": "H_MAX_FACE",
+      "quantity": 2,
+      "nominal_grip_mm": 8.5,
+      "tool_access": "Straight front access; nuts behind new maxilla pad atY-53.5.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_TEETH_P42",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -33,
+          -40.5,
+          56.6
+        ],
+        [
+          33,
+          -40.5,
+          56.6
+        ]
+      ],
+      "hardware_id": "H_TEETH_P42",
+      "quantity": 2,
+      "nominal_grip_mm": 10,
+      "tool_access": "Rear carrier only; upper grip8mm, lower10mm. Trim excess only after confirming nut engagement and travel.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_TEETH_P43",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -32,
+          -41,
+          35.5
+        ],
+        [
+          32,
+          -41,
+          35.5
+        ]
+      ],
+      "hardware_id": "H_TEETH_P43",
+      "quantity": 2,
+      "nominal_grip_mm": 10,
+      "tool_access": "Rear carrier only; upper grip8mm, lower10mm. Trim excess only after confirming nut engagement and travel.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_EYE_DECK_-1",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -74,
+          -12,
+          76
+        ]
+      ],
+      "hardware_id": "H_EYE_DECK_-1",
+      "quantity": 1,
+      "nominal_grip_mm": 12,
+      "tool_access": "Bolt wall to fixed eye deck; inside nut accessible before globes.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_ZYG_ROOT_-1",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -65,
+          -15,
+          90
+        ]
+      ],
+      "hardware_id": "H_ZYG_ROOT_-1",
+      "quantity": 1,
+      "nominal_grip_mm": 16,
+      "tool_access": "One root bolt joins P30/P31 to eye deck shoe. Nested shoe is relieved from fixed support; verify nut engagement at underside.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_PITCH_PIVOT_-1",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -68,
+          -36.25,
+          112.5
+        ]
+      ],
+      "hardware_id": "H_PITCH_PIVOT_-1",
+      "quantity": 1,
+      "nominal_grip_mm": 8,
+      "tool_access": "Stationary screw, moving carrier running bore. Set nyloc for 0.2\u20130.4 axial play, not clamped.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_LID_STOP_-1",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -52.3,
+          -28.25,
+          112.5
+        ]
+      ],
+      "hardware_id": "H_LID_STOP_-1",
+      "quantity": 1,
+      "nominal_grip_mm": 5,
+      "tool_access": "Pin traverses fixed curved slot. Nut outside; retain loose enough to slide.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_EYE_DECK_1",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          74,
+          -12,
+          76
+        ]
+      ],
+      "hardware_id": "H_EYE_DECK_1",
+      "quantity": 1,
+      "nominal_grip_mm": 12,
+      "tool_access": "Bolt wall to fixed eye deck; inside nut accessible before globes.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_ZYG_ROOT_1",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          65,
+          -15,
+          90
+        ]
+      ],
+      "hardware_id": "H_ZYG_ROOT_1",
+      "quantity": 1,
+      "nominal_grip_mm": 16,
+      "tool_access": "One root bolt joins P30/P31 to eye deck shoe. Nested shoe is relieved from fixed support; verify nut engagement at underside.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_PITCH_PIVOT_1",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          68,
+          -36.25,
+          112.5
+        ]
+      ],
+      "hardware_id": "H_PITCH_PIVOT_1",
+      "quantity": 1,
+      "nominal_grip_mm": 8,
+      "tool_access": "Stationary screw, moving carrier running bore. Set nyloc for 0.2\u20130.4 axial play, not clamped.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_LID_STOP_1",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          52.3,
+          -28.25,
+          112.5
+        ]
+      ],
+      "hardware_id": "H_LID_STOP_1",
+      "quantity": 1,
+      "nominal_grip_mm": 5,
+      "tool_access": "Pin traverses fixed curved slot. Nut outside; retain loose enough to slide.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_YAW_SHAFT_-1",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -33.75,
+          -36.25,
+          84
+        ]
+      ],
+      "hardware_id": "H_YAW_SHAFT_-1",
+      "quantity": 1,
+      "nominal_grip_mm": 0,
+      "tool_access": "Deburr cut shaft84..117; 3.2 running bore in carrier, upper collar105.2..108.2; shaft clamped independently to globe and crank.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_YAW_SHAFT_1",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          33.75,
+          -36.25,
+          84
+        ]
+      ],
+      "hardware_id": "H_YAW_SHAFT_1",
+      "quantity": 1,
+      "nominal_grip_mm": 0,
+      "tool_access": "Deburr cut shaft84..117; 3.2 running bore in carrier, upper collar105.2..108.2; shaft clamped independently to globe and crank.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_PITCH_STOP",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -62,
+          -22.25,
+          112.5
+        ]
+      ],
+      "hardware_id": "H_PITCH_STOP",
+      "quantity": 1,
+      "nominal_grip_mm": 7.5,
+      "tool_access": "Left carrier pin slides in R14 fixed slot. Set washer/nyloc gap; approximately\u00b114deg physical stop.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_SERVO_YAW",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          0,
+          -44.25,
+          99
+        ],
+        [
+          0,
+          -16.25,
+          99
+        ]
+      ],
+      "hardware_id": "H_SERVO_YAW",
+      "quantity": 2,
+      "nominal_grip_mm": 6,
+      "tool_access": "Measure actual flange pitch before purchase/print; nominal 28mm. Bottom-access nuts.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_GLOBE_CLAMP",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centres_mm": [
+        [
+          -33.75,
+          -31.25,
+          112.5
+        ],
+        [
+          33.75,
+          -31.25,
+          112.5
+        ]
+      ],
+      "hardware_id": "H_GLOBE_CLAMP",
+      "quantity": 2,
+      "nominal_grip_mm": 5,
+      "tool_access": "Trap nut in radial pocket before inserting axle; flats filed on steel shaft improve repeatable grip.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_YAW_CRANK_CLAMP",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centres_mm": [
+        [
+          -33.75,
+          -32.25,
+          91.5
+        ],
+        [
+          33.75,
+          -32.25,
+          91.5
+        ]
+      ],
+      "hardware_id": "H_YAW_CRANK_CLAMP",
+      "quantity": 2,
+      "nominal_grip_mm": 5,
+      "tool_access": "File local shaft flat and align both R12 crank holes rearward before tightening.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_YAW_LINK_LEFT",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -33.75,
+          -24.25,
+          90.5
+        ]
+      ],
+      "hardware_id": "H_YAW_LINK_LEFT",
+      "quantity": 1,
+      "nominal_grip_mm": 12,
+      "tool_access": "Left pin extends upward through carrier R12 curved stop slot. Head above carrier, nut below link; maintain sliding clearance.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_YAW_LINK_RIGHT",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          33.75,
+          -24.25,
+          90.5
+        ]
+      ],
+      "hardware_id": "H_YAW_LINK_RIGHT",
+      "quantity": 1,
+      "nominal_grip_mm": 8,
+      "tool_access": "Right link is lower in stack. Spacer\u00d82.2ID; leave free to rotate.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_YAW_LINK_CENTRE",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          0,
+          -24.25,
+          90.5
+        ]
+      ],
+      "hardware_id": "H_YAW_LINK_CENTRE",
+      "quantity": 1,
+      "nominal_grip_mm": 8,
+      "tool_access": "Two links stacked on one retained OEM horn R12 pin. Validate horn has an R12 hole; adjust parameter consistently if measured otherwise.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_DECK_-1",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -79,
+          -15,
+          153
+        ],
+        [
+          -79,
+          15,
+          153
+        ]
+      ],
+      "hardware_id": "H_DECK_-1",
+      "quantity": 2,
+      "nominal_grip_mm": 13,
+      "tool_access": "Nuts inside, access before lid/pitch servo installation.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_SERVO_LID_-1",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -48,
+          -26.258479557110082,
+          191.73576436351047
+        ],
+        [
+          -48,
+          1.741520442889918,
+          191.73576436351047
+        ]
+      ],
+      "hardware_id": "H_SERVO_LID_-1",
+      "quantity": 2,
+      "nominal_grip_mm": 5,
+      "tool_access": "Two nominal28mm pitch flange screws; retain OEM horn and centre screw.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_DECK_1",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          79,
+          -15,
+          153
+        ],
+        [
+          79,
+          15,
+          153
+        ]
+      ],
+      "hardware_id": "H_DECK_1",
+      "quantity": 2,
+      "nominal_grip_mm": 13,
+      "tool_access": "Nuts inside, access before lid/pitch servo installation.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_SERVO_LID_1",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          48,
+          -26.258479557110082,
+          191.73576436351047
+        ],
+        [
+          48,
+          1.741520442889918,
+          191.73576436351047
+        ]
+      ],
+      "hardware_id": "H_SERVO_LID_1",
+      "quantity": 2,
+      "nominal_grip_mm": 5,
+      "tool_access": "Two nominal28mm pitch flange screws; retain OEM horn and centre screw.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_SERVO_PITCH",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -12.5,
+          -6.25,
+          176.5
+        ],
+        [
+          -12.5,
+          21.75,
+          176.5
+        ]
+      ],
+      "hardware_id": "H_SERVO_PITCH",
+      "quantity": 2,
+      "nominal_grip_mm": 5,
+      "tool_access": "Nominal pitch servo tabs. Inspect rear hole support on actual servo.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_PITCH_ROD",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          6,
+          -12.25,
+          112.5
+        ],
+        [
+          6,
+          -12.25,
+          176.5
+        ]
+      ],
+      "hardware_id": "H_PITCH_ROD",
+      "quantity": 2,
+      "nominal_grip_mm": 9,
+      "tool_access": "Rod plane X6. Lower washer at carrier edgeX4; upper metal spacer from hornX0 to rodX4.75. Verify pin support and axial clearance.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_LID_PIVOTS",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -53.75,
+          -36.25,
+          112.5
+        ],
+        [
+          -13.75,
+          -36.25,
+          112.5
+        ],
+        [
+          13.75,
+          -36.25,
+          112.5
+        ],
+        [
+          53.75,
+          -36.25,
+          112.5
+        ]
+      ],
+      "hardware_id": "H_LID_PIVOTS",
+      "quantity": 4,
+      "nominal_grip_mm": 5,
+      "tool_access": "Four independent retained pivots. Washers in 0.5mm lid/prong gaps. Set axial play, no clamp on moving lid.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_LID_RODS",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -58.5,
+          -26.45,
+          108.4
+        ],
+        [
+          -58.5,
+          -26.45,
+          186
+        ],
+        [
+          58.5,
+          -26.45,
+          108.4
+        ],
+        [
+          58.5,
+          -26.45,
+          186
+        ]
+      ],
+      "hardware_id": "H_LID_RODS",
+      "quantity": 4,
+      "nominal_grip_mm": 8,
+      "tool_access": "Lower spacer4.45mm; upper spacer1mm nominal. Measure actual horns before selecting spacers.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_JAW_LEFT_PIVOT",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -77.9,
+          12.5,
+          56.25
+        ]
+      ],
+      "hardware_id": "H_JAW_LEFT_PIVOT",
+      "quantity": 1,
+      "nominal_grip_mm": 13.4,
+      "tool_access": "Clamp on \u00d84OD/\u00d83.2ID sleeve12.9\u00b10.05 long between jaw outer faceX-64.5 and washer inner faceX-77.4. Sleeve rotates in\u00d84.2 wall bore;0.4mm outside axial gap. InsertOD4.6x4 in pocket\u00d84.6x4.1; actual insert coupon required. Screw tipX-59.9 gives3.6mm engagement without horn intrusion.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_JAW_RIGHT_PIVOT",
+      "axis": [
+        -1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          77.9,
+          12.5,
+          56.25
+        ]
+      ],
+      "hardware_id": "H_JAW_RIGHT_PIVOT",
+      "quantity": 1,
+      "nominal_grip_mm": 18.4,
+      "tool_access": "Same12.9mm sleeve between jaw outer faceX64.5 and washer inner faceX77.4. Nut/second washer at jaw inner faceX59.5; sleeve and screw rotate with jaw, not a loose pivot thread.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_JAW_SLEEVE",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -70.95,
+          12.5,
+          56.25
+        ],
+        [
+          70.95,
+          12.5,
+          56.25
+        ]
+      ],
+      "hardware_id": "H_JAW_SLEEVE",
+      "quantity": 2,
+      "nominal_grip_mm": 0,
+      "tool_access": "Clamp with jaw pivot screws. Confirm12.5mm wall-to-ramus stack and0.4mm free play before fully tightening.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_JAW_STOP",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          62,
+          26.5,
+          56.25
+        ]
+      ],
+      "hardware_id": "H_JAW_STOP",
+      "quantity": 1,
+      "nominal_grip_mm": 14.5,
+      "tool_access": "Pin slides in curved wall slot; do not clamp moving ramus to wall.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_JAW_HORN",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -60,
+          4.5,
+          56.25
+        ],
+        [
+          -60,
+          20.5,
+          56.25
+        ]
+      ],
+      "hardware_id": "H_JAW_HORN",
+      "quantity": 2,
+      "nominal_grip_mm": 7,
+      "tool_access": "OEM double-arm horn requires holes at \u00b18mm and centre screw. Actual horn pattern must be measured; no printed spline.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_JAW_CRADLE_BASE",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -55,
+          34,
+          0
+        ],
+        [
+          -41,
+          34,
+          0
+        ]
+      ],
+      "hardware_id": "H_JAW_CRADLE_BASE",
+      "quantity": 2,
+      "nominal_grip_mm": 10,
+      "tool_access": "Install before neck; nuts accessible from base underside.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_SERVO_JAW",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -51.25,
+          4.5,
+          56.25
+        ],
+        [
+          -51.25,
+          32.5,
+          56.25
+        ]
+      ],
+      "hardware_id": "H_SERVO_JAW",
+      "quantity": 2,
+      "nominal_grip_mm": 4.5,
+      "tool_access": "Check servo dimensions and nominal28mm flange pitch.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_NECK_FLANGE",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -40,
+          -22.5,
+          0
+        ],
+        [
+          -40,
+          22.5,
+          0
+        ],
+        [
+          40,
+          -22.5,
+          0
+        ],
+        [
+          40,
+          22.5,
+          0
+        ]
+      ],
+      "hardware_id": "H_NECK_FLANGE",
+      "quantity": 4,
+      "nominal_grip_mm": 12,
+      "tool_access": "P20/P03 80x45 pattern; cable opening16x18 atY8 preserved.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_NECK_LOCK",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          -19,
+          21,
+          -48
+        ],
+        [
+          -19,
+          21,
+          -38
+        ]
+      ],
+      "hardware_id": "H_NECK_LOCK",
+      "quantity": 2,
+      "nominal_grip_mm": 38,
+      "tool_access": "P01 socket side-lock bores; preserve torso interface. Stand has not been physically loaded.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_IRIS_RTV",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "centres_mm": [
+        [
+          -33.75,
+          -50.25,
+          112.5
+        ],
+        [
+          33.75,
+          -50.25,
+          112.5
+        ]
+      ],
+      "hardware_id": "H_IRIS_RTV",
+      "quantity": 1,
+      "nominal_grip_mm": 0,
+      "tool_access": "Only cosmetic insert; removable. No structural glue joints.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_OEM_HORNS",
+      "axis": [
+        0,
+        0,
+        0
+      ],
+      "centres_mm": [
+        [
+          0,
+          -36.25,
+          91.5
+        ],
+        [
+          -57.5,
+          12.5,
+          56.25
+        ],
+        [
+          -1,
+          1.75,
+          176.5
+        ],
+        [
+          -54.5,
+          -18.258479557110082,
+          191.73576436351047
+        ],
+        [
+          54.5,
+          -18.258479557110082,
+          191.73576436351047
+        ]
+      ],
+      "hardware_id": "H_OEM_HORNS",
+      "quantity": 5,
+      "nominal_grip_mm": 0,
+      "tool_access": "Use supplied OEM centre screw for actual servo. No universal replacement thread assumed. Never print spline.",
+      "status": "nominal CAD design; physical fit not tested"
+    },
+    {
+      "id": "H_YAW_COLLARS",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "centres_mm": [
+        [
+          -33.75,
+          -36.25,
+          85.5
+        ],
+        [
+          -33.75,
+          -36.25,
+          106.7
+        ],
+        [
+          33.75,
+          -36.25,
+          85.5
+        ],
+        [
+          33.75,
+          -36.25,
+          106.7
+        ]
+      ],
+      "hardware_id": "H_YAW_COLLARS",
+      "quantity": 4,
+      "nominal_grip_mm": 0,
+      "tool_access": "Two per33mm shaft. Upper collar105.2..108.2 lies between bearing and globe hub; lower collar84..87 lies below crank. Verify actual clamp-screw envelope and axial stack before purchase. Collars counted only here.",
+      "status": "nominal CAD design; physical fit not tested"
+    }
+  ],
+  "stl_orientation": "bed-oriented: CAD XYZ rotations applied, centered XY, minimum Z at zero",
+  "interfaces": {
+    "coordinates": "X right, Y rear, Z up; head underside Z0",
+    "eye_centres": [
+      [
+        -33.75,
+        -36.25,
+        112.5
+      ],
+      [
+        33.75,
+        -36.25,
+        112.5
+      ]
+    ],
+    "jaw_axis_yz": [
+      12.5,
+      56.25
+    ],
+    "neck_pattern_xy": [
+      80,
+      45
+    ],
+    "torso_holes_xz": [
+      46,
+      24
+    ],
+    "recovered_R4": "Exact named P01_R4/P03_R4 from original complete R5a STEP; no standalone R4 release supplied",
+    "servo_nominal": "Body12.2x22.8x22.3; flange32.5mm; hole pitch28; verify actual SG950/MG950 marking and dimensions before servo-specific parts"
+  },
+  "motion": {
+    "rotation_order": "Yaw about each carrier-local Z axis, then common pitch about fixed X; gaze order Rx(pitch) Rz(yaw).",
+    "soft_limits_deg": {
+      "yaw": [
+        -20,
+        20
+      ],
+      "pitch": [
+        -12,
+        12
+      ],
+      "jaw": [
+        0,
+        14
+      ],
+      "lid_L": [
+        0,
+        50
+      ],
+      "lid_R": [
+        0,
+        50
+      ]
+    },
+    "mechanical_stops_deg": {
+      "yaw": [
+        -22.99,
+        22.99
+      ],
+      "pitch": [
+        -14,
+        14
+      ],
+      "jaw": [
+        -0.4,
+        17.03
+      ],
+      "lid_L": [
+        -2.99,
+        52.99
+      ],
+      "lid_R": [
+        -2.99,
+        52.99
+      ]
+    },
+    "missing_stops": [],
+    "axes": {
+      "pitch": {
+        "point": [
+          0,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          1,
+          0,
+          0
+        ]
+      },
+      "yaw_L": {
+        "point": [
+          -33.75,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "yaw_R": {
+        "point": [
+          33.75,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "jaw": {
+        "point": [
+          0,
+          12.5,
+          56.25
+        ],
+        "direction": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "yaw_linkage": {
+      "crank_radius_mm": 12,
+      "half_tie_mm": 33.75,
+      "constraint": "Two serial planar parallelograms; 1 yaw DOF; servo fixed on common pitch carrier"
+    },
+    "pitch_linkage": {
+      "pivot_yz": [
+        -36.25,
+        112.5
+      ],
+      "output_pin_neutral_yz": [
+        -12.25,
+        112.5
+      ],
+      "servo_axis_yz": [
+        1.75,
+        176.5
+      ],
+      "horn_radius_mm": 14,
+      "rod_length_mm": 64,
+      "rod_plane_x": 6
+    },
+    "lid_linkage": {
+      "lever_yz": [
+        9.8,
+        -4.1
+      ],
+      "servo_yz": [
+        -18.258479557110082,
+        191.73576436351047
+      ],
+      "horn_radius_mm": 10,
+      "rod_length_mm": 77.6,
+      "rod_plane_abs_x": 58.5
+    },
+    "nominal_servo_speed_limit_deg_s": 120,
+    "physical_status": "NOT BUILT, NOT CALIBRATED"
+  },
+  "servos": {
+    "MG90S_CH0_yaw": {
+      "tip": [
+        0,
+        -36.25,
+        91.5
+      ],
+      "z": [
+        0,
+        0,
+        -1
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "pitch"
+    },
+    "MG90S_CH1_jaw": {
+      "tip": [
+        -57.5,
+        12.5,
+        56.25
+      ],
+      "z": [
+        -1,
+        0,
+        0
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "fixed"
+    },
+    "MG90S_CH2_pitch": {
+      "tip": [
+        -1,
+        1.75,
+        176.5
+      ],
+      "z": [
+        1,
+        0,
+        0
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "fixed"
+    },
+    "SG90_CH3_lid_L": {
+      "tip": [
+        -54.5,
+        -18.258479557110082,
+        191.73576436351047
+      ],
+      "z": [
+        -1,
+        0,
+        0
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "fixed"
+    },
+    "SG90_CH4_lid_R": {
+      "tip": [
+        54.5,
+        -18.258479557110082,
+        191.73576436351047
+      ],
+      "z": [
+        1,
+        0,
+        0
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "fixed"
+    }
+  },
+  "physical_gates": [
+    "Identify and measure every servo; distinguish microservo from standard-size MG950/MG995-class before printing mounts.",
+    "Measure OEM horn radii and hole patterns (R12 yaw,R14 pitch,R10 lids,+/-8 jaw).",
+    "Print P90; measure bores, inserts and running fits.",
+    "Hand-move assembled bare mechanism; record interference and actual stop angles.",
+    "Torque/load/current/temperature testing, fastener retention and cable bend life."
+  ],
+  "scene": [
+    {
+      "name": "P20",
+      "id": "P20",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P21",
+      "id": "P21",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P22",
+      "id": "P22",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P23",
+      "id": "P23",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P24",
+      "id": "P24",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P25",
+      "id": "P25",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P26",
+      "id": "P26",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P27",
+      "id": "P27",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P28",
+      "id": "P28",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P29",
+      "id": "P29",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P30",
+      "id": "P30",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P31",
+      "id": "P31",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P32",
+      "id": "P32",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P33",
+      "id": "P33",
+      "group": "jaw",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P42",
+      "id": "P42",
+      "group": "fixed",
+      "material": "teeth"
+    },
+    {
+      "name": "P43",
+      "id": "P43",
+      "group": "jaw",
+      "material": "teeth"
+    },
+    {
+      "name": "P36",
+      "id": "P36",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P41",
+      "id": "P41",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P44",
+      "id": "P44",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P01",
+      "id": "P01",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P03",
+      "id": "P03",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P34_L",
+      "id": "P34",
+      "group": "eye_L",
+      "material": "eye_white"
+    },
+    {
+      "name": "P35_L",
+      "id": "P35",
+      "group": "eye_L",
+      "material": "iris"
+    },
+    {
+      "name": "P37_L",
+      "id": "P37",
+      "group": "crank_L",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P49_L",
+      "id": "P49",
+      "group": "lidrod_L",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P34_R",
+      "id": "P34",
+      "group": "eye_R",
+      "material": "eye_white"
+    },
+    {
+      "name": "P35_R",
+      "id": "P35",
+      "group": "eye_R",
+      "material": "iris"
+    },
+    {
+      "name": "P37_R",
+      "id": "P37",
+      "group": "crank_R",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P49_R",
+      "id": "P49",
+      "group": "lidrod_R",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P38_L",
+      "id": "P38",
+      "group": "yawlink_L",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P38_R",
+      "id": "P38",
+      "group": "yawlink_R",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P39_L",
+      "id": "P39",
+      "group": "lid_L",
+      "material": "lid"
+    },
+    {
+      "name": "P40_R",
+      "id": "P40",
+      "group": "lid_R",
+      "material": "lid"
+    },
+    {
+      "name": "P45",
+      "id": "P45",
+      "group": "pitch",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P46",
+      "id": "P46",
+      "group": "pitchrod",
+      "material": "frame_dark"
+    },
+    {
+      "name": "MG90S_CH0_yaw",
+      "group": "pitch",
+      "material": "servo"
+    },
+    {
+      "name": "MG90S_CH1_jaw",
+      "group": "fixed",
+      "material": "servo"
+    },
+    {
+      "name": "MG90S_CH2_pitch",
+      "group": "fixed",
+      "material": "servo"
+    },
+    {
+      "name": "SG90_CH3_lid_L",
+      "group": "fixed",
+      "material": "servo"
+    },
+    {
+      "name": "SG90_CH4_lid_R",
+      "group": "fixed",
+      "material": "servo"
+    },
+    {
+      "name": "OEM_horn_CH0",
+      "group": "yawhorn",
+      "material": "horn"
+    },
+    {
+      "name": "OEM_horn_CH2",
+      "group": "pitchhorn",
+      "material": "horn"
+    },
+    {
+      "name": "OEM_horn_lid_L",
+      "group": "lidhorn_L",
+      "material": "horn"
+    },
+    {
+      "name": "OEM_horn_lid_R",
+      "group": "lidhorn_R",
+      "material": "horn"
+    },
+    {
+      "name": "OEM_horn_CH1_double",
+      "group": "jaw",
+      "material": "horn"
+    },
+    {
+      "name": "STEEL_yaw_shaft_L",
+      "group": "eye_L",
+      "material": "steel"
+    },
+    {
+      "name": "COLLAR_L_0",
+      "group": "eye_L",
+      "material": "steel"
+    },
+    {
+      "name": "COLLAR_L_1",
+      "group": "eye_L",
+      "material": "steel"
+    },
+    {
+      "name": "STEEL_yaw_shaft_R",
+      "group": "eye_R",
+      "material": "steel"
+    },
+    {
+      "name": "COLLAR_R_0",
+      "group": "eye_R",
+      "material": "steel"
+    },
+    {
+      "name": "COLLAR_R_1",
+      "group": "eye_R",
+      "material": "steel"
+    }
+  ]
+}

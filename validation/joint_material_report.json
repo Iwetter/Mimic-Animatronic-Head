@@ -1,0 +1,883 @@
+{
+  "status": "PASS_LOCAL_MATERIAL_ONLY",
+  "physical_tested": false,
+  "scope": "A1.1mm-wide bearing annulus around each nominated structural bore must intersect both mating solids. Does not establish screw head/tool access or edge strength.",
+  "checks": [
+    {
+      "joint": "base_foot",
+      "point": [
+        -63,
+        33,
+        8
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P21",
+          "bearing_ring_material_mm3": 62.20353454107836,
+          "material_found": true
+        },
+        {
+          "id": "P20",
+          "bearing_ring_material_mm3": 93.30530181161745,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "base_foot",
+      "point": [
+        -63,
+        41,
+        8
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P21",
+          "bearing_ring_material_mm3": 62.203534541078376,
+          "material_found": true
+        },
+        {
+          "id": "P20",
+          "bearing_ring_material_mm3": 93.30530181161745,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "plate_stack",
+      "point": [
+        -73,
+        5,
+        122
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P21",
+          "bearing_ring_material_mm3": 93.30530181161753,
+          "material_found": true
+        },
+        {
+          "id": "P23",
+          "bearing_ring_material_mm3": 77.75441817634791,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "plate_stack",
+      "point": [
+        -73,
+        68,
+        124
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P21",
+          "bearing_ring_material_mm3": 93.30530181161754,
+          "material_found": true
+        },
+        {
+          "id": "P23",
+          "bearing_ring_material_mm3": 77.75441817634795,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "arch_tab",
+      "point": [
+        -73,
+        -45,
+        151.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P23",
+          "bearing_ring_material_mm3": 77.75441817634818,
+          "material_found": true
+        },
+        {
+          "id": "P25",
+          "bearing_ring_material_mm3": 140.43103717899191,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "arch_tab",
+      "point": [
+        -73,
+        2,
+        151.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P23",
+          "bearing_ring_material_mm3": 77.75441817634817,
+          "material_found": true
+        },
+        {
+          "id": "P26",
+          "bearing_ring_material_mm3": 140.21886624954044,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "arch_tab",
+      "point": [
+        -73,
+        52,
+        151.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P23",
+          "bearing_ring_material_mm3": 77.75441817634818,
+          "material_found": true
+        },
+        {
+          "id": "P27",
+          "bearing_ring_material_mm3": 140.26901826541967,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "mask_top",
+      "point": [
+        -74.5,
+        -57,
+        125.5
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P29",
+          "bearing_ring_material_mm3": 61.14916802968253,
+          "material_found": true
+        },
+        {
+          "id": "P23",
+          "bearing_ring_material_mm3": 168.83370389177776,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "zygoma_mask",
+      "point": [
+        -59,
+        -57,
+        90
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P29",
+          "bearing_ring_material_mm3": 51.31791599638968,
+          "material_found": true
+        },
+        {
+          "id": "P30",
+          "bearing_ring_material_mm3": 142.32430236997297,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "zygoma_root",
+      "point": [
+        -65,
+        -15,
+        82
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P30",
+          "bearing_ring_material_mm3": 124.25925330699388,
+          "material_found": true
+        },
+        {
+          "id": "P36",
+          "bearing_ring_material_mm3": 117.37599875078655,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "maxilla_wall",
+      "point": [
+        -68,
+        -16,
+        60
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P32",
+          "bearing_ring_material_mm3": 171.05971998796323,
+          "material_found": true
+        },
+        {
+          "id": "P21",
+          "bearing_ring_material_mm3": 68.42388799518613,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "eye_deck_wall",
+      "point": [
+        -69,
+        -12,
+        76
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P36",
+          "bearing_ring_material_mm3": 98.78146531062124,
+          "material_found": true
+        },
+        {
+          "id": "P21",
+          "bearing_ring_material_mm3": 93.30530181161753,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "base_foot",
+      "point": [
+        63,
+        33,
+        8
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P22",
+          "bearing_ring_material_mm3": 62.203534541078376,
+          "material_found": true
+        },
+        {
+          "id": "P20",
+          "bearing_ring_material_mm3": 93.30530181161755,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "base_foot",
+      "point": [
+        63,
+        41,
+        8
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P22",
+          "bearing_ring_material_mm3": 62.20353454107839,
+          "material_found": true
+        },
+        {
+          "id": "P20",
+          "bearing_ring_material_mm3": 93.30530181161755,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "plate_stack",
+      "point": [
+        73,
+        5,
+        122
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P22",
+          "bearing_ring_material_mm3": 93.3053018116175,
+          "material_found": true
+        },
+        {
+          "id": "P24",
+          "bearing_ring_material_mm3": 77.75441817634791,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "plate_stack",
+      "point": [
+        73,
+        68,
+        124
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P22",
+          "bearing_ring_material_mm3": 93.30530181161751,
+          "material_found": true
+        },
+        {
+          "id": "P24",
+          "bearing_ring_material_mm3": 77.75441817634797,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "arch_tab",
+      "point": [
+        73,
+        -45,
+        151.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P24",
+          "bearing_ring_material_mm3": 77.75441817634818,
+          "material_found": true
+        },
+        {
+          "id": "P25",
+          "bearing_ring_material_mm3": 140.43103717887738,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "arch_tab",
+      "point": [
+        73,
+        2,
+        151.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P24",
+          "bearing_ring_material_mm3": 77.75441817634817,
+          "material_found": true
+        },
+        {
+          "id": "P26",
+          "bearing_ring_material_mm3": 140.21886624959052,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "arch_tab",
+      "point": [
+        73,
+        52,
+        151.5
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P24",
+          "bearing_ring_material_mm3": 77.75441817634818,
+          "material_found": true
+        },
+        {
+          "id": "P27",
+          "bearing_ring_material_mm3": 140.26901826543698,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "mask_top",
+      "point": [
+        74.5,
+        -57,
+        125.5
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P29",
+          "bearing_ring_material_mm3": 61.14916802974753,
+          "material_found": true
+        },
+        {
+          "id": "P24",
+          "bearing_ring_material_mm3": 168.83370389177634,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "zygoma_mask",
+      "point": [
+        59,
+        -57,
+        90
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P29",
+          "bearing_ring_material_mm3": 51.31791599638968,
+          "material_found": true
+        },
+        {
+          "id": "P31",
+          "bearing_ring_material_mm3": 142.32430236996186,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "zygoma_root",
+      "point": [
+        65,
+        -15,
+        82
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P31",
+          "bearing_ring_material_mm3": 124.25925330699721,
+          "material_found": true
+        },
+        {
+          "id": "P36",
+          "bearing_ring_material_mm3": 117.37599880669481,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "maxilla_wall",
+      "point": [
+        68,
+        -16,
+        60
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P32",
+          "bearing_ring_material_mm3": 171.059719987965,
+          "material_found": true
+        },
+        {
+          "id": "P22",
+          "bearing_ring_material_mm3": 68.42388799518613,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "eye_deck_wall",
+      "point": [
+        69,
+        -12,
+        76
+      ],
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P36",
+          "bearing_ring_material_mm3": 98.78126227904764,
+          "material_found": true
+        },
+        {
+          "id": "P22",
+          "bearing_ring_material_mm3": 93.30530181161753,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "maxilla_mask",
+      "point": [
+        -8,
+        -57,
+        67
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P29",
+          "bearing_ring_material_mm3": 51.317915996389715,
+          "material_found": true
+        },
+        {
+          "id": "P32",
+          "bearing_ring_material_mm3": 45.6159253301242,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "maxilla_mask",
+      "point": [
+        8,
+        -57,
+        67
+      ],
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "expected_parts": [
+        {
+          "id": "P29",
+          "bearing_ring_material_mm3": 51.317915996389715,
+          "material_found": true
+        },
+        {
+          "id": "P32",
+          "bearing_ring_material_mm3": 45.6159253301242,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "teeth_carrier",
+      "point": [
+        -33,
+        -40.5,
+        56.6
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P42",
+          "bearing_ring_material_mm3": 9.170230936373148,
+          "material_found": true
+        },
+        {
+          "id": "P32",
+          "bearing_ring_material_mm3": 71.00321358323778,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "teeth_carrier",
+      "point": [
+        33,
+        -40.5,
+        56.6
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P42",
+          "bearing_ring_material_mm3": 9.170230936330755,
+          "material_found": true
+        },
+        {
+          "id": "P32",
+          "bearing_ring_material_mm3": 71.00321358327977,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "teeth_carrier",
+      "point": [
+        -32,
+        -41,
+        35.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P43",
+          "bearing_ring_material_mm3": 7.212428523658507,
+          "material_found": true
+        },
+        {
+          "id": "P33",
+          "bearing_ring_material_mm3": 91.00004101286522,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "teeth_carrier",
+      "point": [
+        32,
+        -41,
+        35.5
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P43",
+          "bearing_ring_material_mm3": 7.212428523638643,
+          "material_found": true
+        },
+        {
+          "id": "P33",
+          "bearing_ring_material_mm3": 91.00004101288529,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "jaw_cradle",
+      "point": [
+        -55,
+        34,
+        6
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P20",
+          "bearing_ring_material_mm3": 93.30530181161751,
+          "material_found": true
+        },
+        {
+          "id": "P44",
+          "bearing_ring_material_mm3": 53.57020470787603,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "jaw_cradle",
+      "point": [
+        -41,
+        34,
+        6
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P20",
+          "bearing_ring_material_mm3": 93.30530181161751,
+          "material_found": true
+        },
+        {
+          "id": "P44",
+          "bearing_ring_material_mm3": 62.20353454107836,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "crest_lap",
+      "point": [
+        0,
+        -45,
+        205
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P25",
+          "bearing_ring_material_mm3": 39.89711183517852,
+          "material_found": true
+        },
+        {
+          "id": "P28",
+          "bearing_ring_material_mm3": 80.8618106358,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "crest_lap",
+      "point": [
+        0,
+        2,
+        205
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P26",
+          "bearing_ring_material_mm3": 32.92582710043814,
+          "material_found": true
+        },
+        {
+          "id": "P28",
+          "bearing_ring_material_mm3": 89.14142834780762,
+          "material_found": true
+        }
+      ]
+    },
+    {
+      "joint": "crest_lap",
+      "point": [
+        0,
+        52,
+        205
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "expected_parts": [
+        {
+          "id": "P27",
+          "bearing_ring_material_mm3": 33.233914430304324,
+          "material_found": true
+        },
+        {
+          "id": "P28",
+          "bearing_ring_material_mm3": 79.5895169969748,
+          "material_found": true
+        }
+      ]
+    }
+  ],
+  "missing_material": []
+}

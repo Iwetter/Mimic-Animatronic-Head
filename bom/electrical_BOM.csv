@@ -1,0 +1,19 @@
+item_id,quantity,description,specification,status,notes
+E01,1,ESP32 development board,Classic ESP32-WROOM-32 3.3V logic,PIN_COMPATIBILITY_REQUIRED,Not ESP32-C3 or S3; board regulator and USB power path must be identified
+E02,1,PCA9685 servo signal driver,I2C address0x40 VCC3.3V external OE,BOARD_VARIANT_UNVERIFIED,V+ intentionally unconnected in this distribution design; motor power bypasses PCB
+E03,5,Positional hobby servo,Model voltage size spline and current TBD,IDENTIFICATION_REQUIRED,User labels sg950 and mg950 unresolved; do not assume MG90S identity
+E04,1,External regulated actuator supply,Voltage per verified servos current from measured budget,SPECIFICATION_HOLD,Nominal5V10A is a microservo scenario only; unknown actual supply
+E05,1,Servo power distribution block,Finger-safe keyed polarity rated above approved peak current,SPECIFICATION_HOLD,Five independent servo positive/return branches; no motor current through ESP32
+E06,1,Main DC fuse and enclosed holder,Voltage interrupt rating and trip curve appropriate to measured rail,SPECIFICATION_HOLD,Fit near source; final amp rating after cable connector and startup-current review
+E07,1,Actuator power disconnect,Maintained accessible DC-rated switch or rated contactor,SPECIFICATION_HOLD,Cuts servo positive upstream of distribution; OE is not a power disconnect
+E08,5,Servo power branch protection,Coordinated fuse or electronic current limit,SPECIFICATION_HOLD,Protect smaller branch wire; select after actual servo startup current is known
+E09,1,OE pull-up resistor,1k ohm 0.125W or greater,DEFINED,Connect PCA OE to ESP32 3V3; verify board onboard pulls
+E10,1,Servo-bus capacitor,1000uF low ESR 10V or higher polarized,STARTING_VALUE_ONLY,At distribution after disconnect; correct polarity; verify inrush and rail droop
+E11,1,Logic USB supply and cable,Regulated5V output adequate for identified ESP32 board,IDENTIFICATION_REQUIRED,Independent of servo power; avoid backfeed from other USB or VIN sources
+E12,5,Servo breakout harness,PCA signal plus common ground and direct fused rail positive,VERIFY_PINOUT,No five-servo motor current through PCA V+ trace; identify connector polarity by datasheet
+E13,1,INMP441 microphone module,3.3V VDD SD34 BCLK26 WS25 L/R GND,REFERENCE_HARDWARE_ONLY,Actual original voice source absent; no live audio test
+E14,1,MAX98357A I2S amplifier,5V clean branch BCLK26 WS25 DIN32,REFERENCE_HARDWARE_ONLY,Confirm module SD and gain straps; speaker outputs are differential
+E15,1,Speaker,4 or8 ohm power matched to amplifier and desired output,VERIFY_EXISTING,Connect between amplifier OUT+ and OUT-; neither output to ground
+E16,1,Audio regulated5V branch,1A planning allocation plus transient margin,PROVISIONAL,Separate fused filtered branch; remains off during servo-only commissioning
+E17,1,Signal harness set,Short I2C at100kHz 3.3V pull-ups service connectors,VERIFY_LENGTH,Route away from servo-current loops; twisted signal/ground where practical
+E18,1,Wire ferrules strain relief and labels,Match terminal wire gauge and service loops,INSTALLATION_DEPENDENT,No bare exposed terminals or solder-tinned stranded wire in screw clamps

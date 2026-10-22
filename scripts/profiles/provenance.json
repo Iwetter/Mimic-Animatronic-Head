@@ -1,0 +1,88 @@
+{
+  "tool": "OrcaSlicer 2.4.2",
+  "source": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.4.2",
+  "profiles": {
+    "Flashforge Adventurer 5M 0.4 Nozzle": {
+      "file": "Flashforge Adventurer 5M 0.4 Nozzle.json",
+      "sha256": "e098b0c77f38a389c75df1447294c46c538c1033b54044df490884266794ad7b"
+    },
+    "fdm_adventurer5m_common": {
+      "file": "fdm_adventurer5m_common.json",
+      "sha256": "bf84a3e7bc8448e43ab1dbcb7a657836548c231c86cfcfd68ee6847fba1d8041"
+    },
+    "fdm_flashforge_common": {
+      "file": "fdm_flashforge_common.json",
+      "sha256": "a607df9aefde295bb7f3c5d8499d0d0e259aba7b4d5e3a3e26208221fbd504eb"
+    },
+    "fdm_machine_common": {
+      "file": "fdm_machine_common.json",
+      "sha256": "91699acb8a8b95692479a889b882a0ad33f3ea6722f723f11c74d71481f6a782"
+    },
+    "0.20mm Standard @Flashforge AD5M 0.4 Nozzle": {
+      "file": "0.20mm Standard @Flashforge AD5M 0.4 Nozzle.json",
+      "sha256": "7e6df9e3ec10d11abb4bc9cfb7ea61aff5e501f45302eedb64f0be15ebfb053b"
+    },
+    "fdm_process_flashforge_0.20": {
+      "file": "fdm_process_flashforge_0.20.json",
+      "sha256": "b27a8880cc9ecc161da846c14337dadb4e40e9593dc48e9673ae487f48960cab"
+    },
+    "fdm_process_flashforge_common": {
+      "file": "fdm_process_flashforge_common.json",
+      "sha256": "e01854b70c8e9805c55e376460bfe6854b3ddaceec153261a064ffeb3a55bf26"
+    },
+    "fdm_process_common": {
+      "file": "fdm_process_common.json",
+      "sha256": "852e08d75822657a4f7447ea618c00ba907102fa742ce8c63f233d42780b0efd"
+    },
+    "Flashforge Generic PLA": {
+      "file": "Flashforge Generic PLA.json",
+      "sha256": "626019824bd3df03f25d01c269854a36243d3824b58e9cac9724480832537073"
+    },
+    "fdm_filament_pla": {
+      "file": "fdm_filament_pla.json",
+      "sha256": "c8b32431195cf1c72f4a5f7fba5dcce1884652e3a8cc8599d29226a3cec621a9"
+    },
+    "fdm_filament_common": {
+      "file": "fdm_filament_common.json",
+      "sha256": "860b94d0cf50c6752ec5daa5c2d36f2cd84eace4207625135955b646886572de"
+    }
+  },
+  "process_overrides": {
+    "wall_loops": "4",
+    "sparse_infill_density": "25%",
+    "outer_wall_speed": "40",
+    "inner_wall_speed": "60",
+    "initial_layer_speed": "20",
+    "initial_layer_infill_speed": "25",
+    "top_surface_speed": "35",
+    "enable_support": "1",
+    "support_type": "normal(auto)",
+    "support_on_build_plate_only": "0",
+    "brim_type": "outer_only",
+    "brim_width": "5",
+    "print_sequence": "by layer",
+    "sparse_infill_speed": "80",
+    "internal_solid_infill_speed": "60",
+    "gap_infill_speed": "40",
+    "support_speed": "50",
+    "support_interface_speed": "30",
+    "travel_speed": "200",
+    "default_acceleration": "2000",
+    "outer_wall_acceleration": "1000",
+    "inner_wall_acceleration": "1500",
+    "travel_acceleration": "3000",
+    "internal_solid_infill_acceleration": "1500",
+    "top_surface_acceleration": "1000",
+    "enable_prime_tower": "0",
+    "bottom_shell_layers": "5",
+    "bottom_shell_thickness": "1",
+    "support_top_z_distance": "0.2",
+    "support_bottom_z_distance": "0.2"
+  },
+  "filament_overrides": {
+    "filament_max_volumetric_speed": [
+      "12"
+    ]
+  },
+  "user_confirmed": "0.4 mm nozzle, PLA; physical calibration remains required"
+}

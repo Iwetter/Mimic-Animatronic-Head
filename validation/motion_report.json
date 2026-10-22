@@ -1,0 +1,4528 @@
+{
+  "revision": "R5a-E1",
+  "physical_tested": false,
+  "sampled_only": true,
+  "status": "PASS_SAMPLED_NOMINAL_GEOMETRY",
+  "source_sha256": {
+    "cad_source/build_release.py": "edd7eeb628f92a65f0544444feabba3f2d2260c5b04e314db843ec56116d99f5",
+    "cad_source/motion.py": "c7c34d13d77d3b8157d89d0173977d0e9ca68f636ab02abac29b8a84682e3901",
+    "step/assembly/Mimic_R5a_E1_complete.step": "a2e27e4cc1d14f8ab75a8663cd86dacf6f49952fa4b4d53c1e8ed50999abd7c4"
+  },
+  "threshold_mm3": 0.05,
+  "excluded_pairs": [],
+  "poses": [
+    {
+      "label": "neutral",
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8378572866899994
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8378572866919995
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946387
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975226
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.5
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 7.0
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 6.103277807866851
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "yaw_-20",
+      "yaw": -20,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-18",
+      "yaw": -18,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-16",
+      "yaw": -16,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-14",
+      "yaw": -14,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-12",
+      "yaw": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-10",
+      "yaw": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-8",
+      "yaw": -8,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-6",
+      "yaw": -6,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-4",
+      "yaw": -4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_-2",
+      "yaw": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_2",
+      "yaw": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_4",
+      "yaw": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_6",
+      "yaw": 6,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_8",
+      "yaw": 8,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_10",
+      "yaw": 10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_12",
+      "yaw": 12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_14",
+      "yaw": 14,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_16",
+      "yaw": 16,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_18",
+      "yaw": 18,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "yaw_20",
+      "yaw": 20,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_-12",
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_-10",
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_-8",
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_-6",
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_-4",
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_-2",
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_2",
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_4",
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_6",
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_8",
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_10",
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "pitch_12",
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_1",
+      "jaw": 1,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_2",
+      "jaw": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_3",
+      "jaw": 3,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_4",
+      "jaw": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_5",
+      "jaw": 5,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_6",
+      "jaw": 6,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_7",
+      "jaw": 7,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_8",
+      "jaw": 8,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_9",
+      "jaw": 9,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_10",
+      "jaw": 10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_11",
+      "jaw": 11,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_12",
+      "jaw": 12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_13",
+      "jaw": 13,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "jaw_14",
+      "jaw": 14,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_2",
+      "lid_L": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_4",
+      "lid_L": 4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_6",
+      "lid_L": 6,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_8",
+      "lid_L": 8,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_10",
+      "lid_L": 10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_12",
+      "lid_L": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_14",
+      "lid_L": 14,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_16",
+      "lid_L": 16,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_18",
+      "lid_L": 18,
+      "closure_max_mm": 2.842170943040401e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_20",
+      "lid_L": 20,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_22",
+      "lid_L": 22,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_24",
+      "lid_L": 24,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_26",
+      "lid_L": 26,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_28",
+      "lid_L": 28,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_30",
+      "lid_L": 30,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_32",
+      "lid_L": 32,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_34",
+      "lid_L": 34,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_36",
+      "lid_L": 36,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_38",
+      "lid_L": 38,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_40",
+      "lid_L": 40,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_42",
+      "lid_L": 42,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_44",
+      "lid_L": 44,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_46",
+      "lid_L": 46,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_48",
+      "lid_L": 48,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_L_50",
+      "lid_L": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_2",
+      "lid_R": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_4",
+      "lid_R": 4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_6",
+      "lid_R": 6,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_8",
+      "lid_R": 8,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_10",
+      "lid_R": 10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_12",
+      "lid_R": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_14",
+      "lid_R": 14,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_16",
+      "lid_R": 16,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_18",
+      "lid_R": 18,
+      "closure_max_mm": 2.842170943040401e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_20",
+      "lid_R": 20,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_22",
+      "lid_R": 22,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_24",
+      "lid_R": 24,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_26",
+      "lid_R": 26,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_28",
+      "lid_R": 28,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_30",
+      "lid_R": 30,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_32",
+      "lid_R": 32,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_34",
+      "lid_R": 34,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_36",
+      "lid_R": 36,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_38",
+      "lid_R": 38,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_40",
+      "lid_R": 40,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_42",
+      "lid_R": 42,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_44",
+      "lid_R": 44,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_46",
+      "lid_R": 46,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_48",
+      "lid_R": 48,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "lid_R_50",
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "combined_-20_-12_0_0",
+      "yaw": -20,
+      "pitch": -12,
+      "jaw": 0,
+      "lid_L": 0,
+      "lid_R": 0,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946387
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975222
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999995
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "combined_-20_-12_0_14",
+      "yaw": -20,
+      "pitch": -12,
+      "jaw": 14,
+      "lid_L": 0,
+      "lid_R": 0,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946387
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975222
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999995
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "combined_-20_-12_50_0",
+      "yaw": -20,
+      "pitch": -12,
+      "jaw": 0,
+      "lid_L": 50,
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 67.74913055526908,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999975304
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975275
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999995
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "combined_-20_-12_50_14",
+      "yaw": -20,
+      "pitch": -12,
+      "jaw": 14,
+      "lid_L": 50,
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 67.74913055526908,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999975304
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975275
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999995
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "combined_-20_12_0_0",
+      "yaw": -20,
+      "pitch": 12,
+      "jaw": 0,
+      "lid_L": 0,
+      "lid_R": 0,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.199999999994632
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975168
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "combined_-20_12_0_14",
+      "yaw": -20,
+      "pitch": 12,
+      "jaw": 14,
+      "lid_L": 0,
+      "lid_R": 0,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.199999999994632
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975168
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "combined_-20_12_50_0",
+      "yaw": -20,
+      "pitch": 12,
+      "jaw": 0,
+      "lid_L": 50,
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 70.47747490644592,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946367
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.199999999997529
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "combined_-20_12_50_14",
+      "yaw": -20,
+      "pitch": 12,
+      "jaw": 14,
+      "lid_L": 50,
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 70.47747490644592,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946367
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.199999999997529
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "combined_20_-12_0_0",
+      "yaw": 20,
+      "pitch": -12,
+      "jaw": 0,
+      "lid_L": 0,
+      "lid_R": 0,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946394
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975226
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999996
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "combined_20_-12_0_14",
+      "yaw": 20,
+      "pitch": -12,
+      "jaw": 14,
+      "lid_L": 0,
+      "lid_R": 0,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946394
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975226
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999996
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "combined_20_-12_50_0",
+      "yaw": 20,
+      "pitch": -12,
+      "jaw": 0,
+      "lid_L": 50,
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 67.74913055526908,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946387
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975304
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999996
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "combined_20_-12_50_14",
+      "yaw": 20,
+      "pitch": -12,
+      "jaw": 14,
+      "lid_L": 50,
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 67.74913055526908,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946387
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975304
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999996
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "combined_20_12_0_0",
+      "yaw": 20,
+      "pitch": 12,
+      "jaw": 0,
+      "lid_L": 0,
+      "lid_R": 0,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.199999999994632
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.19999999999752
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "combined_20_12_0_14",
+      "yaw": 20,
+      "pitch": 12,
+      "jaw": 14,
+      "lid_L": 0,
+      "lid_R": 0,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.199999999994632
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.19999999999752
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "combined_20_12_50_0",
+      "yaw": 20,
+      "pitch": 12,
+      "jaw": 0,
+      "lid_L": 50,
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 70.47747490644592,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946367
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.199999999997528
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 16.62077013859466
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 14.773286702694158
+        }
+      ]
+    },
+    {
+      "label": "combined_20_12_50_14",
+      "yaw": 20,
+      "pitch": 12,
+      "jaw": 14,
+      "lid_L": 50,
+      "lid_R": 50,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 70.47747490644592,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946367
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.199999999997528
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "eye_grid_-20_-12",
+      "yaw": -20,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_-10",
+      "yaw": -20,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_-8",
+      "yaw": -20,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_-6",
+      "yaw": -20,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_-4",
+      "yaw": -20,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_-2",
+      "yaw": -20,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_2",
+      "yaw": -20,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_4",
+      "yaw": -20,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_6",
+      "yaw": -20,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_8",
+      "yaw": -20,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_10",
+      "yaw": -20,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-20_12",
+      "yaw": -20,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_-12",
+      "yaw": -18,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_-10",
+      "yaw": -18,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_-8",
+      "yaw": -18,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_-6",
+      "yaw": -18,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_-4",
+      "yaw": -18,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_-2",
+      "yaw": -18,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_2",
+      "yaw": -18,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_4",
+      "yaw": -18,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_6",
+      "yaw": -18,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_8",
+      "yaw": -18,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_10",
+      "yaw": -18,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-18_12",
+      "yaw": -18,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_-12",
+      "yaw": -16,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_-10",
+      "yaw": -16,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_-8",
+      "yaw": -16,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_-6",
+      "yaw": -16,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_-4",
+      "yaw": -16,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_-2",
+      "yaw": -16,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_2",
+      "yaw": -16,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_4",
+      "yaw": -16,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_6",
+      "yaw": -16,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_8",
+      "yaw": -16,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_10",
+      "yaw": -16,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-16_12",
+      "yaw": -16,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_-12",
+      "yaw": -14,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_-10",
+      "yaw": -14,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_-8",
+      "yaw": -14,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_-6",
+      "yaw": -14,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_-4",
+      "yaw": -14,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_-2",
+      "yaw": -14,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_2",
+      "yaw": -14,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_4",
+      "yaw": -14,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_6",
+      "yaw": -14,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_8",
+      "yaw": -14,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_10",
+      "yaw": -14,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-14_12",
+      "yaw": -14,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_-12",
+      "yaw": -12,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_-10",
+      "yaw": -12,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_-8",
+      "yaw": -12,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_-6",
+      "yaw": -12,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_-4",
+      "yaw": -12,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_-2",
+      "yaw": -12,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_2",
+      "yaw": -12,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_4",
+      "yaw": -12,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_6",
+      "yaw": -12,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_8",
+      "yaw": -12,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_10",
+      "yaw": -12,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-12_12",
+      "yaw": -12,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_-12",
+      "yaw": -10,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_-10",
+      "yaw": -10,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_-8",
+      "yaw": -10,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_-6",
+      "yaw": -10,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_-4",
+      "yaw": -10,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_-2",
+      "yaw": -10,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_2",
+      "yaw": -10,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_4",
+      "yaw": -10,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_6",
+      "yaw": -10,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_8",
+      "yaw": -10,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_10",
+      "yaw": -10,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-10_12",
+      "yaw": -10,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_-12",
+      "yaw": -8,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_-10",
+      "yaw": -8,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_-8",
+      "yaw": -8,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_-6",
+      "yaw": -8,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_-4",
+      "yaw": -8,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_-2",
+      "yaw": -8,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_2",
+      "yaw": -8,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_4",
+      "yaw": -8,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_6",
+      "yaw": -8,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_8",
+      "yaw": -8,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_10",
+      "yaw": -8,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-8_12",
+      "yaw": -8,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_-12",
+      "yaw": -6,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_-10",
+      "yaw": -6,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_-8",
+      "yaw": -6,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_-6",
+      "yaw": -6,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_-4",
+      "yaw": -6,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_-2",
+      "yaw": -6,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_2",
+      "yaw": -6,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_4",
+      "yaw": -6,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_6",
+      "yaw": -6,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_8",
+      "yaw": -6,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_10",
+      "yaw": -6,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-6_12",
+      "yaw": -6,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_-12",
+      "yaw": -4,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_-10",
+      "yaw": -4,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_-8",
+      "yaw": -4,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_-6",
+      "yaw": -4,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_-4",
+      "yaw": -4,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_-2",
+      "yaw": -4,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_2",
+      "yaw": -4,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_4",
+      "yaw": -4,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_6",
+      "yaw": -4,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_8",
+      "yaw": -4,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_10",
+      "yaw": -4,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-4_12",
+      "yaw": -4,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_-12",
+      "yaw": -2,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_-10",
+      "yaw": -2,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_-8",
+      "yaw": -2,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_-6",
+      "yaw": -2,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_-4",
+      "yaw": -2,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_-2",
+      "yaw": -2,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_2",
+      "yaw": -2,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_4",
+      "yaw": -2,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_6",
+      "yaw": -2,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_8",
+      "yaw": -2,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_10",
+      "yaw": -2,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_-2_12",
+      "yaw": -2,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_-12",
+      "yaw": 2,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_-10",
+      "yaw": 2,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_-8",
+      "yaw": 2,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_-6",
+      "yaw": 2,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_-4",
+      "yaw": 2,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_-2",
+      "yaw": 2,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_2",
+      "yaw": 2,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_4",
+      "yaw": 2,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_6",
+      "yaw": 2,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_8",
+      "yaw": 2,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_10",
+      "yaw": 2,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_2_12",
+      "yaw": 2,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_-12",
+      "yaw": 4,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_-10",
+      "yaw": 4,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_-8",
+      "yaw": 4,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_-6",
+      "yaw": 4,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_-4",
+      "yaw": 4,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_-2",
+      "yaw": 4,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_2",
+      "yaw": 4,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_4",
+      "yaw": 4,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_6",
+      "yaw": 4,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_8",
+      "yaw": 4,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_10",
+      "yaw": 4,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_4_12",
+      "yaw": 4,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_-12",
+      "yaw": 6,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_-10",
+      "yaw": 6,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_-8",
+      "yaw": 6,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_-6",
+      "yaw": 6,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_-4",
+      "yaw": 6,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_-2",
+      "yaw": 6,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_2",
+      "yaw": 6,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_4",
+      "yaw": 6,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_6",
+      "yaw": 6,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_8",
+      "yaw": 6,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_10",
+      "yaw": 6,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_6_12",
+      "yaw": 6,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_-12",
+      "yaw": 8,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_-10",
+      "yaw": 8,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_-8",
+      "yaw": 8,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_-6",
+      "yaw": 8,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_-4",
+      "yaw": 8,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_-2",
+      "yaw": 8,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_2",
+      "yaw": 8,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_4",
+      "yaw": 8,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_6",
+      "yaw": 8,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_8",
+      "yaw": 8,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_10",
+      "yaw": 8,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_8_12",
+      "yaw": 8,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_-12",
+      "yaw": 10,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_-10",
+      "yaw": 10,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_-8",
+      "yaw": 10,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_-6",
+      "yaw": 10,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_-4",
+      "yaw": 10,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_-2",
+      "yaw": 10,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_2",
+      "yaw": 10,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_4",
+      "yaw": 10,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_6",
+      "yaw": 10,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_8",
+      "yaw": 10,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_10",
+      "yaw": 10,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_10_12",
+      "yaw": 10,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_-12",
+      "yaw": 12,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_-10",
+      "yaw": 12,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_-8",
+      "yaw": 12,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_-6",
+      "yaw": 12,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_-4",
+      "yaw": 12,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_-2",
+      "yaw": 12,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_2",
+      "yaw": 12,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_4",
+      "yaw": 12,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_6",
+      "yaw": 12,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_8",
+      "yaw": 12,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_10",
+      "yaw": 12,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_12_12",
+      "yaw": 12,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_-12",
+      "yaw": 14,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_-10",
+      "yaw": 14,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_-8",
+      "yaw": 14,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_-6",
+      "yaw": 14,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_-4",
+      "yaw": 14,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_-2",
+      "yaw": 14,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_2",
+      "yaw": 14,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_4",
+      "yaw": 14,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_6",
+      "yaw": 14,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_8",
+      "yaw": 14,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_10",
+      "yaw": 14,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_14_12",
+      "yaw": 14,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_-12",
+      "yaw": 16,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_-10",
+      "yaw": 16,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_-8",
+      "yaw": 16,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_-6",
+      "yaw": 16,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_-4",
+      "yaw": 16,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_-2",
+      "yaw": 16,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_2",
+      "yaw": 16,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_4",
+      "yaw": 16,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_6",
+      "yaw": 16,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_8",
+      "yaw": 16,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_10",
+      "yaw": 16,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_16_12",
+      "yaw": 16,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_-12",
+      "yaw": 18,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_-10",
+      "yaw": 18,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_-8",
+      "yaw": 18,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_-6",
+      "yaw": 18,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_-4",
+      "yaw": 18,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_-2",
+      "yaw": 18,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_2",
+      "yaw": 18,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_4",
+      "yaw": 18,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_6",
+      "yaw": 18,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_8",
+      "yaw": 18,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_10",
+      "yaw": 18,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_18_12",
+      "yaw": 18,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_-12",
+      "yaw": 20,
+      "pitch": -12,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_-10",
+      "yaw": 20,
+      "pitch": -10,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_-8",
+      "yaw": 20,
+      "pitch": -8,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_-6",
+      "yaw": 20,
+      "pitch": -6,
+      "closure_max_mm": 2.1316282072803006e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_-4",
+      "yaw": 20,
+      "pitch": -4,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_-2",
+      "yaw": 20,
+      "pitch": -2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_2",
+      "yaw": 20,
+      "pitch": 2,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_4",
+      "yaw": 20,
+      "pitch": 4,
+      "closure_max_mm": 0.0,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_6",
+      "yaw": 20,
+      "pitch": 6,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_8",
+      "yaw": 20,
+      "pitch": 8,
+      "closure_max_mm": 7.105427357601002e-15,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_10",
+      "yaw": 20,
+      "pitch": 10,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "eye_grid_20_12",
+      "yaw": 20,
+      "pitch": 12,
+      "closure_max_mm": 1.4210854715202004e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": []
+    },
+    {
+      "label": "asymmetric_-20_-12_0_50",
+      "yaw": -20,
+      "pitch": -12,
+      "lid_L": 0,
+      "lid_R": 50,
+      "jaw": 14,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946387
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975275
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999995
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "asymmetric_-20_-12_50_0",
+      "yaw": -20,
+      "pitch": -12,
+      "lid_L": 50,
+      "lid_R": 0,
+      "jaw": 14,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999975304
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975222
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999995
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "asymmetric_-20_12_0_50",
+      "yaw": -20,
+      "pitch": 12,
+      "lid_L": 0,
+      "lid_R": 50,
+      "jaw": 14,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.199999999994632
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.199999999997529
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "asymmetric_-20_12_50_0",
+      "yaw": -20,
+      "pitch": 12,
+      "lid_L": 50,
+      "lid_R": 0,
+      "jaw": 14,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946367
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975168
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "asymmetric_20_-12_0_50",
+      "yaw": 20,
+      "pitch": -12,
+      "lid_L": 0,
+      "lid_R": 50,
+      "jaw": 14,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946394
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975304
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999996
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "asymmetric_20_-12_50_0",
+      "yaw": 20,
+      "pitch": -12,
+      "lid_L": 50,
+      "lid_R": 0,
+      "jaw": 14,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.8305320150519386
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946387
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.1999999999975226
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999996
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 0.5857943805159351
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 0.06601515347153963
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "asymmetric_20_12_0_50",
+      "yaw": 20,
+      "pitch": 12,
+      "lid_L": 0,
+      "lid_R": 50,
+      "jaw": 14,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.199999999994632
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.199999999997528
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    },
+    {
+      "label": "asymmetric_20_12_50_0",
+      "yaw": 20,
+      "pitch": 12,
+      "lid_L": 50,
+      "lid_R": 0,
+      "jaw": 14,
+      "closure_max_mm": 4.263256414560601e-14,
+      "min_transmission_angle_deg": 54.999999999999936,
+      "overlaps": [],
+      "baseline_selected_clearances_mm": [
+        {
+          "a": "P34_L",
+          "b": "P36",
+          "distance_mm": 3.8305320150519395
+        },
+        {
+          "a": "P34_R",
+          "b": "P36",
+          "distance_mm": 3.830532015051942
+        },
+        {
+          "a": "P34_L",
+          "b": "P39_L",
+          "distance_mm": 1.1999999999946367
+        },
+        {
+          "a": "P34_R",
+          "b": "P40_R",
+          "distance_mm": 1.19999999999752
+        },
+        {
+          "a": "P34_L",
+          "b": "P45",
+          "distance_mm": 4.499999999999993
+        },
+        {
+          "a": "P38_L",
+          "b": "P36",
+          "distance_mm": 11.189290612221662
+        },
+        {
+          "a": "P38_R",
+          "b": "P36",
+          "distance_mm": 11.69564799507091
+        },
+        {
+          "a": "P46",
+          "b": "P41",
+          "distance_mm": 2.75
+        },
+        {
+          "a": "P33",
+          "b": "P03",
+          "distance_mm": 5.277683053650229
+        },
+        {
+          "a": "P33",
+          "b": "P20",
+          "distance_mm": 7.95670817555251
+        }
+      ]
+    }
+  ],
+  "pose_count": 361,
+  "collision_pose_count": 0,
+  "max_closure_mm": 4.263256414560601e-14,
+  "elapsed_s": 224.0706627368927,
+  "limitations": [
+    "Discrete samples only; no continuous swept-volume proof.",
+    "Nominal purchased servo/horn envelopes, not actual hardware.",
+    "Fastener heads/nuts, collars and cables are not fully solid-modeled; measured fit/access and physical sweep required.",
+    "Zero intersection does not establish tolerance margin or print/assembly success."
+  ],
+  "validation_method": "361-pose baseline plus exact subtractive-geometry proof and 30 targeted clearance measurements",
+  "baseline_report": "validation/motion_baseline_361.json",
+  "geometry_extension_proof": "validation/final_clearance_amendment.json",
+  "selected_clearance_note": "Per-pose selected_clearances_mm below are historical baseline measurements. Final P36/link clearances are in final_clearance_amendment.json.",
+  "final_minimum_targeted_link_clearance_mm": 1.3160151534715396
+}

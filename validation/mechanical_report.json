@@ -1,0 +1,424 @@
+{
+  "revision": "R5a-E1",
+  "physical_tested": false,
+  "source_step_roundtrip": [
+    {
+      "id": "P01",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 39684.20503929456,
+      "step_mm3": 39684.20503929456,
+      "difference_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P03",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 60396.76369940792,
+      "step_mm3": 60396.76369940792,
+      "difference_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P20",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 52591.2478338675,
+      "step_mm3": 52591.247833867565,
+      "difference_mm3": 6.548361852765083e-11,
+      "passed": true
+    },
+    {
+      "id": "P21",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 41026.52123218901,
+      "step_mm3": 41026.52123219004,
+      "difference_mm3": 1.0331859812140465e-09,
+      "passed": true
+    },
+    {
+      "id": "P22",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 41352.664947811136,
+      "step_mm3": 41352.66494781194,
+      "difference_mm3": 8.076312951743603e-10,
+      "passed": true
+    },
+    {
+      "id": "P23",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 31509.48585398769,
+      "step_mm3": 31509.48585398847,
+      "difference_mm3": 7.785274647176266e-10,
+      "passed": true
+    },
+    {
+      "id": "P24",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 31509.485853987688,
+      "step_mm3": 31509.485853988233,
+      "difference_mm3": 5.456968210637569e-10,
+      "passed": true
+    },
+    {
+      "id": "P25",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 12102.04158209013,
+      "step_mm3": 12102.041582378626,
+      "difference_mm3": 2.8849535738117993e-07,
+      "passed": true
+    },
+    {
+      "id": "P26",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 15090.525052782483,
+      "step_mm3": 15090.525052056348,
+      "difference_mm3": 7.261351129272953e-07,
+      "passed": true
+    },
+    {
+      "id": "P27",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 14133.947618880433,
+      "step_mm3": 14133.947619129283,
+      "difference_mm3": 2.48850483330898e-07,
+      "passed": true
+    },
+    {
+      "id": "P28",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 6562.076143443939,
+      "step_mm3": 6562.076143761588,
+      "difference_mm3": 3.1764921004651114e-07,
+      "passed": true
+    },
+    {
+      "id": "P29",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 25452.7414325341,
+      "step_mm3": 25452.741432529278,
+      "difference_mm3": 4.823959898203611e-09,
+      "passed": true
+    },
+    {
+      "id": "P30",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 2757.8842809740145,
+      "step_mm3": 2757.8842809717944,
+      "difference_mm3": 2.220076567027718e-09,
+      "passed": true
+    },
+    {
+      "id": "P31",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 2757.884280974014,
+      "step_mm3": 2757.88428097225,
+      "difference_mm3": 1.7639649740885943e-09,
+      "passed": true
+    },
+    {
+      "id": "P32",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 13677.421972234177,
+      "step_mm3": 13677.421972229933,
+      "difference_mm3": 4.243702278472483e-09,
+      "passed": true
+    },
+    {
+      "id": "P33",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 37989.599709045426,
+      "step_mm3": 37989.59970906044,
+      "difference_mm3": 1.501757651567459e-08,
+      "passed": true
+    },
+    {
+      "id": "P34",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 5969.456644732989,
+      "step_mm3": 5969.456645548045,
+      "difference_mm3": 8.150564099196345e-07,
+      "passed": true
+    },
+    {
+      "id": "P35",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 175.07467539925244,
+      "step_mm3": 175.0746753992563,
+      "difference_mm3": 3.865352482534945e-12,
+      "passed": true
+    },
+    {
+      "id": "P36",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 31782.950574779585,
+      "step_mm3": 31782.95057477887,
+      "difference_mm3": 7.130438461899757e-10,
+      "passed": true
+    },
+    {
+      "id": "P37",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 425.3020656828043,
+      "step_mm3": 425.3020656253662,
+      "difference_mm3": 5.743811470892979e-08,
+      "passed": true
+    },
+    {
+      "id": "P38",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 446.3433593212417,
+      "step_mm3": 446.3433593212377,
+      "difference_mm3": 3.979039320256561e-12,
+      "passed": true
+    },
+    {
+      "id": "P39",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 2213.183779846444,
+      "step_mm3": 2213.1837872205406,
+      "difference_mm3": 7.374096639978234e-06,
+      "passed": true
+    },
+    {
+      "id": "P40",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 2213.183804678193,
+      "step_mm3": 2213.183804889664,
+      "difference_mm3": 2.1147070583538152e-07,
+      "passed": true
+    },
+    {
+      "id": "P41",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 30727.54055359303,
+      "step_mm3": 30727.54055359328,
+      "difference_mm3": 2.510205376893282e-10,
+      "passed": true
+    },
+    {
+      "id": "P42",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 1629.8904490096727,
+      "step_mm3": 1629.890449010347,
+      "difference_mm3": 6.743903213646263e-10,
+      "passed": true
+    },
+    {
+      "id": "P43",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 1537.3245859516962,
+      "step_mm3": 1537.3245859516544,
+      "difference_mm3": 4.18367562815547e-11,
+      "passed": true
+    },
+    {
+      "id": "P44",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 4225.846910743157,
+      "step_mm3": 4225.846910743135,
+      "difference_mm3": 2.2737367544323206e-11,
+      "passed": true
+    },
+    {
+      "id": "P45",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 11865.806547425595,
+      "step_mm3": 11865.80654742591,
+      "difference_mm3": 3.1468516681343317e-10,
+      "passed": true
+    },
+    {
+      "id": "P46",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 1011.679199151552,
+      "step_mm3": 1011.6791991515472,
+      "difference_mm3": 4.774847184307873e-12,
+      "passed": true
+    },
+    {
+      "id": "P49",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 972.5433593212415,
+      "step_mm3": 972.5433593212377,
+      "difference_mm3": 3.751665644813329e-12,
+      "passed": true
+    },
+    {
+      "id": "P90",
+      "valid": true,
+      "solids": 1,
+      "source_mm3": 19131.45137564325,
+      "step_mm3": 19131.451375643166,
+      "difference_mm3": 8.36735125631094e-11,
+      "passed": true
+    }
+  ],
+  "all_roundtrip_pass": true,
+  "motion": {
+    "rotation_order": "Yaw about each carrier-local Z axis, then common pitch about fixed X; gaze order Rx(pitch) Rz(yaw).",
+    "soft_limits_deg": {
+      "yaw": [
+        -20,
+        20
+      ],
+      "pitch": [
+        -12,
+        12
+      ],
+      "jaw": [
+        0,
+        14
+      ],
+      "lid_L": [
+        0,
+        50
+      ],
+      "lid_R": [
+        0,
+        50
+      ]
+    },
+    "mechanical_stops_deg": {
+      "yaw": [
+        -22.99,
+        22.99
+      ],
+      "pitch": [
+        -14,
+        14
+      ],
+      "jaw": [
+        -0.4,
+        17.03
+      ],
+      "lid_L": [
+        -2.99,
+        52.99
+      ],
+      "lid_R": [
+        -2.99,
+        52.99
+      ]
+    },
+    "missing_stops": [],
+    "axes": {
+      "pitch": {
+        "point": [
+          0,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          1,
+          0,
+          0
+        ]
+      },
+      "yaw_L": {
+        "point": [
+          -33.75,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "yaw_R": {
+        "point": [
+          33.75,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "jaw": {
+        "point": [
+          0,
+          12.5,
+          56.25
+        ],
+        "direction": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "yaw_linkage": {
+      "crank_radius_mm": 12,
+      "half_tie_mm": 33.75,
+      "constraint": "Two serial planar parallelograms; 1 yaw DOF; servo fixed on common pitch carrier"
+    },
+    "pitch_linkage": {
+      "pivot_yz": [
+        -36.25,
+        112.5
+      ],
+      "output_pin_neutral_yz": [
+        -12.25,
+        112.5
+      ],
+      "servo_axis_yz": [
+        1.75,
+        176.5
+      ],
+      "horn_radius_mm": 14,
+      "rod_length_mm": 64,
+      "rod_plane_x": 6
+    },
+    "lid_linkage": {
+      "lever_yz": [
+        9.8,
+        -4.1
+      ],
+      "servo_yz": [
+        -18.258479557110082,
+        191.73576436351047
+      ],
+      "horn_radius_mm": 10,
+      "rod_length_mm": 77.6,
+      "rod_plane_abs_x": 58.5
+    },
+    "nominal_servo_speed_limit_deg_s": 120,
+    "physical_status": "NOT BUILT, NOT CALIBRATED"
+  },
+  "status": "DIGITAL_GEOMETRY_CHECKS_PASSED_PHYSICAL_GATES_OPEN",
+  "motion_report": "validation/motion_report.json",
+  "final_clearance_proof": "validation/final_clearance_amendment.json"
+}

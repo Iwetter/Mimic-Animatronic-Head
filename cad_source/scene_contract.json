@@ -1,0 +1,522 @@
+{
+  "revision": "R5a-E1",
+  "scene": [
+    {
+      "name": "P20",
+      "id": "P20",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P21",
+      "id": "P21",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P22",
+      "id": "P22",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P23",
+      "id": "P23",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P24",
+      "id": "P24",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P25",
+      "id": "P25",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P26",
+      "id": "P26",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P27",
+      "id": "P27",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P28",
+      "id": "P28",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P29",
+      "id": "P29",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P30",
+      "id": "P30",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P31",
+      "id": "P31",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P32",
+      "id": "P32",
+      "group": "fixed",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P33",
+      "id": "P33",
+      "group": "jaw",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P42",
+      "id": "P42",
+      "group": "fixed",
+      "material": "teeth"
+    },
+    {
+      "name": "P43",
+      "id": "P43",
+      "group": "jaw",
+      "material": "teeth"
+    },
+    {
+      "name": "P36",
+      "id": "P36",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P41",
+      "id": "P41",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P44",
+      "id": "P44",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P01",
+      "id": "P01",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P03",
+      "id": "P03",
+      "group": "fixed",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P34_L",
+      "id": "P34",
+      "group": "eye_L",
+      "material": "eye_white"
+    },
+    {
+      "name": "P35_L",
+      "id": "P35",
+      "group": "eye_L",
+      "material": "iris"
+    },
+    {
+      "name": "P37_L",
+      "id": "P37",
+      "group": "crank_L",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P49_L",
+      "id": "P49",
+      "group": "lidrod_L",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P34_R",
+      "id": "P34",
+      "group": "eye_R",
+      "material": "eye_white"
+    },
+    {
+      "name": "P35_R",
+      "id": "P35",
+      "group": "eye_R",
+      "material": "iris"
+    },
+    {
+      "name": "P37_R",
+      "id": "P37",
+      "group": "crank_R",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P49_R",
+      "id": "P49",
+      "group": "lidrod_R",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P38_L",
+      "id": "P38",
+      "group": "yawlink_L",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P38_R",
+      "id": "P38",
+      "group": "yawlink_R",
+      "material": "frame_steel"
+    },
+    {
+      "name": "P39_L",
+      "id": "P39",
+      "group": "lid_L",
+      "material": "lid"
+    },
+    {
+      "name": "P40_R",
+      "id": "P40",
+      "group": "lid_R",
+      "material": "lid"
+    },
+    {
+      "name": "P45",
+      "id": "P45",
+      "group": "pitch",
+      "material": "frame_dark"
+    },
+    {
+      "name": "P46",
+      "id": "P46",
+      "group": "pitchrod",
+      "material": "frame_dark"
+    },
+    {
+      "name": "MG90S_CH0_yaw",
+      "group": "pitch",
+      "material": "servo"
+    },
+    {
+      "name": "MG90S_CH1_jaw",
+      "group": "fixed",
+      "material": "servo"
+    },
+    {
+      "name": "MG90S_CH2_pitch",
+      "group": "fixed",
+      "material": "servo"
+    },
+    {
+      "name": "SG90_CH3_lid_L",
+      "group": "fixed",
+      "material": "servo"
+    },
+    {
+      "name": "SG90_CH4_lid_R",
+      "group": "fixed",
+      "material": "servo"
+    },
+    {
+      "name": "OEM_horn_CH0",
+      "group": "yawhorn",
+      "material": "horn"
+    },
+    {
+      "name": "OEM_horn_CH2",
+      "group": "pitchhorn",
+      "material": "horn"
+    },
+    {
+      "name": "OEM_horn_lid_L",
+      "group": "lidhorn_L",
+      "material": "horn"
+    },
+    {
+      "name": "OEM_horn_lid_R",
+      "group": "lidhorn_R",
+      "material": "horn"
+    },
+    {
+      "name": "OEM_horn_CH1_double",
+      "group": "jaw",
+      "material": "horn"
+    },
+    {
+      "name": "STEEL_yaw_shaft_L",
+      "group": "eye_L",
+      "material": "steel"
+    },
+    {
+      "name": "COLLAR_L_0",
+      "group": "eye_L",
+      "material": "steel"
+    },
+    {
+      "name": "COLLAR_L_1",
+      "group": "eye_L",
+      "material": "steel"
+    },
+    {
+      "name": "STEEL_yaw_shaft_R",
+      "group": "eye_R",
+      "material": "steel"
+    },
+    {
+      "name": "COLLAR_R_0",
+      "group": "eye_R",
+      "material": "steel"
+    },
+    {
+      "name": "COLLAR_R_1",
+      "group": "eye_R",
+      "material": "steel"
+    }
+  ],
+  "motion": {
+    "rotation_order": "Yaw about each carrier-local Z axis, then common pitch about fixed X; gaze order Rx(pitch) Rz(yaw).",
+    "soft_limits_deg": {
+      "yaw": [
+        -20,
+        20
+      ],
+      "pitch": [
+        -12,
+        12
+      ],
+      "jaw": [
+        0,
+        14
+      ],
+      "lid_L": [
+        0,
+        50
+      ],
+      "lid_R": [
+        0,
+        50
+      ]
+    },
+    "mechanical_stops_deg": {
+      "yaw": [
+        -22.99,
+        22.99
+      ],
+      "pitch": [
+        -14,
+        14
+      ],
+      "jaw": [
+        -0.4,
+        17.03
+      ],
+      "lid_L": [
+        -2.99,
+        52.99
+      ],
+      "lid_R": [
+        -2.99,
+        52.99
+      ]
+    },
+    "missing_stops": [],
+    "axes": {
+      "pitch": {
+        "point": [
+          0,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          1,
+          0,
+          0
+        ]
+      },
+      "yaw_L": {
+        "point": [
+          -33.75,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "yaw_R": {
+        "point": [
+          33.75,
+          -36.25,
+          112.5
+        ],
+        "direction": [
+          0,
+          0,
+          1
+        ]
+      },
+      "jaw": {
+        "point": [
+          0,
+          12.5,
+          56.25
+        ],
+        "direction": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "yaw_linkage": {
+      "crank_radius_mm": 12,
+      "half_tie_mm": 33.75,
+      "constraint": "Two serial planar parallelograms; 1 yaw DOF; servo fixed on common pitch carrier"
+    },
+    "pitch_linkage": {
+      "pivot_yz": [
+        -36.25,
+        112.5
+      ],
+      "output_pin_neutral_yz": [
+        -12.25,
+        112.5
+      ],
+      "servo_axis_yz": [
+        1.75,
+        176.5
+      ],
+      "horn_radius_mm": 14,
+      "rod_length_mm": 64,
+      "rod_plane_x": 6
+    },
+    "lid_linkage": {
+      "lever_yz": [
+        9.8,
+        -4.1
+      ],
+      "servo_yz": [
+        -18.258479557110082,
+        191.73576436351047
+      ],
+      "horn_radius_mm": 10,
+      "rod_length_mm": 77.6,
+      "rod_plane_abs_x": 58.5
+    },
+    "nominal_servo_speed_limit_deg_s": 120,
+    "physical_status": "NOT BUILT, NOT CALIBRATED"
+  },
+  "servos": {
+    "MG90S_CH0_yaw": {
+      "tip": [
+        0,
+        -36.25,
+        91.5
+      ],
+      "z": [
+        0,
+        0,
+        -1
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "pitch"
+    },
+    "MG90S_CH1_jaw": {
+      "tip": [
+        -57.5,
+        12.5,
+        56.25
+      ],
+      "z": [
+        -1,
+        0,
+        0
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "fixed"
+    },
+    "MG90S_CH2_pitch": {
+      "tip": [
+        -1,
+        1.75,
+        176.5
+      ],
+      "z": [
+        1,
+        0,
+        0
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "fixed"
+    },
+    "SG90_CH3_lid_L": {
+      "tip": [
+        -54.5,
+        -18.258479557110082,
+        191.73576436351047
+      ],
+      "z": [
+        -1,
+        0,
+        0
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "fixed"
+    },
+    "SG90_CH4_lid_R": {
+      "tip": [
+        54.5,
+        -18.258479557110082,
+        191.73576436351047
+      ],
+      "z": [
+        1,
+        0,
+        0
+      ],
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "group": "fixed"
+    }
+  }
+}

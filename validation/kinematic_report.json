@@ -1,0 +1,1963 @@
+{
+  "revision": "R5a-E1",
+  "physical_tested": false,
+  "status": "PASS_ANALYTIC_NOMINAL_LINKAGES",
+  "source_sha256": "c7c34d13d77d3b8157d89d0173977d0e9ca68f636ab02abac29b8a84682e3901",
+  "yaw": {
+    "crank_radius_mm": 12,
+    "tie_half_length_mm": 33.75,
+    "output_equals_local_horn_deg": true,
+    "planar_links_including_ground": 6,
+    "revolute_joints": 7,
+    "mobility": 1,
+    "rationale": "3 ground-pivoted cranks plus2 separate pin-connected links: M=3(6-1)-2*7=1. Common pitch carrier adds one controlled DOF; no free translated-bar assumption."
+  },
+  "pitch_and_lid": {
+    "pitch": {
+      "sample_step_deg": 0.5,
+      "sampled_output_deg": [
+        -17,
+        17
+      ],
+      "soft_limits_deg": [
+        -12,
+        12
+      ],
+      "maximum_closure_mm": 2.842170943040401e-14,
+      "minimum_acute_transmission_deg": 56.92857134585933,
+      "velocity_ratio_variation": 1.1561694771220263,
+      "horn_range_soft_deg": [
+        -20.809770614124332,
+        20.952493141501485
+      ],
+      "rows": [
+        {
+          "output_deg": -17.0,
+          "horn_deg": 30.407615333202287,
+          "closure_mm": 2.1316282072803006e-14,
+          "transmission_deg": 56.92857134585933,
+          "acute_transmission_deg": 56.92857134585933,
+          "horn_deg_per_output_deg": -1.9820048180569927,
+          "output_deg_per_horn_deg": -0.5045396413215202,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -16.5,
+          "horn_deg": 29.422234117350744,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 58.07565097333916,
+          "acute_transmission_deg": 58.07565097333916,
+          "horn_deg_per_output_deg": -1.9598058450895905,
+          "output_deg_per_horn_deg": -0.5102546267557876,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -16.0,
+          "horn_deg": 28.447536360665374,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 59.20611146156202,
+          "acute_transmission_deg": 59.20611146156202,
+          "horn_deg_per_output_deg": -1.939246281805751,
+          "output_deg_per_horn_deg": -0.5156642605852201,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -15.5,
+          "horn_deg": 27.48273788680422,
+          "closure_mm": 2.1316282072803006e-14,
+          "transmission_deg": 60.32088997881561,
+          "acute_transmission_deg": 60.32088997881561,
+          "horn_deg_per_output_deg": -1.9201869597313959,
+          "output_deg_per_horn_deg": -0.5207826221983533,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -15.0,
+          "horn_deg": 26.52711991121885,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 61.420843118948056,
+          "acute_transmission_deg": 61.420843118948056,
+          "horn_deg_per_output_deg": -1.9025050450753866,
+          "output_deg_per_horn_deg": -0.525622784858568,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -14.5,
+          "horn_deg": 25.58002148699584,
+          "closure_mm": 0.0,
+          "transmission_deg": 62.50675617984939,
+          "acute_transmission_deg": 62.50675617984939,
+          "horn_deg_per_output_deg": -1.8860916619836132,
+          "output_deg_per_horn_deg": -0.5301969252906269,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -14.0,
+          "horn_deg": 24.64083303305976,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 63.57935111526376,
+          "acute_transmission_deg": 63.57935111526376,
+          "horn_deg_per_output_deg": -1.8708499243746957,
+          "output_deg_per_horn_deg": -0.5345164178971947,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -13.5,
+          "horn_deg": 23.7089907615468,
+          "closure_mm": 0.0,
+          "transmission_deg": 64.63929338432578,
+          "acute_transmission_deg": 64.63929338432578,
+          "horn_deg_per_output_deg": -1.8566932958457016,
+          "output_deg_per_horn_deg": -0.5385919161971832,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -13.0,
+          "horn_deg": 22.783971856692084,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 65.68719787972088,
+          "acute_transmission_deg": 65.68719787972088,
+          "horn_deg_per_output_deg": -1.843544214569448,
+          "output_deg_per_horn_deg": -0.5424334236722095,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -12.5,
+          "horn_deg": 21.86529028538625,
+          "closure_mm": 0.0,
+          "transmission_deg": 66.72363408131996,
+          "acute_transmission_deg": 66.72363408131996,
+          "horn_deg_per_output_deg": -1.831332934294494,
+          "output_deg_per_horn_deg": -0.5460503556035494,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -12.0,
+          "horn_deg": 20.952493141501485,
+          "closure_mm": 0.0,
+          "transmission_deg": 67.74913055526908,
+          "acute_transmission_deg": 67.74913055526908,
+          "horn_deg_per_output_deg": -1.8199965427321274,
+          "output_deg_per_horn_deg": -0.5494515931875498,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -11.5,
+          "horn_deg": 20.04515744351897,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 68.76417889716863,
+          "acute_transmission_deg": 68.76417889716863,
+          "horn_deg_per_output_deg": -1.809478125180064,
+          "output_deg_per_horn_deg": -0.5526455313741294,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -11.0,
+          "horn_deg": 19.142887318947064,
+          "closure_mm": 0.0,
+          "transmission_deg": 69.76923720088337,
+          "acute_transmission_deg": 69.76923720088337,
+          "horn_deg_per_output_deg": -1.7997260500894896,
+          "output_deg_per_horn_deg": -0.5556401208674375,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -10.5,
+          "horn_deg": 18.24531152024831,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 70.76473312076962,
+          "acute_transmission_deg": 70.76473312076962,
+          "horn_deg_per_output_deg": -1.790693354411843,
+          "output_deg_per_horn_deg": -0.5584429056690458,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -10.0,
+          "horn_deg": 17.352081226098253,
+          "closure_mm": 0.0,
+          "transmission_deg": 71.75106658395269,
+          "acute_transmission_deg": 71.75106658395269,
+          "horn_deg_per_output_deg": -1.7823372143386251,
+          "output_deg_per_horn_deg": -0.5610610562104387,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -9.5,
+          "horn_deg": 16.46286808921775,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 72.72861220019846,
+          "acute_transmission_deg": 72.72861220019846,
+          "horn_deg_per_output_deg": -1.7746184862286185,
+          "output_deg_per_horn_deg": -0.5635013991797069,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -9.0,
+          "horn_deg": 15.577362498090995,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 73.69772140948292,
+          "acute_transmission_deg": 73.69772140948292,
+          "horn_deg_per_output_deg": -1.767501308738595,
+          "output_deg_per_horn_deg": -0.5657704438780109,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -8.5,
+          "horn_deg": 14.695272024896399,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 74.65872440122098,
+          "acute_transmission_deg": 74.65872440122098,
+          "horn_deg_per_output_deg": -1.7609527543527292,
+          "output_deg_per_horn_deg": -0.567874406356557,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -8.0,
+          "horn_deg": 13.816320036107854,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 75.61193183404865,
+          "acute_transmission_deg": 75.61193183404865,
+          "horn_deg_per_output_deg": -1.7549425261487173,
+          "output_deg_per_horn_deg": -0.5698192306015485,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -7.5,
+          "horn_deg": 12.940244445675562,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 76.55763638082668,
+          "acute_transmission_deg": 76.55763638082668,
+          "horn_deg_per_output_deg": -1.7494426893147619,
+          "output_deg_per_horn_deg": -0.5716106083999182,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -7.0,
+          "horn_deg": 12.066796593567902,
+          "closure_mm": 0.0,
+          "transmission_deg": 77.49611412000806,
+          "acute_transmission_deg": 77.49611412000806,
+          "horn_deg_per_output_deg": -1.744427437619045,
+          "output_deg_per_horn_deg": -0.5732539963742441,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -6.5,
+          "horn_deg": 11.195740234870646,
+          "closure_mm": 0.0,
+          "transmission_deg": 78.42762579155455,
+          "acute_transmission_deg": 78.42762579155455,
+          "horn_deg_per_output_deg": -1.7398728845110512,
+          "output_deg_per_horn_deg": -0.5747546323081101,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -6.0,
+          "horn_deg": 10.32685062666579,
+          "closure_mm": 2.1316282072803006e-14,
+          "transmission_deg": 79.35241793310017,
+          "acute_transmission_deg": 79.35241793310017,
+          "horn_deg_per_output_deg": -1.73575687964167,
+          "output_deg_per_horn_deg": -0.5761175494844878,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -5.5,
+          "horn_deg": 9.45991370163485,
+          "closure_mm": 0.0,
+          "transmission_deg": 80.2707239099495,
+          "acute_transmission_deg": 80.2707239099495,
+          "horn_deg_per_output_deg": -1.732058845379747,
+          "output_deg_per_horn_deg": -0.5773475899317694,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -5.0,
+          "horn_deg": 8.594725318785578,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 81.18276485071283,
+          "acute_transmission_deg": 81.18276485071283,
+          "horn_deg_per_output_deg": -1.7287596309971676,
+          "output_deg_per_horn_deg": -0.5784494166046606,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -4.5,
+          "horn_deg": 7.731090582938894,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 82.08875049886397,
+          "acute_transmission_deg": 82.08875049886397,
+          "horn_deg_per_output_deg": -1.7258413835294917,
+          "output_deg_per_horn_deg": -0.579427524188182,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -4.0,
+          "horn_deg": 6.868823225678657,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 82.98887998919795,
+          "acute_transmission_deg": 82.98887998919795,
+          "horn_deg_per_output_deg": -1.723287430714926,
+          "output_deg_per_horn_deg": -0.5802862495115735,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -3.5,
+          "horn_deg": 6.007745041366648,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 83.88334255706089,
+          "acute_transmission_deg": 83.88334255706089,
+          "horn_deg_per_output_deg": -1.7210821771218576,
+          "output_deg_per_horn_deg": -0.5810297807349829,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -3.0,
+          "horn_deg": 5.147685372615077,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 84.77231818725778,
+          "acute_transmission_deg": 84.77231818725778,
+          "horn_deg_per_output_deg": -1.7192110103922964,
+          "output_deg_per_horn_deg": -0.5816621659326251,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -2.5,
+          "horn_deg": 4.288480640273731,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 85.65597820872526,
+          "acute_transmission_deg": 85.65597820872526,
+          "horn_deg_per_output_deg": -1.7176602165593913,
+          "output_deg_per_horn_deg": -0.5821873210774356,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -2.0,
+          "horn_deg": 3.4299739135768887,
+          "closure_mm": 0.0,
+          "transmission_deg": 86.53448584033686,
+          "acute_transmission_deg": 86.53448584033686,
+          "horn_deg_per_output_deg": -1.7164169039185495,
+          "output_deg_per_horn_deg": -0.5826090373014957,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -1.5,
+          "horn_deg": 2.5720145165982786,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 87.40799669258875,
+          "acute_transmission_deg": 87.40799669258875,
+          "horn_deg_per_output_deg": -1.7154689338960694,
+          "output_deg_per_horn_deg": -0.5829309876972593,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -1.0,
+          "horn_deg": 1.7144576676003978,
+          "closure_mm": 0.0,
+          "transmission_deg": 88.27665922937899,
+          "acute_transmission_deg": 88.27665922937899,
+          "horn_deg_per_output_deg": -1.714804858479857,
+          "output_deg_per_horn_deg": -0.5831567335810336,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": -0.5,
+          "horn_deg": 0.8571641482495006,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 89.14061519361786,
+          "acute_transmission_deg": 89.14061519361786,
+          "horn_deg_per_output_deg": -1.7144138629186512,
+          "output_deg_per_horn_deg": -0.5832897304607539,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 0.0,
+          "horn_deg": 0.0,
+          "closure_mm": 0.0,
+          "transmission_deg": 90.0,
+          "acute_transmission_deg": 90.0,
+          "horn_deg_per_output_deg": -1.7142857144011983,
+          "output_deg_per_horn_deg": -0.5833333332940367,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 0.5,
+          "horn_deg": -0.8571637547528022,
+          "closure_mm": 0.0,
+          "transmission_deg": 90.85494309790788,
+          "acute_transmission_deg": 89.14505690209212,
+          "horn_deg_per_output_deg": -1.714410714653003,
+          "output_deg_per_horn_deg": -0.5832908015874132,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 1.0,
+          "horn_deg": -1.7144513688972325,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 91.7055683070995,
+          "acute_transmission_deg": 88.2944316929005,
+          "horn_deg_per_output_deg": -1.7147796561971518,
+          "output_deg_per_horn_deg": -0.5831653042920332,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 1.5,
+          "horn_deg": -2.5719826061239215,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 92.55199412855555,
+          "acute_transmission_deg": 87.44800587144445,
+          "horn_deg_per_output_deg": -1.7153837833738805,
+          "output_deg_per_horn_deg": -0.5829599240078875,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 2.0,
+          "horn_deg": -3.4298729574574063,
+          "closure_mm": 0.0,
+          "transmission_deg": 93.39433403261556,
+          "acute_transmission_deg": 86.60566596738444,
+          "horn_deg_per_output_deg": -1.716214755407286,
+          "output_deg_per_horn_deg": -0.5826776613179063,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 2.5,
+          "horn_deg": -4.288233840342263,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 94.23269672631639,
+          "acute_transmission_deg": 85.76730327368361,
+          "horn_deg_per_output_deg": -1.7172646131884406,
+          "output_deg_per_horn_deg": -0.5823214385948958,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 3.0,
+          "horn_deg": -5.147172781666552,
+          "closure_mm": 2.1316282072803006e-14,
+          "transmission_deg": 95.0671864016508,
+          "acute_transmission_deg": 84.9328135983492,
+          "horn_deg_per_output_deg": -1.7185257487799532,
+          "output_deg_per_horn_deg": -0.5818941035419097,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 3.5,
+          "horn_deg": -6.006793585970483,
+          "closure_mm": 0.0,
+          "transmission_deg": 95.89790296629859,
+          "acute_transmission_deg": 84.10209703370141,
+          "horn_deg_per_output_deg": -1.7199908762171034,
+          "output_deg_per_horn_deg": -0.5813984328796965,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 4.0,
+          "horn_deg": -6.867196489960084,
+          "closure_mm": 0.0,
+          "transmission_deg": 96.7249422582247,
+          "acute_transmission_deg": 83.2750577417753,
+          "horn_deg_per_output_deg": -1.7216530058887791,
+          "output_deg_per_horn_deg": -0.580837135345844,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 4.5,
+          "horn_deg": -7.728478304338616,
+          "closure_mm": 0.0,
+          "transmission_deg": 97.5483962454081,
+          "acute_transmission_deg": 82.4516037545919,
+          "horn_deg_per_output_deg": -1.7235054195334776,
+          "output_deg_per_horn_deg": -0.5802128549561987,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 5.0,
+          "horn_deg": -8.590732543868178,
+          "closure_mm": 0.0,
+          "transmission_deg": 98.3683532118416,
+          "acute_transmission_deg": 81.6316467881584,
+          "horn_deg_per_output_deg": -1.7255416479162733,
+          "output_deg_per_horn_deg": -0.5795281737810144,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 5.5,
+          "horn_deg": -9.454049546485402,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 99.18489793083423,
+          "acute_transmission_deg": 80.81510206916577,
+          "horn_deg_per_output_deg": -1.7277554494921077,
+          "output_deg_per_horn_deg": -0.5787856147662337,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 6.0,
+          "horn_deg": -10.318516582217637,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 99.99811182655245,
+          "acute_transmission_deg": 80.00188817344755,
+          "horn_deg_per_output_deg": -1.7301407910279565,
+          "output_deg_per_horn_deg": -0.577987644234348,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 6.5,
+          "horn_deg": -11.184217952572666,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 100.80807312464684,
+          "acute_transmission_deg": 79.19192687535316,
+          "horn_deg_per_output_deg": -1.7326918289786164,
+          "output_deg_per_horn_deg": -0.5771366744364911,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 7.0,
+          "horn_deg": -12.051235081013218,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 101.61485699273453,
+          "acute_transmission_deg": 78.38514300726547,
+          "horn_deg_per_output_deg": -1.7354028916916064,
+          "output_deg_per_horn_deg": -0.5762350660976697,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 7.5,
+          "horn_deg": -12.919646595066983,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 102.41853567143417,
+          "acute_transmission_deg": 77.58146432856583,
+          "horn_deg_per_output_deg": -1.7382684644529078,
+          "output_deg_per_horn_deg": -0.5752851302602063,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 8.0,
+          "horn_deg": -13.789528400571905,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 103.2191785965869,
+          "acute_transmission_deg": 76.7808214034131,
+          "horn_deg_per_output_deg": -1.7412831728629286,
+          "output_deg_per_horn_deg": -0.5742891309033046,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 8.5,
+          "horn_deg": -14.660953748509353,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 104.01685251324004,
+          "acute_transmission_deg": 75.98314748675996,
+          "horn_deg_per_output_deg": -1.744441769299776,
+          "output_deg_per_horn_deg": -0.5732492867339464,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 9.0,
+          "horn_deg": -15.533993294831987,
+          "closure_mm": 0.0,
+          "transmission_deg": 104.8116215819132,
+          "acute_transmission_deg": 75.1883784180868,
+          "horn_deg_per_output_deg": -1.7477391192421976,
+          "output_deg_per_horn_deg": -0.5721677732049564,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 9.5,
+          "horn_deg": -16.4087151536568,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 105.60354747762318,
+          "acute_transmission_deg": 74.39645252237682,
+          "horn_deg_per_output_deg": -1.7511701878323294,
+          "output_deg_per_horn_deg": -0.5710467246120956,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 10.0,
+          "horn_deg": -17.28518494415535,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 106.39268948209599,
+          "acute_transmission_deg": 73.60731051790401,
+          "horn_deg_per_output_deg": -1.754730028187268,
+          "output_deg_per_horn_deg": -0.5698882357607197,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 10.5,
+          "horn_deg": -18.163465831439183,
+          "closure_mm": 0.0,
+          "transmission_deg": 107.17910456955421,
+          "acute_transmission_deg": 72.82089543044579,
+          "horn_deg_per_output_deg": -1.758413768845557,
+          "output_deg_per_horn_deg": -0.5686943640440926,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 11.0,
+          "horn_deg": -19.043618561710325,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 107.96284748643289,
+          "acute_transmission_deg": 72.03715251356711,
+          "horn_deg_per_output_deg": -1.7622166038986364,
+          "output_deg_per_horn_deg": -0.567467130764545,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 11.5,
+          "horn_deg": -19.92570149191668,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 108.74397082534128,
+          "acute_transmission_deg": 71.25602917465872,
+          "horn_deg_per_output_deg": -1.7661337804639743,
+          "output_deg_per_horn_deg": -0.5662085234207421,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 12.0,
+          "horn_deg": -20.809770614124332,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 109.52252509355408,
+          "acute_transmission_deg": 70.47747490644592,
+          "horn_deg_per_output_deg": -1.770160590124803,
+          "output_deg_per_horn_deg": -0.5649204968061662,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 12.5,
+          "horn_deg": -21.695879574797186,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 110.29855877629021,
+          "acute_transmission_deg": 69.70144122370979,
+          "horn_deg_per_output_deg": -1.7742923574051161,
+          "output_deg_per_horn_deg": -0.5636049751476636,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 13.0,
+          "horn_deg": -22.584079689147263,
+          "closure_mm": 0.0,
+          "transmission_deg": 111.0721183950049,
+          "acute_transmission_deg": 68.9278816049951,
+          "horn_deg_per_output_deg": -1.7785244311863124,
+          "output_deg_per_horn_deg": -0.5622638533747774,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 13.5,
+          "horn_deg": -23.47441995069948,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 111.84324856089795,
+          "acute_transmission_deg": 68.15675143910205,
+          "horn_deg_per_output_deg": -1.782852174116556,
+          "output_deg_per_horn_deg": -0.5608989990970636,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 14.0,
+          "horn_deg": -24.366947036194205,
+          "closure_mm": 0.0,
+          "transmission_deg": 112.61199202381664,
+          "acute_transmission_deg": 67.38800797618336,
+          "horn_deg_per_output_deg": -1.7872709548676369,
+          "output_deg_per_horn_deg": -0.5595122537388624,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 14.5,
+          "horn_deg": -25.26170530592537,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 113.37838971670257,
+          "acute_transmission_deg": 66.62161028329743,
+          "horn_deg_per_output_deg": -1.7917761376633479,
+          "output_deg_per_horn_deg": -0.5581054345907844,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 15.0,
+          "horn_deg": -26.158736799600952,
+          "closure_mm": 2.1316282072803006e-14,
+          "transmission_deg": 114.14248079571978,
+          "acute_transmission_deg": 65.85751920428022,
+          "horn_deg_per_output_deg": -1.7963630743782488,
+          "output_deg_per_horn_deg": -0.5566803360986011,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 15.5,
+          "horn_deg": -27.058081227784523,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 114.9043026761682,
+          "acute_transmission_deg": 65.0956973238318,
+          "horn_deg_per_output_deg": -1.801027095218899,
+          "output_deg_per_horn_deg": -0.5552387316407691,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 16.0,
+          "horn_deg": -27.959775958963768,
+          "closure_mm": 7.105427357601002e-15,
+          "transmission_deg": 115.6638910642739,
+          "acute_transmission_deg": 64.3361089357261,
+          "horn_deg_per_output_deg": -1.8057635000516825,
+          "output_deg_per_horn_deg": -0.5537823751401438,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 16.5,
+          "horn_deg": -28.86385600227172,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 116.42127998492519,
+          "acute_transmission_deg": 63.57872001507481,
+          "horn_deg_per_output_deg": -1.8105675501676188,
+          "output_deg_per_horn_deg": -0.552313002576138,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 17.0,
+          "horn_deg": -29.770353985863814,
+          "closure_mm": 0.0,
+          "transmission_deg": 117.1765018053976,
+          "acute_transmission_deg": 62.823498194602394,
+          "horn_deg_per_output_deg": -1.815434459013332,
+          "output_deg_per_horn_deg": -0.5508323338444775,
+          "within_soft_limits": false
+        }
+      ]
+    },
+    "lid": {
+      "sample_step_deg": 0.5,
+      "sampled_output_deg": [
+        -5,
+        55
+      ],
+      "soft_limits_deg": [
+        0,
+        50
+      ],
+      "maximum_closure_mm": 4.263256414560601e-14,
+      "minimum_acute_transmission_deg": 48.06046824295158,
+      "velocity_ratio_variation": 1.2947305308316128,
+      "horn_range_soft_deg": [
+        -53.848558143064615,
+        2.5444437451708134e-14
+      ],
+      "rows": [
+        {
+          "output_deg": -5.0,
+          "horn_deg": 6.158870731612137,
+          "closure_mm": 0.0,
+          "transmission_deg": 48.06046824295158,
+          "acute_transmission_deg": 48.06046824295158,
+          "horn_deg_per_output_deg": -1.2733447318700186,
+          "output_deg_per_horn_deg": -0.7853332840443076,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -4.5,
+          "horn_deg": 5.524595162478217,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 48.77975956013442,
+          "acute_transmission_deg": 48.77975956013442,
+          "horn_deg_per_output_deg": -1.2638389253734061,
+          "output_deg_per_horn_deg": -0.7912400701731402,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -4.0,
+          "horn_deg": 4.894953131625137,
+          "closure_mm": 0.0,
+          "transmission_deg": 49.49281372736152,
+          "acute_transmission_deg": 49.49281372736152,
+          "horn_deg_per_output_deg": -1.2548052659089315,
+          "output_deg_per_horn_deg": -0.7969364069217859,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -3.5,
+          "horn_deg": 4.269716299961863,
+          "closure_mm": 0.0,
+          "transmission_deg": 50.19988431064385,
+          "acute_transmission_deg": 50.19988431064385,
+          "horn_deg_per_output_deg": -1.246213274908925,
+          "output_deg_per_horn_deg": -0.8024308680816142,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -3.0,
+          "horn_deg": 3.6486709041528282,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 50.90120839930821,
+          "acute_transmission_deg": 50.90120839930821,
+          "horn_deg_per_output_deg": -1.2380350781311389,
+          "output_deg_per_horn_deg": -0.8077315559665225,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -2.5,
+          "horn_deg": 3.0316165263137287,
+          "closure_mm": 0.0,
+          "transmission_deg": 51.597008000597384,
+          "acute_transmission_deg": 51.597008000597384,
+          "horn_deg_per_output_deg": -1.2302451250219004,
+          "output_deg_per_horn_deg": -0.8128461390832159,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -2.0,
+          "horn_deg": 2.4183649943125323,
+          "closure_mm": 0.0,
+          "transmission_deg": 52.2874912864569,
+          "acute_transmission_deg": 52.2874912864569,
+          "horn_deg_per_output_deg": -1.2228199447170685,
+          "output_deg_per_horn_deg": -0.8177818854855007,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -1.5,
+          "horn_deg": 1.8087393962174116,
+          "closure_mm": 0.0,
+          "transmission_deg": 52.97285371113072,
+          "acute_transmission_deg": 52.97285371113072,
+          "horn_deg_per_output_deg": -1.2157379339213792,
+          "output_deg_per_horn_deg": -0.8225456918782541,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -1.0,
+          "horn_deg": 1.2025731948297853,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 53.653279015478525,
+          "acute_transmission_deg": 53.653279015478525,
+          "horn_deg_per_output_deg": -1.2089791679743556,
+          "output_deg_per_horn_deg": -0.8271441117347785,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": -0.5,
+          "horn_deg": 0.5997094302361333,
+          "closure_mm": 0.0,
+          "transmission_deg": 54.32894013167002,
+          "acute_transmission_deg": 54.32894013167002,
+          "horn_deg_per_output_deg": -1.2025252365148176,
+          "output_deg_per_horn_deg": -0.831583379404344,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 0.0,
+          "horn_deg": 2.5444437451708134e-14,
+          "closure_mm": 0.0,
+          "transmission_deg": 54.999999999999936,
+          "acute_transmission_deg": 54.999999999999936,
+          "horn_deg_per_output_deg": -1.1963590971766898,
+          "output_deg_per_horn_deg": -0.8358694328148787,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 0.5,
+          "horn_deg": -0.5966949919807006,
+          "closure_mm": 0.0,
+          "transmission_deg": 55.666612307983144,
+          "acute_transmission_deg": 55.666612307983144,
+          "horn_deg_per_output_deg": -1.1904649465979689,
+          "output_deg_per_horn_deg": -0.8400079337554064,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 1.0,
+          "horn_deg": -1.190507825715731,
+          "closure_mm": 0.0,
+          "transmission_deg": 56.32892216051651,
+          "acute_transmission_deg": 56.32892216051651,
+          "horn_deg_per_output_deg": -1.18482810583187,
+          "output_deg_per_horn_deg": -0.8440042864259185,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 1.5,
+          "horn_deg": -1.7815637012210772,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 56.987066688756734,
+          "acute_transmission_deg": 56.987066688756734,
+          "horn_deg_per_output_deg": -1.1794349177672858,
+          "output_deg_per_horn_deg": -0.8478636548195785,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 2.0,
+          "horn_deg": -2.3699812263583784,
+          "closure_mm": 0.0,
+          "transmission_deg": 57.64117560437436,
+          "acute_transmission_deg": 57.64117560437436,
+          "horn_deg_per_output_deg": -1.1742726563943595,
+          "output_deg_per_horn_deg": -0.851590978087262,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 2.5,
+          "horn_deg": -2.955872861560491,
+          "closure_mm": 0.0,
+          "transmission_deg": 58.29137170500889,
+          "acute_transmission_deg": 58.29137170500889,
+          "horn_deg_per_output_deg": -1.1693294453565262,
+          "output_deg_per_horn_deg": -0.8551909848597903,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 3.0,
+          "horn_deg": -3.5393453259563112,
+          "closure_mm": 0.0,
+          "transmission_deg": 58.93777133603364,
+          "acute_transmission_deg": 58.93777133603364,
+          "horn_deg_per_output_deg": -1.1645941843398955,
+          "output_deg_per_horn_deg": -0.8586682068714011,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 3.5,
+          "horn_deg": -4.120499968853251,
+          "closure_mm": 0.0,
+          "transmission_deg": 59.58048481311204,
+          "acute_transmission_deg": 59.58048481311204,
+          "horn_deg_per_output_deg": -1.1600564837190852,
+          "output_deg_per_horn_deg": -0.8620269909565508,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 4.0,
+          "horn_deg": -4.699433110072672,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 60.21961680950257,
+          "acute_transmission_deg": 60.21961680950257,
+          "horn_deg_per_output_deg": -1.155706606060125,
+          "output_deg_per_horn_deg": -0.8652715098765953,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 4.5,
+          "horn_deg": -5.276236352217937,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 60.85526671159984,
+          "acute_transmission_deg": 60.85526671159984,
+          "horn_deg_per_output_deg": -1.1515354114166598,
+          "output_deg_per_horn_deg": -0.8684057737918492,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 5.0,
+          "horn_deg": -5.850996867606934,
+          "closure_mm": 0.0,
+          "transmission_deg": 61.487528945803696,
+          "acute_transmission_deg": 61.487528945803696,
+          "horn_deg_per_output_deg": -1.1475343109923486,
+          "output_deg_per_horn_deg": -0.87143363855956,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 5.5,
+          "horn_deg": -6.423797662285206,
+          "closure_mm": 4.263256414560601e-14,
+          "transmission_deg": 62.11649327945439,
+          "acute_transmission_deg": 62.11649327945439,
+          "horn_deg_per_output_deg": -1.1436952215992946,
+          "output_deg_per_horn_deg": -0.8743588161552714,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 6.0,
+          "horn_deg": -6.9947178192765085,
+          "closure_mm": 0.0,
+          "transmission_deg": 62.74224509827442,
+          "acute_transmission_deg": 62.74224509827442,
+          "horn_deg_per_output_deg": -1.1400105279069095,
+          "output_deg_per_horn_deg": -0.8771848816484418,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 6.5,
+          "horn_deg": -7.563832722983971,
+          "closure_mm": 0.0,
+          "transmission_deg": 63.36486566248484,
+          "acute_transmission_deg": 63.36486566248484,
+          "horn_deg_per_output_deg": -1.1364730452472216,
+          "output_deg_per_horn_deg": -0.8799152819171931,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 7.0,
+          "horn_deg": -8.131214266451751,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 63.98443234353248,
+          "acute_transmission_deg": 63.98443234353248,
+          "horn_deg_per_output_deg": -1.133075987397092,
+          "output_deg_per_horn_deg": -0.882553342514305,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 7.5,
+          "horn_deg": -8.696931043020204,
+          "closure_mm": 0.0,
+          "transmission_deg": 64.60101884316404,
+          "acute_transmission_deg": 64.60101884316404,
+          "horn_deg_per_output_deg": -1.1298129372443455,
+          "output_deg_per_horn_deg": -0.8851022740446185,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 8.0,
+          "horn_deg": -9.261048523743192,
+          "closure_mm": 0.0,
+          "transmission_deg": 65.2146953963979,
+          "acute_transmission_deg": 65.2146953963979,
+          "horn_deg_per_output_deg": -1.1266778185285986,
+          "output_deg_per_horn_deg": -0.8875651792860932,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 8.5,
+          "horn_deg": -9.823629221797429,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 65.82552895978631,
+          "acute_transmission_deg": 65.82552895978631,
+          "horn_deg_per_output_deg": -1.1236648717760644,
+          "output_deg_per_horn_deg": -0.8899450584580438,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 9.0,
+          "horn_deg": -10.384732844989843,
+          "closure_mm": 0.0,
+          "transmission_deg": 66.43358338622163,
+          "acute_transmission_deg": 66.43358338622163,
+          "horn_deg_per_output_deg": -1.120768631533764,
+          "output_deg_per_horn_deg": -0.8922448147317499,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 9.5,
+          "horn_deg": -10.944416437360834,
+          "closure_mm": 0.0,
+          "transmission_deg": 67.03891958741637,
+          "acute_transmission_deg": 67.03891958741637,
+          "horn_deg_per_output_deg": -1.117983904795672,
+          "output_deg_per_horn_deg": -0.8944672599582414,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 10.0,
+          "horn_deg": -11.502734510778602,
+          "closure_mm": 0.0,
+          "transmission_deg": 67.64159568507198,
+          "acute_transmission_deg": 67.64159568507198,
+          "horn_deg_per_output_deg": -1.1153057525801202,
+          "output_deg_per_horn_deg": -0.8966151189363322,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 10.5,
+          "horn_deg": -12.05973916733888,
+          "closure_mm": 0.0,
+          "transmission_deg": 68.24166715165863,
+          "acute_transmission_deg": 68.24166715165863,
+          "horn_deg_per_output_deg": -1.1127294722586,
+          "output_deg_per_horn_deg": -0.898691034012262,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 11.0,
+          "horn_deg": -12.615480213302952,
+          "closure_mm": 0.0,
+          "transmission_deg": 68.83918694163707,
+          "acute_transmission_deg": 68.83918694163707,
+          "horn_deg_per_output_deg": -1.1102505806617202,
+          "output_deg_per_horn_deg": -0.9006975699161447,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 11.5,
+          "horn_deg": -13.170005265240821,
+          "closure_mm": 0.0,
+          "transmission_deg": 69.43420561387751,
+          "acute_transmission_deg": 69.43420561387751,
+          "horn_deg_per_output_deg": -1.107864799458902,
+          "output_deg_per_horn_deg": -0.9026372175453315,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 12.0,
+          "horn_deg": -13.723359848981147,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 70.02677144595826,
+          "acute_transmission_deg": 70.02677144595826,
+          "horn_deg_per_output_deg": -1.1055680419191916,
+          "output_deg_per_horn_deg": -0.9045123973229793,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 12.5,
+          "horn_deg": -14.275587491918412,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 70.61693054096754,
+          "acute_transmission_deg": 70.61693054096754,
+          "horn_deg_per_output_deg": -1.103356399075217,
+          "output_deg_per_horn_deg": -0.9063254636834973,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 13.0,
+          "horn_deg": -14.826729809176811,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 71.20472692737495,
+          "acute_transmission_deg": 71.20472692737495,
+          "horn_deg_per_output_deg": -1.1012261287515202,
+          "output_deg_per_horn_deg": -0.9080787078070133,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 13.5,
+          "horn_deg": -15.376826584083732,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 71.7902026524855,
+          "acute_transmission_deg": 71.7902026524855,
+          "horn_deg_per_output_deg": -1.0991736441967603,
+          "output_deg_per_horn_deg": -0.9097743612027441,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 14.0,
+          "horn_deg": -15.925915843370058,
+          "closure_mm": 0.0,
+          "transmission_deg": 72.37339786995021,
+          "acute_transmission_deg": 72.37339786995021,
+          "horn_deg_per_output_deg": -1.097195504256021,
+          "output_deg_per_horn_deg": -0.9114145985113867,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 14.5,
+          "horn_deg": -16.474033927473037,
+          "closure_mm": 0.0,
+          "transmission_deg": 72.95435092175845,
+          "acute_transmission_deg": 72.95435092175845,
+          "horn_deg_per_output_deg": -1.0952884033503807,
+          "output_deg_per_horn_deg": -0.9130015409102272,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 15.0,
+          "horn_deg": -17.021215556292198,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 73.53309841510983,
+          "acute_transmission_deg": 73.53309841510983,
+          "horn_deg_per_output_deg": -1.0934491636014343,
+          "output_deg_per_horn_deg": -0.9145372581440862,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 15.5,
+          "horn_deg": -17.567493890712466,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 74.10967529452192,
+          "acute_transmission_deg": 74.10967529452192,
+          "horn_deg_per_output_deg": -1.091674725453018,
+          "output_deg_per_horn_deg": -0.9160237721772159,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 16.0,
+          "horn_deg": -18.112900590185543,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 74.68411490950413,
+          "acute_transmission_deg": 74.68411490950413,
+          "horn_deg_per_output_deg": -1.089962141421097,
+          "output_deg_per_horn_deg": -0.917463058575774,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 16.5,
+          "horn_deg": -18.65746586663615,
+          "closure_mm": 0.0,
+          "transmission_deg": 75.25644907809979,
+          "acute_transmission_deg": 75.25644907809979,
+          "horn_deg_per_output_deg": -1.0883085678372595,
+          "output_deg_per_horn_deg": -0.918857049878096,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 17.0,
+          "horn_deg": -19.201218534940757,
+          "closure_mm": 0.0,
+          "transmission_deg": 75.82670814657745,
+          "acute_transmission_deg": 75.82670814657745,
+          "horn_deg_per_output_deg": -1.0867112590293715,
+          "output_deg_per_horn_deg": -0.9202076372091513,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 17.5,
+          "horn_deg": -19.7441860601975,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 76.3949210455201,
+          "acute_transmission_deg": 76.3949210455201,
+          "horn_deg_per_output_deg": -1.085167560528788,
+          "output_deg_per_horn_deg": -0.9215166729760269,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 18.0,
+          "horn_deg": -20.28639460200221,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 76.96111534255517,
+          "acute_transmission_deg": 76.96111534255517,
+          "horn_deg_per_output_deg": -1.0836749038780624,
+          "output_deg_per_horn_deg": -0.9227859724548186,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 18.5,
+          "horn_deg": -20.827869055912952,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 77.52531729193366,
+          "acute_transmission_deg": 77.52531729193366,
+          "horn_deg_per_output_deg": -1.082230800681927,
+          "output_deg_per_horn_deg": -0.9240173162414964,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 19.0,
+          "horn_deg": -21.368633092288103,
+          "closure_mm": 0.0,
+          "transmission_deg": 78.08755188116672,
+          "acute_transmission_deg": 78.08755188116672,
+          "horn_deg_per_output_deg": -1.080832837653034,
+          "output_deg_per_horn_deg": -0.925212452067465,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 19.5,
+          "horn_deg": -21.908709192650925,
+          "closure_mm": 0.0,
+          "transmission_deg": 78.64784287489529,
+          "acute_transmission_deg": 78.64784287489529,
+          "horn_deg_per_output_deg": -1.0794786717784888,
+          "output_deg_per_horn_deg": -0.9263730967027406,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 20.0,
+          "horn_deg": -22.448118683736478,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 79.20621285616792,
+          "acute_transmission_deg": 79.20621285616792,
+          "horn_deg_per_output_deg": -1.0781660262395576,
+          "output_deg_per_horn_deg": -0.9275009373907039,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 20.5,
+          "horn_deg": -22.986881769358064,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 79.76268326528387,
+          "acute_transmission_deg": 79.76268326528387,
+          "horn_deg_per_output_deg": -1.076892685562214,
+          "output_deg_per_horn_deg": -0.9285976341068092,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 21.0,
+          "horn_deg": -23.525017560218835,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 80.31727443634337,
+          "acute_transmission_deg": 80.31727443634337,
+          "horn_deg_per_output_deg": -1.0756564921745593,
+          "output_deg_per_horn_deg": -0.9296648207629824,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 21.5,
+          "horn_deg": -24.062544101789467,
+          "closure_mm": 0.0,
+          "transmission_deg": 80.87000563164284,
+          "acute_transmission_deg": 80.87000563164284,
+          "horn_deg_per_output_deg": -1.0744553421879743,
+          "output_deg_per_horn_deg": -0.9307041072210999,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 22.0,
+          "horn_deg": -24.59947840036262,
+          "closure_mm": 0.0,
+          "transmission_deg": 81.42089507404056,
+          "acute_transmission_deg": 81.42089507404056,
+          "horn_deg_per_output_deg": -1.0732871818674994,
+          "output_deg_per_horn_deg": -0.9317170808469164,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 22.5,
+          "horn_deg": -25.135836447380523,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 81.9699599774023,
+          "acute_transmission_deg": 81.9699599774023,
+          "horn_deg_per_output_deg": -1.0721500051769084,
+          "output_deg_per_horn_deg": -0.9327053072531549,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 23.0,
+          "horn_deg": -25.671633242137638,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 82.51721657524286,
+          "acute_transmission_deg": 82.51721657524286,
+          "horn_deg_per_output_deg": -1.0710418492667628,
+          "output_deg_per_horn_deg": -0.9336703329422672,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 23.5,
+          "horn_deg": -26.206882812938847,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 83.06268014765502,
+          "acute_transmission_deg": 83.06268014765502,
+          "horn_deg_per_output_deg": -1.0699607923694288,
+          "output_deg_per_horn_deg": -0.9346136859702115,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 24.0,
+          "horn_deg": -26.74159823679937,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 83.60636504662341,
+          "acute_transmission_deg": 83.60636504662341,
+          "horn_deg_per_output_deg": -1.0689049506016346,
+          "output_deg_per_horn_deg": -0.9355368776589056,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 24.5,
+          "horn_deg": -27.27579165775925,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 84.14828471980682,
+          "acute_transmission_deg": 84.14828471980682,
+          "horn_deg_per_output_deg": -1.0678724754686897,
+          "output_deg_per_horn_deg": -0.936441403793182,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 25.0,
+          "horn_deg": -27.80947430388519,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 84.68845173287082,
+          "acute_transmission_deg": 84.68845173287082,
+          "horn_deg_per_output_deg": -1.066861551199949,
+          "output_deg_per_horn_deg": -0.9373287460544935,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 25.5,
+          "horn_deg": -28.342656503020816,
+          "closure_mm": 0.0,
+          "transmission_deg": 85.22687779044104,
+          "acute_transmission_deg": 85.22687779044104,
+          "horn_deg_per_output_deg": -1.0658703922352686,
+          "output_deg_per_horn_deg": -0.9382003734083186,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 26.0,
+          "horn_deg": -28.875347697351685,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 85.76357375575176,
+          "acute_transmission_deg": 85.76357375575176,
+          "horn_deg_per_output_deg": -1.0648972412017343,
+          "output_deg_per_horn_deg": -0.9390577431410209,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 26.5,
+          "horn_deg": -29.40755645683687,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 86.29854966904927,
+          "acute_transmission_deg": 86.29854966904927,
+          "horn_deg_per_output_deg": -1.063940366375249,
+          "output_deg_per_horn_deg": -0.9399023024259451,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 27.0,
+          "horn_deg": -29.93929049156372,
+          "closure_mm": 0.0,
+          "transmission_deg": 86.83181476481388,
+          "acute_transmission_deg": 86.83181476481388,
+          "horn_deg_per_output_deg": -1.0629980594352162,
+          "output_deg_per_horn_deg": -0.9407354897066437,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 27.5,
+          "horn_deg": -30.470556663072063,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 87.36337748785361,
+          "acute_transmission_deg": 87.36337748785361,
+          "horn_deg_per_output_deg": -1.0620686341447083,
+          "output_deg_per_horn_deg": -0.9415587353309868,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 28.0,
+          "horn_deg": -31.00136099469432,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 87.89324550832231,
+          "acute_transmission_deg": 87.89324550832231,
+          "horn_deg_per_output_deg": -1.0611504235811253,
+          "output_deg_per_horn_deg": -0.942373463533325,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 28.5,
+          "horn_deg": -31.53170868095776,
+          "closure_mm": 0.0,
+          "transmission_deg": 88.42142573571418,
+          "acute_transmission_deg": 88.42142573571418,
+          "horn_deg_per_output_deg": -1.0602417793101893,
+          "output_deg_per_horn_deg": -0.9431810927603858,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 29.0,
+          "horn_deg": -32.061604096082824,
+          "closure_mm": 0.0,
+          "transmission_deg": 88.94792433187457,
+          "acute_transmission_deg": 88.94792433187457,
+          "horn_deg_per_output_deg": -1.0593410682453452,
+          "output_deg_per_horn_deg": -0.9439830381128944,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 29.5,
+          "horn_deg": -32.59105080162032,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 89.47274672307388,
+          "acute_transmission_deg": 89.47274672307388,
+          "horn_deg_per_output_deg": -1.0584466722853847,
+          "output_deg_per_horn_deg": -0.9447807113803973,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 30.0,
+          "horn_deg": -33.1200515532598,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 89.99589761118304,
+          "acute_transmission_deg": 89.99589761118304,
+          "horn_deg_per_output_deg": -1.0575569860584721,
+          "output_deg_per_horn_deg": -0.9455755228160444,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 30.5,
+          "horn_deg": -33.648608306841226,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 90.51738098398587,
+          "acute_transmission_deg": 89.48261901601413,
+          "horn_deg_per_output_deg": -1.0566704151919737,
+          "output_deg_per_horn_deg": -0.9463688825037484,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 31.0,
+          "horn_deg": -34.17672222360269,
+          "closure_mm": 0.0,
+          "transmission_deg": 91.03720012466601,
+          "acute_transmission_deg": 88.96279987533399,
+          "horn_deg_per_output_deg": -1.0557853754349367,
+          "output_deg_per_horn_deg": -0.9471622010184072,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 31.5,
+          "horn_deg": -34.70439367469134,
+          "closure_mm": 0.0,
+          "transmission_deg": 91.55535762049865,
+          "acute_transmission_deg": 88.44464237950135,
+          "horn_deg_per_output_deg": -1.0549002905015925,
+          "output_deg_per_horn_deg": -0.9479568912854427,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 32.0,
+          "horn_deg": -35.231622244962914,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 92.07185537077704,
+          "acute_transmission_deg": 87.92814462922296,
+          "horn_deg_per_output_deg": -1.0540135911405457,
+          "output_deg_per_horn_deg": -0.948754369398503,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 32.5,
+          "horn_deg": -35.758406736097676,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 92.58669459400369,
+          "acute_transmission_deg": 87.41330540599631,
+          "horn_deg_per_output_deg": -1.0531237137207938,
+          "output_deg_per_horn_deg": -0.9495560559232853,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 33.0,
+          "horn_deg": -36.28474516905457,
+          "closure_mm": 0.0,
+          "transmission_deg": 93.09987583437226,
+          "acute_transmission_deg": 86.90012416562774,
+          "horn_deg_per_output_deg": -1.0522290988532745,
+          "output_deg_per_horn_deg": -0.9503633772244142,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 33.5,
+          "horn_deg": -36.810634785886066,
+          "closure_mm": 0.0,
+          "transmission_deg": 93.6113989675646,
+          "acute_transmission_deg": 86.3886010324354,
+          "horn_deg_per_output_deg": -1.0513281899449112,
+          "output_deg_per_horn_deg": -0.9511777669087321,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 34.0,
+          "horn_deg": -37.33607205093392,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 94.12126320588632,
+          "acute_transmission_deg": 85.87873679411368,
+          "horn_deg_per_output_deg": -1.0504194326479421,
+          "output_deg_per_horn_deg": -0.9520006665139061,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 34.5,
+          "horn_deg": -37.861052651425915,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 94.62946710276296,
+          "acute_transmission_deg": 85.37053289723704,
+          "horn_deg_per_output_deg": -1.0495012726714492,
+          "output_deg_per_horn_deg": -0.952833527733181,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 35.0,
+          "horn_deg": -38.385571497490986,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 95.13600855661682,
+          "acute_transmission_deg": 84.86399144338318,
+          "horn_deg_per_output_deg": -1.04857215565346,
+          "output_deg_per_horn_deg": -0.9536778128318787,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 35.5,
+          "horn_deg": -38.909622721610816,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 95.64088481414437,
+          "acute_transmission_deg": 84.35911518585563,
+          "horn_deg_per_output_deg": -1.0476305253668272,
+          "output_deg_per_horn_deg": -0.9545349966295136,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 36.0,
+          "horn_deg": -39.43319967752429,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 96.14409247301253,
+          "acute_transmission_deg": 83.85590752698747,
+          "horn_deg_per_output_deg": -1.046674822728022,
+          "output_deg_per_horn_deg": -0.9554065678140894,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 36.5,
+          "horn_deg": -39.9562949385991,
+          "closure_mm": 0.0,
+          "transmission_deg": 96.64562748398974,
+          "acute_transmission_deg": 83.35437251601026,
+          "horn_deg_per_output_deg": -1.045703485246463,
+          "output_deg_per_horn_deg": -0.9562940299126084,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 37.0,
+          "horn_deg": -40.47890029568487,
+          "closure_mm": 0.0,
+          "transmission_deg": 97.14548515252748,
+          "acute_transmission_deg": 82.85451484747252,
+          "horn_deg_per_output_deg": -1.0447149450847348,
+          "output_deg_per_horn_deg": -0.9571989035907703,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 37.5,
+          "horn_deg": -41.00100675446355,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 97.64366013981008,
+          "acute_transmission_deg": 82.35633986018992,
+          "horn_deg_per_output_deg": -1.0437076291722747,
+          "output_deg_per_horn_deg": -0.9581227271406098,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 38.0,
+          "horn_deg": -41.52260453230738,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 98.14014646328441,
+          "acute_transmission_deg": 81.85985353671559,
+          "horn_deg_per_output_deg": -1.0426799573473033,
+          "output_deg_per_horn_deg": -0.9590670588356891,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 38.5,
+          "horn_deg": -42.0436830546593,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 98.63493749668334,
+          "acute_transmission_deg": 81.36506250331666,
+          "horn_deg_per_output_deg": -1.041630341987343,
+          "output_deg_per_horn_deg": -0.960033477991899,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 39.0,
+          "horn_deg": -42.564230950945934,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 99.12802596955743,
+          "acute_transmission_deg": 80.87197403044257,
+          "horn_deg_per_output_deg": -1.0405571864033902,
+          "output_deg_per_horn_deg": -0.9610235872344766,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 39.5,
+          "horn_deg": -43.08423605003448,
+          "closure_mm": 0.0,
+          "transmission_deg": 99.61940396632406,
+          "acute_transmission_deg": 80.38059603367594,
+          "horn_deg_per_output_deg": -1.039458884537936,
+          "output_deg_per_horn_deg": -0.9620390136397974,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 40.0,
+          "horn_deg": -43.603685375247565,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 100.10906292485028,
+          "acute_transmission_deg": 79.89093707514972,
+          "horn_deg_per_output_deg": -1.0383338205670611,
+          "output_deg_per_horn_deg": -0.9630814100362001,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 40.5,
+          "horn_deg": -44.12256513894184,
+          "closure_mm": 0.0,
+          "transmission_deg": 100.59699363457524,
+          "acute_transmission_deg": 79.40300636542476,
+          "horn_deg_per_output_deg": -1.0371803662572177,
+          "output_deg_per_horn_deg": -0.9641524584664216,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 41.0,
+          "horn_deg": -44.640860736662276,
+          "closure_mm": 0.0,
+          "transmission_deg": 101.08318623418471,
+          "acute_transmission_deg": 78.91681376581529,
+          "horn_deg_per_output_deg": -1.035996882265522,
+          "output_deg_per_horn_deg": -0.9652538700823078,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 41.5,
+          "horn_deg": -45.15855674088719,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 101.5676302088521,
+          "acute_transmission_deg": 78.4323697911479,
+          "horn_deg_per_output_deg": -1.034781715627986,
+          "output_deg_per_horn_deg": -0.9663873886611171,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 42.0,
+          "horn_deg": -45.675636894362974,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 102.05031438704718,
+          "acute_transmission_deg": 77.94968561295282,
+          "horn_deg_per_output_deg": -1.033533200438086,
+          "output_deg_per_horn_deg": -0.9675547912501774,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 42.5,
+          "horn_deg": -46.19208410305152,
+          "closure_mm": 0.0,
+          "transmission_deg": 102.53122693693297,
+          "acute_transmission_deg": 77.46877306306703,
+          "horn_deg_per_output_deg": -1.0322496552319649,
+          "output_deg_per_horn_deg": -0.9687578919803874,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 43.0,
+          "horn_deg": -46.707880428686416,
+          "closure_mm": 0.0,
+          "transmission_deg": 103.01035536234839,
+          "acute_transmission_deg": 76.98964463765161,
+          "horn_deg_per_output_deg": -1.030929384185697,
+          "output_deg_per_horn_deg": -0.9699985424218679,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 43.5,
+          "horn_deg": -47.223007080959235,
+          "closure_mm": 0.0,
+          "transmission_deg": 103.48768649839774,
+          "acute_transmission_deg": 76.51231350160226,
+          "horn_deg_per_output_deg": -1.0295706749907652,
+          "output_deg_per_horn_deg": -0.971278635154376,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 44.0,
+          "horn_deg": -47.737444409337236,
+          "closure_mm": 0.0,
+          "transmission_deg": 103.96320650664664,
+          "acute_transmission_deg": 76.03679349335336,
+          "horn_deg_per_output_deg": -1.028171798900246,
+          "output_deg_per_horn_deg": -0.9726001054197566,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 44.5,
+          "horn_deg": -48.251171894526756,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 104.43690086993993,
+          "acute_transmission_deg": 75.56309913006007,
+          "horn_deg_per_output_deg": -1.0267310096665483,
+          "output_deg_per_horn_deg": -0.9739649339360757,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 45.0,
+          "horn_deg": -48.76416813958911,
+          "closure_mm": 0.0,
+          "transmission_deg": 104.90875438684598,
+          "acute_transmission_deg": 75.09124561315402,
+          "horn_deg_per_output_deg": -1.0252465429196889,
+          "output_deg_per_horn_deg": -0.9753751494271885,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 45.5,
+          "horn_deg": -49.27641086072211,
+          "closure_mm": 0.0,
+          "transmission_deg": 105.37875116574145,
+          "acute_transmission_deg": 74.62124883425855,
+          "horn_deg_per_output_deg": -1.0237166152045063,
+          "output_deg_per_horn_deg": -0.9768328316134944,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 46.0,
+          "horn_deg": -49.787876877714375,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 105.84687461854126,
+          "acute_transmission_deg": 74.15312538145874,
+          "horn_deg_per_output_deg": -1.0221394242933002,
+          "output_deg_per_horn_deg": -0.9783401131322107,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 46.5,
+          "horn_deg": -50.29854210408425,
+          "closure_mm": 0.0,
+          "transmission_deg": 106.31310745408545,
+          "acute_transmission_deg": 73.68689254591455,
+          "horn_deg_per_output_deg": -1.0205131473455253,
+          "output_deg_per_horn_deg": -0.9798991836617857,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 47.0,
+          "horn_deg": -50.80838153691735,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 106.7774316711948,
+          "acute_transmission_deg": 73.2225683288052,
+          "horn_deg_per_output_deg": -1.0188359410712167,
+          "output_deg_per_horn_deg": -0.9815122923015335,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 47.5,
+          "horn_deg": -51.3173692464067,
+          "closure_mm": 0.0,
+          "transmission_deg": 107.23982855139944,
+          "acute_transmission_deg": 72.76017144860056,
+          "horn_deg_per_output_deg": -1.0171059413544015,
+          "output_deg_per_horn_deg": -0.9831817506329549,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 48.0,
+          "horn_deg": -51.82547836511675,
+          "closure_mm": 0.0,
+          "transmission_deg": 107.70027865135832,
+          "acute_transmission_deg": 72.29972134864168,
+          "horn_deg_per_output_deg": -1.0153212617929341,
+          "output_deg_per_horn_deg": -0.9849099370125681,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 48.5,
+          "horn_deg": -52.332681076976385,
+          "closure_mm": 0.0,
+          "transmission_deg": 108.15876179497394,
+          "acute_transmission_deg": 71.84123820502606,
+          "horn_deg_per_output_deg": -1.0134799940075823,
+          "output_deg_per_horn_deg": -0.986699299357377,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 49.0,
+          "horn_deg": -52.83894860601829,
+          "closure_mm": 0.0,
+          "transmission_deg": 108.61525706521815,
+          "acute_transmission_deg": 71.38474293478185,
+          "horn_deg_per_output_deg": -1.0115802067112156,
+          "output_deg_per_horn_deg": -0.9885523593340517,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 49.5,
+          "horn_deg": -53.34425120487767,
+          "closure_mm": 0.0,
+          "transmission_deg": 109.06974279567903,
+          "acute_transmission_deg": 70.93025720432097,
+          "horn_deg_per_output_deg": -1.0096199455205124,
+          "output_deg_per_horn_deg": -0.9904717160519716,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 50.0,
+          "horn_deg": -53.848558143064615,
+          "closure_mm": 4.263256414560601e-14,
+          "transmission_deg": 109.52219656184145,
+          "acute_transmission_deg": 70.47780343815855,
+          "horn_deg_per_output_deg": -1.0075972323839721,
+          "output_deg_per_horn_deg": -0.9924600503655641,
+          "within_soft_limits": true
+        },
+        {
+          "output_deg": 50.5,
+          "horn_deg": -54.35183769502615,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 109.97259517211558,
+          "acute_transmission_deg": 70.02740482788442,
+          "horn_deg_per_output_deg": -1.0055100648713733,
+          "output_deg_per_horn_deg": -0.9945201295701818,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 51.0,
+          "horn_deg": -54.854057128017715,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 110.42091465862916,
+          "acute_transmission_deg": 69.57908534137084,
+          "horn_deg_per_output_deg": -1.003356416692469,
+          "output_deg_per_horn_deg": -0.996654811155209,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 51.5,
+          "horn_deg": -55.35518268979407,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 110.86713026779131,
+          "acute_transmission_deg": 69.13286973220869,
+          "horn_deg_per_output_deg": -1.0011342360627395,
+          "output_deg_per_horn_deg": -0.9988670489711746,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 52.0,
+          "horn_deg": -55.85517959614961,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 111.31121645065573,
+          "acute_transmission_deg": 68.68878354934427,
+          "horn_deg_per_output_deg": -0.9988414467088091,
+          "output_deg_per_horn_deg": -1.0011598970937863,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 52.5,
+          "horn_deg": -56.354012018319786,
+          "closure_mm": 2.842170943040401e-14,
+          "transmission_deg": 111.75314685309051,
+          "acute_transmission_deg": 68.24685314690949,
+          "horn_deg_per_output_deg": -0.9964759469269779,
+          "output_deg_per_horn_deg": -1.0035365159428984,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 53.0,
+          "horn_deg": -56.85164307026785,
+          "closure_mm": 0.0,
+          "transmission_deg": 112.19289430577516,
+          "acute_transmission_deg": 67.80710569422484,
+          "horn_deg_per_output_deg": -0.994035609142685,
+          "output_deg_per_horn_deg": -1.0060001782657053,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 53.5,
+          "horn_deg": -57.348034795882924,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 112.63043081404881,
+          "acute_transmission_deg": 67.36956918595119,
+          "horn_deg_per_output_deg": -0.991518280621051,
+          "output_deg_per_horn_deg": -1.0085542743333349,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 54.0,
+          "horn_deg": -57.84314815611057,
+          "closure_mm": 0.0,
+          "transmission_deg": 113.06572754762514,
+          "acute_transmission_deg": 66.93427245237486,
+          "horn_deg_per_output_deg": -0.9889217822411922,
+          "output_deg_per_horn_deg": -1.011202319493561,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 54.5,
+          "horn_deg": -58.3369430160427,
+          "closure_mm": 1.4210854715202004e-14,
+          "transmission_deg": 113.4987548301972,
+          "acute_transmission_deg": 66.5012451698028,
+          "horn_deg_per_output_deg": -0.9862439098498044,
+          "output_deg_per_horn_deg": -1.0139479595390257,
+          "within_soft_limits": false
+        },
+        {
+          "output_deg": 55.0,
+          "horn_deg": -58.82937813199871,
+          "closure_mm": 0.0,
+          "transmission_deg": 113.92948212895945,
+          "acute_transmission_deg": 66.07051787104055,
+          "horn_deg_per_output_deg": -0.983482432481253,
+          "output_deg_per_horn_deg": -1.01679497973042,
+          "within_soft_limits": false
+        }
+      ]
+    }
+  },
+  "gaze_convention": "Positive mechanical yaw looks+X; positive mechanical pitch looks down(-Z). Gaze=[sin(yaw),-cos(yaw)cos(pitch),-cos(yaw)sin(pitch)]. Servo pulse signs calibrated separately.",
+  "limitations": [
+    "Nominal rigid planar model; hole-axis alignment and measured horn radius required.",
+    "Does not validate printed pin clearance, fastener/tool access, friction, backlash, load, collisions or hardware fit.",
+    "A separate full geometry sweep is required."
+  ]
+}

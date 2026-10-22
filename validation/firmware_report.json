@@ -1,0 +1,92 @@
+{
+  "revision": "1.0.0",
+  "status": "DIGITAL_CHECKS_PASSED_PHYSICAL_COMMISSIONING_REQUIRED",
+  "physical_tested": false,
+  "flashed": false,
+  "build": {
+    "passed": true,
+    "cli": "1.5.1",
+    "core": "esp32:esp32@2.0.17",
+    "fqbn": "esp32:esp32:esp32",
+    "external_libraries": [],
+    "flash_bytes": 282509,
+    "global_ram_bytes": 21944,
+    "log": "firmware_compile.log"
+  },
+  "host_tests": {
+    "passed": true,
+    "assertions": 5446,
+    "suites": [
+      {
+        "suite": "motion",
+        "assertions": 5364,
+        "passed": true
+      },
+      {
+        "suite": "sketch_mock",
+        "assertions": 82,
+        "passed": true
+      }
+    ]
+  },
+  "default_outputs": "OFF",
+  "calibration_measured": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "mechanical_review_accepted": false,
+  "pin_map": {
+    "sda": 21,
+    "scl": 22,
+    "oe": 27,
+    "pca_address": "0x40",
+    "i2s_bclk": 26,
+    "i2s_ws": 25,
+    "i2s_mic_sd": 34,
+    "i2s_amp_din": 32
+  },
+  "channels": {
+    "0": "linked_eye_yaw",
+    "1": "jaw",
+    "2": "linked_eye_pitch",
+    "3": "left_upper_lid",
+    "4": "right_upper_lid"
+  },
+  "fault_checks": [
+    "command lease >3000 ms",
+    "loop gap >100 ms",
+    "I2C NACK/readback mismatch",
+    "PCA MODE1 AI/SLEEP mismatch",
+    "PCA MODE2 mismatch",
+    "PCA prescale change",
+    "invalid target/command",
+    "line overflow",
+    "task watchdog reset"
+  ],
+  "limits": {
+    "firmware_commands": "measured pulse space, no angle conversion",
+    "commission_default_us": [
+      1400,
+      1600
+    ],
+    "commission_speed_us_per_second": 20,
+    "commission_acceleration_us_per_second2": 40
+  },
+  "unresolved": [
+    "Actual servo markings sg950/mg950, dimensions, voltage, current and spline",
+    "Actuator supply identity/capacity and protection wire/fuse/connector ratings",
+    "Physical neutral/endpoints and combined motion clearance",
+    "PCA oscillator measured frequency and real OE/reset timing",
+    "Original R4 motion/voice sources absent; no voice integration",
+    "No live I2C/audio/motion/electrical test"
+  ],
+  "source_sha256": {
+    "firmware/Mimic_R5a/Calibration.h": "9d347816f72793ebd45a8b8175b27fd278ec006599cb62bc457b4f5a09bfc5c1",
+    "firmware/Mimic_R5a/Mimic_R5a.ino": "3b0a855eeac836024a0518df209d30a92949d20c227e09cff455999eab725c21",
+    "firmware/Mimic_R5a/MotionCore.h": "70429c6ca7814b30cc135acf336508dfe72acd48a4bdb18c101853196958b891",
+    "firmware/Mimic_R5a/PinMap.h": "6346381599093fc91793b07a2a0caf464d7cc48722100fddbcaa842c79952e18"
+  }
+}

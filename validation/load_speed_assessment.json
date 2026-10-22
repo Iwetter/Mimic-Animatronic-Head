@@ -1,0 +1,590 @@
+{
+  "revision": "R5a-E1",
+  "physical_tested": false,
+  "status": "CONDITIONAL ANALYTICAL SCREEN; servo capacity and printed strength unverified",
+  "assumptions": {
+    "solid_PLA_density_g_cm3": 1.25,
+    "output_angular_acceleration_deg_s2": 180,
+    "sizing_heuristic": "Rated stall at least 4x screened demand; heuristic for design comparison, not continuous-duty guarantee",
+    "friction_reserve_Nm": "0.010 jaw/pitch; 0.005 lid/yaw; chosen allowance, not measured"
+  },
+  "mass": [
+    {
+      "id": "P01",
+      "qty": 1,
+      "solid_mass_g": 49.6052562991182,
+      "centre_mm": [
+        8.158544190461023e-14,
+        17.61304621444895,
+        -44.87667447616138
+      ],
+      "size_mm": [
+        60.0,
+        52.0,
+        42.0
+      ]
+    },
+    {
+      "id": "P03",
+      "qty": 1,
+      "solid_mass_g": 75.49595462425991,
+      "centre_mm": [
+        -3.6848556096726297e-14,
+        3.4862908437821494,
+        -18.07873947106078
+      ],
+      "size_mm": [
+        96.0,
+        61.0,
+        55.0
+      ]
+    },
+    {
+      "id": "P20",
+      "qty": 1,
+      "solid_mass_g": 65.73905979233446,
+      "centre_mm": [
+        0.09943899432399807,
+        19.237751429811198,
+        3.0000000000000018
+      ],
+      "size_mm": [
+        136.0,
+        86.0,
+        6.0
+      ]
+    },
+    {
+      "id": "P21",
+      "qty": 1,
+      "solid_mass_g": 51.283151540237554,
+      "centre_mm": [
+        -70.93999650145824,
+        20.667809215913508,
+        73.40070623018558
+      ],
+      "size_mm": [
+        19.0,
+        101.0,
+        128.00000000000173
+      ]
+    },
+    {
+      "id": "P22",
+      "qty": 1,
+      "solid_mass_g": 51.69083118476493,
+      "centre_mm": [
+        70.89086140874802,
+        20.70004536508724,
+        73.27717396913297
+      ],
+      "size_mm": [
+        19.0,
+        101.0,
+        128.00000000000173
+      ]
+    },
+    {
+      "id": "P23",
+      "qty": 1,
+      "solid_mass_g": 39.38685731748559,
+      "centre_mm": [
+        -76.4756544966486,
+        10.961177817798644,
+        139.81013118317617
+      ],
+      "size_mm": [
+        8.5,
+        140.1689453125,
+        69.01562500000007
+      ]
+    },
+    {
+      "id": "P24",
+      "qty": 1,
+      "solid_mass_g": 39.386857317485294,
+      "centre_mm": [
+        76.4756544966486,
+        10.961177817797717,
+        139.8101311831763
+      ],
+      "size_mm": [
+        8.5,
+        140.1689453125,
+        69.01562500000007
+      ]
+    },
+    {
+      "id": "P25",
+      "qty": 1,
+      "solid_mass_g": 15.127551977973283,
+      "centre_mm": [
+        -7.27933594451996e-09,
+        -44.99243343004367,
+        177.93435201829485
+      ],
+      "size_mm": [
+        148.0,
+        8.000000100003547,
+        48.54960937500019
+      ]
+    },
+    {
+      "id": "P26",
+      "qty": 1,
+      "solid_mass_g": 18.863156315070437,
+      "centre_mm": [
+        -5.455732159797934e-09,
+        2.0095539836584653,
+        193.19891505528008
+      ],
+      "size_mm": [
+        148.0,
+        8.000000200001757,
+        76.79169564604649
+      ]
+    },
+    {
+      "id": "P27",
+      "qty": 1,
+      "solid_mass_g": 17.667434523911606,
+      "centre_mm": [
+        -5.982661091626704e-09,
+        51.998901808235715,
+        187.91512404665087
+      ],
+      "size_mm": [
+        148.0,
+        8.000000100003817,
+        66.69999999999999
+      ]
+    },
+    {
+      "id": "P28",
+      "qty": 1,
+      "solid_mass_g": 8.202595179701985,
+      "centre_mm": [
+        4.21652519796176e-08,
+        12.956082700791645,
+        210.30696633649976
+      ],
+      "size_mm": [
+        6.00000000000031,
+        129.11230468750125,
+        55.6298828125
+      ]
+    },
+    {
+      "id": "P29",
+      "qty": 1,
+      "solid_mass_g": 31.8159267906616,
+      "centre_mm": [
+        2.145140065806599e-12,
+        -59.71049016650782,
+        110.14345138504277
+      ],
+      "size_mm": [
+        158.00000000000404,
+        4.5,
+        83.0555555555557
+      ]
+    },
+    {
+      "id": "P30",
+      "qty": 1,
+      "solid_mass_g": 3.447355351214743,
+      "centre_mm": [
+        -63.79012536204557,
+        -37.23762193831978,
+        89.0128081148534
+      ],
+      "size_mm": [
+        20.695652173915065,
+        50.0,
+        15.0
+      ]
+    },
+    {
+      "id": "P31",
+      "qty": 1,
+      "solid_mass_g": 3.447355351215313,
+      "centre_mm": [
+        63.790125362045636,
+        -37.23762193832027,
+        89.0128081148536
+      ],
+      "size_mm": [
+        20.695652173916336,
+        50.0,
+        15.0
+      ]
+    },
+    {
+      "id": "P32",
+      "qty": 1,
+      "solid_mass_g": 17.096777465287417,
+      "centre_mm": [
+        -1.177665209826306e-11,
+        -38.221357260884915,
+        60.15853433052938
+      ],
+      "size_mm": [
+        136.0,
+        58.000000000008754,
+        18.5
+      ]
+    },
+    {
+      "id": "P33",
+      "qty": 1,
+      "solid_mass_g": 47.48699963632556,
+      "centre_mm": [
+        0.5510710565427153,
+        -28.00133372554105,
+        30.067112085826583
+      ],
+      "size_mm": [
+        129.0,
+        95.50000000000037,
+        59.00000000001728
+      ]
+    },
+    {
+      "id": "P34",
+      "qty": 2,
+      "solid_mass_g": 7.461820806935057,
+      "centre_mm": [
+        -33.75000001023694,
+        -36.64535963204936,
+        114.75339379058308
+      ],
+      "size_mm": [
+        31.92428542661,
+        29.338409953680536,
+        26.416743457555853
+      ]
+    },
+    {
+      "id": "P35",
+      "qty": 2,
+      "solid_mass_g": 0.2188433442490704,
+      "centre_mm": [
+        -33.749999999999986,
+        -49.849999999999994,
+        112.5000000000001
+      ],
+      "size_mm": [
+        14.0,
+        1.2000000000000028,
+        14.0
+      ]
+    },
+    {
+      "id": "P36",
+      "qty": 1,
+      "solid_mass_g": 39.72868821847359,
+      "centre_mm": [
+        -1.0038312974443022,
+        -30.328541591917563,
+        78.65493191618464
+      ],
+      "size_mm": [
+        136.0000002,
+        46.0,
+        54.317693136139994
+      ]
+    },
+    {
+      "id": "P37",
+      "qty": 2,
+      "solid_mass_g": 0.5316275820317078,
+      "centre_mm": [
+        -33.75000007508315,
+        -32.12649337840593,
+        90.67702208470145
+      ],
+      "size_mm": [
+        10.000000200000002,
+        20.5000001,
+        3.8000001999999853
+      ]
+    },
+    {
+      "id": "P38",
+      "qty": 2,
+      "solid_mass_g": 0.5579291991515472,
+      "centre_mm": [
+        -16.875000000000455,
+        -24.250000000000014,
+        87.0
+      ],
+      "size_mm": [
+        39.75,
+        6.0,
+        2.0
+      ]
+    },
+    {
+      "id": "P39",
+      "qty": 1,
+      "solid_mass_g": 2.7664797340256757,
+      "centre_mm": [
+        -34.64845304950804,
+        -41.71316525831758,
+        119.39571981452723
+      ],
+      "size_mm": [
+        38.599999999999994,
+        30.3,
+        25.799999999999983
+      ]
+    },
+    {
+      "id": "P40",
+      "qty": 1,
+      "solid_mass_g": 2.76647975611208,
+      "centre_mm": [
+        34.6484528750112,
+        -41.71316508453102,
+        119.3957199438407
+      ],
+      "size_mm": [
+        38.599999999999994,
+        30.3,
+        25.799999999999983
+      ]
+    },
+    {
+      "id": "P41",
+      "qty": 1,
+      "solid_mass_g": 38.40942569199161,
+      "centre_mm": [
+        -0.7881271184449726,
+        -1.997285080253329,
+        160.18837495061658
+      ],
+      "size_mm": [
+        148.0,
+        53.60847955711,
+        48.33576436351001
+      ]
+    },
+    {
+      "id": "P42",
+      "qty": 1,
+      "solid_mass_g": 2.037363061262934,
+      "centre_mm": [
+        0.022997819942896392,
+        -55.84876061978115,
+        53.55258616820911
+      ],
+      "size_mm": [
+        71.0,
+        25.995009015003284,
+        10.200000000001971
+      ]
+    },
+    {
+      "id": "P43",
+      "qty": 1,
+      "solid_mass_g": 1.9216557324395682,
+      "centre_mm": [
+        0.04951046346005013,
+        -54.67207743187586,
+        38.52512507895536
+      ],
+      "size_mm": [
+        69.0,
+        23.403773982410037,
+        9.500000000001997
+      ]
+    },
+    {
+      "id": "P44",
+      "qty": 1,
+      "solid_mass_g": 5.282308638428918,
+      "centre_mm": [
+        -48.511657610314586,
+        30.46051464338806,
+        30.506597546245864
+      ],
+      "size_mm": [
+        20.0,
+        39.0,
+        60.25
+      ]
+    },
+    {
+      "id": "P45",
+      "qty": 1,
+      "solid_mass_g": 14.832258184282388,
+      "centre_mm": [
+        -1.0750880417582387,
+        -22.088484925029036,
+        98.41844901003365
+      ],
+      "size_mm": [
+        130.0,
+        46.0,
+        24.000000000012946
+      ]
+    },
+    {
+      "id": "P46",
+      "qty": 1,
+      "solid_mass_g": 1.264598998939434,
+      "centre_mm": [
+        6.000000000000002,
+        -12.24999999999999,
+        144.49999999999926
+      ],
+      "size_mm": [
+        2.5,
+        6.0,
+        70.0
+      ]
+    },
+    {
+      "id": "P49",
+      "qty": 2,
+      "solid_mass_g": 1.2156791991515474,
+      "centre_mm": [
+        -58.49999999999999,
+        -26.44999999999999,
+        147.1999999999991
+      ],
+      "size_mm": [
+        2.0,
+        6.0,
+        83.6
+      ]
+    },
+    {
+      "id": "P90",
+      "qty": 1,
+      "solid_mass_g": 23.91431421955396,
+      "centre_mm": [
+        -0.30519579134983194,
+        -0.29109017279163624,
+        3.0
+      ],
+      "size_mm": [
+        80.0,
+        45.0,
+        6.0
+      ]
+    }
+  ],
+  "axes": [
+    {
+      "axis": "jaw",
+      "moving_solid_and_allowance_mass_g": 59.408655368765125,
+      "max_gravity_output_Nm": 0.02208818884005583,
+      "inertia_upper_bound_kgm2": 0.0008965333810604571,
+      "min_abs_motor_output_angle_ratio": 0.9999999999999716,
+      "motor_sweep_deg": 14.0,
+      "motor_speed_for_output_60_deg_s": 60.00000000000256,
+      "design_demand_Nm": 0.03490473152369338,
+      "conditional_minimum_rated_stall_Nm": 0.13961892609477353,
+      "conditional_minimum_rated_stall_kgcm": 1.423716825774077,
+      "assumptions": [
+        "P33",
+        "P43",
+        "10 g moving hardware budget"
+      ]
+    },
+    {
+      "axis": "pitch",
+      "moving_solid_and_allowance_mass_g": 87.37270004901715,
+      "max_gravity_output_Nm": 0.002931850929425863,
+      "inertia_upper_bound_kgm2": 0.00023070568244065804,
+      "min_abs_motor_output_angle_ratio": 1.7142867942150133,
+      "motor_sweep_deg": 41.76226375562582,
+      "motor_speed_for_output_60_deg_s": 109.147593036072,
+      "design_demand_Nm": 0.012066088061242396,
+      "conditional_minimum_rated_stall_Nm": 0.04826435224496958,
+      "conditional_minimum_rated_stall_kgcm": 0.4921594249307315,
+      "assumptions": [
+        "P34",
+        "P35",
+        "P37",
+        "P38",
+        "P45",
+        "25 g yaw servo/horn/cable budget",
+        "30 g shafts/collars/fasteners budget"
+      ]
+    },
+    {
+      "axis": "lid_L",
+      "moving_solid_and_allowance_mass_g": 7.766479734025676,
+      "max_gravity_output_Nm": 0.00024405088114226082,
+      "inertia_upper_bound_kgm2": 7.609278345711999e-06,
+      "min_abs_motor_output_angle_ratio": 1.0079384760288241,
+      "motor_sweep_deg": 53.848558143064714,
+      "motor_speed_for_output_60_deg_s": 71.72157043955842,
+      "design_demand_Nm": 0.005224163636504376,
+      "conditional_minimum_rated_stall_Nm": 0.020896654546017503,
+      "conditional_minimum_rated_stall_kgcm": 0.21308657437572975,
+      "assumptions": [
+        "P39",
+        "5 g linkage/hardware budget"
+      ]
+    },
+    {
+      "axis": "lid_R",
+      "moving_solid_and_allowance_mass_g": 7.766479756112081,
+      "max_gravity_output_Nm": 0.00024405088467378575,
+      "inertia_upper_bound_kgm2": 7.6092783738401e-06,
+      "min_abs_motor_output_angle_ratio": 1.0079384760288241,
+      "motor_sweep_deg": 53.848558143064714,
+      "motor_speed_for_output_60_deg_s": 71.72157043955842,
+      "design_demand_Nm": 0.005224163639532663,
+      "conditional_minimum_rated_stall_Nm": 0.020896654558130653,
+      "conditional_minimum_rated_stall_kgcm": 0.21308657449924953,
+      "assumptions": [
+        "P40",
+        "5 g linkage/hardware budget"
+      ]
+    },
+    {
+      "axis": "yaw",
+      "moving_solid_and_allowance_mass_g": 37.54044186473477,
+      "design_demand_Nm": 0.0070580188502174564,
+      "conditional_minimum_rated_stall_Nm": 0.028232075400869826,
+      "conditional_minimum_rated_stall_kgcm": 0.28788705012282306,
+      "motor_sweep_deg": 40,
+      "assumptions": [
+        "Both eyes, cranks and links; 20 g additional hardware allowance",
+        "35 mm inertia radius bound; 25 mm gravity offset at 12 degree pitch",
+        "1:1 equal-radius planar parallelograms"
+      ]
+    }
+  ],
+  "rod_buckling": [
+    {
+      "part": "P46 pitch pushrod",
+      "pinned_length_mm": 64,
+      "weak_axis_I_mm4": 7.8125,
+      "assumed_effective_modulus_MPa": 500,
+      "ideal_euler_load_N": 9.412388230409011,
+      "interpretation": "Screening only: holes, layer adhesion, creep, impact and crookedness omitted. Proof test under measured rod load required."
+    },
+    {
+      "part": "P49 eyelid pushrod",
+      "pinned_length_mm": 77.6,
+      "weak_axis_I_mm4": 4.0,
+      "assumed_effective_modulus_MPa": 500,
+      "ideal_euler_load_N": 3.277979992922122,
+      "interpretation": "Screening only: holes, layer adhesion, creep, impact and crookedness omitted. Proof test under measured rod load required."
+    }
+  ],
+  "limitations": [
+    "No measured servo model, torque-speed curve, supply drop, current or thermal data.",
+    "CAD solid-density mass overestimates infill but may miss cables/fasteners; weigh final assemblies.",
+    "First-order inertia bound omits exact coupled linkage dynamics and compliance.",
+    "No FEA, fatigue, screw pullout, spline or clamp strength qualification.",
+    "Pulse-per-degree mapping is unknown; firmware speed in us/s must be calibrated against actual angles.",
+    "Neck load rating and future torso/arm/hand loads are not established."
+  ],
+  "final_fixed_P36_update": "Mass row updated; fixed support relief does not change any moving-body torque calculation."
+}

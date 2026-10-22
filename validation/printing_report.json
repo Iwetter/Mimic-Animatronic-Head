@@ -1,0 +1,3899 @@
+{
+  "revision": "R5a-E1",
+  "parts_manifest_sha256": "a9ba320052fdaac59a9b3e2bcfde36c38ae9d6d095b3e93843a14d2d4e5319d8",
+  "source_cad_sha256": {
+    "cad_source/base_geometry.py": "44e49947f7297acb4d84afb62b8332d6320c22a21586fbe97f892153df011869",
+    "cad_source/build_release.py": "edd7eeb628f92a65f0544444feabba3f2d2260c5b04e314db843ec56116d99f5",
+    "cad_source/motion.py": "c7c34d13d77d3b8157d89d0173977d0e9ca68f636ab02abac29b8a84682e3901",
+    "cad_source/verify_kinematics.py": "e725aadcde34a928eb8701273f81d268c6fa8360c8e1844af7a2c29abf6c585d"
+  },
+  "individual": [
+    {
+      "file": "3mf/individual/P01_torso_spine_socket.3mf",
+      "sha256": "e93f6366099aa4c2255968fc603bf8dd1bf6a6ae8a1bd18f445014fcd889e161",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 39683.76813901697,
+          "bounds_mm": [
+            [
+              -30.0,
+              -26.0,
+              0.0
+            ],
+            [
+              30.0,
+              26.0,
+              42.0
+            ]
+          ],
+          "faces": 5152
+        }
+      ],
+      "max_vertex_deviation_mm": 6.862719407241239e-09,
+      "source_stl": "stl_backup/P01_torso_spine_socket.stl",
+      "source_stl_sha256": "feae9eabfeb6639c8122f90b07e7918c28e35dee199ef71a6318d778df53294d",
+      "source_step_sha256": "80c3f29715f8fcc7dec698e9598fd7b7964311485c0983b3baf2869997205e47",
+      "flat_bed_contact_area_mm2": 356.5613265194843,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P03_skeletal_neck_tenon.3mf",
+      "sha256": "188eeec8b14b74542d6c6268f1956a0d794be5e46df53954cbeb1daaf29151f4",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 60395.06760215983,
+          "bounds_mm": [
+            [
+              -48.0,
+              -30.5,
+              0.0
+            ],
+            [
+              48.0,
+              30.5,
+              55.0
+            ]
+          ],
+          "faces": 6256
+        }
+      ],
+      "max_vertex_deviation_mm": 6.640231346839672e-09,
+      "source_stl": "stl_backup/P03_skeletal_neck_tenon.stl",
+      "source_stl_sha256": "71e7381a74c7c4745ea26fe982c1a6cbcf3b72d27fe78f7181fe55d1cc2e4714",
+      "source_step_sha256": "c728f9fa9fe02dba3e47691258c698d807f4dcb0c8a7d344ed45b49d7d23108d",
+      "flat_bed_contact_area_mm2": 5268.679427333569,
+      "print_rotation_xyz_deg": [
+        180,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified. Print flange down, tenon upward; preserve flange face and remove cable-channel support.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P20_skull_base_plate.3mf",
+      "sha256": "c832abd573982d7ad98ec6dacfb2045962b3749e8c4c02c6e72f8ab48a686bc6",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 52591.47364270499,
+          "bounds_mm": [
+            [
+              -68.0,
+              -43.0,
+              0.0
+            ],
+            [
+              68.0,
+              43.0,
+              6.0
+            ]
+          ],
+          "faces": 5128
+        }
+      ],
+      "max_vertex_deviation_mm": 6.263241716478892e-09,
+      "source_stl": "stl_backup/P20_skull_base_plate.stl",
+      "source_stl_sha256": "7c150337381cb63a2fec84aa2b47d2c569bdc14abb357351ef8eeb10d697d604",
+      "source_step_sha256": "d46359c3ee78171e360b8a7eb7c9306d6a1115542eb6e3edc2bb259818068227",
+      "flat_bed_contact_area_mm2": 8765.245607232577,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P21_lower_wall_L.3mf",
+      "sha256": "07402d4991f93a688588e29c337743d6c709c9a6361b9ccfaf7315442c5c1e73",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 41026.39799897141,
+          "bounds_mm": [
+            [
+              -64.0,
+              -50.5,
+              -9.436895709e-16
+            ],
+            [
+              64.0,
+              50.5,
+              19.0
+            ]
+          ],
+          "faces": 4716
+        }
+      ],
+      "max_vertex_deviation_mm": 6.82326126371817e-09,
+      "source_stl": "stl_backup/P21_lower_wall_L.stl",
+      "source_stl_sha256": "e55a2c13df7e88bd0890506299fc536f8c4912b148cca6b242400f791bd47e4c",
+      "source_step_sha256": "25aadd5831690c5e96184846ec69c4d8b4617fdc35dc96534a6d2b1c9eb796d3",
+      "flat_bed_contact_area_mm2": 213.03732942315435,
+      "print_rotation_xyz_deg": [
+        0,
+        -90,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified. Print outer boss side down; supports beneath wall are required and accessible.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P22_lower_wall_R.3mf",
+      "sha256": "f4df8f83b948083d6ef16a175a83287f32e1664328ff5d107f7919e7705c1bc0",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 41352.570804633106,
+          "bounds_mm": [
+            [
+              -64.0,
+              -50.5,
+              -9.436895709e-16
+            ],
+            [
+              64.0,
+              50.5,
+              19.0
+            ]
+          ],
+          "faces": 5724
+        }
+      ],
+      "max_vertex_deviation_mm": 6.82326126371817e-09,
+      "source_stl": "stl_backup/P22_lower_wall_R.stl",
+      "source_stl_sha256": "88d789c552062405708980900bb4ff35e3e60bafdb489c996439b18512d26602",
+      "source_step_sha256": "1b6bb2405d0133df51fad7cf92c77a22a91432dcedb9d48ec02521955ba738c5",
+      "flat_bed_contact_area_mm2": 213.03732942315435,
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P23_upper_cranial_plate_L.3mf",
+      "sha256": "265a48a45325cbda2f0ab6543e6eb9f31e35e98622dc0ff7e94ca93570dca6b7",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31509.135344573515,
+          "bounds_mm": [
+            [
+              -34.5078125,
+              -70.08447266,
+              -5.551115123e-16
+            ],
+            [
+              34.5078125,
+              70.08447266,
+              8.5
+            ]
+          ],
+          "faces": 6600
+        }
+      ],
+      "max_vertex_deviation_mm": 6.74135683199712e-09,
+      "source_stl": "stl_backup/P23_upper_cranial_plate_L.stl",
+      "source_stl_sha256": "5642fb962d669ee799c56af469f0846500f30021ee6df05f9a4796fbad4e3d92",
+      "source_step_sha256": "e1ce64aafc921f51a3d20548203f309b58db3127b03476d98ca2beb08534cd96",
+      "flat_bed_contact_area_mm2": 6273.701032832582,
+      "print_rotation_xyz_deg": [
+        0,
+        -90,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified. Print broad outer cranial face down for continuous first-layer adhesion.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P24_upper_cranial_plate_R.3mf",
+      "sha256": "1c06b4baf9ac36509a18e13323afe821575807617430e64c661f5136035c2d50",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31509.135344573515,
+          "bounds_mm": [
+            [
+              -34.5078125,
+              -70.08447266,
+              -5.551115123e-16
+            ],
+            [
+              34.5078125,
+              70.08447266,
+              8.5
+            ]
+          ],
+          "faces": 6600
+        }
+      ],
+      "max_vertex_deviation_mm": 6.74135683199712e-09,
+      "source_stl": "stl_backup/P24_upper_cranial_plate_R.stl",
+      "source_stl_sha256": "9dd9ef23527f88e4a870f6945135dcf18eccc2d3ca5256d15e3b480a9b467806",
+      "source_step_sha256": "2e46b15a9be2949c652c630d86c1413f168ce9352f44f3d45374cdeee9d97ce2",
+      "flat_bed_contact_area_mm2": 6273.701032832581,
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P25_cranial_arch_front.3mf",
+      "sha256": "f2c4f79cc88d18d33e05a2ce037e1ec29d58f9a46f851c56123bf2f9de754922",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 12102.320878099059,
+          "bounds_mm": [
+            [
+              -74.0,
+              -24.27480507,
+              3.538502824e-12
+            ],
+            [
+              74.0,
+              24.27480507,
+              8.0
+            ]
+          ],
+          "faces": 5544
+        }
+      ],
+      "max_vertex_deviation_mm": 6.5566924226878825e-09,
+      "source_stl": "stl_backup/P25_cranial_arch_front.stl",
+      "source_stl_sha256": "9309e69df76f4148a5a24d31a302ac51f127481823fae54132f339e5580ccdad",
+      "source_step_sha256": "e024aaaf106aa2b8b81810165546b1ffcbaf3cc7e23fe135e6b7aa3d08c39a57",
+      "flat_bed_contact_area_mm2": 1533.7256952551102,
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P26_cranial_arch_mid.3mf",
+      "sha256": "19079e580f3bc257db57ffe349d4afa0d4a143e734697e8e8ea289318a138739",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 15090.82035851881,
+          "bounds_mm": [
+            [
+              -74.0,
+              -38.39584732,
+              0.0
+            ],
+            [
+              74.0,
+              38.39584732,
+              7.9999999
+            ]
+          ],
+          "faces": 4736
+        }
+      ],
+      "max_vertex_deviation_mm": 6.620125045412778e-09,
+      "source_stl": "stl_backup/P26_cranial_arch_mid.stl",
+      "source_stl_sha256": "7877c6e78e2bc46b5f65e4b16e2985cb73b37af80868fda34746131fd060b8f7",
+      "source_step_sha256": "b43e71a86946b1fcf25d742e297a36d5f0342003ec38d58884b5cc4554d83ba0",
+      "flat_bed_contact_area_mm2": 1901.30688633127,
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P27_cranial_arch_rear.3mf",
+      "sha256": "6a78b30473bc60a0bc6d195c44154e55754e77f37e5fa8dcd0617eb256d3412a",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 14134.22580969084,
+          "bounds_mm": [
+            [
+              -74.0,
+              -33.34999847,
+              0.0
+            ],
+            [
+              74.0,
+              33.34999847,
+              7.9999999
+            ]
+          ],
+          "faces": 4968
+        }
+      ],
+      "max_vertex_deviation_mm": 6.5743287502690144e-09,
+      "source_stl": "stl_backup/P27_cranial_arch_rear.stl",
+      "source_stl_sha256": "d9b8e71a21aa5e828ce60c209d2d0f888602da552b3675e9555030e480622a6a",
+      "source_step_sha256": "f2a6107b8a1aeab63239d37d97bdec8a4de1869b7f2df0144c9e9c09831bdfc9",
+      "flat_bed_contact_area_mm2": 1795.7347114045288,
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P28_sagittal_crest.3mf",
+      "sha256": "ac041db2034383b52ba7222eae79087d192a16910610bb471d5ce2d7121b13e0",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 6562.0265829690725,
+          "bounds_mm": [
+            [
+              -27.81494141,
+              -64.55615234,
+              2.15827356e-13
+            ],
+            [
+              27.81494141,
+              64.55615234,
+              6.0
+            ]
+          ],
+          "faces": 4750
+        }
+      ],
+      "max_vertex_deviation_mm": 6.989301251371793e-09,
+      "source_stl": "stl_backup/P28_sagittal_crest.stl",
+      "source_stl_sha256": "396f129cf27a188a1af073037a720ddcc6b81174bb16df05d0343b023b6d6c4c",
+      "source_step_sha256": "897d16f52c2dd6e1c8bfacb82848c3b1547c98feda33cd193977e9d969f651c3",
+      "flat_bed_contact_area_mm2": 1069.7331625147763,
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P29_face_mask.3mf",
+      "sha256": "eb7a6fffde32a33614b752ab2d8497856aee944bdfb866a672994399fd1a4e4d",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 25452.803511876034,
+          "bounds_mm": [
+            [
+              -79.0,
+              -41.52777863,
+              -1.221245354e-16
+            ],
+            [
+              79.0,
+              41.52777863,
+              4.5
+            ]
+          ],
+          "faces": 5040
+        }
+      ],
+      "max_vertex_deviation_mm": 6.953709084066958e-09,
+      "source_stl": "stl_backup/P29_face_mask.stl",
+      "source_stl_sha256": "3126a7fe0fe846ff4d0483b07df393b716f7f17e95e03d0a779e80124fcd429d",
+      "source_step_sha256": "4e2de82815ca474e2c0fb96e371a5720432ca55fee5e3c4e066fa0226f9c730f",
+      "flat_bed_contact_area_mm2": 4911.264819205115,
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P30_zygoma_L.3mf",
+      "sha256": "a104f00027fe62dbf89cbd3039bd2262f97c6e89c6d84554a3f287e0327eb602",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2757.927118853769,
+          "bounds_mm": [
+            [
+              -10.347826,
+              -25.0,
+              0.0
+            ],
+            [
+              10.347826,
+              25.0,
+              15.0
+            ]
+          ],
+          "faces": 1132
+        }
+      ],
+      "max_vertex_deviation_mm": 5.107829338675761e-09,
+      "source_stl": "stl_backup/P30_zygoma_L.stl",
+      "source_stl_sha256": "5e18b889584142ac6b8132ae9aedd166ecd43147bb98120efa928cf710441cd6",
+      "source_step_sha256": "fa2fb084fc0fa9995d8702ce9fddce3123255190c4b637b2670751e7093f063e",
+      "flat_bed_contact_area_mm2": 50.9245611404009,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P31_zygoma_R.3mf",
+      "sha256": "0e083087b62b02d5ed4a2357f5dd3311fd35cd95df04e4b94664a0d4d04a6d53",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2757.927118853769,
+          "bounds_mm": [
+            [
+              -10.347826,
+              -25.0,
+              0.0
+            ],
+            [
+              10.347826,
+              25.0,
+              15.0
+            ]
+          ],
+          "faces": 1132
+        }
+      ],
+      "max_vertex_deviation_mm": 5.107829338675761e-09,
+      "source_stl": "stl_backup/P31_zygoma_R.stl",
+      "source_stl_sha256": "c0ccb79f4311f2b5b3d4f30b414bec71efaee3ad4485adb6299c3b09573e3177",
+      "source_step_sha256": "3c1f229b453305cf010deef4e3f457bc6405712f1e8c5cdd1151fa3b63bb6851",
+      "flat_bed_contact_area_mm2": 50.9245611404009,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P32_maxilla_arch.3mf",
+      "sha256": "47abcab4d0047ad32ebc138a367e9999f505de15e41f649ac71eeb9482bb5977",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 13677.493251062211,
+          "bounds_mm": [
+            [
+              -68.0,
+              -29.0,
+              0.0
+            ],
+            [
+              68.0,
+              29.0,
+              18.5
+            ]
+          ],
+          "faces": 4012
+        }
+      ],
+      "max_vertex_deviation_mm": 6.93989611129921e-09,
+      "source_stl": "stl_backup/P32_maxilla_arch.stl",
+      "source_stl_sha256": "16a73fbee03bdd28dfb436a6d4d7f10f399796fdccd29dcdfda465bc15006699",
+      "source_step_sha256": "b3f21695cbd11dcc92927311b497118a2bfcc8f7aab6234e023913db6e4d1c15",
+      "flat_bed_contact_area_mm2": 128.0,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P33_mandible.3mf",
+      "sha256": "7c05354e4ad7f8c65bf6d0fe579515aeaa97316a5356302ecef88d9df29d0742",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 37989.46766962138,
+          "bounds_mm": [
+            [
+              -64.5,
+              -47.75,
+              1.727862298e-11
+            ],
+            [
+              64.5,
+              47.75,
+              59.0
+            ]
+          ],
+          "faces": 5748
+        }
+      ],
+      "max_vertex_deviation_mm": 7.002028096696811e-09,
+      "source_stl": "stl_backup/P33_mandible.stl",
+      "source_stl_sha256": "e7b7b8ee104c9939328acc08ded8fee176caad6275fd641a7953daee0655606d",
+      "source_step_sha256": "106560d860932b7fa98e8304e82c0f92656d7c6728bada69dca5304efd0c9c7d",
+      "flat_bed_contact_area_mm2": 331.67064625362946,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P34_eye_globe.3mf",
+      "sha256": "390dae8b388959c000dced4baf1a5e770884a83a6f2e8c3d5197b65dfee2279a",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 5962.118287768945,
+          "bounds_mm": [
+            [
+              -15.96214294,
+              -13.20837212,
+              5.329070518e-13
+            ],
+            [
+              15.96214294,
+              13.20837212,
+              29.33840942
+            ]
+          ],
+          "faces": 15436
+        }
+      ],
+      "max_vertex_deviation_mm": 7.870904611425608e-09,
+      "source_stl": "stl_backup/P34_eye_globe.stl",
+      "source_stl_sha256": "d20aa251514ea096c852a00acf4b2d855a70dd3d9e92faee29401d6306c10cbd",
+      "source_step_sha256": "f012270f1aee467ee57554a4131a44160b6cbf9e80510198e6e7fe1afc375f28",
+      "flat_bed_contact_area_mm2": 0.076736202430709,
+      "print_rotation_xyz_deg": [
+        -90,
+        0,
+        0
+      ],
+      "print_notes": "Organic shell: baseline5mm outer brim and automatic supports; protect front/iris surface. Remove support inside before installing shaft. Review slicer layer preview.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P35_iris_insert.3mf",
+      "sha256": "ed78d0a5219d853da9f93affa64db5702020c23a7ee9f7e6df2e2282027231d5",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 175.0021315495803,
+          "bounds_mm": [
+            [
+              -6.997824192,
+              -7.0,
+              -7.771561172e-16
+            ],
+            [
+              6.997824192,
+              7.0,
+              1.200000048
+            ]
+          ],
+          "faces": 1008
+        }
+      ],
+      "max_vertex_deviation_mm": 7.28770452451935e-10,
+      "source_stl": "stl_backup/P35_iris_insert.stl",
+      "source_stl_sha256": "05d3a1403b46fc5a893c9e98378cc8de150ac473177fa97ef7cde7924f63b83a",
+      "source_step_sha256": "761b41ff79788e71fe76e2c3e5fc0886927deadaa8f8bbff30531c13772ad3e4",
+      "flat_bed_contact_area_mm2": 145.8351037943409,
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P36_eye_deck.3mf",
+      "sha256": "07a698aa443d4c7ec4d4d09257dcd70a3c8918e3109ba039a3e4780075feded6",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31782.996472959097,
+          "bounds_mm": [
+            [
+              -68.0,
+              -23.0,
+              0.0
+            ],
+            [
+              68.0,
+              23.0,
+              54.3176917
+            ]
+          ],
+          "faces": 10652
+        }
+      ],
+      "max_vertex_deviation_mm": 6.4775090149122996e-09,
+      "source_stl": "stl_backup/P36_eye_deck.stl",
+      "source_stl_sha256": "fb62d36afff03097d9809556deb8379ec89e83103aff9ef0c41036ed896db79a",
+      "source_step_sha256": "32cbff425142b9e4a00babbdc33ea07031ef84dff58cdfea9ad7fb21e9d43766",
+      "flat_bed_contact_area_mm2": 5817.8491220891665,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P37_yaw_crank.3mf",
+      "sha256": "bc79ebde415bff65b4f097ceff044943d7969de1cb9cc30c350a8e758013dcd3",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 425.20162936003754,
+          "bounds_mm": [
+            [
+              -5.0,
+              -10.24873972,
+              0.0
+            ],
+            [
+              5.0,
+              10.24873972,
+              3.800000091
+            ]
+          ],
+          "faces": 3474
+        }
+      ],
+      "max_vertex_deviation_mm": 4.961495548403407e-09,
+      "source_stl": "stl_backup/P37_yaw_crank.stl",
+      "source_stl_sha256": "92f7de7663f1b041ff57ce3e32be37d4a1c15af38a74dbbfa365816c7902ddda",
+      "source_step_sha256": "6b32a6667eddc37a2fe86ac27df0684750a1e5e00e9e8aa3d12481300971b8d3",
+      "flat_bed_contact_area_mm2": 138.0283020964291,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P38_yaw_tie_half.3mf",
+      "sha256": "4264fb7f330c52672919e020ebbf176f40d13cc65876af4c6e89108ce377bbee",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 446.3262265151491,
+          "bounds_mm": [
+            [
+              -19.87406731,
+              -3.0,
+              0.0
+            ],
+            [
+              19.87406731,
+              3.0,
+              2.0
+            ]
+          ],
+          "faces": 1524
+        }
+      ],
+      "max_vertex_deviation_mm": 4.975641509957247e-09,
+      "source_stl": "stl_backup/P38_yaw_tie_half.stl",
+      "source_stl_sha256": "0d1e4c051d452bfa4b38990268d1d69e84e62a6b234e32654d957d58cc8a3720",
+      "source_step_sha256": "07cc897ea6421d0b8da0de0e8996f5ab0188718d6702bf20b38a582fe1640cbe",
+      "flat_bed_contact_area_mm2": 223.16311325779367,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P39_upper_lid_L.3mf",
+      "sha256": "76071a9e9d66c8d5e91d41c795dc0850f10bbfd4d765b7c2298ef7546addd76d",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2211.578185312469,
+          "bounds_mm": [
+            [
+              -12.89999962,
+              -15.14999962,
+              -1.221245354e-16
+            ],
+            [
+              12.89999962,
+              15.14999962,
+              38.59999847
+            ]
+          ],
+          "faces": 8348
+        }
+      ],
+      "max_vertex_deviation_mm": 6.985816222528479e-09,
+      "source_stl": "stl_backup/P39_upper_lid_L.stl",
+      "source_stl_sha256": "4ff2d0af335d66531ac246fa0b4525418e7911f40bdb305b3fd2f8b5a71f8df5",
+      "source_step_sha256": "5bc515ac023e96bb29e807569d327969d7926fe623a1db6a0c9e67c7b7bb35d3",
+      "flat_bed_contact_area_mm2": 291.32573836844335,
+      "print_rotation_xyz_deg": [
+        0,
+        -90,
+        0
+      ],
+      "print_notes": "Organic shell: baseline5mm outer brim and automatic supports; protect front/iris surface. Remove support inside before installing shaft. Review slicer layer preview.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P40_upper_lid_R.3mf",
+      "sha256": "6bd48ce1545f4f4638585ea7335a4ed621122b122fe7fef7ba81fd7c92f28d4f",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2211.565610759049,
+          "bounds_mm": [
+            [
+              -12.89999962,
+              -15.14999962,
+              -1.221245354e-16
+            ],
+            [
+              12.89999962,
+              15.14999962,
+              38.59999847
+            ]
+          ],
+          "faces": 8348
+        }
+      ],
+      "max_vertex_deviation_mm": 6.985816222528479e-09,
+      "source_stl": "stl_backup/P40_upper_lid_R.stl",
+      "source_stl_sha256": "6b87253e7d18db36880d934778b76fb7ede11405489ab4bfbc97b652c266e56f",
+      "source_step_sha256": "c8ab4e3e1c5db5ecccebe46c7e07709651eb564a13b9106d2d9f28d812c1cbb0",
+      "flat_bed_contact_area_mm2": 291.32573836844335,
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_notes": "Organic shell: baseline5mm outer brim and automatic supports; protect front/iris surface. Remove support inside before installing shaft. Review slicer layer preview.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P41_mechanism_deck.3mf",
+      "sha256": "1960491bc992be8243fda94c91b2e27e4633153768c22e2155038c7db6b2c234",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 30727.70710107625,
+          "bounds_mm": [
+            [
+              -74.0,
+              -26.80423927,
+              0.0
+            ],
+            [
+              74.0,
+              26.80423927,
+              48.33576584
+            ]
+          ],
+          "faces": 5484
+        }
+      ],
+      "max_vertex_deviation_mm": 6.666664142446689e-09,
+      "source_stl": "stl_backup/P41_mechanism_deck.stl",
+      "source_stl_sha256": "3ee10cdf8820b5e5e336490e07d64d66bee91f33fb412aa9dbd9b7af4f123a16",
+      "source_step_sha256": "9f66a3315778363066aafd673eb9a8e4fcc755212c0797a3f95363ec193746be",
+      "flat_bed_contact_area_mm2": 256.0,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P42_upper_teeth_row.3mf",
+      "sha256": "43b47face1867a6c114caa9fa1dca93c9b9db772645b5a2114740a460372eead",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1629.8929684317281,
+          "bounds_mm": [
+            [
+              -35.5,
+              -12.99750423,
+              -1.101839516e-16
+            ],
+            [
+              35.5,
+              12.99750423,
+              10.19999981
+            ]
+          ],
+          "faces": 1636
+        }
+      ],
+      "max_vertex_deviation_mm": 6.6275732104150785e-09,
+      "source_stl": "stl_backup/P42_upper_teeth_row.stl",
+      "source_stl_sha256": "3de79e2b04a901c938dbf82939ad03d4176bb38c41437aae83013133f9e05804",
+      "source_step_sha256": "9fe8b8aa4d1f65f8bf80f878b1ec091fae6de7fd40ccaf7f8064287b6d3c9213",
+      "flat_bed_contact_area_mm2": 257.5947566637417,
+      "print_rotation_xyz_deg": [
+        180,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified. Print root carrier down and teeth upward; preserve tooth sockets and fastener bores.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P43_lower_teeth_row.3mf",
+      "sha256": "f0418934eae7aa604d822a7eff630d9494bf1d13bf71440aeae9cf98177777c7",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1537.3267001115582,
+          "bounds_mm": [
+            [
+              -34.5,
+              -11.70188713,
+              0.0
+            ],
+            [
+              34.5,
+              11.70188713,
+              9.5
+            ]
+          ],
+          "faces": 1628
+        }
+      ],
+      "max_vertex_deviation_mm": 5.976213886077832e-09,
+      "source_stl": "stl_backup/P43_lower_teeth_row.stl",
+      "source_stl_sha256": "4e5804a64f65a69fe1c2f18bcacc869295fe66233e87ce3d35919da5e51d21ee",
+      "source_step_sha256": "53376da4dacb8ca110bbdff22d957c66a8b04c02b606d99e129752b4115686cf",
+      "flat_bed_contact_area_mm2": 238.54447881402814,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P44_jaw_servo_cradle.3mf",
+      "sha256": "40ebdddc11b908cc50f285de18fcb5bfb3558ad0bdbd06af51ccb653aab360dc",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 4225.886354058472,
+          "bounds_mm": [
+            [
+              -30.125,
+              -19.5,
+              0.0
+            ],
+            [
+              30.125,
+              19.5,
+              20.0
+            ]
+          ],
+          "faces": 2122
+        }
+      ],
+      "max_vertex_deviation_mm": 6.82326126371817e-09,
+      "source_stl": "stl_backup/P44_jaw_servo_cradle.stl",
+      "source_stl_sha256": "90675c1ce2762fa45c8754f5443ec6f1e8c40571b026108b906f48911b71a868",
+      "source_step_sha256": "5467856ac9a3fdbe3be1708d7230747ae9dab7738365736469aca1b91ec9771e",
+      "flat_bed_contact_area_mm2": 48.0,
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P45_common_pitch_carrier.3mf",
+      "sha256": "c24b30aa3eb6945390ec443ff3de0cf249d6bdf846d88d012594a046de543f8c",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 11865.329480216305,
+          "bounds_mm": [
+            [
+              -65.0,
+              -23.0,
+              8.611777957e-12
+            ],
+            [
+              65.0,
+              23.0,
+              24.0
+            ]
+          ],
+          "faces": 7016
+        }
+      ],
+      "max_vertex_deviation_mm": 6.950350934166054e-09,
+      "source_stl": "stl_backup/P45_common_pitch_carrier.stl",
+      "source_stl_sha256": "3b25253ecc85853ae6c8c48da672908eb8931905370d264748f2295ee3379367",
+      "source_step_sha256": "1af43ec11356ee0bf39eba6af5559e680490c29f419340aae95f454e453b6443",
+      "flat_bed_contact_area_mm2": 1092.964332022013,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P46_eye_pitch_pushrod.3mf",
+      "sha256": "33edbf4e2e02dc49f4c6e1fae15bbb511158592cfa310b6538849e07492a4569",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1011.657790472614,
+          "bounds_mm": [
+            [
+              -34.99906921,
+              -3.0,
+              -3.329633841e-16
+            ],
+            [
+              34.99906921,
+              3.0,
+              2.5
+            ]
+          ],
+          "faces": 1524
+        }
+      ],
+      "max_vertex_deviation_mm": 4.975641509957247e-09,
+      "source_stl": "stl_backup/P46_eye_pitch_pushrod.stl",
+      "source_stl_sha256": "939f7c2281d7319398ed3e6dc310dd3fde385804739b25aa2265fea379a4e601",
+      "source_step_sha256": "21a08245c6d32092b75250d21a7f17243b884a076e67984e0550c4882300caee",
+      "flat_bed_contact_area_mm2": 404.6631161964318,
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P49_lid_pushrod.3mf",
+      "sha256": "c1604f3af3a9da0b1990fc8d439164e951e75bf63e696243abd04e801bea49d4",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 972.526231895316,
+          "bounds_mm": [
+            [
+              -41.79906845,
+              -3.0,
+              -3.329633841e-16
+            ],
+            [
+              41.79906845,
+              3.0,
+              2.0
+            ]
+          ],
+          "faces": 1524
+        }
+      ],
+      "max_vertex_deviation_mm": 4.931830848860929e-09,
+      "source_stl": "stl_backup/P49_lid_pushrod.stl",
+      "source_stl_sha256": "71c003f6ae3f1abda6d6b83cd608588544c47cef6fe33ad40a357e30a1f672f1",
+      "source_step_sha256": "0858d182a5f3b2d070e408a57460437a45b23c9c21e63afc6f534d4fcd478323",
+      "flat_bed_contact_area_mm2": 486.26311594605085,
+      "print_rotation_xyz_deg": [
+        0,
+        90,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P90_hardware_fit_coupon.3mf",
+      "sha256": "3145662ceef78031bf84cff17edeffed16508634d5fb59f9dd444f0819398fe1",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 19131.68668708208,
+          "bounds_mm": [
+            [
+              -40.0,
+              -22.5,
+              0.0
+            ],
+            [
+              40.0,
+              22.5,
+              6.0
+            ]
+          ],
+          "faces": 5620
+        }
+      ],
+      "max_vertex_deviation_mm": 6.9608590595706766e-09,
+      "source_stl": "stl_backup/P90_hardware_fit_coupon.stl",
+      "source_stl_sha256": "8ef2d3c0c462d77ef710eb546a709a36196e22e5cb2bbeef72a08fe2a9aabe4f",
+      "source_step_sha256": "769b77662bb14acda7a015b703b14265b335f3483fd81eabc77fe23a3cb582bb",
+      "flat_bed_contact_area_mm2": 3188.614447891268,
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_notes": "PLA 0.4mm nozzle; 0.2mm layers, 4 perimeters; baseline5mm outer brim; automatic supports reviewed per print map. Fit unverified.",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    }
+  ],
+  "plates": [
+    {
+      "file": "3mf/plates/PL01_00_fit_coupons_models.3mf",
+      "sha256": "10391b1a150bec87e1c14d29bf76fbd8a0b1cb2eb97c8b2e37d7af6a80769866",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 19131.68668708208,
+          "bounds_mm": [
+            [
+              -40.0,
+              -22.5,
+              0.0
+            ],
+            [
+              40.0,
+              22.5,
+              6.0
+            ]
+          ],
+          "faces": 5620
+        }
+      ],
+      "max_vertex_deviation_mm": 6.9608590595706766e-09,
+      "minimum_xy_box_clearance_mm": null
+    },
+    {
+      "file": "3mf/plates/PL02_mechanism_models.3mf",
+      "sha256": "12cae9abe56a16160d1640ce70065752003803c6e8ec441ebfdd61f4e98a9148",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 14,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 11865.329480216315,
+          "bounds_mm": [
+            [
+              -96.8221097,
+              -79.14999962,
+              8.611777957e-12
+            ],
+            [
+              33.1778903,
+              -33.14999962,
+              24.0
+            ]
+          ],
+          "faces": 7016
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2211.5781853124718,
+          "bounds_mm": [
+            [
+              47.1778903,
+              -79.14999962,
+              -1.221245354e-16
+            ],
+            [
+              72.97788953999999,
+              -48.85000038,
+              38.59999847
+            ]
+          ],
+          "faces": 8348
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2211.56561075905,
+          "bounds_mm": [
+            [
+              -96.8221097,
+              -19.14999962,
+              -1.221245354e-16
+            ],
+            [
+              -71.02211046,
+              11.14999962,
+              38.59999847
+            ]
+          ],
+          "faces": 8348
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 5962.118287768947,
+          "bounds_mm": [
+            [
+              -57.02211046,
+              -19.149999622,
+              5.329070518e-13
+            ],
+            [
+              -25.09782458,
+              7.266744618,
+              29.33840942
+            ]
+          ],
+          "faces": 15436
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 5962.118287768943,
+          "bounds_mm": [
+            [
+              -11.097824569,
+              -19.149999622,
+              5.329070518e-13
+            ],
+            [
+              20.826461311,
+              7.266744618,
+              29.33840942
+            ]
+          ],
+          "faces": 15436
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 425.201629360038,
+          "bounds_mm": [
+            [
+              34.82646132,
+              -19.149999619,
+              0.0
+            ],
+            [
+              44.82646132,
+              1.3474798210000003,
+              3.800000091
+            ]
+          ],
+          "faces": 3474
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 425.2016293600372,
+          "bounds_mm": [
+            [
+              58.82646132,
+              -19.149999619,
+              0.0
+            ],
+            [
+              68.82646131999999,
+              1.3474798210000003,
+              3.800000091
+            ]
+          ],
+          "faces": 3474
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 175.00213154958,
+          "bounds_mm": [
+            [
+              82.826461318,
+              -19.14999962,
+              -7.771561172e-16
+            ],
+            [
+              96.82210970199999,
+              -5.149999619999999,
+              1.200000048
+            ]
+          ],
+          "faces": 1008
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 175.00213154958,
+          "bounds_mm": [
+            [
+              -96.82210970199999,
+              25.149999620000003,
+              -7.771561172e-16
+            ],
+            [
+              -82.826461318,
+              39.14999962,
+              1.200000048
+            ]
+          ],
+          "faces": 1008
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 972.526231895316,
+          "bounds_mm": [
+            [
+              -68.82646131,
+              25.14999962,
+              -3.329633841e-16
+            ],
+            [
+              14.771675590000001,
+              31.14999962,
+              2.0
+            ]
+          ],
+          "faces": 1524
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 972.526231895316,
+          "bounds_mm": [
+            [
+              -96.8221097,
+              53.14999962,
+              -3.329633841e-16
+            ],
+            [
+              -13.223972799999999,
+              59.14999962,
+              2.0
+            ]
+          ],
+          "faces": 1524
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1011.6577904726137,
+          "bounds_mm": [
+            [
+              0.7760272099999952,
+              53.14999962,
+              -3.329633841e-16
+            ],
+            [
+              70.77416563,
+              59.14999962,
+              2.5
+            ]
+          ],
+          "faces": 1524
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 446.32622651514913,
+          "bounds_mm": [
+            [
+              -96.8221097,
+              73.14999962,
+              0.0
+            ],
+            [
+              -57.07397508,
+              79.14999962,
+              2.0
+            ]
+          ],
+          "faces": 1524
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 446.32622651514913,
+          "bounds_mm": [
+            [
+              -43.073975090000005,
+              73.14999962,
+              0.0
+            ],
+            [
+              -3.3258404699999993,
+              79.14999962,
+              2.0
+            ]
+          ],
+          "faces": 1524
+        }
+      ],
+      "max_vertex_deviation_mm": 9.283035428366406e-09,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL03_structure_models.3mf",
+      "sha256": "29ab7bdc47f8f276f6eb5e88e33870ac3f8e9ab929228a44114275aaf41ecb5d",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31509.135344573515,
+          "bounds_mm": [
+            [
+              -76.015625,
+              -70.08447266,
+              -5.551115123e-16
+            ],
+            [
+              -7.0,
+              70.08447266,
+              8.5
+            ]
+          ],
+          "faces": 6600
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31509.13534457351,
+          "bounds_mm": [
+            [
+              7.0,
+              -70.08447266,
+              -5.551115123e-16
+            ],
+            [
+              76.015625,
+              70.08447266,
+              8.5
+            ]
+          ],
+          "faces": 6600
+        }
+      ],
+      "max_vertex_deviation_mm": 6.74135683199712e-09,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL04_structure_models.3mf",
+      "sha256": "a4333bd60c1ac6dd0ca0008bd3173333640b19d075e49c7a546d5ae99016a6f1",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 6562.026582969065,
+          "bounds_mm": [
+            [
+              -98.81494141,
+              -64.55615234,
+              2.15827356e-13
+            ],
+            [
+              -43.18505859,
+              64.55615234,
+              6.0
+            ]
+          ],
+          "faces": 4750
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 41026.397998971406,
+          "bounds_mm": [
+            [
+              -29.185058589999997,
+              -64.55615234,
+              -9.436895709e-16
+            ],
+            [
+              98.81494141,
+              36.44384766,
+              19.0
+            ]
+          ],
+          "faces": 4716
+        }
+      ],
+      "max_vertex_deviation_mm": 1.156650062780425e-08,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL05_structure_models.3mf",
+      "sha256": "3f2f08f5ddda203850f45d70a2a92c89c4f82f9feada986a8ef43d5680002e2a",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 41352.570804633106,
+          "bounds_mm": [
+            [
+              -64.0,
+              -50.5,
+              -9.436895709e-16
+            ],
+            [
+              64.0,
+              50.5,
+              19.0
+            ]
+          ],
+          "faces": 5724
+        }
+      ],
+      "max_vertex_deviation_mm": 6.82326126371817e-09,
+      "minimum_xy_box_clearance_mm": null
+    },
+    {
+      "file": "3mf/plates/PL06_structure_models.3mf",
+      "sha256": "918cae6bfc7448af4fd212ebaf7c318d5295de33ee271770fb2e0e06ea38bdac",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 37989.46766962139,
+          "bounds_mm": [
+            [
+              -68.0,
+              -97.75,
+              1.727862298e-11
+            ],
+            [
+              61.0,
+              -2.25,
+              59.0
+            ]
+          ],
+          "faces": 5748
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 52591.473642705,
+          "bounds_mm": [
+            [
+              -68.0,
+              11.75,
+              0.0
+            ],
+            [
+              68.0,
+              97.75,
+              6.0
+            ]
+          ],
+          "faces": 5128
+        }
+      ],
+      "max_vertex_deviation_mm": 7.002023082323158e-09,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL07_structure_models.3mf",
+      "sha256": "58444e7a189e398bc7485c0a14c98be843855103d5490b71a603c5b01ddff49c",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 25452.80351187603,
+          "bounds_mm": [
+            [
+              -79.0,
+              -86.92362595,
+              -1.221245354e-16
+            ],
+            [
+              79.0,
+              -3.868068690000001,
+              4.5
+            ]
+          ],
+          "faces": 5040
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 15090.820358518808,
+          "bounds_mm": [
+            [
+              -79.0,
+              10.131931309999999,
+              0.0
+            ],
+            [
+              69.0,
+              86.92362595,
+              7.9999999
+            ]
+          ],
+          "faces": 4736
+        }
+      ],
+      "max_vertex_deviation_mm": 1.0433519251862843e-08,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL08_structure_models.3mf",
+      "sha256": "f620e01a5b5b3b0ebab148b543909a59ae6ec59c56efb9fcb763a78fa918e630",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 14134.22580969084,
+          "bounds_mm": [
+            [
+              -74.0,
+              -70.84999847,
+              0.0
+            ],
+            [
+              74.0,
+              -4.150001529999997,
+              7.9999999
+            ]
+          ],
+          "faces": 4968
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 60395.06760215983,
+          "bounds_mm": [
+            [
+              -74.0,
+              9.849998470000003,
+              0.0
+            ],
+            [
+              22.0,
+              70.84999847,
+              55.0
+            ]
+          ],
+          "faces": 6256
+        }
+      ],
+      "max_vertex_deviation_mm": 9.931424537589719e-09,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL09_structure_models.3mf",
+      "sha256": "75c7561c937fe7ffb11abd698850c9ae6a7087ef690cc0cc7c1687822d65a4bf",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 5,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 13677.493251062217,
+          "bounds_mm": [
+            [
+              -74.0,
+              -95.80423927,
+              0.0
+            ],
+            [
+              62.0,
+              -37.80423927,
+              18.5
+            ]
+          ],
+          "faces": 4012
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 30727.70710107624,
+          "bounds_mm": [
+            [
+              -74.0,
+              -23.80423927,
+              0.0
+            ],
+            [
+              74.0,
+              29.80423927,
+              48.33576584
+            ]
+          ],
+          "faces": 5484
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 39683.76813901695,
+          "bounds_mm": [
+            [
+              -74.0,
+              43.80423927,
+              0.0
+            ],
+            [
+              -14.0,
+              95.80423927,
+              42.0
+            ]
+          ],
+          "faces": 5152
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2757.9271188537696,
+          "bounds_mm": [
+            [
+              0.0,
+              43.80423927,
+              0.0
+            ],
+            [
+              20.695652,
+              93.80423927,
+              15.0
+            ]
+          ],
+          "faces": 1132
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2757.92711885377,
+          "bounds_mm": [
+            [
+              34.69565201,
+              43.80423927,
+              0.0
+            ],
+            [
+              55.39130401,
+              93.80423927,
+              15.0
+            ]
+          ],
+          "faces": 1132
+        }
+      ],
+      "max_vertex_deviation_mm": 9.371659424430159e-09,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL10_structure_models.3mf",
+      "sha256": "ef22479bcf8cc49aba01d7a60c12a2f298fea78631bf6d4eae69f2c1007828e7",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 5,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 12102.320878099059,
+          "bounds_mm": [
+            [
+              -74.0,
+              -99.4766922,
+              3.538502824e-12
+            ],
+            [
+              74.0,
+              -50.927082060000004,
+              8.0
+            ]
+          ],
+          "faces": 5544
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31782.996472959097,
+          "bounds_mm": [
+            [
+              -74.0,
+              -36.927082060000004,
+              0.0
+            ],
+            [
+              62.0,
+              9.07291794,
+              54.3176917
+            ]
+          ],
+          "faces": 10652
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 4225.886354058474,
+          "bounds_mm": [
+            [
+              -74.0,
+              23.072917940000004,
+              0.0
+            ],
+            [
+              -13.75,
+              62.07291794,
+              20.0
+            ]
+          ],
+          "faces": 2122
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1629.892968431729,
+          "bounds_mm": [
+            [
+              0.25,
+              23.07291794,
+              -1.101839516e-16
+            ],
+            [
+              71.25,
+              49.067926400000005,
+              10.19999981
+            ]
+          ],
+          "faces": 1636
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1537.3267001115576,
+          "bounds_mm": [
+            [
+              -74.0,
+              76.07291794,
+              0.0
+            ],
+            [
+              -5.0,
+              99.4766922,
+              9.5
+            ]
+          ],
+          "faces": 1628
+        }
+      ],
+      "max_vertex_deviation_mm": 8.185019054391334e-09,
+      "minimum_xy_box_clearance_mm": 14.0
+    }
+  ],
+  "quantity_match": true,
+  "slicing": [
+    {
+      "plate": "PL01",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL01_00_fit_coupons_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL01",
+        "--export-3mf",
+        "PL01_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL01.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL01_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL01_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "3df46228ac9219b658a1e62e36aefa3bfe0bffad3912734997d5356604de95b8",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 1,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 19131.686688282713,
+            "bounds_mm": [
+              [
+                -40.0,
+                -22.5,
+                0.0
+              ],
+              [
+                40.0,
+                22.5,
+                6.0
+              ]
+            ],
+            "faces": 5620
+          }
+        ],
+        "max_vertex_deviation_mm": 6.706096973406784e-08
+      },
+      "toolpath": {
+        "layers": 30,
+        "path_center_bounds_xy_mm": [
+          [
+            -44.442,
+            -26.942
+          ],
+          [
+            44.442,
+            26.942
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -44.7308165,
+            -27.2308165
+          ],
+          [
+            44.7308165,
+            27.2308165
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.577633,
+        "max_z_mm": 6.0,
+        "feature_segments": {
+          "Brim": 389,
+          "Outer wall": 11004,
+          "Inner wall": 29866,
+          "Gap infill": 890,
+          "Bottom surface": 751,
+          "Internal solid infill": 6811,
+          "Sparse infill": 15632,
+          "Internal Bridge": 764,
+          "Top surface": 433
+        },
+        "estimates": {
+          "filament used [mm]": "5159.97",
+          "filament used [cm3]": "12.41",
+          "filament used [g]": "15.39",
+          "estimated printing time (normal mode)": "1h 2m 57s"
+        },
+        "first_layer_extrusion_segments": 2753,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        15,
+        30
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "398ddba95ddfc4934b7a7f8bb905bdd5874a897c3b1d057041cd54f4961cf1be",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL02",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL02_mechanism_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL02",
+        "--export-3mf",
+        "PL02_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL02.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL02_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL02_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "f0097f651b7869f1390a3685808c99d7d50765e5b55f25a223cbf4ea01224c02",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 14,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 11865.329535998564,
+            "bounds_mm": [
+              [
+                -96.8221097,
+                -79.1499996,
+                0.0
+              ],
+              [
+                33.1778903,
+                -33.1499996,
+                24.0
+              ]
+            ],
+            "faces": 7016
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 2211.578177752153,
+            "bounds_mm": [
+              [
+                47.1778903,
+                -79.1499996,
+                0.0
+              ],
+              [
+                72.9778895,
+                -48.8500004,
+                38.5999984
+              ]
+            ],
+            "faces": 8348
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 2211.565601639673,
+            "bounds_mm": [
+              [
+                -96.8221097,
+                -19.1499996,
+                0.0
+              ],
+              [
+                -71.0221105,
+                11.1499996,
+                38.5999984
+              ]
+            ],
+            "faces": 8348
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 5962.118288330701,
+            "bounds_mm": [
+              [
+                -57.0221104,
+                -19.1499996,
+                0.0
+              ],
+              [
+                -25.0978246,
+                7.2667446,
+                29.3384094
+              ]
+            ],
+            "faces": 15436
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 425.2016467135231,
+            "bounds_mm": [
+              [
+                34.8264613,
+                -19.1500001,
+                0.0
+              ],
+              [
+                44.8264613,
+                1.3474803000000009,
+                3.8000002
+              ]
+            ],
+            "faces": 3474
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 175.0021315696339,
+            "bounds_mm": [
+              [
+                82.82646131,
+                -19.1499996,
+                0.0
+              ],
+              [
+                96.82210969,
+                -5.149999599999999,
+                1.200000048
+              ]
+            ],
+            "faces": 1008
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 972.5262317114758,
+            "bounds_mm": [
+              [
+                -68.8264614,
+                25.1499996,
+                0.0
+              ],
+              [
+                14.771675599999998,
+                31.1499996,
+                2.0
+              ]
+            ],
+            "faces": 1524
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 1011.6577904761695,
+            "bounds_mm": [
+              [
+                0.7760272000000015,
+                53.1499996,
+                0.0
+              ],
+              [
+                70.7741656,
+                59.1499996,
+                2.5
+              ]
+            ],
+            "faces": 1524
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 446.326226614885,
+            "bounds_mm": [
+              [
+                -96.8221097,
+                73.1499996,
+                0.0
+              ],
+              [
+                -57.073975100000006,
+                79.1499996,
+                2.0
+              ]
+            ],
+            "faces": 1524
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 5962.1182883307,
+            "bounds_mm": [
+              [
+                -11.09782453,
+                -19.1499996,
+                0.0
+              ],
+              [
+                20.82646127,
+                7.2667446,
+                29.3384094
+              ]
+            ],
+            "faces": 15436
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 425.2016467135234,
+            "bounds_mm": [
+              [
+                58.8264613,
+                -19.1500001,
+                0.0
+              ],
+              [
+                68.8264613,
+                1.3474803000000009,
+                3.8000002
+              ]
+            ],
+            "faces": 3474
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 175.00213156963335,
+            "bounds_mm": [
+              [
+                -96.82210969,
+                25.1499996,
+                0.0
+              ],
+              [
+                -82.82646131,
+                39.1499996,
+                1.200000048
+              ]
+            ],
+            "faces": 1008
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 972.5262317114758,
+            "bounds_mm": [
+              [
+                -96.8221097,
+                53.1499996,
+                0.0
+              ],
+              [
+                -13.223972700000004,
+                59.1499996,
+                2.0
+              ]
+            ],
+            "faces": 1524
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 446.3262266148851,
+            "bounds_mm": [
+              [
+                -43.0739751,
+                73.1499996,
+                0.0
+              ],
+              [
+                -3.325840499999998,
+                79.1499996,
+                2.0
+              ]
+            ],
+            "faces": 1524
+          }
+        ],
+        "max_vertex_deviation_mm": 1.0391234441118992e-06
+      },
+      "toolpath": {
+        "layers": 290,
+        "path_center_bounds_xy_mm": [
+          [
+            -101.264,
+            -83.201
+          ],
+          [
+            101.264,
+            83.592
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -101.62351699999999,
+            -83.56051699999999
+          ],
+          [
+            101.62351699999999,
+            83.951517
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.719034,
+        "max_z_mm": 38.6,
+        "feature_segments": {
+          "Brim": 9227,
+          "Outer wall": 84890,
+          "Inner wall": 164489,
+          "Bottom surface": 1740,
+          "Gap infill": 24651,
+          "Support": 30693,
+          "Support interface": 25145,
+          "Internal solid infill": 13846,
+          "Overhang wall": 3495,
+          "Top surface": 1627,
+          "Bridge": 831,
+          "Sparse infill": 7008,
+          "Internal Bridge": 925
+        },
+        "estimates": {
+          "filament used [mm]": "17908.24",
+          "filament used [cm3]": "43.07",
+          "filament used [g]": "53.41",
+          "estimated printing time (normal mode)": "4h 44m 43s"
+        },
+        "first_layer_extrusion_segments": 16176,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        30,
+        150,
+        290
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "816d57a8e97732afa3d7845654d1b9ebaae7b06e8f19be9f2d3fe683c44f010e",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL03",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL03_structure_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL03",
+        "--export-3mf",
+        "PL03_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL03.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL03_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL03_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "e7ff7539707ce6b3061d85dea1f46a9b018c06bb4a06af573f168cfde66ae5a6",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 31509.1353473226,
+            "bounds_mm": [
+              [
+                -76.015625,
+                -70.0844727,
+                0.0
+              ],
+              [
+                -7.0,
+                70.0844727,
+                8.5
+              ]
+            ],
+            "faces": 6600
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 31509.135347322594,
+            "bounds_mm": [
+              [
+                7.0,
+                -70.0844727,
+                0.0
+              ],
+              [
+                76.015625,
+                70.0844727,
+                8.5
+              ]
+            ],
+            "faces": 6600
+          }
+        ],
+        "max_vertex_deviation_mm": 2.3521519988334738e-07
+      },
+      "toolpath": {
+        "layers": 54,
+        "path_center_bounds_xy_mm": [
+          [
+            -80.457,
+            -74.527
+          ],
+          [
+            80.457,
+            74.522
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -80.78607299999999,
+            -74.856073
+          ],
+          [
+            80.78607299999999,
+            74.851073
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.658146,
+        "max_z_mm": 8.4,
+        "feature_segments": {
+          "Brim": 2650,
+          "Support interface": 382,
+          "Outer wall": 31347,
+          "Inner wall": 92940,
+          "Gap infill": 2201,
+          "Bottom surface": 2307,
+          "Internal solid infill": 20496,
+          "Support": 269,
+          "Overhang wall": 26,
+          "Sparse infill": 37443,
+          "Internal Bridge": 2905,
+          "Top surface": 1470,
+          "Bridge": 50
+        },
+        "estimates": {
+          "filament used [mm]": "17842.18",
+          "filament used [cm3]": "42.92",
+          "filament used [g]": "53.22",
+          "estimated printing time (normal mode)": "3h 27m 41s"
+        },
+        "first_layer_extrusion_segments": 9745,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        29,
+        42,
+        54
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "5e00e67c6f744c7f3a29d8b63bc68e5fd1637b434f14bf982c225bc1b98306fa",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL04",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL04_structure_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL04",
+        "--export-3mf",
+        "PL04_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL04.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL04_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL04_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "02930c5ae2f3d07a247a1302e94897d26b6ad16ced1052313ccb4c703102707e",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 6562.026579025521,
+            "bounds_mm": [
+              [
+                -98.8149414,
+                -64.5561523,
+                0.0
+              ],
+              [
+                -43.185058600000005,
+                64.5561523,
+                6.0
+              ]
+            ],
+            "faces": 4750
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 41026.397995938285,
+            "bounds_mm": [
+              [
+                -29.185058599999998,
+                -64.55615230000001,
+                0.0
+              ],
+              [
+                98.81494140000001,
+                36.4438477,
+                19.0
+              ]
+            ],
+            "faces": 4716
+          }
+        ],
+        "max_vertex_deviation_mm": 1.3770523977298347e-07
+      },
+      "toolpath": {
+        "layers": 146,
+        "path_center_bounds_xy_mm": [
+          [
+            -103.24,
+            -68.998
+          ],
+          [
+            102.926,
+            68.998
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -103.641279,
+            -69.399279
+          ],
+          [
+            103.327279,
+            69.399279
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.802558,
+        "max_z_mm": 19.0,
+        "feature_segments": {
+          "Brim": 1851,
+          "Support interface": 3429,
+          "Support": 3907,
+          "Outer wall": 14697,
+          "Inner wall": 42553,
+          "Gap infill": 2707,
+          "Bottom surface": 428,
+          "Internal solid infill": 14475,
+          "Overhang wall": 1213,
+          "Sparse infill": 42180,
+          "Bridge": 1530,
+          "Top surface": 1018,
+          "Internal Bridge": 1637
+        },
+        "estimates": {
+          "filament used [mm]": "15483.15",
+          "filament used [cm3]": "37.24",
+          "filament used [g]": "46.18",
+          "estimated printing time (normal mode)": "3h 17m 58s"
+        },
+        "first_layer_extrusion_segments": 4256,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        27,
+        82,
+        146
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "15ed5aa90f0ec78dfaad4d691b816b29220de6f48be81da206a8e773b2943b3f",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL05",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL05_structure_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL05",
+        "--export-3mf",
+        "PL05_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL05.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL05_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL05_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "6a9b29ca8452cc66eba7b4812c00a3beb0a5c79ce6ae228db79ab6d5fdbaf324",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 1,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 41352.570801964626,
+            "bounds_mm": [
+              [
+                -64.0,
+                -50.5,
+                0.0
+              ],
+              [
+                64.0,
+                50.5,
+                19.0
+              ]
+            ],
+            "faces": 5724
+          }
+        ],
+        "max_vertex_deviation_mm": 6.763788383146373e-08
+      },
+      "toolpath": {
+        "layers": 140,
+        "path_center_bounds_xy_mm": [
+          [
+            -68.111,
+            -53.726
+          ],
+          [
+            68.111,
+            53.726
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -68.44732,
+            -54.06232
+          ],
+          [
+            68.44732,
+            54.06232
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.67264,
+        "max_z_mm": 19.0,
+        "feature_segments": {
+          "Support": 3280,
+          "Outer wall": 13506,
+          "Inner wall": 39960,
+          "Bottom surface": 117,
+          "Internal solid infill": 12137,
+          "Sparse infill": 38912,
+          "Support interface": 2405,
+          "Overhang wall": 1338,
+          "Gap infill": 1260,
+          "Bridge": 1486,
+          "Internal Bridge": 1453,
+          "Top surface": 778
+        },
+        "estimates": {
+          "filament used [mm]": "13343.00",
+          "filament used [cm3]": "32.09",
+          "filament used [g]": "39.80",
+          "estimated printing time (normal mode)": "2h 48m 26s"
+        },
+        "first_layer_extrusion_segments": 1443,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        19,
+        76,
+        140
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "43d87ca0f3c06aecffb372d385fe3585c4cad4bc712a3fe4557e87a37f0173f5",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL06",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL06_structure_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL06",
+        "--export-3mf",
+        "PL06_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL06.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL06_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL06_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "b2f8728ccac43bb8d5cfc82693ebbb921469503e55ad4a84a3bb23185a7181ca",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 37989.46768049884,
+            "bounds_mm": [
+              [
+                -68.0,
+                -97.75,
+                0.0
+              ],
+              [
+                61.0,
+                -2.25,
+                59.0
+              ]
+            ],
+            "faces": 5748
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 52591.47364330428,
+            "bounds_mm": [
+              [
+                -68.0,
+                11.75,
+                0.0
+              ],
+              [
+                68.0,
+                97.75,
+                6.0
+              ]
+            ],
+            "faces": 5128
+          }
+        ],
+        "max_vertex_deviation_mm": 9.151477349229154e-07
+      },
+      "toolpath": {
+        "layers": 432,
+        "path_center_bounds_xy_mm": [
+          [
+            -72.442,
+            -100.849
+          ],
+          [
+            72.442,
+            102.192
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -72.78028599999999,
+            -101.187286
+          ],
+          [
+            72.78028599999999,
+            102.53028599999999
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.676572,
+        "max_z_mm": 58.8,
+        "feature_segments": {
+          "Brim": 941,
+          "Outer wall": 24957,
+          "Inner wall": 69753,
+          "Gap infill": 3908,
+          "Bottom surface": 1072,
+          "Support": 21164,
+          "Internal solid infill": 18096,
+          "Sparse infill": 79601,
+          "Support interface": 4496,
+          "Overhang wall": 295,
+          "Bridge": 422,
+          "Internal Bridge": 2302,
+          "Top surface": 1246
+        },
+        "estimates": {
+          "filament used [mm]": "27986.33",
+          "filament used [cm3]": "67.32",
+          "filament used [g]": "83.47",
+          "estimated printing time (normal mode)": "5h 58m 50s"
+        },
+        "first_layer_extrusion_segments": 4458,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        150,
+        236,
+        432
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "454e4008e55bdffc9e700864cd5f0f8f69584192c67f01ce40d0ecf01bfa07de",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL07",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL07_structure_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL07",
+        "--export-3mf",
+        "PL07_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL07.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL07_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL07_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "5b7f5e460b4137f70b937ef63d214dd58407fd3bf72ca639822b298cbd260c2a",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 25452.803510858794,
+            "bounds_mm": [
+              [
+                -79.0,
+                -86.92362589999999,
+                0.0
+              ],
+              [
+                79.0,
+                -3.868068700000002,
+                4.5
+              ]
+            ],
+            "faces": 5040
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 15090.820562229002,
+            "bounds_mm": [
+              [
+                -79.0,
+                10.131931299999998,
+                0.0
+              ],
+              [
+                69.0,
+                86.92362589999999,
+                8.0
+              ]
+            ],
+            "faces": 4736
+          }
+        ],
+        "max_vertex_deviation_mm": 1.3344029628922252e-07
+      },
+      "toolpath": {
+        "layers": 56,
+        "path_center_bounds_xy_mm": [
+          [
+            -83.442,
+            -91.362
+          ],
+          [
+            83.439,
+            91.366
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -83.76795,
+            -91.68795
+          ],
+          [
+            83.76495,
+            91.69195
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.6519,
+        "max_z_mm": 8.0,
+        "feature_segments": {
+          "Brim": 3432,
+          "Support": 1985,
+          "Outer wall": 23393,
+          "Inner wall": 62225,
+          "Gap infill": 5022,
+          "Bottom surface": 1841,
+          "Support interface": 1906,
+          "Internal solid infill": 20183,
+          "Overhang wall": 546,
+          "Bridge": 1414,
+          "Sparse infill": 27837,
+          "Internal Bridge": 2016,
+          "Top surface": 1129
+        },
+        "estimates": {
+          "filament used [mm]": "12554.31",
+          "filament used [cm3]": "30.20",
+          "filament used [g]": "37.44",
+          "estimated printing time (normal mode)": "2h 44m 28s"
+        },
+        "first_layer_extrusion_segments": 9180,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        29,
+        56
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "23ab86e9b1cd7423cb186a3c9d888e5c51a9f430bcd3421e63d4898a42c34398",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL08",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL08_structure_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL08",
+        "--export-3mf",
+        "PL08_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL08.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL08_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL08_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "6b165fe91311eb4c84600aece678a5c6b199aa06c97da68d34a90cbdf3bd7f5e",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 14134.225998164407,
+            "bounds_mm": [
+              [
+                -74.0,
+                -70.8499985,
+                0.0
+              ],
+              [
+                74.0,
+                -4.150001500000002,
+                8.0
+              ]
+            ],
+            "faces": 4968
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 60395.06760008977,
+            "bounds_mm": [
+              [
+                -74.0,
+                9.849998499999998,
+                0.0
+              ],
+              [
+                22.0,
+                70.8499985,
+                55.0
+              ]
+            ],
+            "faces": 6256
+          }
+        ],
+        "max_vertex_deviation_mm": 1.4500690859900183e-07
+      },
+      "toolpath": {
+        "layers": 379,
+        "path_center_bounds_xy_mm": [
+          [
+            -78.442,
+            -75.208
+          ],
+          [
+            78.442,
+            75.281
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -78.78686649999999,
+            -75.5528665
+          ],
+          [
+            78.78686649999999,
+            75.6258665
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.689733,
+        "max_z_mm": 55.0,
+        "feature_segments": {
+          "Brim": 2538,
+          "Support": 10631,
+          "Outer wall": 47686,
+          "Inner wall": 134056,
+          "Bottom surface": 1356,
+          "Gap infill": 1514,
+          "Internal solid infill": 18791,
+          "Sparse infill": 71921,
+          "Internal Bridge": 3046,
+          "Top surface": 1408,
+          "Support interface": 3396,
+          "Overhang wall": 78,
+          "Bridge": 717
+        },
+        "estimates": {
+          "filament used [mm]": "22335.83",
+          "filament used [cm3]": "53.72",
+          "filament used [g]": "66.62",
+          "estimated printing time (normal mode)": "4h 33m 3s"
+        },
+        "first_layer_extrusion_segments": 6229,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        66,
+        229,
+        379
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "b1be564c57facc29c0aab6568a5dca960e70b8c80be4d4dcf100244e632fba92",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL09",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL09_structure_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_slices\\PL09",
+        "--export-3mf",
+        "PL09_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL09.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL09_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL09_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "c1099e2ab8cf18dc049357fb29f897a74332d8905afeed86b2369ee7b893641b",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 5,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 13677.493263723087,
+            "bounds_mm": [
+              [
+                -74.0,
+                -95.8042393,
+                0.0
+              ],
+              [
+                62.0,
+                -37.804239300000006,
+                18.5
+              ]
+            ],
+            "faces": 4012
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 30727.70709437299,
+            "bounds_mm": [
+              [
+                -74.0,
+                -23.8042393,
+                0.0
+              ],
+              [
+                74.0,
+                29.8042393,
+                48.3357658
+              ]
+            ],
+            "faces": 5484
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 39683.76814600187,
+            "bounds_mm": [
+              [
+                -74.0,
+                43.804239300000006,
+                0.0
+              ],
+              [
+                -14.0,
+                95.8042393,
+                42.0
+              ]
+            ],
+            "faces": 5152
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 2757.9271186205515,
+            "bounds_mm": [
+              [
+                0.0,
+                43.804239300000006,
+                0.0
+              ],
+              [
+                20.695652,
+                93.8042393,
+                15.0
+              ]
+            ],
+            "faces": 1132
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 2757.927118620553,
+            "bounds_mm": [
+              [
+                34.695652,
+                43.804239300000006,
+                0.0
+              ],
+              [
+                55.391304,
+                93.8042393,
+                15.0
+              ]
+            ],
+            "faces": 1132
+          }
+        ],
+        "max_vertex_deviation_mm": 1.0096243225428145e-06
+      },
+      "toolpath": {
+        "layers": 523,
+        "path_center_bounds_xy_mm": [
+          [
+            -78.442,
+            -100.391
+          ],
+          [
+            78.442,
+            100.513
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -78.7986425,
+            -100.74764250000001
+          ],
+          [
+            78.7986425,
+            100.86964250000001
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.713285,
+        "max_z_mm": 48.4,
+        "feature_segments": {
+          "Brim": 1301,
+          "Support": 17813,
+          "Outer wall": 33947,
+          "Inner wall": 78111,
+          "Gap infill": 10671,
+          "Bottom surface": 296,
+          "Internal solid infill": 22770,
+          "Sparse infill": 78239,
+          "Support interface": 11452,
+          "Top surface": 2023,
+          "Overhang wall": 1546,
+          "Bridge": 2355,
+          "Internal Bridge": 2735
+        },
+        "estimates": {
+          "filament used [mm]": "34400.27",
+          "filament used [cm3]": "82.74",
+          "filament used [g]": "102.60",
+          "estimated printing time (normal mode)": "7h 46m 51s"
+        },
+        "first_layer_extrusion_segments": 4247,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        46,
+        319,
+        523
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "a2540405f7131ccba27a6a61259c63fd62a511786c927950a51f2c5b8012c464",
+      "reused_unchanged_plate": true
+    },
+    {
+      "plate": "PL10",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "command": [
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\tooling\\orca\\orca-slicer.exe",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\3mf\\plates\\PL10_structure_models.3mf",
+        "--load-settings",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\process.json;C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\printer.json",
+        "--load-filaments",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\outputs\\Mimic_R5a_Manufacturing_Release\\scripts\\profiles\\filament.json",
+        "--arrange",
+        "0",
+        "--orient",
+        "0",
+        "--slice",
+        "0",
+        "--outputdir",
+        "C:/example-user\\Documents\\Codex\\2026-10-19\\you-are-the-lead-mechanical-electrical\\work\\printing\\final_targeted\\PL10",
+        "--export-3mf",
+        "PL10_AD5M_PLA_0p4_sliced.3mf",
+        "--debug",
+        "2"
+      ],
+      "log": "validation/printing_PL10.log",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL10_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL10_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "3654a671476c82f9cd51cb43ec171c8e8d86e512e3534eb71593560918aae5fc",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 5,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 12102.32089440585,
+            "bounds_mm": [
+              [
+                -74.0,
+                -99.47669219999999,
+                0.0
+              ],
+              [
+                74.0,
+                -50.927082,
+                8.0
+              ]
+            ],
+            "faces": 5544
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 31782.99705737876,
+            "bounds_mm": [
+              [
+                -74.0,
+                -36.9270821,
+                0.0
+              ],
+              [
+                62.0,
+                9.0729179,
+                54.3176918
+              ]
+            ],
+            "faces": 10652
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 4225.8863524749,
+            "bounds_mm": [
+              [
+                -74.0,
+                23.0729179,
+                0.0
+              ],
+              [
+                -13.75,
+                62.0729179,
+                20.0
+              ]
+            ],
+            "faces": 2122
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 1629.8929760808835,
+            "bounds_mm": [
+              [
+                0.25,
+                23.072918,
+                0.0
+              ],
+              [
+                71.25,
+                49.067926400000005,
+                10.1999998
+              ]
+            ],
+            "faces": 1636
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 1537.3266933023372,
+            "bounds_mm": [
+              [
+                -74.0,
+                76.07291799999999,
+                0.0
+              ],
+              [
+                -5.0,
+                99.4766922,
+                9.5
+              ]
+            ],
+            "faces": 1628
+          }
+        ],
+        "max_vertex_deviation_mm": 1.0993603089667035e-06
+      },
+      "toolpath": {
+        "layers": 438,
+        "path_center_bounds_xy_mm": [
+          [
+            -78.442,
+            -103.918
+          ],
+          [
+            78.442,
+            103.919
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -78.80044099999999,
+            -104.276441
+          ],
+          [
+            78.80044099999999,
+            104.277441
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.716882,
+        "max_z_mm": 54.2,
+        "feature_segments": {
+          "Brim": 6729,
+          "Support interface": 8123,
+          "Outer wall": 28794,
+          "Inner wall": 64841,
+          "Gap infill": 4397,
+          "Support": 21271,
+          "Bottom surface": 1241,
+          "Internal solid infill": 17263,
+          "Overhang wall": 678,
+          "Bridge": 248,
+          "Sparse infill": 26007,
+          "Internal Bridge": 1573,
+          "Top surface": 1045
+        },
+        "estimates": {
+          "filament used [mm]": "19268.46",
+          "filament used [cm3]": "46.35",
+          "filament used [g]": "57.47",
+          "estimated printing time (normal mode)": "4h 58m 34s"
+        },
+        "first_layer_extrusion_segments": 11052,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        279,
+        438
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "3274867497abd8d0204334de11e648e4ffd52b42416900f054e5bfb0a32384da"
+    }
+  ],
+  "hardware_tested": false,
+  "mesh_identity_tolerance_mm": 0.002,
+  "status": "software checks only; physical fit and print calibration required",
+  "all_slices_pass": true
+}

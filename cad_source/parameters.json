@@ -1,0 +1,137 @@
+{
+  "revision": "R5a-E1",
+  "parameters": {
+    "eye_x": 33.75,
+    "eye_y": -36.25,
+    "eye_z": 112.5,
+    "globe_r": 16.0,
+    "globe_cavity_r": 13.5,
+    "bottom_cone_half_deg": 36.0,
+    "pin_d": 2.0,
+    "pin_hole_d": 2.2,
+    "block": 8.0,
+    "post_r": 3.5,
+    "C0": [
+      0.0,
+      24.0,
+      0.0
+    ],
+    "ball_r": 2.0,
+    "lid_r_in": 17.2,
+    "lid_r_out": 18.7,
+    "lid_arm_x": [
+      17.8,
+      19.3
+    ],
+    "prong_x": [
+      19.8,
+      22.8
+    ],
+    "lid_lever": [
+      9.8,
+      -4.1
+    ],
+    "lid_rod_x": 16.5,
+    "lid_pin0_z": 186.0,
+    "lid_horn_phase_deg": 35.0,
+    "horn_r": 10.0,
+    "eye_horn_r": 14.0,
+    "yaw_ball": [
+      2.5,
+      -12.25,
+      140.0
+    ],
+    "yaw_rod_len": 30.0,
+    "pitch_ball": [
+      0.0,
+      -12.25,
+      146.5
+    ],
+    "pitch_rod_len": 30.0,
+    "eye_deck_z": [
+      80.0,
+      84.0
+    ],
+    "jaw_axis": [
+      12.5,
+      56.25
+    ],
+    "ramus_x": [
+      59.5,
+      64.5
+    ],
+    "jaw_tip_x": -57.5,
+    "chin_z": 8.0,
+    "wall_x": [
+      68.0,
+      74.0
+    ],
+    "plate_x": [
+      74.0,
+      79.0
+    ],
+    "mask_y": [
+      -62.0,
+      -57.5
+    ],
+    "orbit_wh": [
+      42.0,
+      36.0
+    ],
+    "deck_z": [
+      154.0,
+      158.0
+    ],
+    "deck_y": [
+      -21.0,
+      20.0
+    ],
+    "neck_pattern": [
+      80.0,
+      45.0
+    ],
+    "m3_clear": 3.4,
+    "teeth_gap_front": 2.5,
+    "molar_gap": 0.8,
+    "yaw_pin0": [
+      32.5,
+      -12.25,
+      140.0
+    ],
+    "yaw_S": [
+      32.5,
+      1.75,
+      140.0
+    ],
+    "pitch_pin0": [
+      0.0,
+      -12.25,
+      176.5
+    ],
+    "pitch_S": [
+      0.0,
+      1.75,
+      176.5
+    ],
+    "lid_pin0": [
+      16.5,
+      -26.45,
+      186.0
+    ],
+    "lid_S": [
+      16.5,
+      -18.258479557110082,
+      191.73576436351047
+    ]
+  },
+  "engineering_parameters": {
+    "yaw_radius_mm": 12,
+    "pitch_arm_mm": 24,
+    "pitch_rod_mm": 64,
+    "lid_rod_mm": 77.6,
+    "eye_bearing_bore_mm": 3.2,
+    "servo_tab_pitch_mm": 28
+  },
+  "source": "Original approved concept plus explicit engineering choices; no user-measured hardware dimensions supplied",
+  "tolerances": "M3 clearance3.4, running shaft3.2, M2 clearance2.2, servo flange2.4; coupons required"
+}

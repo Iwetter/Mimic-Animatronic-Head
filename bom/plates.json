@@ -1,0 +1,406 @@
+{
+  "revision": "R5a-E1",
+  "bed_mm": [
+    220,
+    220,
+    220
+  ],
+  "edge_margin_mm": 10,
+  "model_spacing_mm": 14,
+  "plates": [
+    {
+      "id": "PL01",
+      "group": "00_fit_coupons",
+      "items": [
+        {
+          "id": "P90",
+          "copy": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL01_00_fit_coupons_models.3mf"
+    },
+    {
+      "id": "PL02",
+      "group": "mechanism",
+      "items": [
+        {
+          "id": "P45",
+          "copy": 1,
+          "translation_mm": [
+            -31.822109699249268,
+            -56.14999961853027,
+            0
+          ]
+        },
+        {
+          "id": "P39",
+          "copy": 1,
+          "translation_mm": [
+            60.077889919281006,
+            -64.0,
+            0
+          ]
+        },
+        {
+          "id": "P40",
+          "copy": 1,
+          "translation_mm": [
+            -83.922110080719,
+            -4.0,
+            0
+          ]
+        },
+        {
+          "id": "P34",
+          "copy": 1,
+          "translation_mm": [
+            -41.05996751785278,
+            -5.941627502441406,
+            0
+          ]
+        },
+        {
+          "id": "P34",
+          "copy": 2,
+          "translation_mm": [
+            4.864318370819092,
+            -5.941627502441406,
+            0
+          ]
+        },
+        {
+          "id": "P37",
+          "copy": 1,
+          "translation_mm": [
+            39.82646131515503,
+            -8.901259899139404,
+            0
+          ]
+        },
+        {
+          "id": "P37",
+          "copy": 2,
+          "translation_mm": [
+            63.82646131515503,
+            -8.901259899139404,
+            0
+          ]
+        },
+        {
+          "id": "P35",
+          "copy": 1,
+          "translation_mm": [
+            89.82428550720215,
+            -12.149999618530273,
+            0
+          ]
+        },
+        {
+          "id": "P35",
+          "copy": 2,
+          "translation_mm": [
+            -89.82428550720215,
+            32.14999961853027,
+            0
+          ]
+        },
+        {
+          "id": "P49",
+          "copy": 1,
+          "translation_mm": [
+            -27.027392864227295,
+            28.149999618530273,
+            0
+          ]
+        },
+        {
+          "id": "P49",
+          "copy": 2,
+          "translation_mm": [
+            -55.02304124832153,
+            56.14999961853027,
+            0
+          ]
+        },
+        {
+          "id": "P46",
+          "copy": 1,
+          "translation_mm": [
+            35.77509641647339,
+            56.14999961853027,
+            0
+          ]
+        },
+        {
+          "id": "P38",
+          "copy": 1,
+          "translation_mm": [
+            -76.94804239273071,
+            76.14999961853027,
+            0
+          ]
+        },
+        {
+          "id": "P38",
+          "copy": 2,
+          "translation_mm": [
+            -23.199907779693604,
+            76.14999961853027,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL02_mechanism_models.3mf"
+    },
+    {
+      "id": "PL03",
+      "group": "structure",
+      "items": [
+        {
+          "id": "P23",
+          "copy": 1,
+          "translation_mm": [
+            -41.5078125,
+            0.0,
+            0
+          ]
+        },
+        {
+          "id": "P24",
+          "copy": 1,
+          "translation_mm": [
+            41.5078125,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL03_structure_models.3mf"
+    },
+    {
+      "id": "PL04",
+      "group": "structure",
+      "items": [
+        {
+          "id": "P28",
+          "copy": 1,
+          "translation_mm": [
+            -71.0,
+            0.0,
+            0
+          ]
+        },
+        {
+          "id": "P21",
+          "copy": 1,
+          "translation_mm": [
+            34.81494140625,
+            -14.05615234375,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL04_structure_models.3mf"
+    },
+    {
+      "id": "PL05",
+      "group": "structure",
+      "items": [
+        {
+          "id": "P22",
+          "copy": 1,
+          "translation_mm": [
+            0.0,
+            0.0,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL05_structure_models.3mf"
+    },
+    {
+      "id": "PL06",
+      "group": "structure",
+      "items": [
+        {
+          "id": "P33",
+          "copy": 1,
+          "translation_mm": [
+            -3.5,
+            -50.0,
+            0
+          ]
+        },
+        {
+          "id": "P20",
+          "copy": 1,
+          "translation_mm": [
+            0.0,
+            54.75,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL06_structure_models.3mf"
+    },
+    {
+      "id": "PL07",
+      "group": "structure",
+      "items": [
+        {
+          "id": "P29",
+          "copy": 1,
+          "translation_mm": [
+            0.0,
+            -45.39584732055664,
+            0
+          ]
+        },
+        {
+          "id": "P26",
+          "copy": 1,
+          "translation_mm": [
+            -5.0,
+            48.52777862548828,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL07_structure_models.3mf"
+    },
+    {
+      "id": "PL08",
+      "group": "structure",
+      "items": [
+        {
+          "id": "P27",
+          "copy": 1,
+          "translation_mm": [
+            0.0,
+            -37.5,
+            0
+          ]
+        },
+        {
+          "id": "P03",
+          "copy": 1,
+          "translation_mm": [
+            -26.0,
+            40.349998474121094,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL08_structure_models.3mf"
+    },
+    {
+      "id": "PL09",
+      "group": "structure",
+      "items": [
+        {
+          "id": "P32",
+          "copy": 1,
+          "translation_mm": [
+            -6.0,
+            -66.80423927307129,
+            0
+          ]
+        },
+        {
+          "id": "P41",
+          "copy": 1,
+          "translation_mm": [
+            0.0,
+            3.0,
+            0
+          ]
+        },
+        {
+          "id": "P01",
+          "copy": 1,
+          "translation_mm": [
+            -44.0,
+            69.80423927307129,
+            0
+          ]
+        },
+        {
+          "id": "P30",
+          "copy": 1,
+          "translation_mm": [
+            10.34782600402832,
+            68.80423927307129,
+            0
+          ]
+        },
+        {
+          "id": "P31",
+          "copy": 1,
+          "translation_mm": [
+            45.04347801208496,
+            68.80423927307129,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL09_structure_models.3mf"
+    },
+    {
+      "id": "PL10",
+      "group": "structure",
+      "items": [
+        {
+          "id": "P25",
+          "copy": 1,
+          "translation_mm": [
+            0.0,
+            -75.2018871307373,
+            0
+          ]
+        },
+        {
+          "id": "P36",
+          "copy": 1,
+          "translation_mm": [
+            -6.0,
+            -13.927082061767578,
+            0
+          ]
+        },
+        {
+          "id": "P44",
+          "copy": 1,
+          "translation_mm": [
+            -43.875,
+            42.57291793823242,
+            0
+          ]
+        },
+        {
+          "id": "P42",
+          "copy": 1,
+          "translation_mm": [
+            35.75,
+            36.07042217254639,
+            0
+          ]
+        },
+        {
+          "id": "P43",
+          "copy": 1,
+          "translation_mm": [
+            -39.5,
+            87.77480506896973,
+            0
+          ]
+        }
+      ],
+      "model_3mf": "3mf/plates/PL10_structure_models.3mf"
+    }
+  ]
+}

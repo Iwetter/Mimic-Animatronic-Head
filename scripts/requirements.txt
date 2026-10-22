@@ -1,0 +1,8 @@
+cadquery==2.8.0
+trimesh==5.1.1
+numpy==2.5.4
+lib3mf==2.5.0
+Pillow==13.0.0
+reportlab==5.0.1
+PyMuPDF==1.28.2
+svglib==2.3.0

@@ -1,0 +1,526 @@
+{
+  "status": "PASS_SUBTRACTIVE_GEOMETRY_EXTENSION",
+  "physical_tested": false,
+  "principle": "All unchanged positioned solids are geometrically equal. P36 is reproduced by enlarging an existing subtractive cut on the previous fixed solid; source diff, reconstructed volume and surface-vertex comparison verify the change. Removing fixed material cannot create any solid intersection. Closure solver and moving solids are unchanged.",
+  "baseline_assembly_sha256": "dd28d468566972c318801091b755a2e09dc84985a75884eb739869e2f0a48ceb",
+  "final_assembly_sha256": "a2e27e4cc1d14f8ab75a8663cd86dacf6f49952fa4b4d53c1e8ed50999abd7c4",
+  "checks": [
+    {
+      "name": "P20",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P21",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P22",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P23",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P24",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P25",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P26",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P27",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P28",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P29",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P30",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P31",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P32",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P33",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P42",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P43",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P36",
+      "added_mm3": 0,
+      "removed_mm3": 134.9999994322352,
+      "unchanged": false,
+      "method": "Reconstruct expanded subtractive cutter on baseline STEP; compare volume and bidirectional tessellated surface vertices",
+      "reconstructed_volume_mm3": 31782.95057064204,
+      "surface_vertex_distance_mm": 0.0,
+      "direct_coincident_boolean_note": "Direct final-minus-baseline OCC Boolean gave inconsistent volume and is not used as evidence."
+    },
+    {
+      "name": "P41",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P44",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P01",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P03",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P34_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P35_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P37_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P49_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P34_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P35_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P37_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P49_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P38_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P38_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P39_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P40_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P45",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "P46",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "MG90S_CH0_yaw",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "MG90S_CH1_jaw",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "MG90S_CH2_pitch",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "SG90_CH3_lid_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "SG90_CH4_lid_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "OEM_horn_CH0",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "OEM_horn_CH2",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "OEM_horn_lid_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "OEM_horn_lid_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "OEM_horn_CH1_double",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "STEEL_yaw_shaft_L",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "COLLAR_L_0",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "COLLAR_L_1",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "STEEL_yaw_shaft_R",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "COLLAR_R_0",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    },
+    {
+      "name": "COLLAR_R_1",
+      "added_mm3": 0,
+      "removed_mm3": 0,
+      "unchanged": true
+    }
+  ],
+  "targeted_clearances": [
+    {
+      "yaw": -20,
+      "pitch": -12,
+      "link": "P38_L",
+      "clearance_mm": 1.8357943805159351
+    },
+    {
+      "yaw": -20,
+      "pitch": -12,
+      "link": "P38_R",
+      "clearance_mm": 1.3160151534715396
+    },
+    {
+      "yaw": -20,
+      "pitch": -6,
+      "link": "P38_L",
+      "clearance_mm": 4.710968672753342
+    },
+    {
+      "yaw": -20,
+      "pitch": -6,
+      "link": "P38_R",
+      "clearance_mm": 3.0404310048798515
+    },
+    {
+      "yaw": -20,
+      "pitch": 0,
+      "link": "P38_L",
+      "clearance_mm": 7.367960342763375
+    },
+    {
+      "yaw": -20,
+      "pitch": 0,
+      "link": "P38_R",
+      "clearance_mm": 5.5260148038648795
+    },
+    {
+      "yaw": -20,
+      "pitch": 6,
+      "link": "P38_L",
+      "clearance_mm": 9.907457103379032
+    },
+    {
+      "yaw": -20,
+      "pitch": 6,
+      "link": "P38_R",
+      "clearance_mm": 8.556128154287906
+    },
+    {
+      "yaw": -20,
+      "pitch": 12,
+      "link": "P38_L",
+      "clearance_mm": 12.017098289404972
+    },
+    {
+      "yaw": -20,
+      "pitch": 12,
+      "link": "P38_R",
+      "clearance_mm": 11.69564799507091
+    },
+    {
+      "yaw": 0,
+      "pitch": -12,
+      "link": "P38_L",
+      "clearance_mm": 2.543668599933625
+    },
+    {
+      "yaw": 0,
+      "pitch": -12,
+      "link": "P38_R",
+      "clearance_mm": 1.958150260577662
+    },
+    {
+      "yaw": 0,
+      "pitch": -6,
+      "link": "P38_L",
+      "clearance_mm": 5.430692781721643
+    },
+    {
+      "yaw": 0,
+      "pitch": -6,
+      "link": "P38_R",
+      "clearance_mm": 3.3274770068037185
+    },
+    {
+      "yaw": 0,
+      "pitch": 0,
+      "link": "P38_L",
+      "clearance_mm": 7.810249675906654
+    },
+    {
+      "yaw": 0,
+      "pitch": 0,
+      "link": "P38_R",
+      "clearance_mm": 6.103277807866851
+    },
+    {
+      "yaw": 0,
+      "pitch": 6,
+      "link": "P38_L",
+      "clearance_mm": 10.479483554091203
+    },
+    {
+      "yaw": 0,
+      "pitch": 6,
+      "link": "P38_R",
+      "clearance_mm": 9.212448007873402
+    },
+    {
+      "yaw": 0,
+      "pitch": 12,
+      "link": "P38_L",
+      "clearance_mm": 12.47452453318167
+    },
+    {
+      "yaw": 0,
+      "pitch": 12,
+      "link": "P38_R",
+      "clearance_mm": 12.004924796079479
+    },
+    {
+      "yaw": 20,
+      "pitch": -12,
+      "link": "P38_L",
+      "clearance_mm": 1.8357943805159351
+    },
+    {
+      "yaw": 20,
+      "pitch": -12,
+      "link": "P38_R",
+      "clearance_mm": 1.3160151534715396
+    },
+    {
+      "yaw": 20,
+      "pitch": -6,
+      "link": "P38_L",
+      "clearance_mm": 4.710968672753342
+    },
+    {
+      "yaw": 20,
+      "pitch": -6,
+      "link": "P38_R",
+      "clearance_mm": 3.0404310048798515
+    },
+    {
+      "yaw": 20,
+      "pitch": 0,
+      "link": "P38_L",
+      "clearance_mm": 7.367960342763375
+    },
+    {
+      "yaw": 20,
+      "pitch": 0,
+      "link": "P38_R",
+      "clearance_mm": 5.5260148038648795
+    },
+    {
+      "yaw": 20,
+      "pitch": 6,
+      "link": "P38_L",
+      "clearance_mm": 9.907457103379032
+    },
+    {
+      "yaw": 20,
+      "pitch": 6,
+      "link": "P38_R",
+      "clearance_mm": 8.556128154287906
+    },
+    {
+      "yaw": 20,
+      "pitch": 12,
+      "link": "P38_L",
+      "clearance_mm": 12.017098289404972
+    },
+    {
+      "yaw": 20,
+      "pitch": 12,
+      "link": "P38_R",
+      "clearance_mm": 11.69564799507091
+    }
+  ],
+  "minimum_targeted_clearance_mm": 1.3160151534715396,
+  "baseline_source_hashes": {
+    "cad_source/build_release.py": "054f16a07870d3103de5cba396b204b97a7438d385d1d9b57f2c6acdd0adf952",
+    "cad_source/motion.py": "c7c34d13d77d3b8157d89d0173977d0e9ca68f636ab02abac29b8a84682e3901",
+    "step/assembly/Mimic_R5a_E1_complete.step": "dd28d468566972c318801091b755a2e09dc84985a75884eb739869e2f0a48ceb"
+  },
+  "final_source_sha256": {
+    "cad_source/build_release.py": "edd7eeb628f92a65f0544444feabba3f2d2260c5b04e314db843ec56116d99f5",
+    "cad_source/motion.py": "c7c34d13d77d3b8157d89d0173977d0e9ca68f636ab02abac29b8a84682e3901",
+    "step/assembly/Mimic_R5a_E1_complete.step": "a2e27e4cc1d14f8ab75a8663cd86dacf6f49952fa4b4d53c1e8ed50999abd7c4"
+  },
+  "note": "Print orientation/notes were updated between the baseline sweep start and final source. Geometry equivalence is checked directly above, so no unrecorded claim of a full re-sweep is made.",
+  "source_diff": [
+    "--- before_final_relief",
+    "+++ final",
+    "@@ -145,7 +145,7 @@",
+    " ed=U(ed,arc_sector(-68,4,EY,EZ,18,-27,27))",
+    " ed=arc_slot(ed,-69,-63,EY,EZ,14,-12.98,12.98,1.25)",
+    " for x in(-EX+21.3,EX-21.3):",
+    "-    ed=D(ed,box((x,-30.25,89),(5,8,18)))",
+    "+    ed=D(ed,box((x,-30.875,89),(5,9.25,18)))",
+    " for zyg in ('P30','P31'):",
+    "     edit(zyg,D(sh(zyg),ed),'Hidden root relieved around fixed eye-deck pitch supports; root shoe retained by M3x25. Approved visible zygoma retained.')",
+    " edit('P36',ed,'Fixed eye/lid deck lowered internally10mm for yaw-link/nut travel; common-pitch outboard pivots, lid/pitch stop slots and sidewall bolts.')"
+  ]
+}

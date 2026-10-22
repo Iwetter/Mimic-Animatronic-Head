@@ -1,0 +1,145 @@
+{
+  "revision": "R5a-E1",
+  "method": "Visual inspection of generated raster previews from actual Orca G-code: first, middle-by-Z model event, last model event, and maximum support-interface event where distinct. Not an inspection of every extrusion move.",
+  "digital_checks_passed": true,
+  "physical_tested": false,
+  "unique_parts": 31,
+  "total_printed_pieces": 36,
+  "build_plates": 10,
+  "oriented_part_minimum_planar_contact_mm2": 0.076736202430709,
+  "part_requiring_special_adhesion_trial": "P34 globe; mandatory generated supports and brim, minimal direct planar bed contact",
+  "remaining_process_tests": [
+    "Owner printer first-layer and flow calibration with actual PLA",
+    "P90 hardware fits and actual servo envelope confirmation",
+    "P34 eye shell adhesion and removable internal supports",
+    "Thin jaw/eye linkage stiffness, pivot dimensions and layer-strength checks",
+    "Support removal without damaging bearing, fastener, cable or cosmetic surfaces"
+  ],
+  "orientation_corrections_after_preview": {
+    "P03": "X180; flange down",
+    "P21": "Y-90; larger outer boss contact",
+    "P23": "Y-90; broad face down",
+    "P42": "X180; carrier root down"
+  },
+  "plates": [
+    {
+      "plate": "PL01",
+      "preview_file": "renders/layers/PL01_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        15,
+        30
+      ],
+      "observation": "Coupon apertures remain open; continuous first layer and outer brim visible.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL02",
+      "preview_file": "renders/layers/PL02_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        30,
+        150,
+        290
+      ],
+      "observation": "Narrow links have continuous extrusion. Lid arm faces contact bed; globes have minimal direct contact and extensive supports. Internal shell supports require careful removal.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL03",
+      "preview_file": "renders/layers/PL03_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        29,
+        42,
+        54
+      ],
+      "observation": "Both mirrored cranial plates now print broad faces down; large full first layers replace the prior left-plate support foundation.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL04",
+      "preview_file": "renders/layers/PL04_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        27,
+        82,
+        146
+      ],
+      "observation": "Crest has continuous side contact; wall rests on outer boss with support beneath the plate and feet.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL05",
+      "preview_file": "renders/layers/PL05_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        19,
+        76,
+        140
+      ],
+      "observation": "Right wall outer boss and broad support foundation visible; support interface covers underside of plate.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL06",
+      "preview_file": "renders/layers/PL06_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        150,
+        236,
+        432
+      ],
+      "observation": "Base plate continuous first layer; jaw chin contact with supported rami. Jaw bearing features continue to final model layer.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL07",
+      "preview_file": "renders/layers/PL07_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        29,
+        56
+      ],
+      "observation": "Mask and cranial arch have broad continuous paths; support appears at eye recess edges and end tabs.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL08",
+      "preview_file": "renders/layers/PL08_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        66,
+        229,
+        379
+      ],
+      "observation": "Neck flange now lies on bed; support is limited mainly to the tenon/cable transition. Arch bed contact continuous.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL09",
+      "preview_file": "renders/layers/PL09_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        46,
+        319,
+        523
+      ],
+      "observation": "Deck, maxilla, socket and zygoma pads all show model starts plus support where needed; all support-sensitive undersides require cleanup.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    },
+    {
+      "plate": "PL10",
+      "preview_file": "renders/layers/PL10_layers.png",
+      "reviewed_extrusion_events_1based": [
+        1,
+        279,
+        438
+      ],
+      "observation": "Eye deck broad base is on bed; upper teeth root is down. Servo cradle has small direct contact with surrounding supports. Posts remain separate as intended.",
+      "sampled_preview_review": "No bed clipping or obvious missing modeled feature identified in sampled views; supports/brims present. Full interactive slicer preview and physical trial still required."
+    }
+  ],
+  "final_PL10_review": "Updated first/mid/top toolpath raster reviewed after P36 clearance relief; no clipped or missing modeled feature visible. Other nine unchanged slices reused.",
+  "final_PL10_preview_sha256": "690ff1a2640e33a93995a019ef77872bd92e5f5c20f8a4e633e5f8ecfe6323a4"
+}

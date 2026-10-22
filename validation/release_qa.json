@@ -1,0 +1,928 @@
+{
+  "scope": "Independent digital release review; no physical testing",
+  "physical_tested": false,
+  "checks": [
+    {
+      "name": "required_artifacts",
+      "passed": true,
+      "detail": {
+        "files": 20
+      }
+    },
+    {
+      "name": "parts_manifest",
+      "passed": true,
+      "detail": {
+        "unique_parts": 31,
+        "printed_pieces": 36
+      }
+    },
+    {
+      "name": "step_and_mesh_geometry",
+      "passed": true,
+      "detail": [
+        {
+          "id": "P01",
+          "step_sha256": "80c3f29715f8fcc7dec698e9598fd7b7964311485c0983b3baf2869997205e47",
+          "stl_sha256": "feae9eabfeb6639c8122f90b07e7918c28e35dee199ef71a6318d778df53294d",
+          "step_mm3": 39684.20503929456,
+          "mesh_mm3": 39683.76813933682,
+          "extent_mm": [
+            60.0,
+            52.0,
+            42.0
+          ]
+        },
+        {
+          "id": "P03",
+          "step_sha256": "c728f9fa9fe02dba3e47691258c698d807f4dcb0c8a7d344ed45b49d7d23108d",
+          "stl_sha256": "71e7381a74c7c4745ea26fe982c1a6cbcf3b72d27fe78f7181fe55d1cc2e4714",
+          "step_mm3": 60396.76369940792,
+          "mesh_mm3": 60395.067603109324,
+          "extent_mm": [
+            96.0,
+            61.0,
+            55.0
+          ]
+        },
+        {
+          "id": "P20",
+          "step_sha256": "d46359c3ee78171e360b8a7eb7c9306d6a1115542eb6e3edc2bb259818068227",
+          "stl_sha256": "7c150337381cb63a2fec84aa2b47d2c569bdc14abb357351ef8eeb10d697d604",
+          "step_mm3": 52591.247833867565,
+          "mesh_mm3": 52591.47364339547,
+          "extent_mm": [
+            136.0,
+            86.0,
+            6.0
+          ]
+        },
+        {
+          "id": "P21",
+          "step_sha256": "25aadd5831690c5e96184846ec69c4d8b4617fdc35dc96534a6d2b1c9eb796d3",
+          "stl_sha256": "e55a2c13df7e88bd0890506299fc536f8c4912b148cca6b242400f791bd47e4c",
+          "step_mm3": 41026.52123219004,
+          "mesh_mm3": 41026.39799947523,
+          "extent_mm": [
+            128.0,
+            101.0,
+            19.0
+          ]
+        },
+        {
+          "id": "P22",
+          "step_sha256": "1b6bb2405d0133df51fad7cf92c77a22a91432dcedb9d48ec02521955ba738c5",
+          "stl_sha256": "88d789c552062405708980900bb4ff35e3e60bafdb489c996439b18512d26602",
+          "step_mm3": 41352.66494781194,
+          "mesh_mm3": 41352.57080532062,
+          "extent_mm": [
+            128.0,
+            101.0,
+            19.0
+          ]
+        },
+        {
+          "id": "P23",
+          "step_sha256": "e1ce64aafc921f51a3d20548203f309b58db3127b03476d98ca2beb08534cd96",
+          "stl_sha256": "5642fb962d669ee799c56af469f0846500f30021ee6df05f9a4796fbad4e3d92",
+          "step_mm3": 31509.48585398847,
+          "mesh_mm3": 31509.135344931932,
+          "extent_mm": [
+            69.015625,
+            140.1689453125,
+            8.5
+          ]
+        },
+        {
+          "id": "P24",
+          "step_sha256": "2e46b15a9be2949c652c630d86c1413f168ce9352f44f3d45374cdeee9d97ce2",
+          "stl_sha256": "9dd9ef23527f88e4a870f6945135dcf18eccc2d3ca5256d15e3b480a9b467806",
+          "step_mm3": 31509.485853988233,
+          "mesh_mm3": 31509.13534493193,
+          "extent_mm": [
+            69.015625,
+            140.1689453125,
+            8.5
+          ]
+        },
+        {
+          "id": "P25",
+          "step_sha256": "e024aaaf106aa2b8b81810165546b1ffcbaf3cc7e23fe135e6b7aa3d08c39a57",
+          "stl_sha256": "9309e69df76f4148a5a24d31a302ac51f127481823fae54132f339e5580ccdad",
+          "step_mm3": 12102.041582378626,
+          "mesh_mm3": 12102.320878561883,
+          "extent_mm": [
+            148.0,
+            48.54961013793945,
+            7.9999999999964615
+          ]
+        },
+        {
+          "id": "P26",
+          "step_sha256": "b43e71a86946b1fcf25d742e297a36d5f0342003ec38d58884b5cc4554d83ba0",
+          "stl_sha256": "7877c6e78e2bc46b5f65e4b16e2985cb73b37af80868fda34746131fd060b8f7",
+          "step_mm3": 15090.525052056348,
+          "mesh_mm3": 15090.820360133972,
+          "extent_mm": [
+            148.0,
+            76.79169464111328,
+            7.999999899998251
+          ]
+        },
+        {
+          "id": "P27",
+          "step_sha256": "f2a6107b8a1aeab63239d37d97bdec8a4de1869b7f2df0144c9e9c09831bdfc9",
+          "stl_sha256": "d9b8e71a21aa5e828ce60c209d2d0f888602da552b3675e9555030e480622a6a",
+          "step_mm3": 14133.947619129283,
+          "mesh_mm3": 14134.225810711097,
+          "extent_mm": [
+            148.0,
+            66.69999694824219,
+            7.999999900000006
+          ]
+        },
+        {
+          "id": "P28",
+          "step_sha256": "897d16f52c2dd6e1c8bfacb82848c3b1547c98feda33cd193977e9d969f651c3",
+          "stl_sha256": "396f129cf27a188a1af073037a720ddcc6b81174bb16df05d0343b023b6d6c4c",
+          "step_mm3": 6562.076143761588,
+          "mesh_mm3": 6562.026583538903,
+          "extent_mm": [
+            55.6298828125,
+            129.1123046875,
+            5.999999999999784
+          ]
+        },
+        {
+          "id": "P29",
+          "step_sha256": "4e2de82815ca474e2c0fb96e371a5720432ca55fee5e3c4e066fa0226f9c730f",
+          "stl_sha256": "3126a7fe0fe846ff4d0483b07df393b716f7f17e95e03d0a779e80124fcd429d",
+          "step_mm3": 25452.741432529278,
+          "mesh_mm3": 25452.80351160183,
+          "extent_mm": [
+            158.0,
+            83.05555725097656,
+            4.5
+          ]
+        },
+        {
+          "id": "P30",
+          "step_sha256": "fa2fb084fc0fa9995d8702ce9fddce3123255190c4b637b2670751e7093f063e",
+          "stl_sha256": "5e18b889584142ac6b8132ae9aedd166ecd43147bb98120efa928cf710441cd6",
+          "step_mm3": 2757.8842809717944,
+          "mesh_mm3": 2757.927119515102,
+          "extent_mm": [
+            20.69565200805664,
+            50.0,
+            15.0
+          ]
+        },
+        {
+          "id": "P31",
+          "step_sha256": "3c1f229b453305cf010deef4e3f457bc6405712f1e8c5cdd1151fa3b63bb6851",
+          "stl_sha256": "c0ccb79f4311f2b5b3d4f30b414bec71efaee3ad4485adb6299c3b09573e3177",
+          "step_mm3": 2757.88428097225,
+          "mesh_mm3": 2757.9271195151014,
+          "extent_mm": [
+            20.69565200805664,
+            50.0,
+            15.0
+          ]
+        },
+        {
+          "id": "P32",
+          "step_sha256": "b3f21695cbd11dcc92927311b497118a2bfcc8f7aab6234e023913db6e4d1c15",
+          "stl_sha256": "16a73fbee03bdd28dfb436a6d4d7f10f399796fdccd29dcdfda465bc15006699",
+          "step_mm3": 13677.421972229933,
+          "mesh_mm3": 13677.493250019159,
+          "extent_mm": [
+            136.0,
+            58.0,
+            18.5
+          ]
+        },
+        {
+          "id": "P33",
+          "step_sha256": "106560d860932b7fa98e8304e82c0f92656d7c6728bada69dca5304efd0c9c7d",
+          "stl_sha256": "e7b7b8ee104c9939328acc08ded8fee176caad6275fd641a7953daee0655606d",
+          "step_mm3": 37989.59970906044,
+          "mesh_mm3": 37989.46766970879,
+          "extent_mm": [
+            129.0,
+            95.5,
+            58.99999999998272
+          ]
+        },
+        {
+          "id": "P34",
+          "step_sha256": "f012270f1aee467ee57554a4131a44160b6cbf9e80510198e6e7fe1afc375f28",
+          "stl_sha256": "d20aa251514ea096c852a00acf4b2d855a70dd3d9e92faee29401d6306c10cbd",
+          "step_mm3": 5969.456645548045,
+          "mesh_mm3": 5962.1182875766235,
+          "extent_mm": [
+            31.924285888671875,
+            26.416744232177734,
+            29.338409423827592
+          ]
+        },
+        {
+          "id": "P35",
+          "step_sha256": "761b41ff79788e71fe76e2c3e5fc0886927deadaa8f8bbff30531c13772ad3e4",
+          "stl_sha256": "05d3a1403b46fc5a893c9e98378cc8de150ac473177fa97ef7cde7924f63b83a",
+          "step_mm3": 175.0746753992563,
+          "mesh_mm3": 175.00213150716874,
+          "extent_mm": [
+            13.995648384094238,
+            14.0,
+            1.2000000476837167
+          ]
+        },
+        {
+          "id": "P36",
+          "step_sha256": "32cbff425142b9e4a00babbdc33ea07031ef84dff58cdfea9ad7fb21e9d43766",
+          "stl_sha256": "fb62d36afff03097d9809556deb8379ec89e83103aff9ef0c41036ed896db79a",
+          "step_mm3": 31782.95057477887,
+          "mesh_mm3": 31782.996473047842,
+          "extent_mm": [
+            136.0,
+            46.0,
+            54.31769170297852
+          ]
+        },
+        {
+          "id": "P37",
+          "step_sha256": "6b32a6667eddc37a2fe86ac27df0684750a1e5e00e9e8aa3d12481300971b8d3",
+          "stl_sha256": "92f7de7663f1b041ff57ce3e32be37d4a1c15af38a74dbbfa365816c7902ddda",
+          "step_mm3": 425.3020656253662,
+          "mesh_mm3": 425.20162932692546,
+          "extent_mm": [
+            10.0,
+            20.49747943878174,
+            3.800000090734869
+          ]
+        },
+        {
+          "id": "P38",
+          "step_sha256": "07cc897ea6421d0b8da0de0e8996f5ab0188718d6702bf20b38a582fe1640cbe",
+          "stl_sha256": "0d1e4c051d452bfa4b38990268d1d69e84e62a6b234e32654d957d58cc8a3720",
+          "step_mm3": 446.3433593212377,
+          "mesh_mm3": 446.3262265155874,
+          "extent_mm": [
+            39.74813461303711,
+            6.0,
+            2.0
+          ]
+        },
+        {
+          "id": "P39",
+          "step_sha256": "5bc515ac023e96bb29e807569d327969d7926fe623a1db6a0c9e67c7b7bb35d3",
+          "stl_sha256": "4ff2d0af335d66531ac246fa0b4525418e7911f40bdb305b3fd2f8b5a71f8df5",
+          "step_mm3": 2213.1837872205406,
+          "mesh_mm3": 2211.5781854262073,
+          "extent_mm": [
+            25.799999237060547,
+            30.299999237060547,
+            38.599998474121094
+          ]
+        },
+        {
+          "id": "P40",
+          "step_sha256": "c8ab4e3e1c5db5ecccebe46c7e07709651eb564a13b9106d2d9f28d812c1cbb0",
+          "stl_sha256": "6b87253e7d18db36880d934778b76fb7ede11405489ab4bfbc97b652c266e56f",
+          "step_mm3": 2213.183804889664,
+          "mesh_mm3": 2211.5656108629605,
+          "extent_mm": [
+            25.799999237060547,
+            30.299999237060547,
+            38.599998474121094
+          ]
+        },
+        {
+          "id": "P41",
+          "step_sha256": "9f66a3315778363066aafd673eb9a8e4fcc755212c0797a3f95363ec193746be",
+          "stl_sha256": "3ee10cdf8820b5e5e336490e07d64d66bee91f33fb412aa9dbd9b7af4f123a16",
+          "step_mm3": 30727.54055359328,
+          "mesh_mm3": 30727.70710160944,
+          "extent_mm": [
+            148.0,
+            53.60847854614258,
+            48.33576583862305
+          ]
+        },
+        {
+          "id": "P42",
+          "step_sha256": "9fe8b8aa4d1f65f8bf80f878b1ec091fae6de7fd40ccaf7f8064287b6d3c9213",
+          "stl_sha256": "3de79e2b04a901c938dbf82939ad03d4176bb38c41437aae83013133f9e05804",
+          "step_mm3": 1629.890449010347,
+          "mesh_mm3": 1629.8929677737385,
+          "extent_mm": [
+            71.0,
+            25.99500846862793,
+            10.199999809265137
+          ]
+        },
+        {
+          "id": "P43",
+          "step_sha256": "53376da4dacb8ca110bbdff22d957c66a8b04c02b606d99e129752b4115686cf",
+          "stl_sha256": "4e5804a64f65a69fe1c2f18bcacc869295fe66233e87ce3d35919da5e51d21ee",
+          "step_mm3": 1537.3245859516544,
+          "mesh_mm3": 1537.3267002906907,
+          "extent_mm": [
+            69.0,
+            23.40377426147461,
+            9.5
+          ]
+        },
+        {
+          "id": "P44",
+          "step_sha256": "5467856ac9a3fdbe3be1708d7230747ae9dab7738365736469aca1b91ec9771e",
+          "stl_sha256": "90675c1ce2762fa45c8754f5443ec6f1e8c40571b026108b906f48911b71a868",
+          "step_mm3": 4225.846910743135,
+          "mesh_mm3": 4225.886353989004,
+          "extent_mm": [
+            60.25,
+            39.0,
+            20.0
+          ]
+        },
+        {
+          "id": "P45",
+          "step_sha256": "1af43ec11356ee0bf39eba6af5559e680490c29f419340aae95f454e453b6443",
+          "stl_sha256": "3b25253ecc85853ae6c8c48da672908eb8931905370d264748f2295ee3379367",
+          "step_mm3": 11865.80654742591,
+          "mesh_mm3": 11865.329480017126,
+          "extent_mm": [
+            130.0,
+            46.0,
+            23.999999999991388
+          ]
+        },
+        {
+          "id": "P46",
+          "step_sha256": "21a08245c6d32092b75250d21a7f17243b884a076e67984e0550c4882300caee",
+          "stl_sha256": "939f7c2281d7319398ed3e6dc310dd3fde385804739b25aa2265fea379a4e601",
+          "step_mm3": 1011.6791991515472,
+          "mesh_mm3": 1011.6577904910782,
+          "extent_mm": [
+            69.99813842773438,
+            6.0,
+            2.5000000000000004
+          ]
+        },
+        {
+          "id": "P49",
+          "step_sha256": "0858d182a5f3b2d070e408a57460437a45b23c9c21e63afc6f534d4fcd478323",
+          "stl_sha256": "71c003f6ae3f1abda6d6b83cd608588544c47cef6fe33ad40a357e30a1f672f1",
+          "step_mm3": 972.5433593212377,
+          "mesh_mm3": 972.5262318921001,
+          "extent_mm": [
+            83.59813690185547,
+            6.0,
+            2.0000000000000004
+          ]
+        },
+        {
+          "id": "P90",
+          "step_sha256": "769b77662bb14acda7a015b703b14265b335f3483fd81eabc77fe23a3cb582bb",
+          "stl_sha256": "8ef2d3c0c462d77ef710eb546a709a36196e22e5cb2bbeef72a08fe2a9aabe4f",
+          "step_mm3": 19131.451375643166,
+          "mesh_mm3": 19131.686687347606,
+          "extent_mm": [
+            80.0,
+            45.0,
+            6.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "assembly_instances_match_parts_manifest",
+      "passed": true,
+      "detail": {
+        "named_bodies": 51,
+        "printed_assembly_instances": 35,
+        "fit_coupon_excluded": true,
+        "step_sha256": "a2e27e4cc1d14f8ab75a8663cd86dacf6f49952fa4b4d53c1e8ed50999abd7c4"
+      }
+    },
+    {
+      "name": "mechanical_evidence_current_and_digital_only",
+      "passed": true,
+      "detail": {
+        "source_step_roundtrips": 31,
+        "mesh_hashes_match": true,
+        "sampled_poses": 361,
+        "collision_pose_count": 0,
+        "max_closure_mm": 4.263256414560601e-14,
+        "limitations": [
+          "Discrete samples only; no continuous swept-volume proof.",
+          "Nominal purchased servo/horn envelopes, not actual hardware.",
+          "Fastener heads/nuts, collars and cables are not fully solid-modeled; measured fit/access and physical sweep required.",
+          "Zero intersection does not establish tolerance margin or print/assembly success."
+        ],
+        "joint_material_checks": 35,
+        "documented_metadata_amendments": []
+      }
+    },
+    {
+      "name": "individual_3mf_identity",
+      "passed": true,
+      "detail": [
+        {
+          "file": "3mf/individual/P01_torso_spine_socket.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.862719407241239e-09
+        },
+        {
+          "file": "3mf/individual/P03_skeletal_neck_tenon.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.640231346839672e-09
+        },
+        {
+          "file": "3mf/individual/P20_skull_base_plate.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.263241716478892e-09
+        },
+        {
+          "file": "3mf/individual/P21_lower_wall_L.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.82326126371817e-09
+        },
+        {
+          "file": "3mf/individual/P22_lower_wall_R.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.82326126371817e-09
+        },
+        {
+          "file": "3mf/individual/P23_upper_cranial_plate_L.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.74135683199712e-09
+        },
+        {
+          "file": "3mf/individual/P24_upper_cranial_plate_R.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.74135683199712e-09
+        },
+        {
+          "file": "3mf/individual/P25_cranial_arch_front.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.5566924226878825e-09
+        },
+        {
+          "file": "3mf/individual/P26_cranial_arch_mid.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.620125045412778e-09
+        },
+        {
+          "file": "3mf/individual/P27_cranial_arch_rear.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.5743287502690144e-09
+        },
+        {
+          "file": "3mf/individual/P28_sagittal_crest.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.989301251371793e-09
+        },
+        {
+          "file": "3mf/individual/P29_face_mask.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.953709084066958e-09
+        },
+        {
+          "file": "3mf/individual/P30_zygoma_L.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 5.107829338675761e-09
+        },
+        {
+          "file": "3mf/individual/P31_zygoma_R.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 5.107829338675761e-09
+        },
+        {
+          "file": "3mf/individual/P32_maxilla_arch.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.93989611129921e-09
+        },
+        {
+          "file": "3mf/individual/P33_mandible.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 7.002028096696811e-09
+        },
+        {
+          "file": "3mf/individual/P34_eye_globe.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 7.870904611425608e-09
+        },
+        {
+          "file": "3mf/individual/P35_iris_insert.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 7.28770452451935e-10
+        },
+        {
+          "file": "3mf/individual/P36_eye_deck.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.4775090149122996e-09
+        },
+        {
+          "file": "3mf/individual/P37_yaw_crank.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 4.961495548403407e-09
+        },
+        {
+          "file": "3mf/individual/P38_yaw_tie_half.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 4.975641509957247e-09
+        },
+        {
+          "file": "3mf/individual/P39_upper_lid_L.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.985816222528479e-09
+        },
+        {
+          "file": "3mf/individual/P40_upper_lid_R.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.985816222528479e-09
+        },
+        {
+          "file": "3mf/individual/P41_mechanism_deck.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.666664142446689e-09
+        },
+        {
+          "file": "3mf/individual/P42_upper_teeth_row.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.6275732104150785e-09
+        },
+        {
+          "file": "3mf/individual/P43_lower_teeth_row.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 5.976213886077832e-09
+        },
+        {
+          "file": "3mf/individual/P44_jaw_servo_cradle.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.82326126371817e-09
+        },
+        {
+          "file": "3mf/individual/P45_common_pitch_carrier.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.950350934166054e-09
+        },
+        {
+          "file": "3mf/individual/P46_eye_pitch_pushrod.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 4.975641509957247e-09
+        },
+        {
+          "file": "3mf/individual/P49_lid_pushrod.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 4.931830848860929e-09
+        },
+        {
+          "file": "3mf/individual/P90_hardware_fit_coupon.3mf",
+          "instances": 1,
+          "max_vertex_deviation_mm": 6.9608590595706766e-09
+        }
+      ]
+    },
+    {
+      "name": "plates_counts_geometry_settings_toolpaths",
+      "passed": true,
+      "detail": {
+        "quantity_match": true,
+        "plates": [
+          {
+            "plate": "PL01",
+            "model": {
+              "instances": 1,
+              "max_vertex_deviation_mm": 6.9608590595706766e-09
+            },
+            "sliced_project": {
+              "instances": 1,
+              "max_vertex_deviation_mm": 6.706096973406784e-08
+            },
+            "toolpath": {
+              "layers": 30,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -44.7308165,
+                  -27.2308165
+                ],
+                [
+                  44.7308165,
+                  27.2308165
+                ]
+              ],
+              "max_z_mm": 6.0,
+              "max_width_mm": 0.577633
+            }
+          },
+          {
+            "plate": "PL02",
+            "model": {
+              "instances": 14,
+              "max_vertex_deviation_mm": 9.283035428366406e-09
+            },
+            "sliced_project": {
+              "instances": 14,
+              "max_vertex_deviation_mm": 1.0391234441118992e-06
+            },
+            "toolpath": {
+              "layers": 290,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -101.62351699999999,
+                  -83.56051699999999
+                ],
+                [
+                  101.62351699999999,
+                  83.951517
+                ]
+              ],
+              "max_z_mm": 38.6,
+              "max_width_mm": 0.719034
+            }
+          },
+          {
+            "plate": "PL03",
+            "model": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 6.74135683199712e-09
+            },
+            "sliced_project": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 2.3521519988334738e-07
+            },
+            "toolpath": {
+              "layers": 54,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -80.78607299999999,
+                  -74.856073
+                ],
+                [
+                  80.78607299999999,
+                  74.851073
+                ]
+              ],
+              "max_z_mm": 8.4,
+              "max_width_mm": 0.658146
+            }
+          },
+          {
+            "plate": "PL04",
+            "model": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 1.156650062780425e-08
+            },
+            "sliced_project": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 1.3770523977298347e-07
+            },
+            "toolpath": {
+              "layers": 146,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -103.641279,
+                  -69.399279
+                ],
+                [
+                  103.327279,
+                  69.399279
+                ]
+              ],
+              "max_z_mm": 19.0,
+              "max_width_mm": 0.802558
+            }
+          },
+          {
+            "plate": "PL05",
+            "model": {
+              "instances": 1,
+              "max_vertex_deviation_mm": 6.82326126371817e-09
+            },
+            "sliced_project": {
+              "instances": 1,
+              "max_vertex_deviation_mm": 6.763788383146373e-08
+            },
+            "toolpath": {
+              "layers": 140,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -68.44732,
+                  -54.06232
+                ],
+                [
+                  68.44732,
+                  54.06232
+                ]
+              ],
+              "max_z_mm": 19.0,
+              "max_width_mm": 0.67264
+            }
+          },
+          {
+            "plate": "PL06",
+            "model": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 7.002023082323158e-09
+            },
+            "sliced_project": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 9.151477349229154e-07
+            },
+            "toolpath": {
+              "layers": 432,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -72.78028599999999,
+                  -101.187286
+                ],
+                [
+                  72.78028599999999,
+                  102.53028599999999
+                ]
+              ],
+              "max_z_mm": 58.8,
+              "max_width_mm": 0.676572
+            }
+          },
+          {
+            "plate": "PL07",
+            "model": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 1.0433519251862843e-08
+            },
+            "sliced_project": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 1.3344029628922252e-07
+            },
+            "toolpath": {
+              "layers": 56,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -83.76795,
+                  -91.68795
+                ],
+                [
+                  83.76495,
+                  91.69195
+                ]
+              ],
+              "max_z_mm": 8.0,
+              "max_width_mm": 0.6519
+            }
+          },
+          {
+            "plate": "PL08",
+            "model": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 9.931424537589719e-09
+            },
+            "sliced_project": {
+              "instances": 2,
+              "max_vertex_deviation_mm": 1.4500690859900183e-07
+            },
+            "toolpath": {
+              "layers": 379,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -78.78686649999999,
+                  -75.5528665
+                ],
+                [
+                  78.78686649999999,
+                  75.6258665
+                ]
+              ],
+              "max_z_mm": 55.0,
+              "max_width_mm": 0.689733
+            }
+          },
+          {
+            "plate": "PL09",
+            "model": {
+              "instances": 5,
+              "max_vertex_deviation_mm": 9.371659424430159e-09
+            },
+            "sliced_project": {
+              "instances": 5,
+              "max_vertex_deviation_mm": 1.0096243225428145e-06
+            },
+            "toolpath": {
+              "layers": 523,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -78.7986425,
+                  -100.74764250000001
+                ],
+                [
+                  78.7986425,
+                  100.86964250000001
+                ]
+              ],
+              "max_z_mm": 48.4,
+              "max_width_mm": 0.713285
+            }
+          },
+          {
+            "plate": "PL10",
+            "model": {
+              "instances": 5,
+              "max_vertex_deviation_mm": 8.185019054391334e-09
+            },
+            "sliced_project": {
+              "instances": 5,
+              "max_vertex_deviation_mm": 1.0993603089667035e-06
+            },
+            "toolpath": {
+              "layers": 438,
+              "extrusion_xy_bounds_mm": [
+                [
+                  -78.80044099999999,
+                  -104.276441
+                ],
+                [
+                  78.80044099999999,
+                  104.277441
+                ]
+              ],
+              "max_z_mm": 54.2,
+              "max_width_mm": 0.716882
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "firmware_evidence_and_safe_defaults",
+      "passed": true,
+      "detail": {
+        "compile_report_verified": true,
+        "host_assertions_recorded": 5446,
+        "source_hashes_match": true,
+        "physical_tested": false
+      }
+    },
+    {
+      "name": "manual_matching_and_pdf_readability",
+      "passed": true,
+      "detail": {
+        "part_ids_present": 31,
+        "pdfs": {
+          "Assembly_Manual.pdf": {
+            "pages": 34,
+            "sha256": "50f622b977d09064862c45f3a665bdb180b9742320b082c6d18f3e62fff75e82"
+          },
+          "Mechanical_Drawings.pdf": {
+            "pages": 32,
+            "sha256": "847a044687d62ef9189930212a312038917a07f97ced39023026a96db3aba05f"
+          }
+        },
+        "note": "Visual PDF review must be recorded separately; text extraction alone does not establish layout quality."
+      }
+    },
+    {
+      "name": "pdf_visual_review_current",
+      "passed": true,
+      "detail": {
+        "physical_tested": false,
+        "passed": true,
+        "files": [
+          {
+            "file": "docs/Assembly_Manual.pdf",
+            "sha256": "50f622b977d09064862c45f3a665bdb180b9742320b082c6d18f3e62fff75e82",
+            "passed": true,
+            "method": "Prior33-page Poppler review retained; final addendum rendered and visually inspected"
+          },
+          {
+            "file": "docs/Mechanical_Drawings.pdf",
+            "sha256": "847a044687d62ef9189930212a312038917a07f97ced39023026a96db3aba05f",
+            "passed": true,
+            "method": "All32 corrected pages rendered with Poppler and visually reviewed on eight contact sheets; text bounds pass"
+          }
+        ]
+      }
+    }
+  ],
+  "physical_holds": [
+    "Actual servo identification/dimensions/spline/voltage/current (reported sg950 and mg950 are tentative)",
+    "Actuator supply, fuses, wire and connector ratings",
+    "Print calibration, fit, assembly access, combined motion, load and thermal tests",
+    "Scope measurements of PCA clock/OE/reset/fault behavior",
+    "Original R4 release and voice source absent; audio integration unverified"
+  ],
+  "revision": "R5a-E1",
+  "digital_checks_passed": true,
+  "status": "DIGITAL_CHECKS_PASSED_PHYSICAL_GATES_OPEN",
+  "audited_source_sha256": {
+    "cad_source/base_geometry.py": "44e49947f7297acb4d84afb62b8332d6320c22a21586fbe97f892153df011869",
+    "cad_source/build_release.py": "edd7eeb628f92a65f0544444feabba3f2d2260c5b04e314db843ec56116d99f5",
+    "cad_source/motion.py": "c7c34d13d77d3b8157d89d0173977d0e9ca68f636ab02abac29b8a84682e3901",
+    "cad_source/parameters.json": "8b27bed894e75ada48957d5b82800e65be36d6dc81cbd220bc3e034da5ef65e6",
+    "cad_source/scene_contract.json": "b66032838ec056379775cc34681c9ce6148aa62e3e4d9892f34d9f6034e95437",
+    "cad_source/verify_kinematics.py": "e725aadcde34a928eb8701273f81d268c6fa8360c8e1844af7a2c29abf6c585d",
+    "cad_source/references/P01_torso_spine_socket.step": "b36a67db388b68bbe04c6c488241450f5e349c1f18b43599712a9529c6984fb5",
+    "cad_source/references/P03_skeletal_neck_tenon.step": "9f537a56681eeef17b9f91252c71f141b8f61047a8ad97b6b9f1e1566ddcfea7"
+  }
+}

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1340" viewBox="0 0 1800 1340">
+<rect width="1800" height="1340" fill="#f6f8fb"/>
+<text x="45" y="63" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="700" fill="#183247">MIMIC R5a  |  Power + signal wiring</text>
+<text x="45" y="101" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="400" fill="#183247">Revision 1.0.0  •  Net diagram, not board connector placement  •  Physical verification pending</text>
+<text x="50" y="152" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#183247">1  ACTUATOR POWER — separate from logic and audio</text>
+<rect x="50" y="180" width="230" height="145" rx="12" fill="#ffffff" stroke="#b5c3d1" stroke-width="2"/>
+<text x="68" y="220" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">Servo supply</text>
+<text x="68" y="256" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Regulated DC</text>
+<text x="68" y="286" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Voltage/current TBD</text>
+<text x="68" y="316" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Nominal 5 V scenario</text>
+<rect x="340" y="180" width="205" height="145" rx="12" fill="#ffffff" stroke="#b5c3d1" stroke-width="2"/>
+<text x="358" y="220" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">Main DC fuse</text>
+<text x="358" y="256" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Near source</text>
+<text x="358" y="286" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Value pending</text>
+<text x="358" y="316" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">wire/current review</text>
+<rect x="605" y="180" width="220" height="145" rx="12" fill="#ffffff" stroke="#b5c3d1" stroke-width="2"/>
+<text x="623" y="220" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">DC disconnect</text>
+<text x="623" y="256" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">DC-rated maintained</text>
+<text x="623" y="286" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">switch / contactor</text>
+<text x="623" y="316" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Accessible to operator</text>
+<rect x="885" y="180" width="300" height="145" rx="12" fill="#ffffff" stroke="#b5c3d1" stroke-width="2"/>
+<text x="903" y="220" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">Fused distribution</text>
+<text x="903" y="256" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">5 protected branches</text>
+<text x="903" y="286" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Bulk C: 1000 µF start</text>
+<text x="903" y="316" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Capacitor ≥10 V</text>
+<rect x="1260" y="180" width="490" height="145" rx="12" fill="#ffffff" stroke="#b5c3d1" stroke-width="2"/>
+<text x="1278" y="220" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">Five servo power pairs</text>
+<text x="1278" y="256" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Each + from its fused branch</text>
+<text x="1278" y="286" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Each return directly to distribution</text>
+<text x="1278" y="316" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">No motor current through ESP32/PCA</text>
+<polyline points="280,250 340,250" fill="none" stroke="#c8463b" stroke-width="6"/>
+<polyline points="545,250 605,250" fill="none" stroke="#c8463b" stroke-width="6"/>
+<polyline points="825,250 885,250" fill="none" stroke="#c8463b" stroke-width="6"/>
+<polyline points="1185,250 1260,250" fill="none" stroke="#c8463b" stroke-width="6"/>
+<polyline points="165,325 165,385 1500,385 1500,325" fill="none" stroke="#465363" stroke-width="6"/>
+<polyline points="1035,325 1035,335 1185,335 1185,385" fill="none" stroke="#465363" stroke-width="6"/>
+<text x="400" y="362" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#465363">COMMON GROUND: servo returns + logic reference + audio return</text>
+<text x="50" y="433" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#183247">PCA V+ is UNCONNECTED here. Split servo harnesses take + directly from the protected distribution.</text>
+<text x="50" y="499" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#183247">2  LOGIC / I2C — classic ESP32-WROOM-32</text>
+<rect x="50" y="530" width="260" height="485" rx="12" fill="#e8f1fa" stroke="#b5c3d1" stroke-width="2"/>
+<rect x="650" y="530" width="290" height="485" rx="12" fill="#e8f1fa" stroke="#b5c3d1" stroke-width="2"/>
+<text x="75" y="581" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700" fill="#183247">ESP32</text>
+<text x="675" y="581" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700" fill="#183247">PCA9685</text>
+<text x="75" y="611" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">USB logic supply</text>
+<text x="675" y="611" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Address 0x40</text>
+<text x="75" y="662" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">GPIO21</text>
+<text x="675" y="660" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#183247">SDA</text>
+<polyline points="310,655 650,655" fill="none" stroke="#ae8100" stroke-width="4"/>
+<text x="75" y="727" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">GPIO22</text>
+<text x="675" y="725" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#183247">SCL</text>
+<polyline points="310,720 650,720" fill="none" stroke="#31856a" stroke-width="4"/>
+<text x="75" y="792" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">GPIO27</text>
+<text x="675" y="790" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#183247">OE (active LOW)</text>
+<polyline points="310,785 650,785" fill="none" stroke="#8b5cb3" stroke-width="4"/>
+<text x="75" y="882" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">3V3</text>
+<text x="675" y="880" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#183247">VCC only</text>
+<polyline points="310,875 650,875" fill="none" stroke="#2a73b9" stroke-width="4"/>
+<text x="75" y="962" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">GND</text>
+<text x="675" y="960" font-family="Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#183247">GND</text>
+<polyline points="310,955 650,955" fill="none" stroke="#465363" stroke-width="4"/>
+<text x="345" y="646" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">I2C 100 kHz</text>
+<text x="345" y="761" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#8b5cb3">External 1 kΩ pull-up</text>
+<polyline points="440,785 440,820" fill="none" stroke="#8b5cb3" stroke-width="3"/>
+<rect x="421" y="820" width="38" height="35" rx="12" fill="#fff" stroke="#8b5cb3" stroke-width="2"/>
+<polyline points="440,855 440,875" fill="none" stroke="#2a73b9" stroke-width="3"/>
+<text x="482" y="838" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#183247">OE → 3V3</text>
+<text x="345" y="938" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="400" fill="#183247">To common reference</text>
+<rect x="50" y="1040" width="890" height="235" rx="12" fill="#fff5e5" stroke="#d49c3c" stroke-width="2"/>
+<text x="70" y="1080" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#183247">Startup and fault behavior</text>
+<text x="70" y="1122" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">OE HIGH disables pulses; it does not remove servo power.</text>
+<text x="70" y="1153" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">External pull-up keeps outputs disabled during ESP32 reset.</text>
+<text x="70" y="1184" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">Default calibration is locked. Identify servos and supply first.</text>
+<text x="70" y="1215" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">PCA V+ remains unconnected; do not bridge it to 3V3.</text>
+<text x="70" y="1246" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">Support gravity loads. Verify rail discharge before servicing.</text>
+<rect x="1000" y="470" width="750" height="345" rx="12" fill="#ffffff" stroke="#b5c3d1" stroke-width="2"/>
+<text x="1020" y="517" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#183247">3  SERVO SIGNALS</text>
+<text x="1030" y="565" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="400" fill="#183247">CH0  →  linked eye yaw</text>
+<text x="1030" y="601" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="400" fill="#183247">CH1  →  jaw</text>
+<text x="1030" y="637" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="400" fill="#183247">CH2  →  linked eye pitch</text>
+<text x="1030" y="673" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="400" fill="#183247">CH3  →  left upper eyelid</text>
+<text x="1030" y="709" font-family="Segoe UI,Arial,sans-serif" font-size="25" font-weight="400" fill="#183247">CH4  →  right upper eyelid</text>
+<text x="1020" y="764" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">Signal from PCA; servo +/return from distribution.</text>
+<text x="1020" y="798" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Confirm connector pin order on the actual hardware.</text>
+<rect x="1000" y="840" width="750" height="435" rx="12" fill="#ffffff" stroke="#b5c3d1" stroke-width="2"/>
+<text x="1020" y="881" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700" fill="#183247">4  AUDIO — hardware reservations only</text>
+<text x="1020" y="927" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">GPIO26 → INMP441 SCK + MAX98357A BCLK</text>
+<text x="1020" y="964" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">GPIO25 → INMP441 WS + MAX98357A LRC</text>
+<text x="1020" y="1001" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">INMP441 SD → GPIO34; L/R → GND</text>
+<text x="1020" y="1038" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">INMP441 VDD → 3V3; GND → common reference</text>
+<text x="1020" y="1075" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">GPIO32 → MAX98357A DIN</text>
+<text x="1020" y="1112" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">MAX98357A VIN → clean fused 5 V audio branch</text>
+<text x="1020" y="1149" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">Speaker between OUT+ and OUT−; neither to GND</text>
+<text x="1020" y="1186" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">Confirm amplifier SD / GAIN straps on actual module.</text>
+<text x="1020" y="1223" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="400" fill="#183247">Original voice source absent; no audio test claimed.</text>
+<text x="50" y="1316" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="400" fill="#183247">Read docs/electronics.md and firmware/README.md before energizing. Fuse, wire, supply and servo identities remain measurement holds.</text>
+</svg>

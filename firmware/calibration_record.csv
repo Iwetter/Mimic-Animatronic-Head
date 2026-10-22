@@ -1,0 +1,6 @@
+channel,function,servo_marking,voltage_V,minimum_us,neutral_us,maximum_us,angle_at_min_deg,angle_at_neutral_deg,angle_at_max_deg,peak_current_A,oscillator_Hz,clearance_min_mm,operator,date,status
+0,linked_eye_yaw,,,,,,,,,,,,,,NOT_MEASURED
+1,jaw,,,,,,,,,,,,,,NOT_MEASURED
+2,linked_eye_pitch,,,,,,,,,,,,,,NOT_MEASURED
+3,left_upper_lid,,,,,,,,,,,,,,NOT_MEASURED
+4,right_upper_lid,,,,,,,,,,,,,,NOT_MEASURED

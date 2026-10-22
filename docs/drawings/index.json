@@ -1,0 +1,162 @@
+[
+  {
+    "id": "P01",
+    "drawing": "docs/drawings/P01_drawing.svg",
+    "step_sha256": "80c3f29715f8fcc7dec698e9598fd7b7964311485c0983b3baf2869997205e47"
+  },
+  {
+    "id": "P03",
+    "drawing": "docs/drawings/P03_drawing.svg",
+    "step_sha256": "c728f9fa9fe02dba3e47691258c698d807f4dcb0c8a7d344ed45b49d7d23108d"
+  },
+  {
+    "id": "P20",
+    "drawing": "docs/drawings/P20_drawing.svg",
+    "step_sha256": "d46359c3ee78171e360b8a7eb7c9306d6a1115542eb6e3edc2bb259818068227"
+  },
+  {
+    "id": "P21",
+    "drawing": "docs/drawings/P21_drawing.svg",
+    "step_sha256": "25aadd5831690c5e96184846ec69c4d8b4617fdc35dc96534a6d2b1c9eb796d3"
+  },
+  {
+    "id": "P22",
+    "drawing": "docs/drawings/P22_drawing.svg",
+    "step_sha256": "1b6bb2405d0133df51fad7cf92c77a22a91432dcedb9d48ec02521955ba738c5"
+  },
+  {
+    "id": "P23",
+    "drawing": "docs/drawings/P23_drawing.svg",
+    "step_sha256": "e1ce64aafc921f51a3d20548203f309b58db3127b03476d98ca2beb08534cd96"
+  },
+  {
+    "id": "P24",
+    "drawing": "docs/drawings/P24_drawing.svg",
+    "step_sha256": "2e46b15a9be2949c652c630d86c1413f168ce9352f44f3d45374cdeee9d97ce2"
+  },
+  {
+    "id": "P25",
+    "drawing": "docs/drawings/P25_drawing.svg",
+    "step_sha256": "e024aaaf106aa2b8b81810165546b1ffcbaf3cc7e23fe135e6b7aa3d08c39a57"
+  },
+  {
+    "id": "P26",
+    "drawing": "docs/drawings/P26_drawing.svg",
+    "step_sha256": "b43e71a86946b1fcf25d742e297a36d5f0342003ec38d58884b5cc4554d83ba0"
+  },
+  {
+    "id": "P27",
+    "drawing": "docs/drawings/P27_drawing.svg",
+    "step_sha256": "f2a6107b8a1aeab63239d37d97bdec8a4de1869b7f2df0144c9e9c09831bdfc9"
+  },
+  {
+    "id": "P28",
+    "drawing": "docs/drawings/P28_drawing.svg",
+    "step_sha256": "897d16f52c2dd6e1c8bfacb82848c3b1547c98feda33cd193977e9d969f651c3"
+  },
+  {
+    "id": "P29",
+    "drawing": "docs/drawings/P29_drawing.svg",
+    "step_sha256": "4e2de82815ca474e2c0fb96e371a5720432ca55fee5e3c4e066fa0226f9c730f"
+  },
+  {
+    "id": "P30",
+    "drawing": "docs/drawings/P30_drawing.svg",
+    "step_sha256": "fa2fb084fc0fa9995d8702ce9fddce3123255190c4b637b2670751e7093f063e"
+  },
+  {
+    "id": "P31",
+    "drawing": "docs/drawings/P31_drawing.svg",
+    "step_sha256": "3c1f229b453305cf010deef4e3f457bc6405712f1e8c5cdd1151fa3b63bb6851"
+  },
+  {
+    "id": "P32",
+    "drawing": "docs/drawings/P32_drawing.svg",
+    "step_sha256": "b3f21695cbd11dcc92927311b497118a2bfcc8f7aab6234e023913db6e4d1c15"
+  },
+  {
+    "id": "P33",
+    "drawing": "docs/drawings/P33_drawing.svg",
+    "step_sha256": "106560d860932b7fa98e8304e82c0f92656d7c6728bada69dca5304efd0c9c7d"
+  },
+  {
+    "id": "P34",
+    "drawing": "docs/drawings/P34_drawing.svg",
+    "step_sha256": "f012270f1aee467ee57554a4131a44160b6cbf9e80510198e6e7fe1afc375f28"
+  },
+  {
+    "id": "P35",
+    "drawing": "docs/drawings/P35_drawing.svg",
+    "step_sha256": "761b41ff79788e71fe76e2c3e5fc0886927deadaa8f8bbff30531c13772ad3e4"
+  },
+  {
+    "id": "P36",
+    "drawing": "docs/drawings/P36_drawing.svg",
+    "step_sha256": "32cbff425142b9e4a00babbdc33ea07031ef84dff58cdfea9ad7fb21e9d43766"
+  },
+  {
+    "id": "P37",
+    "drawing": "docs/drawings/P37_drawing.svg",
+    "step_sha256": "6b32a6667eddc37a2fe86ac27df0684750a1e5e00e9e8aa3d12481300971b8d3"
+  },
+  {
+    "id": "P38",
+    "drawing": "docs/drawings/P38_drawing.svg",
+    "step_sha256": "07cc897ea6421d0b8da0de0e8996f5ab0188718d6702bf20b38a582fe1640cbe"
+  },
+  {
+    "id": "P39",
+    "drawing": "docs/drawings/P39_drawing.svg",
+    "step_sha256": "5bc515ac023e96bb29e807569d327969d7926fe623a1db6a0c9e67c7b7bb35d3"
+  },
+  {
+    "id": "P40",
+    "drawing": "docs/drawings/P40_drawing.svg",
+    "step_sha256": "c8ab4e3e1c5db5ecccebe46c7e07709651eb564a13b9106d2d9f28d812c1cbb0"
+  },
+  {
+    "id": "P41",
+    "drawing": "docs/drawings/P41_drawing.svg",
+    "step_sha256": "9f66a3315778363066aafd673eb9a8e4fcc755212c0797a3f95363ec193746be"
+  },
+  {
+    "id": "P42",
+    "drawing": "docs/drawings/P42_drawing.svg",
+    "step_sha256": "9fe8b8aa4d1f65f8bf80f878b1ec091fae6de7fd40ccaf7f8064287b6d3c9213"
+  },
+  {
+    "id": "P43",
+    "drawing": "docs/drawings/P43_drawing.svg",
+    "step_sha256": "53376da4dacb8ca110bbdff22d957c66a8b04c02b606d99e129752b4115686cf"
+  },
+  {
+    "id": "P44",
+    "drawing": "docs/drawings/P44_drawing.svg",
+    "step_sha256": "5467856ac9a3fdbe3be1708d7230747ae9dab7738365736469aca1b91ec9771e"
+  },
+  {
+    "id": "P45",
+    "drawing": "docs/drawings/P45_drawing.svg",
+    "step_sha256": "1af43ec11356ee0bf39eba6af5559e680490c29f419340aae95f454e453b6443"
+  },
+  {
+    "id": "P46",
+    "drawing": "docs/drawings/P46_drawing.svg",
+    "step_sha256": "21a08245c6d32092b75250d21a7f17243b884a076e67984e0550c4882300caee"
+  },
+  {
+    "id": "P49",
+    "drawing": "docs/drawings/P49_drawing.svg",
+    "step_sha256": "0858d182a5f3b2d070e408a57460437a45b23c9c21e63afc6f534d4fcd478323"
+  },
+  {
+    "id": "P90",
+    "drawing": "docs/drawings/P90_drawing.svg",
+    "step_sha256": "769b77662bb14acda7a015b703b14265b335f3483fd81eabc77fe23a3cb582bb"
+  },
+  {
+    "id": "INTERFACES",
+    "drawing": "docs/drawings/interface_datums.svg",
+    "step_sha256": "see part drawing references"
+  }
+]

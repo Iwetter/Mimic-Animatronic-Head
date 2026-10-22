@@ -1,0 +1,1398 @@
+{
+  "scope": "Independent read-only digital audit; no manufacturing or hardware test",
+  "cadquery": "2.8.0",
+  "trimesh": "5.1.1",
+  "package_hashes": [
+    {
+      "path": "CHANGELOG_R5.md",
+      "matches": true
+    },
+    {
+      "path": "README_R5_WORKSPACE.md",
+      "matches": true
+    },
+    {
+      "path": "START_HERE_R5a.md",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/assembly/Mimic_R5a_concept_complete.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P20_skull_base_plate.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P21_lower_wall_L.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P22_lower_wall_R.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P23_upper_cranial_plate_L.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P24_upper_cranial_plate_R.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P25_cranial_arch_front.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P26_cranial_arch_mid.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P27_cranial_arch_rear.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P28_sagittal_crest.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P29_face_mask.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P30_zygoma_L.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P31_zygoma_R.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P32_maxilla_arch.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P33_mandible.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P34_eye_globe.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P35_iris_insert.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P36_eye_deck.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P37_eye_cross_block.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P38_eye_control_bar.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P39_upper_lid_L.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P40_upper_lid_R.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P41_mechanism_deck.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P42_upper_teeth_row.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P43_lower_teeth_row.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STEP/parts/P44_jaw_servo_cradle.step",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P20_skull_base_plate.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P21_lower_wall_L.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P22_lower_wall_R.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P23_upper_cranial_plate_L.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P24_upper_cranial_plate_R.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P25_cranial_arch_front.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P26_cranial_arch_mid.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P27_cranial_arch_rear.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P28_sagittal_crest.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P29_face_mask.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P30_zygoma_L.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P31_zygoma_R.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P32_maxilla_arch.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P33_mandible.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P34_eye_globe.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P35_iris_insert.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P36_eye_deck.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P37_eye_cross_block.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P38_eye_control_bar.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P39_upper_lid_L.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P40_upper_lid_R.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P41_mechanism_deck.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P42_upper_teeth_row.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P43_lower_teeth_row.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/STL/P44_jaw_servo_cradle.stl",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/eye_horn_lookup.csv",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/lid_horn_lookup.csv",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/parameters.json",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/parts_meta.json",
+      "matches": true
+    },
+    {
+      "path": "build_R5a/purchased_parts_R5a.csv",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_combined16.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_eyes.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_eyes.log",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_jaw_v2.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_jaw_v3.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_jawfine.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_lids_jaw.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_lids_jaw.log",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_probe.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/motion_summary.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/neutral_allpairs_v1.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/neutral_allpairs_v2.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/neutral_allpairs_v3.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/neutral_allpairs_v4.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/neutral_allpairs_v5.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/neutral_allpairs_v6.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/print_fit.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/step_inspection.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/torque_eye_yaw_saccade20_0p2.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/torque_eye_yaw_saccade50_0p2.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/torque_eye_yaw_sweep50_0p46.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/torque_jaw_full16.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/torque_jaw_syllable.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/torque_lid_blink_0p12s.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/torque_lid_blink_0p22s.json",
+      "matches": true
+    },
+    {
+      "path": "checks/R5a/validation_report.json",
+      "matches": true
+    },
+    {
+      "path": "design/R5a_concept_brief.md",
+      "matches": true
+    },
+    {
+      "path": "preview/00_R5a_concept_sheet.png",
+      "matches": true
+    },
+    {
+      "path": "preview/01_front_R5a.png",
+      "matches": true
+    },
+    {
+      "path": "preview/02_three_quarter_R5a.png",
+      "matches": true
+    },
+    {
+      "path": "preview/03_side_R5a.png",
+      "matches": true
+    },
+    {
+      "path": "preview/04_expression_R5a.png",
+      "matches": true
+    },
+    {
+      "path": "preview/05_mechanism_R5a.png",
+      "matches": true
+    },
+    {
+      "path": "preview/06_eyes_closeup_R5a.png",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/analyse_motion_r5a.py",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/build_helpers.py",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/build_r5a.py",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/check_motion_r5a.py",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/export_assembly_r5a.py",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/neutral_check_r5a.py",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/pose_r5a.py",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/render_r5a.py",
+      "matches": true
+    },
+    {
+      "path": "source/r5a/restl_r5a.py",
+      "matches": true
+    }
+  ],
+  "parts": [
+    {
+      "part": "P20_skull_base_plate",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        136.0,
+        86.0,
+        6.0
+      ],
+      "step_volume_mm3": 52918.099133547,
+      "meta_volume_difference_mm3": 0.09913354700256605,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 52918.22911433695,
+      "stl_size_mm": [
+        136.0,
+        86.0,
+        6.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 8819.704852389494,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P21_lower_wall_L",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        9.0,
+        101.0,
+        128.00000000000173
+      ],
+      "step_volume_mm3": 40488.36545434663,
+      "meta_volume_difference_mm3": 0.36545434663275955,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 40488.008443202794,
+      "stl_size_mm": [
+        128.0,
+        101.0,
+        9.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 6639.1159781795905,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P22_lower_wall_R",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        9.0,
+        101.0,
+        128.00000000000173
+      ],
+      "step_volume_mm3": 40488.365454346786,
+      "meta_volume_difference_mm3": 0.36545434678555466,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 40488.00844320282,
+      "stl_size_mm": [
+        128.0,
+        101.0,
+        9.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 217.77085804176022,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P23_upper_cranial_plate_L",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        5.000000000001577,
+        140.1689453125,
+        69.01562500000007
+      ],
+      "step_volume_mm3": 29835.80087845877,
+      "meta_volume_difference_mm3": -0.19912154123085202,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 29835.800935773237,
+      "stl_size_mm": [
+        69.015625,
+        140.1689453125,
+        5.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 5966.851132099405,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P24_upper_cranial_plate_R",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        5.000000000001961,
+        140.1689453125,
+        69.01562500000007
+      ],
+      "step_volume_mm3": 29835.800878459286,
+      "meta_volume_difference_mm3": -0.19912154071425903,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 29835.80093575212,
+      "stl_size_mm": [
+        69.015625,
+        140.1689453125,
+        5.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 5967.365962160044,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P25_cranial_arch_front",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        148.0,
+        8.000000000003546,
+        43.84960937500057
+      ],
+      "step_volume_mm3": 11596.59734734982,
+      "meta_volume_difference_mm3": -0.40265265018024365,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 11596.922846759227,
+      "stl_size_mm": [
+        148.0,
+        43.849609375,
+        8.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 1448.8471917298768,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P26_cranial_arch_mid",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        148.0,
+        8.00000000000247,
+        72.09169564604673
+      ],
+      "step_volume_mm3": 14772.311998526126,
+      "meta_volume_difference_mm3": 0.31199852612553514,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 14772.66418963855,
+      "stl_size_mm": [
+        148.0,
+        72.0916976928711,
+        8.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 1844.342337786069,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P27_cranial_arch_rear",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        148.0,
+        8.000000000010836,
+        62.000000000000284
+      ],
+      "step_volume_mm3": 13628.127558465878,
+      "meta_volume_difference_mm3": 0.12755846587788255,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 13628.451261251097,
+      "stl_size_mm": [
+        148.0,
+        62.0,
+        8.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 1710.941756020648,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P28_sagittal_crest",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        6.00000000000031,
+        129.11230468750125,
+        55.6298828125
+      ],
+      "step_volume_mm3": 6647.839029540534,
+      "meta_volume_difference_mm3": -0.16097045946571598,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 6647.735767487524,
+      "stl_size_mm": [
+        55.6298828125,
+        129.1123046875,
+        6.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 1069.7331700333243,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P29_face_mask",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        158.00000000000404,
+        4.5,
+        83.0555555555557
+      ],
+      "step_volume_mm3": 25521.1653205244,
+      "meta_volume_difference_mm3": 0.16532052440015832,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 25521.214242021375,
+      "stl_size_mm": [
+        158.0,
+        83.05555725097656,
+        4.5
+      ],
+      "flat_area_at_exact_zmin_mm2": 4926.467159150622,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P30_zygoma_L",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        20.695652173915065,
+        48.0,
+        8.000000000000256
+      ],
+      "step_volume_mm3": 2761.3526350175975,
+      "meta_volume_difference_mm3": 0.35263501759754945,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 2761.3526131193958,
+      "stl_size_mm": [
+        20.69565200805664,
+        48.0,
+        8.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 351.0735125541687,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P31_zygoma_R",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        20.695652173916336,
+        48.0,
+        8.000000000000256
+      ],
+      "step_volume_mm3": 2761.352635018056,
+      "meta_volume_difference_mm3": 0.3526350180559348,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 2761.3526101835996,
+      "stl_size_mm": [
+        20.69565200805664,
+        48.0,
+        8.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 351.0735125541687,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P32_maxilla_arch",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        136.0,
+        58.000000000008754,
+        12.5
+      ],
+      "step_volume_mm3": 13012.390610062777,
+      "meta_volume_difference_mm3": 0.3906100627773412,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 13012.390894875898,
+      "stl_size_mm": [
+        136.0,
+        58.0,
+        12.5
+      ],
+      "flat_area_at_exact_zmin_mm2": 128.0,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P33_mandible",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        129.0,
+        87.00000000000037,
+        59.00000000001728
+      ],
+      "step_volume_mm3": 37795.63165263947,
+      "meta_volume_difference_mm3": -0.36834736052696826,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 37795.46067937161,
+      "stl_size_mm": [
+        129.0,
+        87.0,
+        59.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 331.6706768224776,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P34_eye_globe",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        31.92428542661,
+        40.33840995368,
+        28.944271910003152
+      ],
+      "step_volume_mm3": 5906.013884989113,
+      "meta_volume_difference_mm3": 0.013884989112739277,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 5892.71103428842,
+      "stl_size_mm": [
+        31.924285888671875,
+        40.33797073364258,
+        28.944271087646484
+      ],
+      "flat_area_at_exact_zmin_mm2": 0.0,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P35_iris_insert",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        14.0,
+        1.2000000000000028,
+        14.0
+      ],
+      "step_volume_mm3": 175.0746753992563,
+      "meta_volume_difference_mm3": 0.07467539925630717,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 174.97021623718408,
+      "stl_size_mm": [
+        13.998433113098145,
+        13.996867179870605,
+        1.2000000476837158
+      ],
+      "flat_area_at_exact_zmin_mm2": 145.8085077370772,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P36_eye_deck",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        136.0,
+        46.0,
+        37.0
+      ],
+      "step_volume_mm3": 27689.84271203018,
+      "meta_volume_difference_mm3": -0.15728796982148197,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 27688.60300344646,
+      "stl_size_mm": [
+        136.0,
+        46.0,
+        37.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 5606.077625577159,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P37_eye_cross_block",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "step_volume_mm3": 470.94566720288736,
+      "meta_volume_difference_mm3": -0.054332797112635944,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 470.9701635715789,
+      "stl_size_mm": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "flat_area_at_exact_zmin_mm2": 60.20094102897201,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P38_eye_control_bar",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        73.9,
+        6.399999999999999,
+        39.000000000000014
+      ],
+      "step_volume_mm3": 1427.7486800187687,
+      "meta_volume_difference_mm3": -143.2513199812313,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 1428.4356985573552,
+      "stl_size_mm": [
+        73.89676666259766,
+        39.0,
+        5.19929838180542
+      ],
+      "flat_area_at_exact_zmin_mm2": 350.980029792785,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P39_upper_lid_L",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        38.599999999999994,
+        30.3,
+        25.799999999999983
+      ],
+      "step_volume_mm3": 2218.885777261025,
+      "meta_volume_difference_mm3": -0.11422273897505875,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 2216.6546601150208,
+      "stl_size_mm": [
+        38.599998474121094,
+        30.299999237060547,
+        25.799999237060547
+      ],
+      "flat_area_at_exact_zmin_mm2": 0.0,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P40_upper_lid_R",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        38.599999999999994,
+        30.3,
+        25.799999999999983
+      ],
+      "step_volume_mm3": 2218.885795291899,
+      "meta_volume_difference_mm3": -0.11420470810116967,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 2216.6055917446397,
+      "stl_size_mm": [
+        38.599998474121094,
+        30.299999237060547,
+        25.799999237060547
+      ],
+      "flat_area_at_exact_zmin_mm2": 0.0,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P41_mechanism_deck",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        148.0,
+        48.85847955711,
+        44.33576436351001
+      ],
+      "step_volume_mm3": 24566.211095415256,
+      "meta_volume_difference_mm3": 0.21109541525584063,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 24566.213865329482,
+      "stl_size_mm": [
+        148.0,
+        48.85847854614258,
+        44.33576583862305
+      ],
+      "flat_area_at_exact_zmin_mm2": 4491.401695611987,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P42_upper_teeth_row",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        71.0,
+        25.995009015003284,
+        10.200000000001971
+      ],
+      "step_volume_mm3": 1635.9977051289359,
+      "meta_volume_difference_mm3": -0.002294871064123072,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 1635.9976037713798,
+      "stl_size_mm": [
+        71.0,
+        25.99500846862793,
+        10.199999809265137
+      ],
+      "flat_area_at_exact_zmin_mm2": 4.463771455543338,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P43_lower_teeth_row",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        69.0,
+        23.403773982410037,
+        9.500000000001997
+      ],
+      "step_volume_mm3": 1542.4139660504704,
+      "meta_volume_difference_mm3": 0.4139660504704352,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 1542.4138508014232,
+      "stl_size_mm": [
+        69.0,
+        23.40377426147461,
+        9.5
+      ],
+      "flat_area_at_exact_zmin_mm2": 243.63174645177463,
+      "bed_fit_10mm_each_xy": true
+    },
+    {
+      "part": "P44_jaw_servo_cradle",
+      "step_valid": true,
+      "step_solids": 1,
+      "step_size_mm": [
+        8.5,
+        37.0,
+        60.25
+      ],
+      "step_volume_mm3": 3617.0999999999995,
+      "meta_volume_difference_mm3": 0.0999999999994543,
+      "stl_watertight": true,
+      "stl_winding_consistent": true,
+      "stl_volume_mm3": 3617.1001910209648,
+      "stl_size_mm": [
+        60.25,
+        37.0,
+        8.5
+      ],
+      "flat_area_at_exact_zmin_mm2": 322.0,
+      "bed_fit_10mm_each_xy": true
+    }
+  ],
+  "eye_lookup_analytic": [
+    {
+      "yaw": 25.0,
+      "pitch": -18.0,
+      "rod": "yaw",
+      "length_mm": 30.0,
+      "min_possible_length_mm": 30.187036142509626,
+      "minimum_closure_error_mm": 0.1870361425096263,
+      "csv_angle_length_mm": 30.187036422700814
+    },
+    {
+      "yaw": 25.0,
+      "pitch": 18.0,
+      "rod": "yaw",
+      "length_mm": 30.0,
+      "min_possible_length_mm": 30.187036142509626,
+      "minimum_closure_error_mm": 0.1870361425096263,
+      "csv_angle_length_mm": 30.187036422700814
+    }
+  ],
+  "assembly": [
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P20",
+      "solids": 1,
+      "volume_mm3": 52918.099133547
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P21",
+      "solids": 1,
+      "volume_mm3": 40488.36545434667
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P22",
+      "solids": 1,
+      "volume_mm3": 40488.36545434683
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P23",
+      "solids": 1,
+      "volume_mm3": 29835.800878458762
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P24",
+      "solids": 1,
+      "volume_mm3": 29835.800878459297
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P25",
+      "solids": 1,
+      "volume_mm3": 11596.597347349812
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P26",
+      "solids": 1,
+      "volume_mm3": 14772.311998526122
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P27",
+      "solids": 1,
+      "volume_mm3": 13628.127558465872
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P28",
+      "solids": 1,
+      "volume_mm3": 6647.839029540534
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P29",
+      "solids": 1,
+      "volume_mm3": 25521.16532052445
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P30",
+      "solids": 1,
+      "volume_mm3": 2761.3526350175975
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P31",
+      "solids": 1,
+      "volume_mm3": 2761.352635018056
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P32",
+      "solids": 1,
+      "volume_mm3": 13012.390610062774
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P41",
+      "solids": 1,
+      "volume_mm3": 24566.211095415256
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P44",
+      "solids": 1,
+      "volume_mm3": 3617.0999999999995
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P36",
+      "solids": 1,
+      "volume_mm3": 27689.842712030193
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P42",
+      "solids": 1,
+      "volume_mm3": 1635.9977051297158
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P33",
+      "solids": 1,
+      "volume_mm3": 37795.6316526395
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P43",
+      "solids": 1,
+      "volume_mm3": 1542.4139660504547
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P03_R4",
+      "solids": 1,
+      "volume_mm3": 60396.76369940792
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P01_R4",
+      "solids": 1,
+      "volume_mm3": 39684.20503929456
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P34_eye_L",
+      "solids": 1,
+      "volume_mm3": 5906.013884989113
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P35_iris_L",
+      "solids": 1,
+      "volume_mm3": 175.0746753992563
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P37_block_L",
+      "solids": 1,
+      "volume_mm3": 470.94566720288736
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P34_eye_R",
+      "solids": 1,
+      "volume_mm3": 5906.013884989005
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P35_iris_R",
+      "solids": 1,
+      "volume_mm3": 175.0746753992563
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P37_block_R",
+      "solids": 1,
+      "volume_mm3": 470.94566720288736
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P39_lid_L",
+      "solids": 1,
+      "volume_mm3": 2218.8857772672395
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P40_lid_R",
+      "solids": 1,
+      "volume_mm3": 2218.8857952913277
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/P38_bar",
+      "solids": 1,
+      "volume_mm3": 1427.7486800187687
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/dowel_yaw_2mm_L",
+      "solids": 1,
+      "volume_mm3": 33.30088212805178
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/pin_pitch_M2_L",
+      "solids": 1,
+      "volume_mm3": 104.30087609918112
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/pin_lid_M2_Lo",
+      "solids": 1,
+      "volume_mm3": 15.707963267948964
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/pin_lid_M2_Li",
+      "solids": 1,
+      "volume_mm3": 15.707963267948966
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/dowel_yaw_2mm_R",
+      "solids": 1,
+      "volume_mm3": 33.30088212805178
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/pin_pitch_M2_R",
+      "solids": 1,
+      "volume_mm3": 104.30087609918112
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/pin_lid_M2_Ri",
+      "solids": 1,
+      "volume_mm3": 15.707963267948966
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/pin_lid_M2_Ro",
+      "solids": 1,
+      "volume_mm3": 15.707963267948964
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/LED_3mm_L",
+      "solids": 1,
+      "volume_mm3": 28.27433388230813
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/LED_3mm_R",
+      "solids": 1,
+      "volume_mm3": 28.27433388230813
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/pin_jaw_M3_L",
+      "solids": 1,
+      "volume_mm3": 95.42587685278998
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/pin_jaw_M3_R",
+      "solids": 1,
+      "volume_mm3": 95.42587685278998
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/MG90S_jaw",
+      "solids": 1,
+      "volume_mm3": 6544.765690189119
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/MG90S_eye_yaw",
+      "solids": 1,
+      "volume_mm3": 6544.765690189122
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/MG90S_eye_pitch",
+      "solids": 1,
+      "volume_mm3": 6544.765690189113
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/SG90_lid_L",
+      "solids": 1,
+      "volume_mm3": 6544.765690189126
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/SG90_lid_R",
+      "solids": 1,
+      "volume_mm3": 6544.765690189126
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/OEM_horn_jaw",
+      "solids": 1,
+      "volume_mm3": 150.15248439373215
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/OEM_horn_yaw",
+      "solids": 1,
+      "volume_mm3": 190.1524843937059
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/rod_yaw",
+      "solids": 1,
+      "volume_mm3": 75.39822368615519
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/OEM_horn_pitch",
+      "solids": 1,
+      "volume_mm3": 190.15248439370603
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/rod_pitch",
+      "solids": 1,
+      "volume_mm3": 75.39822368615503
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/OEM_horn_lid_L",
+      "solids": 1,
+      "volume_mm3": 158.1524843937686
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/rod_lid_L",
+      "solids": 1,
+      "volume_mm3": 224.93803399702412
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/OEM_horn_lid_R",
+      "solids": 1,
+      "volume_mm3": 158.152484393707
+    },
+    {
+      "name": "MIMIC_R5A_CONCEPT_HEAD/rod_lid_R",
+      "solids": 1,
+      "volume_mm3": 224.93803399702412
+    }
+  ],
+  "jaw_neck_recheck": [
+    {
+      "jaw_deg": 0,
+      "neck_overlap_mm3": 0.0,
+      "neck_clearance_mm": 16.62077013859466,
+      "base_overlap_mm3": 0.0,
+      "base_clearance_mm": 14.773286702694158
+    },
+    {
+      "jaw_deg": 16,
+      "neck_overlap_mm3": 0.0,
+      "neck_clearance_mm": 3.1646509665308953,
+      "base_overlap_mm3": 0.0,
+      "base_clearance_mm": 6.081630586803101
+    },
+    {
+      "jaw_deg": 17,
+      "neck_overlap_mm3": 0.0,
+      "neck_clearance_mm": 2.139051701771066,
+      "base_overlap_mm3": 0.0,
+      "base_clearance_mm": 5.177478849447687
+    },
+    {
+      "jaw_deg": 18,
+      "neck_overlap_mm3": 0.0,
+      "neck_clearance_mm": 1.1281240815007614,
+      "base_overlap_mm3": 0.0,
+      "base_clearance_mm": 4.2874914923552465
+    },
+    {
+      "jaw_deg": 19,
+      "neck_overlap_mm3": 0.0,
+      "neck_clearance_mm": 0.13217604406619185,
+      "base_overlap_mm3": 0.0,
+      "base_clearance_mm": 3.4119396142989764
+    },
+    {
+      "jaw_deg": 20,
+      "neck_overlap_mm3": 67.12343952177712,
+      "neck_clearance_mm": 0.0,
+      "base_overlap_mm3": 0.0,
+      "base_clearance_mm": 2.5510899168570287
+    },
+    {
+      "jaw_deg": 22,
+      "neck_overlap_mm3": 367.81785421624124,
+      "neck_clearance_mm": 0.0,
+      "base_overlap_mm3": 0.0,
+      "base_clearance_mm": 0.8745413981504898
+    }
+  ],
+  "eye_post_recheck": [
+    {
+      "yaw": -25,
+      "pitch": -18,
+      "clearance_mm": 0.6717294240588894,
+      "overlap_mm3": 0.0
+    },
+    {
+      "yaw": 25,
+      "pitch": 18,
+      "clearance_mm": 0.6717294240588956,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "audit_date_local": "2026-10-19",
+  "input_archives": [
+    {
+      "archive": "C:/example-user\\Downloads\\Mimic_R5a_concept (1).zip",
+      "sha256": "2e1f1e0b98dad0a01ebfbdc5d0f4584d23513b93667c1e906cfc79f197be6a52",
+      "files": 103,
+      "unchanged_after_audit": true
+    },
+    {
+      "archive": "C:/example-user\\Downloads\\engineering-validation.zip",
+      "sha256": "83e7f99f5f6f867b9af5516b814bd9838b7b670740cde041b906699b273dd126",
+      "files": 8,
+      "unchanged_after_audit": true
+    },
+    {
+      "archive": "C:/example-user\\Downloads\\embedded-animatronics.zip",
+      "sha256": "4d673c95530f2831a42629ac1e84c8d9919bf31ace35800ec84458ebe2edc32d",
+      "files": 8,
+      "unchanged_after_audit": true
+    },
+    {
+      "archive": "C:/example-user\\Downloads\\servo-kinematics.zip",
+      "sha256": "8d6a1a9e4feeb12ecfb89550165cf385d33ce9abaca37242ddfaee4c13c20530",
+      "files": 7,
+      "unchanged_after_audit": true
+    },
+    {
+      "archive": "C:/example-user\\Downloads\\fdm-manufacturing.zip",
+      "sha256": "d773630c2ea3087ba385caa369d4ac982962151490bba090f80519702404ac79",
+      "files": 7,
+      "unchanged_after_audit": true
+    },
+    {
+      "archive": "C:/example-user\\Downloads\\parametric-cad-engineering.zip",
+      "sha256": "ecee7a02c1ed9b7e766e6d3cccbedad30a0d8dbf92021b19773f45ee9f2d7b26",
+      "files": 7,
+      "unchanged_after_audit": true
+    },
+    {
+      "archive": "C:/example-user\\Downloads\\Mimic_R5_Skills.zip",
+      "sha256": "74c9c62a3c975657b1386cdf256d7178ce8245108243f795af376630e20c3cd7",
+      "files": 52,
+      "unchanged_after_audit": true
+    },
+    {
+      "archive": "C:/example-user\\Downloads\\animatronic-industrial-design.zip",
+      "sha256": "eaaf8ad813dd8bb25cf4f15d8217becd7c5a97bdcfa2620cad54f6513fda9def",
+      "files": 6,
+      "unchanged_after_audit": true
+    }
+  ],
+  "actual_r4_release_available": false,
+  "actual_firmware_available": false,
+  "hardware_tested": false,
+  "design_files_modified": false,
+  "new_design_exports_generated": false,
+  "notes": [
+    "Source and STEP assembly reviewed without executing the project build.",
+    "Collision results independently recomputed only for named targeted pairs and sampled angles.",
+    "The complete original R4 release and voice sources were not supplied; embedded P01_R4/P03_R4 names do not authenticate original identity.",
+    "Closed-loop physical motion and real hardware performance remain unverified.",
+    "Additional eye mobility finding is an ideal-joint constraint analysis, not a physical test.",
+    "P38 metadata volume differs from the delivered STEP."
+  ]
+}

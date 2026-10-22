@@ -1,0 +1,10 @@
+{
+  "file": "docs/Assembly_Manual.pdf",
+  "sha256": "d45e00d745f97ae7e9a77706e573f01da90a070f6f462b36c099f7c7bf9b2c4e",
+  "pages": 33,
+  "rendered_page_png_count": 33,
+  "render_engine": "Poppler pdftoppm 100 dpi",
+  "visual_review": "PASS: all 33 rendered pages inspected; no clipping, text overlap or missing images",
+  "text_outside_page": [],
+  "physical_tested": false
+}
