@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000">
+<rect width="1200" height="1000" fill="#f8fafb"/>
+<style>text{font-family:Arial,sans-serif;fill:#172733}.title{font-size:30px;font-weight:bold}.sub{font-size:18px;fill:#506570}.block{fill:white;stroke:#adbec8;stroke-width:2}.head{font-size:23px;font-weight:bold}.label{font-size:18px}.small{font-size:16px}.wire{fill:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}</style>
+<text x="45" y="55" class="title" text-anchor="start">EXPOSED HEAD R4 / ESP32 WIRING</text>
+<text x="45" y="87" class="sub" text-anchor="start">Classic ESP32-WROOM-32 DevKit assumed. Connect by GPIO labels, not connector pin positions.</text>
+<text x="45" y="115" class="small" text-anchor="start">Verify the metal module marking and GPIO21, GPIO22 and GPIO27 labels. A 38-pin count is not identification.</text>
+<rect x="45" y="175" width="275" height="425" rx="12" class="block"/>
+<text x="70" y="215" class="head" text-anchor="start">ESP32 DEVKIT</text>
+<text x="70" y="244" class="small" text-anchor="start">USB power for testing</text>
+<rect x="625" y="175" width="270" height="425" rx="12" class="block"/>
+<text x="650" y="215" class="head" text-anchor="start">PCA9685</text>
+<text x="650" y="244" class="small" text-anchor="start">I2C address 0x40</text>
+<text x="294" y="296" class="label" text-anchor="end">3V3</text>
+<text x="646" y="296" class="label" text-anchor="start">VCC (logic)</text>
+<polyline points="320,290 625,290" stroke="#1c9b9c" class="wire"/>
+<circle cx="320" cy="290" r="5" fill="#1c9b9c"/>
+<circle cx="625" cy="290" r="5" fill="#1c9b9c"/>
+<text x="465" y="278" class="small" text-anchor="middle">3.3 V only</text>
+<text x="294" y="356" class="label" text-anchor="end">GPIO21</text>
+<text x="646" y="356" class="label" text-anchor="start">SDA</text>
+<polyline points="320,350 625,350" stroke="#c8a124" class="wire"/>
+<circle cx="320" cy="350" r="5" fill="#c8a124"/>
+<circle cx="625" cy="350" r="5" fill="#c8a124"/>
+<text x="294" y="416" class="label" text-anchor="end">GPIO22</text>
+<text x="646" y="416" class="label" text-anchor="start">SCL</text>
+<polyline points="320,410 625,410" stroke="#8058b4" class="wire"/>
+<circle cx="320" cy="410" r="5" fill="#8058b4"/>
+<circle cx="625" cy="410" r="5" fill="#8058b4"/>
+<text x="294" y="476" class="label" text-anchor="end">GPIO27</text>
+<text x="646" y="476" class="label" text-anchor="start">OE</text>
+<polyline points="320,470 625,470" stroke="#d47a21" class="wire"/>
+<circle cx="320" cy="470" r="5" fill="#d47a21"/>
+<circle cx="625" cy="470" r="5" fill="#d47a21"/>
+<text x="294" y="546" class="label" text-anchor="end">GND</text>
+<text x="646" y="546" class="label" text-anchor="start">GND</text>
+<polyline points="320,540 625,540" stroke="#354753" class="wire"/>
+<circle cx="320" cy="540" r="5" fill="#354753"/>
+<circle cx="625" cy="540" r="5" fill="#354753"/>
+<rect x="955" y="175" width="210" height="270" rx="12" class="block"/>
+<text x="975" y="215" class="label" text-anchor="start">SERVO SUPPLY</text>
+<text x="975" y="244" class="small" text-anchor="start">Regulated 5 V</text>
+<text x="975" y="280" class="small" text-anchor="start">Check current rating</text>
+<text x="975" y="330" class="label" text-anchor="start">+5 V</text>
+<text x="975" y="400" class="small" text-anchor="start">Negative / GND</text>
+<text x="875" y="330" class="label" text-anchor="end">V+</text>
+<text x="875" y="400" class="label" text-anchor="end">GND</text>
+<polyline points="895,325 955,325" stroke="#d44545" class="wire"/>
+<polyline points="895,395 955,395" stroke="#354753" class="wire"/>
+<text x="975" y="476" class="small" text-anchor="start">Keep +5 V separate</text>
+<text x="975" y="499" class="small" text-anchor="start">from 3V3 and GPIO.</text>
+<text x="650" y="575" class="small" text-anchor="start">50 Hz servo outputs</text>
+<rect x="45" y="650" width="370" height="215" rx="12" class="block"/>
+<text x="70" y="685" class="head" text-anchor="start">OE RESET PULL-UP</text>
+<text x="70" y="714" class="small" text-anchor="start">Install one 1 kohm resistor:</text>
+<text x="70" y="755" class="label" text-anchor="start">3V3</text>
+<polyline points="120,750 160,750" stroke="#1c9b9c" class="wire"/>
+<rect x="160" y="739" width="66" height="22" fill="white" stroke="#172733" stroke-width="2"/>
+<text x="193" y="730" class="small" text-anchor="middle">1 kohm</text>
+<polyline points="226,750 300,750" stroke="#d47a21" class="wire"/>
+<circle cx="270" cy="750" r="5" fill="#d47a21"/>
+<text x="310" y="756" class="label" text-anchor="start">OE</text>
+<polyline points="270,750 270,805 180,805" stroke="#d47a21" class="wire"/>
+<text x="70" y="811" class="label" text-anchor="start">GPIO27</text>
+<text x="70" y="842" class="small" text-anchor="start">OE HIGH = servo pulses disabled</text>
+<rect x="465" y="730" width="320" height="135" rx="12" class="block"/>
+<text x="485" y="766" class="head" text-anchor="start">EYE MG90S</text>
+<text x="485" y="799" class="small" text-anchor="start">Brown: GND   Red: V+ (5 V)</text>
+<text x="485" y="827" class="small" text-anchor="start">Orange: PWM signal</text>
+<polyline points="715,600 715,680 625,680 625,730" stroke="#506570" class="wire"/>
+<text x="625" y="711" class="small" text-anchor="middle">CH0 - 3-wire servo plug</text>
+<rect x="835" y="730" width="320" height="135" rx="12" class="block"/>
+<text x="855" y="766" class="head" text-anchor="start">JAW MG90S</text>
+<text x="855" y="799" class="small" text-anchor="start">Brown: GND   Red: V+ (5 V)</text>
+<text x="855" y="827" class="small" text-anchor="start">Orange: PWM signal</text>
+<polyline points="825,600 825,680 995,680 995,730" stroke="#506570" class="wire"/>
+<text x="995" y="711" class="small" text-anchor="middle">CH1 - 3-wire servo plug</text>
+<text x="45" y="912" class="label" text-anchor="start">ALL GROUNDS CONNECT: ESP32 GND, PCA GND and servo-supply negative.</text>
+<text x="45" y="943" class="small" text-anchor="start">Check actual servo wire colors and module labels. OE does not disconnect motor power; remove 5 V before servicing.</text>
+<text x="45" y="973" class="small" text-anchor="start">Optional capacitor: 470-1000 uF, at least 10 V, across V+ and GND; observe polarity.</text>
+</svg>

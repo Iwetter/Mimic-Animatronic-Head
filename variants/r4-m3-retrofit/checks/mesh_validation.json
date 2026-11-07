@@ -1,0 +1,212 @@
+[
+  {
+    "id": "P03",
+    "name": "short_bolt_neck",
+    "quantity": 1,
+    "stl": "STL_REPRINT/P03_short_bolt_neck_PRINT_1.stl",
+    "size_mm": [
+      96.0,
+      61.0,
+      55.0
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 59891.34385014693
+  },
+  {
+    "id": "P04",
+    "name": "M3_clamp_frame",
+    "quantity": 1,
+    "stl": "STL_REPRINT/P04_M3_clamp_frame_PRINT_1.stl",
+    "size_mm": [
+      144.6245815231232,
+      147.60000610351562,
+      105.0
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 275350.35396051995
+  },
+  {
+    "id": "A01",
+    "name": "eye_servo_tab_bridge",
+    "quantity": 2,
+    "stl": "STL_REPRINT/A01_eye_servo_tab_bridge_PRINT_2.stl",
+    "size_mm": [
+      28.0,
+      7.0,
+      2.5
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 385.2039861556274
+  },
+  {
+    "id": "A03",
+    "name": "jaw_servo_tab_bridge",
+    "quantity": 2,
+    "stl": "STL_REPRINT/A03_jaw_servo_tab_bridge_PRINT_2.stl",
+    "size_mm": [
+      36.0,
+      7.0,
+      2.5
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 525.2039861556276
+  },
+  {
+    "id": "P05",
+    "name": "short_pin_eye",
+    "quantity": 2,
+    "stl": "STL_REPRINT/P05_short_pin_eye_PRINT_2.stl",
+    "size_mm": [
+      42.491805639117956,
+      42.499999900000006,
+      53.75
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 39121.95413600273
+  },
+  {
+    "id": "P10",
+    "name": "eye_thrust_ring",
+    "quantity": 4,
+    "stl": "STL_REPRINT/P10_eye_thrust_ring_PRINT_4.stl",
+    "size_mm": [
+      12.0,
+      11.997627607779577,
+      1.0
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 49.480084294039244
+  },
+  {
+    "id": "P06",
+    "name": "M3_eye_link",
+    "quantity": 1,
+    "stl": "STL_REPRINT/P06_M3_eye_link_PRINT_1.stl",
+    "size_mm": [
+      77.49801982752979,
+      10.0,
+      3.75
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 2723.633280124218
+  },
+  {
+    "id": "P11",
+    "name": "M3_link_washer",
+    "quantity": 3,
+    "stl": "STL_REPRINT/P11_M3_link_washer_PRINT_3.stl",
+    "size_mm": [
+      6.599999904632568,
+      6.598695279622916,
+      1.25
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 31.415926535897928
+  },
+  {
+    "id": "P07",
+    "name": "eye_horn_sandwich",
+    "quantity": 1,
+    "stl": "STL_REPRINT/P07_eye_horn_sandwich_PRINT_1.stl",
+    "size_mm": [
+      24.0,
+      40.25,
+      3.099999904632569
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 1725.3785988410998
+  },
+  {
+    "id": "A02",
+    "name": "horn_clamp_plate",
+    "quantity": 2,
+    "stl": "STL_REPRINT/A02_horn_clamp_plate_PRINT_2.stl",
+    "size_mm": [
+      20.0,
+      27.598509960633237,
+      2.25
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 562.5084937758244
+  },
+  {
+    "id": "P08",
+    "name": "jaw_horn_sandwich",
+    "quantity": 1,
+    "stl": "STL_REPRINT/P08_jaw_horn_sandwich_PRINT_1.stl",
+    "size_mm": [
+      50.24888239207212,
+      106.49665832519531,
+      5.59999990463257
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 12231.490436028886
+  },
+  {
+    "id": "T01",
+    "name": "horn_fit_upper",
+    "quantity": 1,
+    "stl": "FIT_TEST_FIRST/T01_horn_fit_upper_PRINT_1.stl",
+    "size_mm": [
+      24.0,
+      28.0,
+      3.0999999046325684
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 1486.1985255390782
+  },
+  {
+    "id": "T02",
+    "name": "horn_fit_lower",
+    "quantity": 1,
+    "stl": "FIT_TEST_FIRST/T02_horn_fit_lower_PRINT_1.stl",
+    "size_mm": [
+      20.0,
+      27.598509960633237,
+      2.25
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 562.5084937758244
+  },
+  {
+    "id": "T03",
+    "name": "servo_tab_fit_base",
+    "quantity": 1,
+    "stl": "FIT_TEST_FIRST/T03_servo_tab_fit_base_PRINT_1.stl",
+    "size_mm": [
+      28.0,
+      7.0,
+      5.5
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 978.1287695423805
+  },
+  {
+    "id": "T04",
+    "name": "servo_tab_fit_bridge",
+    "quantity": 1,
+    "stl": "FIT_TEST_FIRST/T04_servo_tab_fit_bridge_PRINT_1.stl",
+    "size_mm": [
+      28.0,
+      7.0,
+      2.5
+    ],
+    "valid_solid": true,
+    "watertight": true,
+    "volume_mm3": 385.2039861556274
+  }
+]

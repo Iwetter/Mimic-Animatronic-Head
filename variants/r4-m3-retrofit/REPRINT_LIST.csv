@@ -1,0 +1,16 @@
+Part,Name,Copies,File
+P03,short_bolt_neck,1,STL_REPRINT/P03_short_bolt_neck_PRINT_1.stl
+P04,M3_clamp_frame,1,STL_REPRINT/P04_M3_clamp_frame_PRINT_1.stl
+A01,eye_servo_tab_bridge,2,STL_REPRINT/A01_eye_servo_tab_bridge_PRINT_2.stl
+A03,jaw_servo_tab_bridge,2,STL_REPRINT/A03_jaw_servo_tab_bridge_PRINT_2.stl
+P05,short_pin_eye,2,STL_REPRINT/P05_short_pin_eye_PRINT_2.stl
+P10,eye_thrust_ring,4,STL_REPRINT/P10_eye_thrust_ring_PRINT_4.stl
+P06,M3_eye_link,1,STL_REPRINT/P06_M3_eye_link_PRINT_1.stl
+P11,M3_link_washer,3,STL_REPRINT/P11_M3_link_washer_PRINT_3.stl
+P07,eye_horn_sandwich,1,STL_REPRINT/P07_eye_horn_sandwich_PRINT_1.stl
+A02,horn_clamp_plate,2,STL_REPRINT/A02_horn_clamp_plate_PRINT_2.stl
+P08,jaw_horn_sandwich,1,STL_REPRINT/P08_jaw_horn_sandwich_PRINT_1.stl
+T01,horn_fit_upper,1,FIT_TEST_FIRST/T01_horn_fit_upper_PRINT_1.stl
+T02,horn_fit_lower,1,FIT_TEST_FIRST/T02_horn_fit_lower_PRINT_1.stl
+T03,servo_tab_fit_base,1,FIT_TEST_FIRST/T03_servo_tab_fit_base_PRINT_1.stl
+T04,servo_tab_fit_bridge,1,FIT_TEST_FIRST/T04_servo_tab_fit_bridge_PRINT_1.stl

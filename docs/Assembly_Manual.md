@@ -1,6 +1,8 @@
 # Mimic R5a-E1
 ## Assembly and commissioning manual
 
+For the R4 build that uses an M3 screw kit, follow the [R4 M3 assembly guide](../variants/r4-m3-retrofit/START_HERE.md).
+
 **Flashforge Adventurer 5M | 220 x 220 x 220 mm | 0.4 mm nozzle | PLA**
 
 This manual accompanies the revised parametric model, print plates, electrical design and commissioning firmware. The approved external appearance is retained. The package records digital engineering work; no head has been printed, assembled, powered or physically qualified by this workflow.

@@ -1,0 +1,1234 @@
+[
+  {
+    "name": "P01",
+    "pid": "P01",
+    "group": "fixed",
+    "file": "assembly_meshes/P01.stl",
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ]
+  },
+  {
+    "name": "P03",
+    "pid": "P03",
+    "group": "fixed",
+    "file": "assembly_meshes/P03.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P04",
+    "pid": "P04",
+    "group": "fixed",
+    "file": "assembly_meshes/P04.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P06",
+    "pid": "P06",
+    "group": "link",
+    "file": "assembly_meshes/P06.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P07",
+    "pid": "P07",
+    "group": "eye_horn",
+    "file": "assembly_meshes/P07.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P08",
+    "pid": "P08",
+    "group": "jaw",
+    "file": "assembly_meshes/P08.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P09",
+    "pid": "P09",
+    "group": "fixed",
+    "file": "assembly_meshes/P09.stl",
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ]
+  },
+  {
+    "name": "P12",
+    "pid": "P12",
+    "group": "fixed",
+    "file": "assembly_meshes/P12.stl",
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ]
+  },
+  {
+    "name": "P13",
+    "pid": "P13",
+    "group": "fixed",
+    "file": "assembly_meshes/P13.stl",
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ]
+  },
+  {
+    "name": "P18",
+    "pid": "P18",
+    "group": "jaw",
+    "file": "assembly_meshes/P18.stl",
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ]
+  },
+  {
+    "name": "P19",
+    "pid": "P19",
+    "group": "jaw",
+    "file": "assembly_meshes/P19.stl",
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ]
+  },
+  {
+    "name": "P05_L",
+    "pid": "P05",
+    "group": "eye_L",
+    "file": "assembly_meshes/P05_L.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P15_L",
+    "pid": "P15",
+    "group": "eye_L",
+    "file": "assembly_meshes/P15_L.stl",
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ]
+  },
+  {
+    "name": "P10_L90",
+    "pid": "P10",
+    "group": "fixed",
+    "file": "assembly_meshes/P10_L90.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P10_L134",
+    "pid": "P10",
+    "group": "fixed",
+    "file": "assembly_meshes/P10_L134.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "eye_nut_L90",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_nut_L90.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_nut_L92.4",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_nut_L92.4.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_nut_L130.2",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_nut_L130.2.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_nut_L132.6",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_nut_L132.6.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_pin_L85",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_pin_L85.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_pin_L115",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_pin_L115.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_pin_head_L82",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_pin_head_L82.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_pin_head_L140",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_pin_head_L140.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "P05_R",
+    "pid": "P05",
+    "group": "eye_R",
+    "file": "assembly_meshes/P05_R.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P15_R",
+    "pid": "P15",
+    "group": "eye_R",
+    "file": "assembly_meshes/P15_R.stl",
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ]
+  },
+  {
+    "name": "P10_R90",
+    "pid": "P10",
+    "group": "fixed",
+    "file": "assembly_meshes/P10_R90.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "P10_R134",
+    "pid": "P10",
+    "group": "fixed",
+    "file": "assembly_meshes/P10_R134.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "eye_nut_R90",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_nut_R90.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_nut_R92.4",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_nut_R92.4.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_nut_R130.2",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_nut_R130.2.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_nut_R132.6",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_nut_R132.6.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_pin_R85",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_pin_R85.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_pin_R115",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_pin_R115.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_pin_head_R82",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_pin_head_R82.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_pin_head_R140",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_pin_head_R140.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "P11_-33.75",
+    "pid": "P11",
+    "group": "link",
+    "file": "assembly_meshes/P11_-33.75.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "link_pin_-33.75",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_pin_-33.75.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_head_-33.75",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_head_-33.75.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_nut_-33.75110.3",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_nut_-33.75110.3.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_nut_-33.75112.7",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_nut_-33.75112.7.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "P11_0",
+    "pid": "P11",
+    "group": "link",
+    "file": "assembly_meshes/P11_0.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "link_pin_0",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_pin_0.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_head_0",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_head_0.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_nut_0110.3",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_nut_0110.3.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_nut_0112.7",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_nut_0112.7.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "P11_33.75",
+    "pid": "P11",
+    "group": "link",
+    "file": "assembly_meshes/P11_33.75.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "link_pin_33.75",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_pin_33.75.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_head_33.75",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_head_33.75.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_nut_33.75110.3",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_nut_33.75110.3.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "link_nut_33.75112.7",
+    "pid": "REFERENCE",
+    "group": "link",
+    "file": "assembly_meshes/link_nut_33.75112.7.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "A01_eye_-36",
+    "pid": "A01",
+    "group": "fixed",
+    "file": "assembly_meshes/A01_eye_-36.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "eye_mount_screw_(-10, -36)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_screw_(-10, -36).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_head_(-10, -36)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_head_(-10, -36).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_nut_(-10, -36)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_nut_(-10, -36).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_screw_(10, -36)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_screw_(10, -36).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_head_(10, -36)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_head_(10, -36).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_nut_(10, -36)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_nut_(10, -36).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "A01_eye_-7",
+    "pid": "A01",
+    "group": "fixed",
+    "file": "assembly_meshes/A01_eye_-7.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "eye_mount_screw_(-10, -7)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_screw_(-10, -7).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_head_(-10, -7)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_head_(-10, -7).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_nut_(-10, -7)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_nut_(-10, -7).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_screw_(10, -7)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_screw_(10, -7).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_head_(10, -7)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_head_(10, -7).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "eye_mount_nut_(10, -7)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/eye_mount_nut_(10, -7).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "A03_jaw_4",
+    "pid": "A03",
+    "group": "fixed",
+    "file": "assembly_meshes/A03_jaw_4.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "jaw_mount_screw_(4, 42.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_screw_(4, 42.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_head_(4, 42.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_head_(4, 42.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_nut_(4, 42.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_nut_(4, 42.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_screw_(4, 70.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_screw_(4, 70.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_head_(4, 70.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_head_(4, 70.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_nut_(4, 70.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_nut_(4, 70.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "A03_jaw_33",
+    "pid": "A03",
+    "group": "fixed",
+    "file": "assembly_meshes/A03_jaw_33.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "jaw_mount_screw_(33, 42.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_screw_(33, 42.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_head_(33, 42.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_head_(33, 42.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_nut_(33, 42.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_nut_(33, 42.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_screw_(33, 70.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_screw_(33, 70.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_head_(33, 70.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_head_(33, 70.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_mount_nut_(33, 70.25)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_mount_nut_(33, 70.25).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "A02_eye",
+    "pid": "A02",
+    "group": "eye_horn",
+    "file": "assembly_meshes/A02_eye.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "A02_jaw",
+    "pid": "A02",
+    "group": "jaw",
+    "file": "assembly_meshes/A02_jaw.stl",
+    "color": [
+      0.2,
+      0.65,
+      0.75
+    ]
+  },
+  {
+    "name": "horn_eye_screw-37.5",
+    "pid": "REFERENCE",
+    "group": "eye_horn",
+    "file": "assembly_meshes/horn_eye_screw-37.5.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_eye_head-37.5",
+    "pid": "REFERENCE",
+    "group": "eye_horn",
+    "file": "assembly_meshes/horn_eye_head-37.5.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_eye_nut-37.5",
+    "pid": "REFERENCE",
+    "group": "eye_horn",
+    "file": "assembly_meshes/horn_eye_nut-37.5.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_eye_screw-17.5",
+    "pid": "REFERENCE",
+    "group": "eye_horn",
+    "file": "assembly_meshes/horn_eye_screw-17.5.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_eye_head-17.5",
+    "pid": "REFERENCE",
+    "group": "eye_horn",
+    "file": "assembly_meshes/horn_eye_head-17.5.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_eye_nut-17.5",
+    "pid": "REFERENCE",
+    "group": "eye_horn",
+    "file": "assembly_meshes/horn_eye_nut-17.5.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_jaw_screw46.25",
+    "pid": "REFERENCE",
+    "group": "jaw",
+    "file": "assembly_meshes/horn_jaw_screw46.25.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_jaw_head46.25",
+    "pid": "REFERENCE",
+    "group": "jaw",
+    "file": "assembly_meshes/horn_jaw_head46.25.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_jaw_nut46.25",
+    "pid": "REFERENCE",
+    "group": "jaw",
+    "file": "assembly_meshes/horn_jaw_nut46.25.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_jaw_screw66.25",
+    "pid": "REFERENCE",
+    "group": "jaw",
+    "file": "assembly_meshes/horn_jaw_screw66.25.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_jaw_head66.25",
+    "pid": "REFERENCE",
+    "group": "jaw",
+    "file": "assembly_meshes/horn_jaw_head66.25.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "horn_jaw_nut66.25",
+    "pid": "REFERENCE",
+    "group": "jaw",
+    "file": "assembly_meshes/horn_jaw_nut66.25.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_nut(-12.2, -38)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_nut(-12.2, -38).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_nut(9, -38)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_nut(9, -38).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_bolt(-19, -38)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_bolt(-19, -38).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_bolt(7, -38)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_bolt(7, -38).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_head(-22, -38)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_head(-22, -38).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_head(19, -38)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_head(19, -38).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_nut(-12.2, -48)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_nut(-12.2, -48).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_nut(9, -48)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_nut(9, -48).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_bolt(-19, -48)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_bolt(-19, -48).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_bolt(7, -48)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_bolt(7, -48).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_head(-22, -48)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_head(-22, -48).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "neck_head(19, -48)",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/neck_head(19, -48).stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_pivot_nut62.7",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_pivot_nut62.7.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_pivot_nut65.1",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_pivot_nut65.1.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_pivot_screw",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_pivot_screw.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "jaw_pivot_head",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/jaw_pivot_head.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "servo_eye",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/servo_eye.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "servo_jaw",
+    "pid": "REFERENCE",
+    "group": "fixed",
+    "file": "assembly_meshes/servo_jaw.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "OEM_eye_horn",
+    "pid": "REFERENCE",
+    "group": "eye_horn",
+    "file": "assembly_meshes/OEM_eye_horn.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  },
+  {
+    "name": "OEM_jaw_horn",
+    "pid": "REFERENCE",
+    "group": "jaw",
+    "file": "assembly_meshes/OEM_jaw_horn.stl",
+    "color": [
+      0.18,
+      0.2,
+      0.23
+    ]
+  }
+]

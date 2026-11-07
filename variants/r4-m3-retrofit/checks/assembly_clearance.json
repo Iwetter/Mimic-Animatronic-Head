@@ -1,0 +1,11 @@
+{
+  "prototype": true,
+  "threshold_mm3": 0.05,
+  "findings": [],
+  "limitations": [
+    "Nominal servo and straight horn envelope; actual clones not measured",
+    "Discrete poses, not continuous sweep",
+    "Cosmetic fixed fastening hardware omitted; original R4 geometry retained",
+    "No physical strength or friction tests"
+  ]
+}

@@ -6,6 +6,15 @@ Mimic R5a combines an editable CadQuery mechanism, printable parts, assembly doc
 
 ![CAD assembly](renders/assembly_three_quarter.png)
 
+## Choose your build
+
+| Build | Print and assembly instructions |
+| --- | --- |
+| **R5a five-axis head** | Use the [R5a assembly manual](docs/Assembly_Manual.md) and [R5a parts list](bom/PRINT_MAP.csv). |
+| **R4 head with an M3 screw kit** | Use the [R4 M3 retrofit](variants/r4-m3-retrofit/README.md), which has its own assembly guide, hardware list, 3MF plates, and firmware. Start with [plate 00](variants/r4-m3-retrofit/PRINT_PLATES_3MF/00_FIT_TEST_FIRST.3mf) to check the servo clamps. Slice the plates for your printer before printing. |
+
+Each build has its own part IDs, hardware, and commissioning instructions. Use the files listed for the build you are assembling.
+
 ## Project status
 
 This is a digitally prepared engineering prototype. Physical printing, assembly, powered motion, and endurance qualification remain unverified. Servo identity, actual dimensions, supply ratings, and measured travel must be established before assembly commissioning.
