@@ -64,8 +64,8 @@ def reinforce_tooth_rows(shapes):
 def fixed_hardware(contract):
     length_by_prefix = {
         "H_BASE_": 16, "H_PLATE_": 16, "H_ARCH_": 20, "H_CREST": 16,
-        "H_FACE_": 20, "H_ZYG_P": 12, "H_MAX_P": 20, "H_MAX_FACE": 16,
-        "H_TEETH_": 16, "H_EYE_DECK_": 20, "H_ZYG_ROOT_": 25,
+        "H_FACE_": 20, "H_ZYG_P": 20, "H_MAX_P": 20, "H_MAX_FACE": 16,
+        "H_TEETH_P42": 12, "H_TEETH_P43": 16, "H_EYE_DECK_": 20, "H_ZYG_ROOT_": 25,
         "H_DECK_": 20, "H_JAW_CRADLE_BASE": 16, "H_NECK_FLANGE": 20,
     }
     rows = []
@@ -74,8 +74,9 @@ def fixed_hardware(contract):
         length = next((n for prefix, n in length_by_prefix.items() if joint.startswith(prefix)), None)
         if length is None:
             continue
+        captive = joint.startswith(("H_FACE_", "H_ZYG_P", "H_MAX_P", "H_DECK_"))
         rows.append(dict(joint=joint, screws=f"M3x{length}", quantity=item["qty"],
-                         original=item["size"], nuts=item["qty"], washers=2 * item["qty"]))
+                         original=item["size"], nuts=item["qty"], washers=(1 if captive else 2) * item["qty"]))
     rows.append(dict(joint="H_NECK_LOCK", screws="M3x12", quantity=4,
                      original="M3x45", nuts=4, washers=0))
     return rows

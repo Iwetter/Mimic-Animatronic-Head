@@ -1,0 +1,309 @@
+{
+  "revision": "R5a-M3",
+  "parts": [
+    {
+      "id": "A10",
+      "name": "servo_tab_bridge",
+      "qty": 6,
+      "stl": "STL_REPRINT/A10_servo_tab_bridge_M3.stl",
+      "step": "STEP/A10_servo_tab_bridge_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "A11",
+      "name": "servo_tab_bridge",
+      "qty": 1,
+      "stl": "STL_REPRINT/A11_servo_tab_bridge_M3.stl",
+      "step": "STEP/A11_servo_tab_bridge_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "A12",
+      "name": "servo_tab_bridge",
+      "qty": 1,
+      "stl": "STL_REPRINT/A12_servo_tab_bridge_M3.stl",
+      "step": "STEP/A12_servo_tab_bridge_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "A20",
+      "name": "yaw_axial_shim",
+      "qty": 2,
+      "stl": "STL_REPRINT/A20_yaw_axial_shim_M3.stl",
+      "step": "STEP/A20_yaw_axial_shim_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "A21",
+      "name": "left_yaw_spacer",
+      "qty": 1,
+      "stl": "STL_REPRINT/A21_left_yaw_spacer_M3.stl",
+      "step": "STEP/A21_left_yaw_spacer_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "A22",
+      "name": "right_yaw_spacer",
+      "qty": 1,
+      "stl": "STL_REPRINT/A22_right_yaw_spacer_M3.stl",
+      "step": "STEP/A22_right_yaw_spacer_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "A23",
+      "name": "pitch_spacer",
+      "qty": 1,
+      "stl": "STL_REPRINT/A23_pitch_spacer_M3.stl",
+      "step": "STEP/A23_pitch_spacer_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "A24",
+      "name": "jaw_pivot_shim",
+      "qty": 1,
+      "stl": "STL_REPRINT/A24_jaw_pivot_shim_M3.stl",
+      "step": "STEP/A24_jaw_pivot_shim_M3.step",
+      "print_group": "03_jaw"
+    },
+    {
+      "id": "A30",
+      "name": "jaw_horn_plate",
+      "qty": 1,
+      "stl": "STL_REPRINT/A30_jaw_horn_plate_M3.stl",
+      "step": "STEP/A30_jaw_horn_plate_M3.step",
+      "print_group": "03_jaw"
+    },
+    {
+      "id": "A44",
+      "name": "lid_adapter",
+      "qty": 1,
+      "stl": "STL_REPRINT/A44_lid_adapter_M3.stl",
+      "step": "STEP/A44_lid_adapter_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "A45",
+      "name": "lid_backplate",
+      "qty": 1,
+      "stl": "STL_REPRINT/A45_lid_backplate_M3.stl",
+      "step": "STEP/A45_lid_backplate_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "P03",
+      "name": "skeletal_neck_tenon",
+      "qty": 1,
+      "stl": "STL_REPRINT/P03_skeletal_neck_tenon_M3.stl",
+      "step": "STEP/P03_skeletal_neck_tenon_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P21",
+      "name": "lower_wall_L",
+      "qty": 1,
+      "stl": "STL_REPRINT/P21_lower_wall_L_M3.stl",
+      "step": "STEP/P21_lower_wall_L_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P22",
+      "name": "lower_wall_R",
+      "qty": 1,
+      "stl": "STL_REPRINT/P22_lower_wall_R_M3.stl",
+      "step": "STEP/P22_lower_wall_R_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P23",
+      "name": "upper_cranial_plate_L",
+      "qty": 1,
+      "stl": "STL_REPRINT/P23_upper_cranial_plate_L_M3.stl",
+      "step": "STEP/P23_upper_cranial_plate_L_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P24",
+      "name": "upper_cranial_plate_R",
+      "qty": 1,
+      "stl": "STL_REPRINT/P24_upper_cranial_plate_R_M3.stl",
+      "step": "STEP/P24_upper_cranial_plate_R_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P25",
+      "name": "cranial_arch_front",
+      "qty": 1,
+      "stl": "STL_REPRINT/P25_cranial_arch_front_M3.stl",
+      "step": "STEP/P25_cranial_arch_front_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P26",
+      "name": "cranial_arch_mid",
+      "qty": 1,
+      "stl": "STL_REPRINT/P26_cranial_arch_mid_M3.stl",
+      "step": "STEP/P26_cranial_arch_mid_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P27",
+      "name": "cranial_arch_rear",
+      "qty": 1,
+      "stl": "STL_REPRINT/P27_cranial_arch_rear_M3.stl",
+      "step": "STEP/P27_cranial_arch_rear_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P28",
+      "name": "sagittal_crest",
+      "qty": 1,
+      "stl": "STL_REPRINT/P28_sagittal_crest_M3.stl",
+      "step": "STEP/P28_sagittal_crest_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P29",
+      "name": "face_mask",
+      "qty": 1,
+      "stl": "STL_REPRINT/P29_face_mask_M3.stl",
+      "step": "STEP/P29_face_mask_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P30",
+      "name": "zygoma_L",
+      "qty": 1,
+      "stl": "STL_REPRINT/P30_zygoma_L_M3.stl",
+      "step": "STEP/P30_zygoma_L_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P31",
+      "name": "zygoma_R",
+      "qty": 1,
+      "stl": "STL_REPRINT/P31_zygoma_R_M3.stl",
+      "step": "STEP/P31_zygoma_R_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P32",
+      "name": "maxilla_arch",
+      "qty": 1,
+      "stl": "STL_REPRINT/P32_maxilla_arch_M3.stl",
+      "step": "STEP/P32_maxilla_arch_M3.step",
+      "print_group": "01_frame"
+    },
+    {
+      "id": "P33",
+      "name": "mandible",
+      "qty": 1,
+      "stl": "STL_REPRINT/P33_mandible_M3.stl",
+      "step": "STEP/P33_mandible_M3.step",
+      "print_group": "03_jaw"
+    },
+    {
+      "id": "P34",
+      "name": "eye_globe",
+      "qty": 2,
+      "stl": "STL_REPRINT/P34_eye_globe_M3.stl",
+      "step": "STEP/P34_eye_globe_M3.step",
+      "print_group": "02_eyes_and_lids"
+    },
+    {
+      "id": "P36",
+      "name": "eye_deck",
+      "qty": 1,
+      "stl": "STL_REPRINT/P36_eye_deck_M3.stl",
+      "step": "STEP/P36_eye_deck_M3.step",
+      "print_group": "02_eyes_and_lids"
+    },
+    {
+      "id": "P37",
+      "name": "yaw_crank",
+      "qty": 2,
+      "stl": "STL_REPRINT/P37_yaw_crank_M3.stl",
+      "step": "STEP/P37_yaw_crank_M3.step",
+      "print_group": "02_eyes_and_lids"
+    },
+    {
+      "id": "P38",
+      "name": "yaw_tie_half",
+      "qty": 2,
+      "stl": "STL_REPRINT/P38_yaw_tie_half_M3.stl",
+      "step": "STEP/P38_yaw_tie_half_M3.step",
+      "print_group": "02_eyes_and_lids"
+    },
+    {
+      "id": "P39",
+      "name": "upper_lid_L",
+      "qty": 1,
+      "stl": "STL_REPRINT/P39_upper_lid_L_M3.stl",
+      "step": "STEP/P39_upper_lid_L_M3.step",
+      "print_group": "02_eyes_and_lids"
+    },
+    {
+      "id": "P40",
+      "name": "upper_lid_R",
+      "qty": 1,
+      "stl": "STL_REPRINT/P40_upper_lid_R_M3.stl",
+      "step": "STEP/P40_upper_lid_R_M3.step",
+      "print_group": "02_eyes_and_lids"
+    },
+    {
+      "id": "P41",
+      "name": "mechanism_deck",
+      "qty": 1,
+      "stl": "STL_REPRINT/P41_mechanism_deck_M3.stl",
+      "step": "STEP/P41_mechanism_deck_M3.step",
+      "print_group": "04_servo_mounts"
+    },
+    {
+      "id": "P42",
+      "name": "upper_teeth_row",
+      "qty": 1,
+      "stl": "STL_REPRINT/P42_upper_teeth_row_M3.stl",
+      "step": "STEP/P42_upper_teeth_row_M3.step",
+      "print_group": "03_jaw"
+    },
+    {
+      "id": "P43",
+      "name": "lower_teeth_row",
+      "qty": 1,
+      "stl": "STL_REPRINT/P43_lower_teeth_row_M3.stl",
+      "step": "STEP/P43_lower_teeth_row_M3.step",
+      "print_group": "03_jaw"
+    },
+    {
+      "id": "P44",
+      "name": "jaw_servo_cradle",
+      "qty": 1,
+      "stl": "STL_REPRINT/P44_jaw_servo_cradle_M3.stl",
+      "step": "STEP/P44_jaw_servo_cradle_M3.step",
+      "print_group": "03_jaw"
+    },
+    {
+      "id": "P45",
+      "name": "common_pitch_carrier",
+      "qty": 1,
+      "stl": "STL_REPRINT/P45_common_pitch_carrier_M3.stl",
+      "step": "STEP/P45_common_pitch_carrier_M3.step",
+      "print_group": "02_eyes_and_lids"
+    },
+    {
+      "id": "P46",
+      "name": "eye_pitch_pushrod",
+      "qty": 1,
+      "stl": "STL_REPRINT/P46_eye_pitch_pushrod_M3.stl",
+      "step": "STEP/P46_eye_pitch_pushrod_M3.step",
+      "print_group": "02_eyes_and_lids"
+    },
+    {
+      "id": "P49",
+      "name": "lid_pushrod",
+      "qty": 2,
+      "stl": "STL_REPRINT/P49_lid_pushrod_M3.stl",
+      "step": "STEP/P49_lid_pushrod_M3.step",
+      "print_group": "02_eyes_and_lids"
+    }
+  ]
+}

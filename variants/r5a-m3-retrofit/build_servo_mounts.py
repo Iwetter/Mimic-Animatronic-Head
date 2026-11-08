@@ -15,12 +15,24 @@ from servo_clamps import candidate, overlaps
 # One clamp on each end of the servo. The side is in the servo's local frame.
 # The original flange seating face and spline position are preserved.
 PLACEMENT = {
-    "MG90S_CH0_yaw": ("P45", -6.5, (-1, -1)),
+    "MG90S_CH0_yaw": ("P45", -6.5, (-1, 1)),
     "MG90S_CH1_jaw": ("P44", -7.5, (-1, 1)),
     "MG90S_CH2_pitch": ("P41", -10.0, (-1, -1)),
-    "SG90_CH3_lid_L": ("P41", -8.0, (-1, -1)),
+    "SG90_CH3_lid_L": ("P41", -8.0, (1, -1)),
     "SG90_CH4_lid_R": ("P41", -8.0, (-1, 1)),
 }
+
+
+def longitudinal_tab(servo, tab_y):
+    return servo == "MG90S_CH0_yaw" or (tab_y == -8 and servo == "MG90S_CH1_jaw")
+
+
+def tab_geometry(servo, tab_y):
+    if servo == "MG90S_CH0_yaw" and tab_y == 20:
+        return 10.1, "A12", True
+    if longitudinal_tab(servo, tab_y):
+        return 6, "A11", True
+    return 8.5, "A10", False
 
 
 def build(baseline, output):
@@ -34,9 +46,7 @@ def build(baseline, output):
     for servo, (pid, backing, sides) in PLACEMENT.items():
         spec = scene.contract["servos"][servo]
         for tab_y, side in zip((-8, 20), sides):
-            longitudinal = servo == "MG90S_CH0_yaw" and tab_y == -8
-            bolt_offset = 6 if longitudinal else 8.5
-            clip_id = "A11" if longitudinal else "A10"
+            bolt_offset, clip_id, longitudinal = tab_geometry(servo, tab_y)
             clamp = candidate(spec, edited[pid], tab_y, side, bolt_offset, backing, 12, longitudinal)
             if clamp is None:
                 raise ValueError((servo, tab_y, "invalid clamp"))

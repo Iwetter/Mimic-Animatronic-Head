@@ -21,6 +21,18 @@ def nut(x, y, z, side, across_flats, length):
     return cq.Workplane(plane).polygon(6, across_flats, circumscribed=True).extrude(length).val()
 
 
+def hinge_clearances(eye_x, side):
+    y, z = -36.25, 112.5
+    outer_face = eye_x + side * 25.8
+    face = outer_face - side * 1.8
+    inward = (-side, 0, 0)
+    return (
+        cylinder(2.95, (outer_face + side * 0.1, y, z), inward, 1.9),
+        nut(face - side * 1.3, y, z, side, 5.8, 2.65),
+        box(face - side * 2.625, y + 3.0, z, 2.65, 6.0, 5.9),
+    )
+
+
 def hinge(deck, eye_x, side):
     y, z = -36.25, 112.5
     outer_face = eye_x + side * 25.8
@@ -30,11 +42,7 @@ def hinge(deck, eye_x, side):
     # remains at +/-19.8 from the eye center.
     pad = cylinder(4.65, (eye_x + side * 22.65, y, z), (side, 0, 0), 3.15)
     new = deck.fuse(pad).clean()
-    head_seat = cylinder(2.95, (outer_face + side * 0.1, y, z), inward, 1.9)
-    new = new.cut(head_seat).clean()
-    pocket = nut(face - side * 1.3, y, z, side, 5.8, 2.65)
-    loading_slot = box(face - side * 2.625, y + 3.0, z, 2.65, 6.0, 5.9)
-    new = new.cut(pocket.fuse(loading_slot)).clean()
+    new = new.cut(*hinge_clearances(eye_x, side)).clean()
     new = open_bore(new, (eye_x + side * 23, y, z), inward, 10)
     # Recessing the head leaves 1.3 mm of the 1.5 mm lid leaf on the pin.
     screw = cylinder(1.5, (face, y, z), inward, 6)

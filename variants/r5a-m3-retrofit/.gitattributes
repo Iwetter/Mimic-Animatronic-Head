@@ -1,1 +1,7 @@
 *.step -text -diff -whitespace
+*.stl -text -diff
+*.3mf -text -diff
+*.csv text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf

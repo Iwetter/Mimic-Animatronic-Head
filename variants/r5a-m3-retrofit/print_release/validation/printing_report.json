@@ -1,0 +1,4041 @@
+{
+  "revision": "R5a-M3",
+  "parts_manifest_sha256": "3c2dc2c6a5311504079955e009ddee2996adb054ef33da3b9dda4c37a522b767",
+  "source_cad_sha256": {},
+  "individual": [
+    {
+      "file": "3mf/individual/A10_servo_tab_bridge.3mf",
+      "sha256": "386a5a3cce31d7909a36f3f5de4949df7c2a6bf867e8cc92d5986305561f1d84",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 109.15924990025876,
+          "bounds_mm": [
+            [
+              -4.75,
+              -2.5,
+              0.0
+            ],
+            [
+              4.75,
+              2.5,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        }
+      ],
+      "max_vertex_deviation_mm": 7.487240955900693e-10,
+      "source_stl": "STL_REPRINT/A10_servo_tab_bridge_M3.stl",
+      "source_stl_sha256": "3277a24007674cc430877ff4cc730d8bad9dc35979c12b090d9cc2eb7a2deb51",
+      "source_step_sha256": "d24ab35c8f9e058ba922848c7150190d9c3f8e6127850a18a8fadd9793470733",
+      "flat_bed_contact_area_mm2": 37.424560458197355,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A11_servo_tab_bridge.3mf",
+      "sha256": "23690e13d9c721f16343add0708229ff981516f5f251f2aac8ada52a4d661ca4",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 94.75943545724431,
+          "bounds_mm": [
+            [
+              -4.150000095,
+              -2.5,
+              0.0
+            ],
+            [
+              4.150000095,
+              2.5,
+              4.400000095
+            ]
+          ],
+          "faces": 544
+        }
+      ],
+      "max_vertex_deviation_mm": 6.903187499227404e-10,
+      "source_stl": "STL_REPRINT/A11_servo_tab_bridge_M3.stl",
+      "source_stl_sha256": "05cfb9f3878dc6fc7bee1a8b54ffd6e882f8d1e1f96e149b5076878a9191dd4c",
+      "source_step_sha256": "f34dd470c34f5ee6156dfcd4e56b302873c658f24a58649c80ab80712cf7b58b",
+      "flat_bed_contact_area_mm2": 31.42456028322046,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A12_servo_tab_bridge.3mf",
+      "sha256": "2ac53e19f725514fba3dc28403980b3212cb09e24952ab07674280e1c87c0398",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 143.95924588485693,
+          "bounds_mm": [
+            [
+              -6.199999809,
+              -2.5,
+              0.0
+            ],
+            [
+              6.199999809,
+              2.5,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        }
+      ],
+      "max_vertex_deviation_mm": 7.32337924986203e-10,
+      "source_stl": "STL_REPRINT/A12_servo_tab_bridge_M3.stl",
+      "source_stl_sha256": "1d462be5d704699e38e146bf0bd5b69b1e4bfb765ef1debbb3288fe421e701a0",
+      "source_step_sha256": "08bce85f9f05cd68dabd9b6d0d60468f7ed3cb185262cad40bd79eba26b7fa95",
+      "flat_bed_contact_area_mm2": 51.92455853905562,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A20_yaw_axial_shim.3mf",
+      "sha256": "e001ec2be3ae31c1ebdc4d03ab4819e4fe925d0469925ae556e1be57664d6681",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 88.17936464264987,
+          "bounds_mm": [
+            [
+              -3.5,
+              -3.498912096,
+              0.0
+            ],
+            [
+              3.5,
+              3.498912096,
+              3.0
+            ]
+          ],
+          "faces": 1008
+        }
+      ],
+      "max_vertex_deviation_mm": 6.659024088929226e-10,
+      "source_stl": "STL_REPRINT/A20_yaw_axial_shim_M3.stl",
+      "source_stl_sha256": "0246cab987a92473c0cc7c6832654347831e7ddd94e27ae668b3370f08b8ad54",
+      "source_step_sha256": "28f30b4abc03d368b79638a4fbde8e1f2f7a2c64fe092c7c4b2e7cf9503eabc7",
+      "flat_bed_contact_area_mm2": 29.39312154490878,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A21_left_yaw_spacer.3mf",
+      "sha256": "71c193991f442b070f7e11b4e9117a7efa1795a8c632bcdef88e9610e30b9a33",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 68.46069317855027,
+          "bounds_mm": [
+            [
+              -3.150000095,
+              -3.14902091,
+              0.0
+            ],
+            [
+              3.150000095,
+              3.14902091,
+              3.099999885
+            ]
+          ],
+          "faces": 1008
+        }
+      ],
+      "max_vertex_deviation_mm": 5.879000872673265e-10,
+      "source_stl": "STL_REPRINT/A21_left_yaw_spacer_M3.stl",
+      "source_stl_sha256": "acf2172c8e3187d8ecec07cb4e86938aeed78dee6986e92345bf83115db1ccbe",
+      "source_step_sha256": "ff931bb125b5f9a5c75dcadb11c6c53cf060435fc36ee42751ca7e84eeb95ceb",
+      "flat_bed_contact_area_mm2": 22.08409539327304,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A22_right_yaw_spacer.3mf",
+      "sha256": "fc5efd36ec0b3afccd452fb6d54909eeb0eb6cf754f4f9cf70566c79fcd39c1f",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 117.04570935914565,
+          "bounds_mm": [
+            [
+              -3.150000095,
+              -3.14902091,
+              0.0
+            ],
+            [
+              3.150000095,
+              3.14902091,
+              5.300000171
+            ]
+          ],
+          "faces": 1008
+        }
+      ],
+      "max_vertex_deviation_mm": 6.094202049427948e-10,
+      "source_stl": "STL_REPRINT/A22_right_yaw_spacer_M3.stl",
+      "source_stl_sha256": "5ea1c52f9596080fa1194aa011d64ea66c08c66cf4cd3f3c55dbd79980102cdc",
+      "source_step_sha256": "4a7cace39f02a9830637c5bb6a2496c0c64c0c51980dde85983917511c00736c",
+      "flat_bed_contact_area_mm2": 22.08409539327304,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A23_pitch_spacer.3mf",
+      "sha256": "6417dbaa583b11a17cdb5c001a113d9cc4bc5fc003d61721ead02d1bd4536e4a",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 12.146252728936766,
+          "bounds_mm": [
+            [
+              -3.150000095,
+              -3.14902091,
+              -3.497202633e-16
+            ],
+            [
+              3.150000095,
+              3.14902091,
+              0.5500000119
+            ]
+          ],
+          "faces": 1008
+        }
+      ],
+      "max_vertex_deviation_mm": 5.834983558776873e-10,
+      "source_stl": "STL_REPRINT/A23_pitch_spacer_M3.stl",
+      "source_stl_sha256": "c29f4f8e074c8512619f226859060f9dfeb2ae1626888758136e4d35058dda87",
+      "source_step_sha256": "2e71ec1d7e7c490b9ca4d316185388c99538f97a5ac86cdb603ccf07c369c994",
+      "flat_bed_contact_area_mm2": 22.08409539327304,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A24_jaw_pivot_shim.3mf",
+      "sha256": "e7820f3de16c585f0c2b9fdbb08d3935da89a92b1f3cfbad82ed26d040e063c6",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 66.2522861789238,
+          "bounds_mm": [
+            [
+              -3.150000095,
+              -3.14902091,
+              -3.497202633e-16
+            ],
+            [
+              3.150000095,
+              3.14902091,
+              3.0
+            ]
+          ],
+          "faces": 1008
+        }
+      ],
+      "max_vertex_deviation_mm": 5.831228956227376e-10,
+      "source_stl": "STL_REPRINT/A24_jaw_pivot_shim_M3.stl",
+      "source_stl_sha256": "c4d7c8a1ee5bc57a3b1a89473221604cfbfde5de736384d79143f03099ffbdb8",
+      "source_step_sha256": "fc14acca204ff4d4aae1d16e4ce4b72f86c5c29e7403f8dd831d677461b1788f",
+      "flat_bed_contact_area_mm2": 22.08409539327304,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A30_jaw_horn_plate.3mf",
+      "sha256": "00b717df03e7f157545dd0a89fd56b7e59d359e6eeb9ea291097273333e7fde5",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 701.4516267854773,
+          "bounds_mm": [
+            [
+              -11.0,
+              -10.99658108,
+              -1.221245327e-15
+            ],
+            [
+              11.0,
+              10.99658108,
+              2.724999905
+            ]
+          ],
+          "faces": 2088
+        }
+      ],
+      "max_vertex_deviation_mm": 4.8798517334424775e-09,
+      "source_stl": "STL_REPRINT/A30_jaw_horn_plate_M3.stl",
+      "source_stl_sha256": "cc5e159718db65f473634bf3577910b4396269eac39d322cc9cc1dcf410b36b1",
+      "source_step_sha256": "189033c6f4e3c5d9072b6c5bace9899e6b52de27df66cdde2432eafdc0ff837a",
+      "flat_bed_contact_area_mm2": 290.97150047342484,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A44_lid_adapter.3mf",
+      "sha256": "63f267ced4684e4070ab87f4bcbebd301dc9fe2808574b7164b1053facf8ccea",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 239.78765523852792,
+          "bounds_mm": [
+            [
+              -8.42445612,
+              -4.349999905,
+              0.0
+            ],
+            [
+              8.42445612,
+              4.349999905,
+              8.199999809
+            ]
+          ],
+          "faces": 2886
+        }
+      ],
+      "max_vertex_deviation_mm": 7.037447800822675e-10,
+      "source_stl": "STL_REPRINT/A44_lid_adapter_M3.stl",
+      "source_stl_sha256": "6b0f7a9074d12f53515726690bb16a12ac33d6b9069f8aa8313076fcfecef790",
+      "source_step_sha256": "a98daae609b443c3bda940416bc44df16a19e023c0a490a59724d6246eb1e7bf",
+      "flat_bed_contact_area_mm2": 3.119999437332126,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/A45_lid_backplate.3mf",
+      "sha256": "fb98696ed0e74485b4a60d8950f255c2e2abe76e06ecb6542aef9edd8d456e17",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 184.78624485026356,
+          "bounds_mm": [
+            [
+              -7.998912334,
+              -3.5,
+              0.0
+            ],
+            [
+              7.998912334,
+              3.5,
+              2.0
+            ]
+          ],
+          "faces": 1016
+        }
+      ],
+      "max_vertex_deviation_mm": 6.382647029792907e-10,
+      "source_stl": "STL_REPRINT/A45_lid_backplate_M3.stl",
+      "source_stl_sha256": "8fbda3859705fc9b042472cb15ce2515514bc1afe6a132960843d2fcb4d2c0c4",
+      "source_step_sha256": "9648ec9bcc8c97cbd7b08b8af6511aea6abcbb329e224905a6d1ca993ba88fc1",
+      "flat_bed_contact_area_mm2": 92.39312242415174,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P03_skeletal_neck_tenon.3mf",
+      "sha256": "f55ad016c3072b19e3fe55766acedbe6debe151ab00884ca63ef186a9752b640",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 59889.60264971983,
+          "bounds_mm": [
+            [
+              -48.0,
+              -30.5,
+              0.0
+            ],
+            [
+              48.0,
+              30.5,
+              55.0
+            ]
+          ],
+          "faces": 8464
+        }
+      ],
+      "max_vertex_deviation_mm": 6.768452393830916e-09,
+      "source_stl": "STL_REPRINT/P03_skeletal_neck_tenon_M3.stl",
+      "source_stl_sha256": "a88f3dd0f2c50c5e57d7efd7f08e5f47a150597238e84323233b329ad5fbb790",
+      "source_step_sha256": "c3936ec8527bb89718e889ad45d8ff4f713eb4c191c46f5bef44fb1662d4f70b",
+      "flat_bed_contact_area_mm2": 5268.679427333569,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P21_lower_wall_L.3mf",
+      "sha256": "a7671d9f003bfa863f5e80cbd6bb4a0eba499b5dd71169a92e5543bf732ac978",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 40987.90586482395,
+          "bounds_mm": [
+            [
+              -64.0,
+              -50.5,
+              -9.436895709e-16
+            ],
+            [
+              64.0,
+              50.5,
+              19.0
+            ]
+          ],
+          "faces": 5946
+        }
+      ],
+      "max_vertex_deviation_mm": 8.158524519840846e-09,
+      "source_stl": "STL_REPRINT/P21_lower_wall_L_M3.stl",
+      "source_stl_sha256": "c84b573f16b2f26066232d503c27bc87985665e1797d0118467787e86644ae01",
+      "source_step_sha256": "9b9302869a45372d716cb64012731898eaa8655c25626e72a5caa18733f87ce1",
+      "flat_bed_contact_area_mm2": 213.03732942315435,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P22_lower_wall_R.3mf",
+      "sha256": "b7243184f1e9db03098bb395f4b9a904a5cc5d791c142b96530f77ad29e040bf",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 41314.078653293254,
+          "bounds_mm": [
+            [
+              -64.0,
+              -50.5,
+              -9.436895709e-16
+            ],
+            [
+              64.0,
+              50.5,
+              19.0
+            ]
+          ],
+          "faces": 6952
+        }
+      ],
+      "max_vertex_deviation_mm": 8.158524519840846e-09,
+      "source_stl": "STL_REPRINT/P22_lower_wall_R_M3.stl",
+      "source_stl_sha256": "faebb78e518b78c7a1542b0300f4d2501df5c4b78bd2647bba9095ce14a057b1",
+      "source_step_sha256": "9fc6452ec51d8e393e4d1d9d9240264d21233e6c0e644ba3a602aa8b30ee1459",
+      "flat_bed_contact_area_mm2": 213.03732942315435,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P23_upper_cranial_plate_L.3mf",
+      "sha256": "f8b31d130408106277cca84070080b1cfe15dc503d186b3b01ed1f282a80e955",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31444.397974298354,
+          "bounds_mm": [
+            [
+              -34.5078125,
+              -70.08447266,
+              -5.551115123e-16
+            ],
+            [
+              34.5078125,
+              70.08447266,
+              8.5
+            ]
+          ],
+          "faces": 6938
+        }
+      ],
+      "max_vertex_deviation_mm": 6.74135683199712e-09,
+      "source_stl": "STL_REPRINT/P23_upper_cranial_plate_L_M3.stl",
+      "source_stl_sha256": "bc0666e244e896761585b3527583df1750d8349e52ea403f8e22248405acb95f",
+      "source_step_sha256": "f5b4a763fdcaf3beb2a105db2dd0c414517b27f4010a2674d1846299bfcad2af",
+      "flat_bed_contact_area_mm2": 6273.701032832582,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P24_upper_cranial_plate_R.3mf",
+      "sha256": "2bcdacce953f7d006a54e3f695a924dbfc9e5bdf432e4de8036fa05286697a1b",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31444.39797429835,
+          "bounds_mm": [
+            [
+              -34.5078125,
+              -70.08447266,
+              -5.551115123e-16
+            ],
+            [
+              34.5078125,
+              70.08447266,
+              8.5
+            ]
+          ],
+          "faces": 6938
+        }
+      ],
+      "max_vertex_deviation_mm": 6.74135683199712e-09,
+      "source_stl": "STL_REPRINT/P24_upper_cranial_plate_R_M3.stl",
+      "source_stl_sha256": "55ccb736df351c74ef7e338b9f28551701f106cad58ea5e13d0b9f0a739ab3fe",
+      "source_step_sha256": "6058a620c67fa288e7be563683532673e0814647aa30e3d354fd6cc7a87b26dc",
+      "flat_bed_contact_area_mm2": 6273.701032832581,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P25_cranial_arch_front.3mf",
+      "sha256": "b609eb3e79bb87885e77d03febee704938d8c3a8e0d4d04d319a02bf7522eac0",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 12037.53520593485,
+          "bounds_mm": [
+            [
+              -74.0,
+              -24.27480507,
+              0.0
+            ],
+            [
+              74.0,
+              24.27480507,
+              7.9999999
+            ]
+          ],
+          "faces": 6978
+        }
+      ],
+      "max_vertex_deviation_mm": 6.604587140310254e-09,
+      "source_stl": "STL_REPRINT/P25_cranial_arch_front_M3.stl",
+      "source_stl_sha256": "4eebc268cf3806423cad82c7e5a7ab8915b681aa2cbca90d6ecee84008a73262",
+      "source_step_sha256": "67dbfd4947a72d4f36512f631b70c2eb60156f3006b770c7b2d012222fb01caa",
+      "flat_bed_contact_area_mm2": 1533.725696540699,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P26_cranial_arch_mid.3mf",
+      "sha256": "f7514d2bd8828246a635ebbe6c12d81b0d16bb2275d87e84652e9b69ed4153cb",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 15073.673061294574,
+          "bounds_mm": [
+            [
+              -74.0,
+              -38.39584732,
+              0.0
+            ],
+            [
+              74.0,
+              38.39584732,
+              7.9999999
+            ]
+          ],
+          "faces": 6026
+        }
+      ],
+      "max_vertex_deviation_mm": 6.620125045412778e-09,
+      "source_stl": "STL_REPRINT/P26_cranial_arch_mid_M3.stl",
+      "source_stl_sha256": "ea797e176b134b746509bc935ca84aceec2c6d28a3f6a895fde3d11b52ec8d47",
+      "source_step_sha256": "2215b23f65a997fd048d05fcfc17bf1de1c3896c98facfa2ddbdb728cc8a7f7e",
+      "flat_bed_contact_area_mm2": 1901.30688633127,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P27_cranial_arch_rear.3mf",
+      "sha256": "509326340ba7a25c7780694beb1c67ab32bb6c318eb873c0321c7db4f8ff926c",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 14116.418030386616,
+          "bounds_mm": [
+            [
+              -74.0,
+              -33.34999847,
+              0.0
+            ],
+            [
+              74.0,
+              33.34999847,
+              7.9999999
+            ]
+          ],
+          "faces": 6038
+        }
+      ],
+      "max_vertex_deviation_mm": 6.609597587581794e-09,
+      "source_stl": "STL_REPRINT/P27_cranial_arch_rear_M3.stl",
+      "source_stl_sha256": "badaf3e5d17052007a8f7b9407810e1f906d73d7c939e10aed05e646fdbe5f35",
+      "source_step_sha256": "9604e9026ef2dd91ed5fe981317db0da5f2c31344edacdbae071b198d646493b",
+      "flat_bed_contact_area_mm2": 1795.7347114045288,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P28_sagittal_crest.3mf",
+      "sha256": "9202731fe3bff5dc11d2f5a46ecddf267d43a83fbe954140716d0c5f447661c2",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 6359.436963741027,
+          "bounds_mm": [
+            [
+              -27.81494141,
+              -64.55615234,
+              2.15827356e-13
+            ],
+            [
+              27.81494141,
+              64.55615234,
+              6.0
+            ]
+          ],
+          "faces": 5560
+        }
+      ],
+      "max_vertex_deviation_mm": 6.989301251371793e-09,
+      "source_stl": "STL_REPRINT/P28_sagittal_crest_M3.stl",
+      "source_stl_sha256": "ca90beb8c59eb1ca984da0df2e3795f9fea696d106dd5136639d72a19ddbdcf7",
+      "source_step_sha256": "4244f9657770a120ce18149d19c9e2be6dcdc7b0ca6ca8d07ad10b0d16e23441",
+      "flat_bed_contact_area_mm2": 1062.8262386827564,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P29_face_mask.3mf",
+      "sha256": "45347bb0a89d402cece6de5582d09018b72832db8cd5885a0b102e6c86d59dac",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 25357.841133718222,
+          "bounds_mm": [
+            [
+              -79.0,
+              -41.52777863,
+              -1.887379195e-16
+            ],
+            [
+              79.0,
+              41.52777863,
+              4.5
+            ]
+          ],
+          "faces": 5040
+        }
+      ],
+      "max_vertex_deviation_mm": 6.953710343876869e-09,
+      "source_stl": "STL_REPRINT/P29_face_mask_M3.stl",
+      "source_stl_sha256": "44a307ac54c74a2744c190331919fcbbd4cbba4ca5694c7e692055e0a886d8bd",
+      "source_step_sha256": "28d41ebeb10abef3da0d86c782cea44287ea99c5ba6cf75cc3944d92add8c74f",
+      "flat_bed_contact_area_mm2": 4890.162068530433,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P30_zygoma_L.3mf",
+      "sha256": "bb4737574c69c3c4f5d1986ddcf8e478d6ff2225afc20e115996f9d810361e89",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2567.6367669745077,
+          "bounds_mm": [
+            [
+              -10.347826,
+              -25.0,
+              0.0
+            ],
+            [
+              10.347826,
+              25.0,
+              15.0
+            ]
+          ],
+          "faces": 1542
+        }
+      ],
+      "max_vertex_deviation_mm": 5.107829338675761e-09,
+      "source_stl": "STL_REPRINT/P30_zygoma_L_M3.stl",
+      "source_stl_sha256": "f62af96e3cdc02ce6b6cf4685dce22052ffbc768643f8bd335d855047300549a",
+      "source_step_sha256": "b1c9419bc222827ab61e8966febcd31a980dbaf768f836e9359eeae3f5828ef8",
+      "flat_bed_contact_area_mm2": 50.9245611404009,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P31_zygoma_R.3mf",
+      "sha256": "d168d4530628b7ac7c422ad385e311aafabb43639c17e6f85f27fae0ceefce9a",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2567.636998785647,
+          "bounds_mm": [
+            [
+              -10.347826,
+              -25.0,
+              0.0
+            ],
+            [
+              10.347826,
+              25.0,
+              15.0
+            ]
+          ],
+          "faces": 1540
+        }
+      ],
+      "max_vertex_deviation_mm": 5.107829338675761e-09,
+      "source_stl": "STL_REPRINT/P31_zygoma_R_M3.stl",
+      "source_stl_sha256": "1172b0e5304182e8c03491e77a431a4177c8855a914039c68b5080f43757e005",
+      "source_step_sha256": "5ff4576c4e679fdefb97465501dba6266e8eb144e06c459f38b35315f48ba9fb",
+      "flat_bed_contact_area_mm2": 50.9245611404009,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P32_maxilla_arch.3mf",
+      "sha256": "3552f26fdd7b7f36ac653eb1a58d8499c9ea4a5c7624e8cd729200aaf1f5e3fa",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 14250.165617610124,
+          "bounds_mm": [
+            [
+              -68.0,
+              -29.0,
+              0.0
+            ],
+            [
+              68.0,
+              29.0,
+              18.5
+            ]
+          ],
+          "faces": 8380
+        }
+      ],
+      "max_vertex_deviation_mm": 6.93989611129921e-09,
+      "source_stl": "STL_REPRINT/P32_maxilla_arch_M3.stl",
+      "source_stl_sha256": "75ad36be188b0f080859827c078da7ed44e22a9c925b3409fe8ad989080a43cd",
+      "source_step_sha256": "ff77dfaacc7be85212de43346c4eedbf4be8d9fcc73c443f6548620cec058465",
+      "flat_bed_contact_area_mm2": 128.0,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P33_mandible.3mf",
+      "sha256": "5e9dfd02cff1280ce57070cbf5414c1ed13d329f0708049debd2431c0d511393",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 37546.978892869476,
+          "bounds_mm": [
+            [
+              -64.5,
+              -47.75,
+              0.0
+            ],
+            [
+              64.5,
+              47.75,
+              58.9999999
+            ]
+          ],
+          "faces": 9604
+        }
+      ],
+      "max_vertex_deviation_mm": 7.975519880991175e-09,
+      "source_stl": "STL_REPRINT/P33_mandible_M3.stl",
+      "source_stl_sha256": "09e50c86e2b6ed59f94a643781ba8118a35b42cfa204530c7412bf043b0f52a7",
+      "source_step_sha256": "a76a3f735ecb58cf190c9f98421b850bc947b3c501190c42446a846860cd7420",
+      "flat_bed_contact_area_mm2": 331.6706432614619,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P34_eye_globe.3mf",
+      "sha256": "9efe1de29f74a74ecfee9e76bdbe4c9e07f896c1ce3e420d63d79f72fe1327d7",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 6037.468515954874,
+          "bounds_mm": [
+            [
+              -15.96214294,
+              -13.20837212,
+              5.329070518e-13
+            ],
+            [
+              15.96214294,
+              13.20837212,
+              29.33840942
+            ]
+          ],
+          "faces": 16156
+        }
+      ],
+      "max_vertex_deviation_mm": 7.870904611425608e-09,
+      "source_stl": "STL_REPRINT/P34_eye_globe_M3.stl",
+      "source_stl_sha256": "5c720ad8f22072d73f42d33b908365229ca23bfacc0d4628618889c0847a88d7",
+      "source_step_sha256": "6588acfd887ded71a35e29f5a7f30f2182e0a6637d592c8f56356242420d0211",
+      "flat_bed_contact_area_mm2": 0.076736202430709,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P36_eye_deck.3mf",
+      "sha256": "21841d86c57a7a21f676ce09c59666025666457719fc9e489eeb534d9b174f9e",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31370.95074551422,
+          "bounds_mm": [
+            [
+              -68.0,
+              -23.0,
+              0.0
+            ],
+            [
+              68.0,
+              23.0,
+              54.31769272
+            ]
+          ],
+          "faces": 17718
+        }
+      ],
+      "max_vertex_deviation_mm": 8.421236257058089e-09,
+      "source_stl": "STL_REPRINT/P36_eye_deck_M3.stl",
+      "source_stl_sha256": "d2f467e44d5190cb81e99b5de8be6caf5df52f2523c137336bd72126b32139be",
+      "source_step_sha256": "844d06781ae5246e4bc981e994ec76671951eb113c2a2de6ce1c5502dfa842fa",
+      "flat_bed_contact_area_mm2": 5817.849115780984,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P37_yaw_crank.3mf",
+      "sha256": "ee74211fced39aa5078c2a7f8954460f18f2ee2603c5ea80ff72e93f6576ed8c",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 641.39205350628,
+          "bounds_mm": [
+            [
+              -6.150000095,
+              -10.24930334,
+              0.0
+            ],
+            [
+              6.150000095,
+              10.24930334,
+              7.999999999
+            ]
+          ],
+          "faces": 4134
+        }
+      ],
+      "max_vertex_deviation_mm": 5.001145607815764e-09,
+      "source_stl": "STL_REPRINT/P37_yaw_crank_M3.stl",
+      "source_stl_sha256": "f2c0d6566b7a0bb20372ee7a7896a04c00b7ea9e7b3623e7b4a791f933856a87",
+      "source_step_sha256": "b4e830d38409e141c2a79a05a8ba2cbdfece38ed88ee078e13dfaff9e8fa3238",
+      "flat_bed_contact_area_mm2": 44.89205528951516,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P38_yaw_tie_half.3mf",
+      "sha256": "99c0c008c13f1d0b871faf1bdaed95de52a686730a0469c49136a7560b40b72d",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 556.2205176605797,
+          "bounds_mm": [
+            [
+              -20.72380257,
+              -3.849999905,
+              0.0
+            ],
+            [
+              20.72380257,
+              3.849999905,
+              1.999999892
+            ]
+          ],
+          "faces": 1524
+        }
+      ],
+      "max_vertex_deviation_mm": 4.867408704041659e-09,
+      "source_stl": "STL_REPRINT/P38_yaw_tie_half_M3.stl",
+      "source_stl_sha256": "154b4a724f67ed333fe843c470f409774b56ea7f196a50e2da14c5d8a74a19ef",
+      "source_step_sha256": "dfd7dde204939352247fa884e3b8e0c3992ee5ecad1242d709cccc586cd3467b",
+      "flat_bed_contact_area_mm2": 278.11027381111245,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P39_upper_lid_L.3mf",
+      "sha256": "60396d52aeb31bf16fbec812d257d186445fc2fb8227ae8c561ef40c098bb895",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2286.4598780490523,
+          "bounds_mm": [
+            [
+              -13.42500019,
+              -15.67500019,
+              -2.605780925e-16
+            ],
+            [
+              13.42500019,
+              15.67500019,
+              42.90000153
+            ]
+          ],
+          "faces": 10854
+        }
+      ],
+      "max_vertex_deviation_mm": 6.988884391160842e-09,
+      "source_stl": "STL_REPRINT/P39_upper_lid_L_M3.stl",
+      "source_stl_sha256": "4af023e9d81d4dcf2d77e113f2239ea276a9a23f50e6f113de8ee20c7b3ba22d",
+      "source_step_sha256": "9328c7c4a41ac3ae0badb07c15368f0e361915bc28e123f99ab4c7370464edcd",
+      "flat_bed_contact_area_mm2": 8.26681563568036,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P40_upper_lid_R.3mf",
+      "sha256": "5bf56ff353117d1d1729a9afe85c0db72308bd688ab1570a6e850e476c87d1bd",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2286.446424167333,
+          "bounds_mm": [
+            [
+              -13.42500019,
+              -15.67500019,
+              -2.609024002e-16
+            ],
+            [
+              13.42500019,
+              15.67500019,
+              42.90000153
+            ]
+          ],
+          "faces": 10856
+        }
+      ],
+      "max_vertex_deviation_mm": 6.988884391160842e-09,
+      "source_stl": "STL_REPRINT/P40_upper_lid_R_M3.stl",
+      "source_stl_sha256": "55ae5902dfc7f6995e142c53f157bcabb09333678c8f72cd13a33d662f3a5e5b",
+      "source_step_sha256": "944001c5a0da0801f7110ff3630aa732a8bca0bb61c887449b153c23177326d9",
+      "flat_bed_contact_area_mm2": 8.26681563568036,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P41_mechanism_deck.3mf",
+      "sha256": "b8315229803d1fac85d80485769fb6257594feb17c1bc2a5cf94cccb58e2c8ae",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 30601.15262436373,
+          "bounds_mm": [
+            [
+              -74.0,
+              -26.80423927,
+              0.0
+            ],
+            [
+              74.0,
+              26.80423927,
+              53.73576355
+            ]
+          ],
+          "faces": 9668
+        }
+      ],
+      "max_vertex_deviation_mm": 6.788542886809026e-09,
+      "source_stl": "STL_REPRINT/P41_mechanism_deck_M3.stl",
+      "source_stl_sha256": "c1a4b97823372a57252778fea5039727c66f20cfc688be490235bb68b68c3c6e",
+      "source_step_sha256": "4452992489af651050a52b7a4984406f2aeb9169d060304d6f5e98e9f315c259",
+      "flat_bed_contact_area_mm2": 256.0,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P42_upper_teeth_row.3mf",
+      "sha256": "bd2254737e6c6c65a27843850c3a272ff153643bc3b64bdfc41a0af657ceb560",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1701.168908562461,
+          "bounds_mm": [
+            [
+              -37.19945145,
+              -13.84744072,
+              0.0
+            ],
+            [
+              37.19945145,
+              13.84744072,
+              10.19999981
+            ]
+          ],
+          "faces": 2524
+        }
+      ],
+      "max_vertex_deviation_mm": 6.769452383170653e-09,
+      "source_stl": "STL_REPRINT/P42_upper_teeth_row_M3.stl",
+      "source_stl_sha256": "8a05c6e19eebe72e5254a7360e3020998494012d44166f2125f12b7c5e5798da",
+      "source_step_sha256": "270818a7d8ca28167cd16f409ea665d49d382c6251789e59b5b2901b71c75169",
+      "flat_bed_contact_area_mm2": 316.9913278019159,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P43_lower_teeth_row.3mf",
+      "sha256": "5b838fc51903e6bf3e5f1f258d63147711c570b4e8085aff5a57257e4373fa7e",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1600.3947187373467,
+          "bounds_mm": [
+            [
+              -36.19981003,
+              -12.80150032,
+              0.0
+            ],
+            [
+              36.19981003,
+              12.80150032,
+              9.5
+            ]
+          ],
+          "faces": 2516
+        }
+      ],
+      "max_vertex_deviation_mm": 6.762103686443243e-09,
+      "source_stl": "STL_REPRINT/P43_lower_teeth_row_M3.stl",
+      "source_stl_sha256": "f64ce2cae82bb3a9f427672b17ae5afbde1d00a3f378a3d616ed18ffb8f379e8",
+      "source_step_sha256": "3c751fb63d0232810f171c718d794a1540a1ecec860e2748ad953291ef57b53f",
+      "flat_bed_contact_area_mm2": 301.61254272590895,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P44_jaw_servo_cradle.3mf",
+      "sha256": "5481f9b22bf23654dcf65e69eb60154b0d32bd6610aee5f726fd8e2ad8f0287a",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 4315.276749168915,
+          "bounds_mm": [
+            [
+              -31.125,
+              -22.5,
+              0.0
+            ],
+            [
+              31.125,
+              22.5,
+              20.0
+            ]
+          ],
+          "faces": 4746
+        }
+      ],
+      "max_vertex_deviation_mm": 8.1585275338291e-09,
+      "source_stl": "STL_REPRINT/P44_jaw_servo_cradle_M3.stl",
+      "source_stl_sha256": "a8fe0876948dd753409aaba4a6abac7f5f70a959d3f8fae1732cf0eadb29fe1d",
+      "source_step_sha256": "b2b74778e2e2e32872a30c728250f2ad0e139768b6077e3726d4a23ae7f9de3c",
+      "flat_bed_contact_area_mm2": 48.0,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P45_common_pitch_carrier.3mf",
+      "sha256": "4c9cb3ff307b7701829b78758fdf3d72b9c5cd2226046d989383394fc06430f5",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 11146.533456619762,
+          "bounds_mm": [
+            [
+              -63.5,
+              -25.54999924,
+              0.0
+            ],
+            [
+              63.5,
+              25.54999924,
+              23.99999992
+            ]
+          ],
+          "faces": 12782
+        }
+      ],
+      "max_vertex_deviation_mm": 8.241673708135285e-09,
+      "source_stl": "STL_REPRINT/P45_common_pitch_carrier_M3.stl",
+      "source_stl_sha256": "8cd222282b68ca08d43278e6305cbd81939621331d1781bfb1997a1baf5c7664",
+      "source_step_sha256": "1871db3bfaf7151ed9a52ea46c516b14555328c8c7b2ae55680879c81ef3f2d6",
+      "flat_bed_contact_area_mm2": 954.0395589380552,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P46_eye_pitch_pushrod.3mf",
+      "sha256": "3a3163fe730da53000d50f4e021fe027553b6cf846a53abcf09e66abedd0a924",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1277.5881541212843,
+          "bounds_mm": [
+            [
+              -35.84880447,
+              -3.849999905,
+              -4.273030021e-16
+            ],
+            [
+              35.84880447,
+              3.849999905,
+              2.5
+            ]
+          ],
+          "faces": 1524
+        }
+      ],
+      "max_vertex_deviation_mm": 4.9007103136094056e-09,
+      "source_stl": "STL_REPRINT/P46_eye_pitch_pushrod_M3.stl",
+      "source_stl_sha256": "33c8e0acca0b32830eb32cf4e6d766baec6cb9c2f124d329ebd8367e8243462d",
+      "source_step_sha256": "21e52bb0900ebd9276fa09c6e61815a60743c0aa2ca964c583fa091964612594",
+      "flat_bed_contact_area_mm2": 511.03526159823093,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    },
+    {
+      "file": "3mf/individual/P49_lid_pushrod.3mf",
+      "sha256": "737e1f1ceecd88e909e16a44f1308d48aaf08b7007f74885635cdf0a4cc95b3b",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 1,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1539.657253360038,
+          "bounds_mm": [
+            [
+              -42.64880371,
+              -3.849999905,
+              6.678124223e-15
+            ],
+            [
+              42.64880371,
+              3.849999905,
+              6.900000095
+            ]
+          ],
+          "faces": 2576
+        }
+      ],
+      "max_vertex_deviation_mm": 5.000662848881551e-09,
+      "source_stl": "STL_REPRINT/P49_lid_pushrod_M3.stl",
+      "source_stl_sha256": "28629590a7b909f48ac3a5a2a5f792bd3529d2f114adfdc9763934e345dd0415",
+      "source_step_sha256": "a42ecc15488dd5557b6c6f92673eb1076c276d309ca8f1705f698e1851034ef4",
+      "flat_bed_contact_area_mm2": 309.130707554062,
+      "print_rotation_xyz_deg": null,
+      "print_notes": "",
+      "orientation_review": "Final orientation supplied by CAD manifest; contact metric is planar mesh area, not adhesion proof."
+    }
+  ],
+  "plates": [
+    {
+      "file": "3mf/plates/PL01_01_frame_models.3mf",
+      "sha256": "d542f01dad3a0ba0994d33eda2191f00a33ac7a272d405bc1f0092d3e0dfe4d4",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31444.397974298347,
+          "bounds_mm": [
+            [
+              -76.015625,
+              -70.08447266,
+              -5.551115123e-16
+            ],
+            [
+              -7.0,
+              70.08447266,
+              8.5
+            ]
+          ],
+          "faces": 6938
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31444.397974298347,
+          "bounds_mm": [
+            [
+              7.0,
+              -70.08447266,
+              -5.551115123e-16
+            ],
+            [
+              76.015625,
+              70.08447266,
+              8.5
+            ]
+          ],
+          "faces": 6938
+        }
+      ],
+      "max_vertex_deviation_mm": 6.74135683199712e-09,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL02_01_frame_models.3mf",
+      "sha256": "3b31f30a7f133ec2e19b6456ebfe232d0c609758a4e21809c12c276347ccffc6",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 6359.43696374102,
+          "bounds_mm": [
+            [
+              -98.81494141,
+              -64.55615234,
+              2.15827356e-13
+            ],
+            [
+              -43.18505859,
+              64.55615234,
+              6.0
+            ]
+          ],
+          "faces": 5560
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 40987.905864823966,
+          "bounds_mm": [
+            [
+              -29.185058589999997,
+              -64.55615234,
+              -9.436895709e-16
+            ],
+            [
+              98.81494141,
+              36.44384766,
+              19.0
+            ]
+          ],
+          "faces": 5946
+        }
+      ],
+      "max_vertex_deviation_mm": 1.2843769426157504e-08,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL03_01_frame_models.3mf",
+      "sha256": "d5db186e81f1055d54904fb6b17eb9f68e5f87a22d3157ebeadf63fd6952139c",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 41314.07865329325,
+          "bounds_mm": [
+            [
+              -79.0,
+              -99.02777863,
+              -9.436895709e-16
+            ],
+            [
+              49.0,
+              1.9722213699999998,
+              19.0
+            ]
+          ],
+          "faces": 6952
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 25357.841133718215,
+          "bounds_mm": [
+            [
+              -79.0,
+              15.97222137,
+              -1.887379195e-16
+            ],
+            [
+              79.0,
+              99.02777863,
+              4.5
+            ]
+          ],
+          "faces": 5040
+        }
+      ],
+      "max_vertex_deviation_mm": 1.0685123783309557e-08,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL04_01_frame_models.3mf",
+      "sha256": "6f9ad6a6f52f1a92d63d34bc11fbd4ef60489a745226170dbf6071ab5d4d65b5",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 2,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 15073.673061294574,
+          "bounds_mm": [
+            [
+              -74.0,
+              -78.74584579,
+              0.0
+            ],
+            [
+              74.0,
+              -1.9541511500000013,
+              7.9999999
+            ]
+          ],
+          "faces": 6026
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 14116.41803038661,
+          "bounds_mm": [
+            [
+              -74.0,
+              12.045848849999999,
+              0.0
+            ],
+            [
+              74.0,
+              78.74584579,
+              7.9999999
+            ]
+          ],
+          "faces": 6038
+        }
+      ],
+      "max_vertex_deviation_mm": 1.0080570774259104e-08,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL05_01_frame_models.3mf",
+      "sha256": "3eaa5365d9cc546252975bf3f2370f523bbf4777ec14bf65db1a74e79e635833",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 5,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 59889.602649719855,
+          "bounds_mm": [
+            [
+              -91.347826,
+              -98.5,
+              0.0
+            ],
+            [
+              4.652174000000002,
+              -37.5,
+              55.0
+            ]
+          ],
+          "faces": 8464
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 14250.165617610124,
+          "bounds_mm": [
+            [
+              -91.347826,
+              -23.5,
+              0.0
+            ],
+            [
+              44.652174,
+              34.5,
+              18.5
+            ]
+          ],
+          "faces": 8380
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2567.636766974508,
+          "bounds_mm": [
+            [
+              58.652174,
+              -23.5,
+              0.0
+            ],
+            [
+              79.347826,
+              26.5,
+              15.0
+            ]
+          ],
+          "faces": 1542
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2567.636998785645,
+          "bounds_mm": [
+            [
+              -91.347826,
+              48.5,
+              0.0
+            ],
+            [
+              -70.652174,
+              98.5,
+              15.0
+            ]
+          ],
+          "faces": 1540
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 12037.535205934852,
+          "bounds_mm": [
+            [
+              -56.652174,
+              48.5,
+              0.0
+            ],
+            [
+              91.347826,
+              97.04961014,
+              7.9999999
+            ]
+          ],
+          "faces": 6978
+        }
+      ],
+      "max_vertex_deviation_mm": 1.0248949156593237e-08,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL06_02_eyes_and_lids_models.3mf",
+      "sha256": "fbb0d19b4cf88ccf742873f13f413e21a1989b96dcb61f0600b1115c14ceb504",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 13,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 11146.533456619773,
+          "bounds_mm": [
+            [
+              -92.29760741999999,
+              -99.92499924,
+              0.0
+            ],
+            [
+              34.70239258,
+              -48.82500076,
+              23.99999992
+            ]
+          ],
+          "faces": 12782
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 31370.950745514234,
+          "bounds_mm": [
+            [
+              -92.29760741999999,
+              -34.82500076,
+              0.0
+            ],
+            [
+              43.70239258,
+              11.17499924,
+              54.31769272
+            ]
+          ],
+          "faces": 17718
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2286.459878049051,
+          "bounds_mm": [
+            [
+              57.70239258,
+              -34.82500076,
+              -2.605780925e-16
+            ],
+            [
+              84.55239296,
+              -3.475000379999999,
+              42.90000153
+            ]
+          ],
+          "faces": 10854
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 2286.446424167337,
+          "bounds_mm": [
+            [
+              -92.29760742,
+              25.17499924,
+              -2.609024002e-16
+            ],
+            [
+              -65.44760704,
+              56.524999619999996,
+              42.90000153
+            ]
+          ],
+          "faces": 10856
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 6037.468515954874,
+          "bounds_mm": [
+            [
+              -51.44760704,
+              25.174999229999997,
+              5.329070518e-13
+            ],
+            [
+              -19.523321160000002,
+              51.59174347,
+              29.33840942
+            ]
+          ],
+          "faces": 16156
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 6037.468515954875,
+          "bounds_mm": [
+            [
+              -5.523321149999999,
+              25.174999229999997,
+              5.329070518e-13
+            ],
+            [
+              26.40096473,
+              51.59174347,
+              29.33840942
+            ]
+          ],
+          "faces": 16156
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 641.3920535062795,
+          "bounds_mm": [
+            [
+              40.400964734999995,
+              25.174999240000002,
+              0.0
+            ],
+            [
+              52.700964925,
+              45.67360592,
+              7.999999999
+            ]
+          ],
+          "faces": 4134
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 641.3920535062801,
+          "bounds_mm": [
+            [
+              66.70096492500001,
+              25.174999240000002,
+              0.0
+            ],
+            [
+              79.000965115,
+              45.67360592,
+              7.999999999
+            ]
+          ],
+          "faces": 4134
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1539.65725336004,
+          "bounds_mm": [
+            [
+              -92.29760742,
+              70.524999615,
+              6.678124223e-15
+            ],
+            [
+              -7.0,
+              78.22499942500001,
+              6.900000095
+            ]
+          ],
+          "faces": 2576
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1539.65725336004,
+          "bounds_mm": [
+            [
+              7.0,
+              70.524999615,
+              6.678124223e-15
+            ],
+            [
+              92.29760742,
+              78.22499942500001,
+              6.900000095
+            ]
+          ],
+          "faces": 2576
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1277.5881541212857,
+          "bounds_mm": [
+            [
+              -92.29760741999999,
+              92.224999425,
+              -4.273030021e-16
+            ],
+            [
+              -20.599998480000004,
+              99.924999235,
+              2.5
+            ]
+          ],
+          "faces": 1524
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 556.2205176605802,
+          "bounds_mm": [
+            [
+              -6.59999848,
+              92.224999425,
+              0.0
+            ],
+            [
+              34.84760666,
+              99.924999235,
+              1.999999892
+            ]
+          ],
+          "faces": 1524
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 556.2205176605804,
+          "bounds_mm": [
+            [
+              48.84760666,
+              92.224999425,
+              0.0
+            ],
+            [
+              90.2952118,
+              99.924999235,
+              1.999999892
+            ]
+          ],
+          "faces": 1524
+        }
+      ],
+      "max_vertex_deviation_mm": 1.2388351288745757e-08,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL07_03_jaw_models.3mf",
+      "sha256": "c8713bf7b04d1228189786ba96179215ba8444a9cd5950ba3d463018c2aad3f4",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 6,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 37546.97889286949,
+          "bounds_mm": [
+            [
+              -75.32445145,
+              -97.05150032,
+              0.0
+            ],
+            [
+              53.67554855,
+              -1.5515003200000024,
+              58.9999999
+            ]
+          ],
+          "faces": 9604
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 4315.276749168915,
+          "bounds_mm": [
+            [
+              -75.32445145,
+              12.448499679999998,
+              0.0
+            ],
+            [
+              -13.074451449999998,
+              57.44849968,
+              20.0
+            ]
+          ],
+          "faces": 4746
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1701.168908562462,
+          "bounds_mm": [
+            [
+              0.925548550000002,
+              12.44849968,
+              0.0
+            ],
+            [
+              75.32445145,
+              40.14338112,
+              10.19999981
+            ]
+          ],
+          "faces": 2524
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 1600.394718737346,
+          "bounds_mm": [
+            [
+              -75.32445145,
+              71.44849968,
+              0.0
+            ],
+            [
+              -2.9248313900000014,
+              97.05150032,
+              9.5
+            ]
+          ],
+          "faces": 2516
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 701.4516267854773,
+          "bounds_mm": [
+            [
+              11.075168609999999,
+              71.44849968,
+              -1.221245327e-15
+            ],
+            [
+              33.07516861,
+              93.44166184,
+              2.724999905
+            ]
+          ],
+          "faces": 2088
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 66.25228617892374,
+          "bounds_mm": [
+            [
+              47.075168604999995,
+              71.44849968,
+              -3.497202633e-16
+            ],
+            [
+              53.375168795,
+              77.7465415,
+              3.0
+            ]
+          ],
+          "faces": 1008
+        }
+      ],
+      "max_vertex_deviation_mm": 1.0678816454417849e-08,
+      "minimum_xy_box_clearance_mm": 14.0
+    },
+    {
+      "file": "3mf/plates/PL08_04_servo_mounts_models.3mf",
+      "sha256": "28bcfb967b98da1cc513f48351a026d2168f11f63bae6e78816829b926f23f8b",
+      "lib3mf_read_ok": true,
+      "lib3mf_warnings": [],
+      "instances": 16,
+      "meshes": [
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 30601.1526243637,
+          "bounds_mm": [
+            [
+              -96.14891243,
+              -46.80423927,
+              0.0
+            ],
+            [
+              51.851087570000004,
+              6.80423927,
+              53.73576355
+            ]
+          ],
+          "faces": 9668
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 239.78765523852758,
+          "bounds_mm": [
+            [
+              65.85108757,
+              -46.804239275,
+              0.0
+            ],
+            [
+              82.69999981000001,
+              -38.104239465000006,
+              8.199999809
+            ]
+          ],
+          "faces": 2886
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 184.78624485026344,
+          "bounds_mm": [
+            [
+              -96.148912434,
+              20.80423927,
+              0.0
+            ],
+            [
+              -80.151087766,
+              27.80423927,
+              2.0
+            ]
+          ],
+          "faces": 1016
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 88.17936464264976,
+          "bounds_mm": [
+            [
+              -66.15108776,
+              20.804239273999997,
+              0.0
+            ],
+            [
+              -59.15108776,
+              27.802063466,
+              3.0
+            ]
+          ],
+          "faces": 1008
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 88.17936464264989,
+          "bounds_mm": [
+            [
+              -45.15108776,
+              20.804239273999997,
+              0.0
+            ],
+            [
+              -38.15108776,
+              27.802063466,
+              3.0
+            ]
+          ],
+          "faces": 1008
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 68.4606931785503,
+          "bounds_mm": [
+            [
+              -24.151087765,
+              20.80423927,
+              0.0
+            ],
+            [
+              -17.851087575,
+              27.10228109,
+              3.099999885
+            ]
+          ],
+          "faces": 1008
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 117.04570935914563,
+          "bounds_mm": [
+            [
+              -3.8510875698,
+              20.80423927,
+              0.0
+            ],
+            [
+              2.4489126202000002,
+              27.10228109,
+              5.300000171
+            ]
+          ],
+          "faces": 1008
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 12.146252728936764,
+          "bounds_mm": [
+            [
+              16.448912625000002,
+              20.80423927,
+              -3.497202633e-16
+            ],
+            [
+              22.748912815,
+              27.10228109,
+              0.5500000119
+            ]
+          ],
+          "faces": 1008
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 143.9592458848568,
+          "bounds_mm": [
+            [
+              36.748912811000004,
+              20.80423927,
+              0.0
+            ],
+            [
+              49.148912429,
+              25.80423927,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 109.15924990025867,
+          "bounds_mm": [
+            [
+              63.148912429999996,
+              20.80423927,
+              0.0
+            ],
+            [
+              72.64891243,
+              25.80423927,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 109.1592499002586,
+          "bounds_mm": [
+            [
+              86.64891243,
+              20.80423927,
+              0.0
+            ],
+            [
+              96.14891243,
+              25.80423927,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 109.15924990025898,
+          "bounds_mm": [
+            [
+              -96.14891243,
+              41.80423927,
+              0.0
+            ],
+            [
+              -86.64891243,
+              46.80423927,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 109.1592499002589,
+          "bounds_mm": [
+            [
+              -72.64891243,
+              41.80423927,
+              0.0
+            ],
+            [
+              -63.148912429999996,
+              46.80423927,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 109.15924990025883,
+          "bounds_mm": [
+            [
+              -49.14891243,
+              41.80423927,
+              0.0
+            ],
+            [
+              -39.64891243,
+              46.80423927,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 109.15924990025889,
+          "bounds_mm": [
+            [
+              -25.64891243,
+              41.80423927,
+              0.0
+            ],
+            [
+              -16.14891243,
+              46.80423927,
+              4.400000095
+            ]
+          ],
+          "faces": 542
+        },
+        {
+          "watertight": true,
+          "positive_volume": true,
+          "volume_mm3": 94.7594354572443,
+          "bounds_mm": [
+            [
+              -2.148912429,
+              41.80423927,
+              0.0
+            ],
+            [
+              6.151087761,
+              46.80423927,
+              4.400000095
+            ]
+          ],
+          "faces": 544
+        }
+      ],
+      "max_vertex_deviation_mm": 6.791213174335322e-09,
+      "minimum_xy_box_clearance_mm": 14.0
+    }
+  ],
+  "quantity_match": true,
+  "slicing": [
+    {
+      "plate": "PL01",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL01_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL01_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "41669f6c64a630c87c2787e7732ed6b24088207a76f7b6d885feee53734d0752",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 31444.397975758922,
+            "bounds_mm": [
+              [
+                -76.015625,
+                -70.0844727,
+                0.0
+              ],
+              [
+                -7.0,
+                70.0844727,
+                8.5
+              ]
+            ],
+            "faces": 6938
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 31444.397975758922,
+            "bounds_mm": [
+              [
+                7.0,
+                -70.0844727,
+                0.0
+              ],
+              [
+                76.015625,
+                70.0844727,
+                8.5
+              ]
+            ],
+            "faces": 6938
+          }
+        ],
+        "max_vertex_deviation_mm": 2.3521519988334738e-07
+      },
+      "toolpath": {
+        "layers": 51,
+        "path_center_bounds_xy_mm": [
+          [
+            -80.457,
+            -74.527
+          ],
+          [
+            80.457,
+            74.522
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -80.78607099999999,
+            -74.856071
+          ],
+          [
+            80.78607099999999,
+            74.851071
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.658142,
+        "max_z_mm": 8.4,
+        "feature_segments": {
+          "Brim": 2650,
+          "Support interface": 488,
+          "Outer wall": 31534,
+          "Inner wall": 93721,
+          "Gap infill": 2201,
+          "Bottom surface": 2307,
+          "Internal solid infill": 21438,
+          "Support": 422,
+          "Overhang wall": 26,
+          "Top surface": 1543,
+          "Sparse infill": 37617,
+          "Internal Bridge": 2882,
+          "Bridge": 50
+        },
+        "estimates": {
+          "filament used [mm]": "17896.86",
+          "filament used [cm3]": "43.05",
+          "filament used [g]": "53.38",
+          "estimated printing time (normal mode)": "3h 29m 51s"
+        },
+        "first_layer_extrusion_segments": 9746,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        26,
+        39,
+        51
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "052a62007913b8033872c536e89508d17eb8f6c2865cdb2566e7b95e639f3097"
+    },
+    {
+      "plate": "PL02",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL02_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL02_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "bfda2ab2024433aa486bb9c43970e8215301b77fbd09dcbe4d3d318770a2e363",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 6359.436957820723,
+            "bounds_mm": [
+              [
+                -98.8149414,
+                -64.5561523,
+                0.0
+              ],
+              [
+                -43.185058600000005,
+                64.5561523,
+                6.0
+              ]
+            ],
+            "faces": 5560
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 40987.905862605716,
+            "bounds_mm": [
+              [
+                -29.185058599999998,
+                -64.55615230000001,
+                0.0
+              ],
+              [
+                98.81494140000001,
+                36.4438477,
+                19.0
+              ]
+            ],
+            "faces": 5946
+          }
+        ],
+        "max_vertex_deviation_mm": 1.3770523977298347e-07
+      },
+      "toolpath": {
+        "layers": 145,
+        "path_center_bounds_xy_mm": [
+          [
+            -103.24,
+            -68.998
+          ],
+          [
+            102.926,
+            68.998
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -103.64107349999999,
+            -69.3990735
+          ],
+          [
+            103.3270735,
+            69.3990735
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.802147,
+        "max_z_mm": 19.0,
+        "feature_segments": {
+          "Brim": 2001,
+          "Support interface": 3479,
+          "Support": 4075,
+          "Outer wall": 15353,
+          "Inner wall": 43034,
+          "Gap infill": 2802,
+          "Bottom surface": 430,
+          "Internal solid infill": 15125,
+          "Overhang wall": 1214,
+          "Sparse infill": 41979,
+          "Bridge": 1496,
+          "Top surface": 1069,
+          "Internal Bridge": 1778
+        },
+        "estimates": {
+          "filament used [mm]": "15451.88",
+          "filament used [cm3]": "37.17",
+          "filament used [g]": "46.09",
+          "estimated printing time (normal mode)": "3h 19m 10s"
+        },
+        "first_layer_extrusion_segments": 4382,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        22,
+        83,
+        145
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "01889df569468d1782eea9d1017c5ad610361936b7a89a981630ff20dc87f0ab"
+    },
+    {
+      "plate": "PL03",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL03_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL03_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "2a6c766a22f8031b9afdb313303b9f16d95abda51d2c7e9a31af093135ae7654",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 41314.07865144005,
+            "bounds_mm": [
+              [
+                -79.0,
+                -99.0277786,
+                0.0
+              ],
+              [
+                49.0,
+                1.9722214000000022,
+                19.0
+              ]
+            ],
+            "faces": 6952
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 25357.841132128186,
+            "bounds_mm": [
+              [
+                -79.0,
+                15.972221400000002,
+                0.0
+              ],
+              [
+                79.0,
+                99.0277786,
+                4.5
+              ]
+            ],
+            "faces": 5040
+          }
+        ],
+        "max_vertex_deviation_mm": 8.788613803655334e-08
+      },
+      "toolpath": {
+        "layers": 138,
+        "path_center_bounds_xy_mm": [
+          [
+            -83.44,
+            -102.254
+          ],
+          [
+            83.439,
+            103.469
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -83.782792,
+            -102.59679200000001
+          ],
+          [
+            83.781792,
+            103.811792
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.685584,
+        "max_z_mm": 19.0,
+        "feature_segments": {
+          "Brim": 1728,
+          "Support interface": 3426,
+          "Outer wall": 26172,
+          "Inner wall": 71333,
+          "Gap infill": 4608,
+          "Bottom surface": 1297,
+          "Support": 3293,
+          "Internal solid infill": 26200,
+          "Overhang wall": 1832,
+          "Bridge": 2792,
+          "Sparse infill": 52598,
+          "Internal Bridge": 2839,
+          "Top surface": 1539
+        },
+        "estimates": {
+          "filament used [mm]": "20999.21",
+          "filament used [cm3]": "50.51",
+          "filament used [g]": "62.63",
+          "estimated printing time (normal mode)": "4h 26m 7s"
+        },
+        "first_layer_extrusion_segments": 6878,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        19,
+        76,
+        138
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "fd4e29bf8b1de5fa630fa2d6673f6c4a416232a3f1ca6ab7723b46a80c74fdec"
+    },
+    {
+      "plate": "PL04",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL04_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL04_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "9f6d1cdeb1cc7af0ed6c702c65d12ef52631ed99a5bc6efa4545817ac7b5729d",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 2,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 15073.673263716817,
+            "bounds_mm": [
+              [
+                -74.0,
+                -78.7458458,
+                0.0
+              ],
+              [
+                74.0,
+                -1.9541511999999983,
+                8.0
+              ]
+            ],
+            "faces": 6026
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 14116.418217367516,
+            "bounds_mm": [
+              [
+                -74.0,
+                12.045848800000002,
+                0.0
+              ],
+              [
+                74.0,
+                78.7458458,
+                8.0
+              ]
+            ],
+            "faces": 6038
+          }
+        ],
+        "max_vertex_deviation_mm": 1.5906654827834641e-07
+      },
+      "toolpath": {
+        "layers": 64,
+        "path_center_bounds_xy_mm": [
+          [
+            -78.442,
+            -83.186
+          ],
+          [
+            78.442,
+            83.188
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -78.78687649999999,
+            -83.5308765
+          ],
+          [
+            78.78687649999999,
+            83.5328765
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.689753,
+        "max_z_mm": 8.0,
+        "feature_segments": {
+          "Brim": 3267,
+          "Support": 3473,
+          "Outer wall": 22046,
+          "Inner wall": 59182,
+          "Gap infill": 2919,
+          "Bottom surface": 1210,
+          "Internal solid infill": 12562,
+          "Sparse infill": 26751,
+          "Internal Bridge": 1476,
+          "Top surface": 811,
+          "Support interface": 1761,
+          "Overhang wall": 86,
+          "Bridge": 170
+        },
+        "estimates": {
+          "filament used [mm]": "9376.88",
+          "filament used [cm3]": "22.55",
+          "filament used [g]": "27.97",
+          "estimated printing time (normal mode)": "2h 9m 39s"
+        },
+        "first_layer_extrusion_segments": 7018,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        32,
+        47,
+        64
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "2ab7384910212c81569387fad6ac775e68c0bc06b288ff7cf7830bb57373820a"
+    },
+    {
+      "plate": "PL05",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL05_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL05_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "ad33d76077378d67a71b56aed1d6df644cb374fa6d39426088b1c0aa56ce3895",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 5,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 59889.60265380507,
+            "bounds_mm": [
+              [
+                -91.347826,
+                -98.5,
+                0.0
+              ],
+              [
+                4.652174000000002,
+                -37.5,
+                55.0
+              ]
+            ],
+            "faces": 8464
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 14250.165647157788,
+            "bounds_mm": [
+              [
+                -91.347826,
+                -23.5,
+                0.0
+              ],
+              [
+                44.652174,
+                34.5,
+                18.5
+              ]
+            ],
+            "faces": 8380
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 2567.6367670408495,
+            "bounds_mm": [
+              [
+                58.652174,
+                -23.5,
+                0.0
+              ],
+              [
+                79.347826,
+                26.5,
+                15.0
+              ]
+            ],
+            "faces": 1542
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 2567.636998845372,
+            "bounds_mm": [
+              [
+                -91.347826,
+                48.5,
+                0.0
+              ],
+              [
+                -70.652174,
+                98.5,
+                15.0
+              ]
+            ],
+            "faces": 1540
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 12037.535371623968,
+            "bounds_mm": [
+              [
+                -56.652174,
+                48.5,
+                0.0
+              ],
+              [
+                91.347826,
+                97.04961019999999,
+                8.0
+              ]
+            ],
+            "faces": 6978
+          }
+        ],
+        "max_vertex_deviation_mm": 1.62610235082956e-07
+      },
+      "toolpath": {
+        "layers": 465,
+        "path_center_bounds_xy_mm": [
+          [
+            -95.779,
+            -102.942
+          ],
+          [
+            95.79,
+            102.942
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -96.1375705,
+            -103.30057049999999
+          ],
+          [
+            96.1485705,
+            103.30057049999999
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.717141,
+        "max_z_mm": 55.0,
+        "feature_segments": {
+          "Brim": 3067,
+          "Support": 23560,
+          "Outer wall": 62543,
+          "Inner wall": 164550,
+          "Gap infill": 12772,
+          "Bottom surface": 1340,
+          "Internal solid infill": 30070,
+          "Support interface": 12640,
+          "Sparse infill": 83660,
+          "Internal Bridge": 4151,
+          "Top surface": 2258,
+          "Overhang wall": 1592,
+          "Bridge": 1992
+        },
+        "estimates": {
+          "filament used [mm]": "30757.92",
+          "filament used [cm3]": "73.98",
+          "filament used [g]": "91.74",
+          "estimated printing time (normal mode)": "6h 55m 47s"
+        },
+        "first_layer_extrusion_segments": 7999,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        77,
+        281,
+        465
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "5e7f995caae408f4d1fe5b6828641a2cb19376c0441d0a792e58cbb6f39efd98"
+    },
+    {
+      "plate": "PL06",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL06_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL06_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "5602d73b16bd9c79c3bbe752312349fe39e60dfbd50993171535eb69844c1863",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 13,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 11146.53365711466,
+            "bounds_mm": [
+              [
+                -92.2976074,
+                -99.9249992,
+                0.0
+              ],
+              [
+                34.702392599999996,
+                -48.8250008,
+                24.0
+              ]
+            ],
+            "faces": 12782
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 31370.950836060598,
+            "bounds_mm": [
+              [
+                -92.2976074,
+                -34.8250008,
+                0.0
+              ],
+              [
+                43.702392599999996,
+                11.1749992,
+                54.3176918
+              ]
+            ],
+            "faces": 17718
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 2286.460048306264,
+            "bounds_mm": [
+              [
+                57.702392599999996,
+                -34.8250008,
+                0.0
+              ],
+              [
+                84.552393,
+                -3.475000399999999,
+                42.9000016
+              ]
+            ],
+            "faces": 10854
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 2286.4465922642416,
+            "bounds_mm": [
+              [
+                -92.2976074,
+                25.174999200000002,
+                0.0
+              ],
+              [
+                -65.447607,
+                56.5249996,
+                42.9000016
+              ]
+            ],
+            "faces": 10856
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 6037.468516576034,
+            "bounds_mm": [
+              [
+                -51.447607000000005,
+                25.174999200000002,
+                0.0
+              ],
+              [
+                -19.5233212,
+                51.5917434,
+                29.3384094
+              ]
+            ],
+            "faces": 16156
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 641.3920820581238,
+            "bounds_mm": [
+              [
+                40.4009647,
+                25.174999699999997,
+                0.0
+              ],
+              [
+                52.7009649,
+                45.673605499999994,
+                8.0
+              ]
+            ],
+            "faces": 4134
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 1539.657254813738,
+            "bounds_mm": [
+              [
+                -92.2976074,
+                70.5249996,
+                0.0
+              ],
+              [
+                -7.0,
+                78.2249994,
+                6.9000001
+              ]
+            ],
+            "faces": 2576
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 1277.588152835602,
+            "bounds_mm": [
+              [
+                -92.2976075,
+                92.2249994,
+                0.0
+              ],
+              [
+                -20.599998499999998,
+                99.9249992,
+                2.5
+              ]
+            ],
+            "faces": 1524
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 556.2205137197246,
+            "bounds_mm": [
+              [
+                -6.5999985,
+                92.2249994,
+                0.0
+              ],
+              [
+                34.8476067,
+                99.9249992,
+                1.99999988
+              ]
+            ],
+            "faces": 1524
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 6037.468516576035,
+            "bounds_mm": [
+              [
+                -5.5233211,
+                25.174999200000002,
+                0.0
+              ],
+              [
+                26.4009647,
+                51.5917434,
+                29.3384094
+              ]
+            ],
+            "faces": 16156
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 641.3920820581237,
+            "bounds_mm": [
+              [
+                66.7009649,
+                25.174999699999997,
+                0.0
+              ],
+              [
+                79.0009651,
+                45.673605499999994,
+                8.0
+              ]
+            ],
+            "faces": 4134
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 1539.6572548137367,
+            "bounds_mm": [
+              [
+                7.0,
+                70.5249996,
+                0.0
+              ],
+              [
+                92.2976074,
+                78.2249994,
+                6.9000001
+              ]
+            ],
+            "faces": 2576
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 556.2205137197246,
+            "bounds_mm": [
+              [
+                48.847606600000006,
+                92.2249994,
+                0.0
+              ],
+              [
+                90.2952118,
+                99.9249992,
+                1.99999988
+              ]
+            ],
+            "faces": 1524
+          }
+        ],
+        "max_vertex_deviation_mm": 1.0406350577400383e-06
+      },
+      "toolpath": {
+        "layers": 484,
+        "path_center_bounds_xy_mm": [
+          [
+            -96.909,
+            -102.207
+          ],
+          [
+            94.743,
+            104.367
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -97.279413,
+            -102.57741299999999
+          ],
+          [
+            95.113413,
+            104.737413
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.740826,
+        "max_z_mm": 54.2,
+        "feature_segments": {
+          "Support": 66871,
+          "Outer wall": 111169,
+          "Brim": 6037,
+          "Support interface": 37970,
+          "Inner wall": 193917,
+          "Bottom surface": 1737,
+          "Gap infill": 32437,
+          "Overhang wall": 6591,
+          "Internal solid infill": 31440,
+          "Bridge": 1069,
+          "Sparse infill": 18611,
+          "Internal Bridge": 1928,
+          "Top surface": 2016
+        },
+        "estimates": {
+          "filament used [mm]": "31966.71",
+          "filament used [cm3]": "76.89",
+          "filament used [g]": "95.34",
+          "estimated printing time (normal mode)": "8h 36m 41s"
+        },
+        "first_layer_extrusion_segments": 13160,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        50,
+        312,
+        484
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "afec2eb78c4cdf1e1d005bb7912443821bcaa80b51fa3aafdf6f8cc9550d9f0a"
+    },
+    {
+      "plate": "PL07",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL07_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL07_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "3863799e40d120ac130cd9b18da18eed0414bd0bde8fa15995f2b8543402efdd",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 6,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 37546.97895460258,
+            "bounds_mm": [
+              [
+                -75.3244514,
+                -97.0515003,
+                0.0
+              ],
+              [
+                53.6755486,
+                -1.5515003000000007,
+                59.0
+              ]
+            ],
+            "faces": 9604
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 4315.276749835212,
+            "bounds_mm": [
+              [
+                -75.3244514,
+                12.4484997,
+                0.0
+              ],
+              [
+                -13.074451400000001,
+                57.4484997,
+                20.0
+              ]
+            ],
+            "faces": 4746
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 1701.168915050114,
+            "bounds_mm": [
+              [
+                0.925548599999999,
+                12.4484997,
+                0.0
+              ],
+              [
+                75.3244514,
+                40.1433811,
+                10.1999998
+              ]
+            ],
+            "faces": 2524
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 1600.394713751028,
+            "bounds_mm": [
+              [
+                -75.3244514,
+                71.4484997,
+                0.0
+              ],
+              [
+                -2.924831400000002,
+                97.0515003,
+                9.5
+              ]
+            ],
+            "faces": 2516
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 701.4516242407661,
+            "bounds_mm": [
+              [
+                11.075168600000001,
+                71.4484997,
+                0.0
+              ],
+              [
+                33.0751686,
+                93.4416619,
+                2.7249999
+              ]
+            ],
+            "faces": 2088
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 66.25228615745152,
+            "bounds_mm": [
+              [
+                47.0751686,
+                71.44849968999999,
+                0.0
+              ],
+              [
+                53.3751688,
+                77.74654151,
+                3.0
+              ]
+            ],
+            "faces": 1008
+          }
+        ],
+        "max_vertex_deviation_mm": 1.0163663866823142e-06
+      },
+      "toolpath": {
+        "layers": 477,
+        "path_center_bounds_xy_mm": [
+          [
+            -79.767,
+            -100.15
+          ],
+          [
+            79.763,
+            101.493
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -80.12346199999999,
+            -100.506462
+          ],
+          [
+            80.119462,
+            101.84946199999999
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.712924,
+        "max_z_mm": 58.8,
+        "feature_segments": {
+          "Brim": 7902,
+          "Support": 26767,
+          "Outer wall": 30583,
+          "Inner wall": 69061,
+          "Bottom surface": 198,
+          "Gap infill": 7248,
+          "Support interface": 7998,
+          "Internal solid infill": 14616,
+          "Overhang wall": 1190,
+          "Bridge": 697,
+          "Sparse infill": 42960,
+          "Internal Bridge": 1453,
+          "Top surface": 884
+        },
+        "estimates": {
+          "filament used [mm]": "19918.31",
+          "filament used [cm3]": "47.91",
+          "filament used [g]": "59.41",
+          "estimated printing time (normal mode)": "5h 0m 4s"
+        },
+        "first_layer_extrusion_segments": 12156,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        285,
+        477
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "2df83c962b9e026b2add47c870a685a9bd53fa4457f976c0009e4f613ed4a5cc"
+    },
+    {
+      "plate": "PL08",
+      "return_code": 0,
+      "tool": "OrcaSlicer 2.4.2",
+      "digital_only": true,
+      "success": true,
+      "thumbnail_completion": [
+        "Metadata/plate_1.png",
+        "Metadata/plate_1_small.png"
+      ],
+      "slicer_original_content_unchanged": true,
+      "sliced_3mf": "3mf/plates/PL08_AD5M_PLA_0p4_sliced.3mf",
+      "model_validation": {
+        "file": "3mf/plates/PL08_AD5M_PLA_0p4_sliced.3mf",
+        "sha256": "a8e53d095bf1cb3f5a8d9e8b20d83b516891d3d9d8b3b3db348dc7459527e929",
+        "lib3mf_read_ok": true,
+        "lib3mf_warnings": [
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32946, 'Unknown Model Metadata.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')",
+          "(32935, 'Invalid Attribute in namespace.')"
+        ],
+        "instances": 16,
+        "meshes": [
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 30601.15264794746,
+            "bounds_mm": [
+              [
+                -96.1489124,
+                -46.8042393,
+                0.0
+              ],
+              [
+                51.8510876,
+                6.804239299999999,
+                53.7357636
+              ]
+            ],
+            "faces": 9668
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 239.78765278860328,
+            "bounds_mm": [
+              [
+                65.8510871,
+                -46.8042393,
+                0.0
+              ],
+              [
+                82.7000003,
+                -38.1042395,
+                8.1999998
+              ]
+            ],
+            "faces": 2886
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 184.78624481154057,
+            "bounds_mm": [
+              [
+                -96.14891243,
+                20.8042393,
+                0.0
+              ],
+              [
+                -80.15108777,
+                27.8042393,
+                2.0
+              ]
+            ],
+            "faces": 1016
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 88.17936462562977,
+            "bounds_mm": [
+              [
+                -66.1510878,
+                20.8042393,
+                0.0
+              ],
+              [
+                -59.1510878,
+                27.802063500000003,
+                3.0
+              ]
+            ],
+            "faces": 1008
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 68.4606934876237,
+            "bounds_mm": [
+              [
+                -24.1510878,
+                20.804239289999998,
+                0.0
+              ],
+              [
+                -17.8510876,
+                27.10228111,
+                3.0999999
+              ]
+            ],
+            "faces": 1008
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 117.04570996165016,
+            "bounds_mm": [
+              [
+                -3.851087575,
+                20.804239289999998,
+                0.0
+              ],
+              [
+                2.448912625,
+                27.10228111,
+                5.3000002
+              ]
+            ],
+            "faces": 1008
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 12.146252727208593,
+            "bounds_mm": [
+              [
+                16.4489126,
+                20.804239289999998,
+                0.0
+              ],
+              [
+                22.7489128,
+                27.10228111,
+                0.550000012
+              ]
+            ],
+            "faces": 1008
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 143.95924608417727,
+            "bounds_mm": [
+              [
+                36.74891279,
+                20.8042393,
+                0.0
+              ],
+              [
+                49.14891241,
+                25.8042393,
+                4.4000001
+              ]
+            ],
+            "faces": 542
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 109.15925002290071,
+            "bounds_mm": [
+              [
+                63.1489124,
+                20.8042393,
+                0.0
+              ],
+              [
+                72.6489124,
+                25.8042393,
+                4.4000001
+              ]
+            ],
+            "faces": 542
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 94.7594356963031,
+            "bounds_mm": [
+              [
+                -2.1489124299999998,
+                41.8042393,
+                0.0
+              ],
+              [
+                6.15108777,
+                46.8042393,
+                4.4000001
+              ]
+            ],
+            "faces": 544
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 88.17936462562977,
+            "bounds_mm": [
+              [
+                -45.1510878,
+                20.8042393,
+                0.0
+              ],
+              [
+                -38.1510878,
+                27.802063500000003,
+                3.0
+              ]
+            ],
+            "faces": 1008
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 109.1592500229004,
+            "bounds_mm": [
+              [
+                -25.6489124,
+                41.8042393,
+                0.0
+              ],
+              [
+                -16.1489124,
+                46.8042393,
+                4.4000001
+              ]
+            ],
+            "faces": 542
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 109.15925002290048,
+            "bounds_mm": [
+              [
+                -49.1489124,
+                41.8042393,
+                0.0
+              ],
+              [
+                -39.6489124,
+                46.8042393,
+                4.4000001
+              ]
+            ],
+            "faces": 542
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 109.15925002290032,
+            "bounds_mm": [
+              [
+                -72.6489124,
+                41.8042393,
+                0.0
+              ],
+              [
+                -63.1489124,
+                46.8042393,
+                4.4000001
+              ]
+            ],
+            "faces": 542
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 109.15925002290032,
+            "bounds_mm": [
+              [
+                -96.1489124,
+                41.8042393,
+                0.0
+              ],
+              [
+                -86.6489124,
+                46.8042393,
+                4.4000001
+              ]
+            ],
+            "faces": 542
+          },
+          {
+            "watertight": true,
+            "positive_volume": true,
+            "volume_mm3": 109.15925002290078,
+            "bounds_mm": [
+              [
+                86.6489124,
+                20.8042393,
+                0.0
+              ],
+              [
+                96.1489124,
+                25.8042393,
+                4.4000001
+              ]
+            ],
+            "faces": 542
+          }
+        ],
+        "max_vertex_deviation_mm": 1.0106814812816175e-06
+      },
+      "toolpath": {
+        "layers": 411,
+        "path_center_bounds_xy_mm": [
+          [
+            -100.591,
+            -50.709
+          ],
+          [
+            100.391,
+            51.246
+          ]
+        ],
+        "extrusion_bounds_xy_mm": [
+          [
+            -100.93252,
+            -51.050520000000006
+          ],
+          [
+            100.73252000000001,
+            51.587520000000005
+          ]
+        ],
+        "conservative_max_extrusion_width_mm": 0.68304,
+        "max_z_mm": 53.8,
+        "feature_segments": {
+          "Brim": 7083,
+          "Outer wall": 21364,
+          "Inner wall": 21044,
+          "Bottom surface": 121,
+          "Gap infill": 5695,
+          "Support": 8376,
+          "Internal solid infill": 10276,
+          "Support interface": 6236,
+          "Top surface": 577,
+          "Overhang wall": 902,
+          "Bridge": 993,
+          "Sparse infill": 14048,
+          "Internal Bridge": 901
+        },
+        "estimates": {
+          "filament used [mm]": "13923.56",
+          "filament used [cm3]": "33.49",
+          "filament used [g]": "41.53",
+          "estimated printing time (normal mode)": "3h 26m 45s"
+        },
+        "first_layer_extrusion_segments": 9797,
+        "within_bed": true
+      },
+      "preview_layers_1based": [
+        1,
+        25,
+        214,
+        411
+      ],
+      "settings_checked": {
+        "nozzle_diameter": [
+          "0.4"
+        ],
+        "layer_height": "0.2",
+        "wall_loops": "4",
+        "sparse_infill_density": "25%",
+        "brim_width": "5",
+        "enable_support": "1",
+        "print_sequence": "by layer",
+        "filament_type": [
+          "PLA"
+        ]
+      },
+      "embedded_gcode_sha256": "3c8da1353500110b101da13317924e37c7cfa8db1d2ea7c04a888e9f1107582a"
+    }
+  ],
+  "hardware_tested": false,
+  "mesh_identity_tolerance_mm": 0.002,
+  "status": "software checks only; physical fit and print calibration required",
+  "all_slices_pass": true
+}

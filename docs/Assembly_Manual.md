@@ -1,6 +1,8 @@
 # Mimic R5a-E1
 ## Assembly and commissioning manual
 
+For the five-axis V5 build that uses an M3 screw kit, follow the [V5 M3 assembly guide](../variants/r5a-m3-retrofit/ASSEMBLY.md).
+
 For the R4 build that uses an M3 screw kit, follow the [R4 M3 assembly guide](../variants/r4-m3-retrofit/START_HERE.md).
 
 **Flashforge Adventurer 5M | 220 x 220 x 220 mm | 0.4 mm nozzle | PLA**

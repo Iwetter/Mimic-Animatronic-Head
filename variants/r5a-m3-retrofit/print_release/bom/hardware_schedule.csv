@@ -1,0 +1,42 @@
+joint,screws,quantity,nuts,washers
+H_BASE_P21,M3x16,2,2,4
+H_BASE_P22,M3x16,2,2,4
+H_PLATE_P23,M3x16,2,2,4
+H_PLATE_P24,M3x16,2,2,4
+H_ARCH_P25,M3x20,2,2,4
+H_ARCH_P26,M3x20,2,2,4
+H_ARCH_P27,M3x20,2,2,4
+H_CREST,M3x16,3,3,6
+H_FACE_P23,M3x20,1,1,1
+H_ZYG_P30,M3x20,1,1,1
+H_FACE_P24,M3x20,1,1,1
+H_ZYG_P31,M3x20,1,1,1
+H_MAX_P21,M3x20,1,1,1
+H_MAX_P22,M3x20,1,1,1
+H_MAX_FACE,M3x16,2,2,4
+H_TEETH_P42,M3x12,2,2,4
+H_TEETH_P43,M3x16,2,2,4
+H_EYE_DECK_-1,M3x20,1,1,2
+H_ZYG_ROOT_-1,M3x25,1,1,2
+H_EYE_DECK_1,M3x20,1,1,2
+H_ZYG_ROOT_1,M3x25,1,1,2
+H_DECK_-1,M3x20,2,2,2
+H_DECK_1,M3x20,2,2,2
+H_JAW_CRADLE_BASE,M3x16,2,2,4
+H_NECK_FLANGE,M3x20,4,4,8
+H_NECK_LOCK,M3x12,4,4,0
+Servo tab bridges,M3x12,10,10,0
+Lid hinges,M3x6,4,4,0
+Pitch carrier pivots,M3x6,2,2,0
+Globe and crank shaft clamps,M3x6,4,4,0
+Jaw horn clamp,M3x8,2,2,0
+"Yaw, pitch and lid horn plates",M3x10,4,4,0
+Yaw horn shoulder pivot,M3x8,1,1,0
+Pitch and lid horn shoulder pivots,M3x6,3,3,0
+Left yaw tie,M3x20,1,2,0
+Right yaw tie,M3x16,1,2,0
+Lower pitch rod,M3x20,1,2,0
+Lower lid shoulder pivots,M3x8,2,2,0
+Left jaw pivot,M3x20,1,1,1
+Right jaw pivot,M3x25,1,2,2
+Jaw stop,M3x25,1,2,0

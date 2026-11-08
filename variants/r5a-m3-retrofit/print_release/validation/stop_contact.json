@@ -1,0 +1,70 @@
+{
+  "status": "PASS_STOP_CONTACT",
+  "physical_tested": false,
+  "stops": [
+    {
+      "part": "P45",
+      "command_limit_deg": -12,
+      "test_angle_deg": -17,
+      "at_command_overlap_mm3": 0.0,
+      "past_limit_overlap_mm3": 1.3906,
+      "pass_stop": true
+    },
+    {
+      "part": "P45",
+      "command_limit_deg": 12,
+      "test_angle_deg": 17,
+      "at_command_overlap_mm3": 0.0,
+      "past_limit_overlap_mm3": 1.3906,
+      "pass_stop": true
+    },
+    {
+      "part": "P39",
+      "command_limit_deg": 0,
+      "test_angle_deg": -6,
+      "at_command_overlap_mm3": 0.0,
+      "past_limit_overlap_mm3": 0.9468,
+      "pass_stop": true
+    },
+    {
+      "part": "P39",
+      "command_limit_deg": 50,
+      "test_angle_deg": 56,
+      "at_command_overlap_mm3": 0.0,
+      "past_limit_overlap_mm3": 0.4438,
+      "pass_stop": true
+    },
+    {
+      "part": "P40",
+      "command_limit_deg": 0,
+      "test_angle_deg": -6,
+      "at_command_overlap_mm3": 0.0,
+      "past_limit_overlap_mm3": 0.9468,
+      "pass_stop": true
+    },
+    {
+      "part": "P40",
+      "command_limit_deg": 50,
+      "test_angle_deg": 56,
+      "at_command_overlap_mm3": 0.0,
+      "past_limit_overlap_mm3": 0.4438,
+      "pass_stop": true
+    },
+    {
+      "part": "Jaw stop screw",
+      "command_limit_deg": 0,
+      "test_angle_deg": -3,
+      "at_command_overlap_mm3": 0.0,
+      "past_limit_overlap_mm3": 14.5697,
+      "pass_stop": true
+    },
+    {
+      "part": "Jaw stop screw",
+      "command_limit_deg": 14,
+      "test_angle_deg": 18,
+      "at_command_overlap_mm3": 0.0,
+      "past_limit_overlap_mm3": 4.3865,
+      "pass_stop": true
+    }
+  ]
+}

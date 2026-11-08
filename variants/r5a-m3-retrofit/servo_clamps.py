@@ -36,6 +36,7 @@ def candidate(servo, support, tab_y, side, bolt_x, backing, screw_length, longit
     The clip heel contacts the new boss and the nose contacts the servo flange.
     """
     loc = frame(servo)
+    rear_yaw = longitudinal and tab_y == 20
     if longitudinal:
         # Turn the front yaw clamp so its extra hardware sits ahead of
         # the servo and away from the inner eyelid supports.
@@ -78,6 +79,12 @@ def candidate(servo, support, tab_y, side, bolt_x, backing, screw_length, longit
     nut_start = support_far if mount_side > 0 else support_far - 2.4
     nut = (cq.Workplane("XY", origin=(bolt_x, tab_y, nut_start))
            .polygon(6, 5.5, circumscribed=True).extrude(2.4).val())
+    if rear_yaw:
+        # The original rear crossbar extends past the nominal tab boss.
+        # A hex pocket admits the nut from below while preserving its seat.
+        nut_relief = (cq.Workplane("XY", origin=(bolt_x, tab_y, nut_start))
+                      .polygon(6, 5.8, circumscribed=True).extrude(4).val())
+        widened = widened.cut(nut_relief.moved(loc)).clean()
     clip_print = clip.translate((-bolt_x, -tab_y, 0))
     if abs(support_far - z_head) + 2.9 > screw_length:
         return None

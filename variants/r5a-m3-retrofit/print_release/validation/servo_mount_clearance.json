@@ -1,0 +1,98 @@
+{
+  "status": "PASS_SAMPLED_SERVO_MOUNT_CLEARANCE",
+  "physical_tested": false,
+  "poses": 17,
+  "findings": [],
+  "placements": [
+    {
+      "servo": "MG90S_CH0_yaw",
+      "support": "P45",
+      "tab_local_y_mm": -8,
+      "bolt_offset_mm": -6,
+      "longitudinal": true,
+      "screw": "M3x12",
+      "clip": "A11"
+    },
+    {
+      "servo": "MG90S_CH0_yaw",
+      "support": "P45",
+      "tab_local_y_mm": 20,
+      "bolt_offset_mm": 10.1,
+      "longitudinal": true,
+      "screw": "M3x12",
+      "clip": "A12"
+    },
+    {
+      "servo": "MG90S_CH1_jaw",
+      "support": "P44",
+      "tab_local_y_mm": -8,
+      "bolt_offset_mm": -6,
+      "longitudinal": true,
+      "screw": "M3x12",
+      "clip": "A11"
+    },
+    {
+      "servo": "MG90S_CH1_jaw",
+      "support": "P44",
+      "tab_local_y_mm": 20,
+      "bolt_offset_mm": 8.5,
+      "longitudinal": false,
+      "screw": "M3x12",
+      "clip": "A10"
+    },
+    {
+      "servo": "MG90S_CH2_pitch",
+      "support": "P41",
+      "tab_local_y_mm": -8,
+      "bolt_offset_mm": -8.5,
+      "longitudinal": false,
+      "screw": "M3x12",
+      "clip": "A10"
+    },
+    {
+      "servo": "MG90S_CH2_pitch",
+      "support": "P41",
+      "tab_local_y_mm": 20,
+      "bolt_offset_mm": -8.5,
+      "longitudinal": false,
+      "screw": "M3x12",
+      "clip": "A10"
+    },
+    {
+      "servo": "SG90_CH3_lid_L",
+      "support": "P41",
+      "tab_local_y_mm": -8,
+      "bolt_offset_mm": 8.5,
+      "longitudinal": false,
+      "screw": "M3x12",
+      "clip": "A10"
+    },
+    {
+      "servo": "SG90_CH3_lid_L",
+      "support": "P41",
+      "tab_local_y_mm": 20,
+      "bolt_offset_mm": -8.5,
+      "longitudinal": false,
+      "screw": "M3x12",
+      "clip": "A10"
+    },
+    {
+      "servo": "SG90_CH4_lid_R",
+      "support": "P41",
+      "tab_local_y_mm": -8,
+      "bolt_offset_mm": -8.5,
+      "longitudinal": false,
+      "screw": "M3x12",
+      "clip": "A10"
+    },
+    {
+      "servo": "SG90_CH4_lid_R",
+      "support": "P41",
+      "tab_local_y_mm": 20,
+      "bolt_offset_mm": 8.5,
+      "longitudinal": false,
+      "screw": "M3x12",
+      "clip": "A10"
+    }
+  ]
+}
