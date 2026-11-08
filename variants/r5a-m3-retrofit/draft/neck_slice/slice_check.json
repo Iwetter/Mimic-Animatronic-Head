@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "settings": {
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "layer_height": "0.2",
+    "wall_loops": "4",
+    "sparse_infill_density": "25%",
+    "brim_width": "5",
+    "enable_support": "1",
+    "print_sequence": "by layer",
+    "filament_type": [
+      "PLA"
+    ]
+  },
+  "toolpath": {
+    "layers": 401,
+    "path_center_bounds_xy_mm": [
+      [
+        -52.431,
+        -34.942
+      ],
+      [
+        52.442,
+        34.931
+      ]
+    ],
+    "extrusion_bounds_xy_mm": [
+      [
+        -52.767319,
+        -35.278319
+      ],
+      [
+        52.778319,
+        35.267319
+      ]
+    ],
+    "conservative_max_extrusion_width_mm": 0.672638,
+    "max_z_mm": 55.0,
+    "feature_segments": {
+      "Brim": 975,
+      "Support": 12535,
+      "Outer wall": 37697,
+      "Inner wall": 104372,
+      "Bottom surface": 787,
+      "Internal solid infill": 13627,
+      "Sparse infill": 58009,
+      "Internal Bridge": 2486,
+      "Top surface": 1051,
+      "Support interface": 3866,
+      "Overhang wall": 80,
+      "Bridge": 679,
+      "Gap infill": 455
+    },
+    "estimates": {
+      "filament used [mm]": "17959.37",
+      "filament used [cm3]": "43.20",
+      "filament used [g]": "53.56",
+      "estimated printing time (normal mode)": "3h 38m 21s"
+    },
+    "first_layer_extrusion_segments": 2870,
+    "within_bed": true
+  },
+  "embedded_gcode_sha256": "ba9b667715efe2fcbefd3b4ed76bc057795e54140d717c143424a3e469e956ad",
+  "scope": "Neck insert only. No printer execution."
+}

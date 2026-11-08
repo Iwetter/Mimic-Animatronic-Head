@@ -16,12 +16,27 @@ The draft includes 14 distinct changed prints. Compare the [structural reprint l
 
 The changed CAD solids each exported to a single watertight, consistently wound STL within a 220 mm cube. The nominal neck lock shanks and nut envelopes clear the P01/P03 parts. The added tooth lugs had no overlaps above 0.05 mm³ across 16 sampled V5 poses. The [clearance report](draft/structural_clearance.json) records the scope. Physical print fit, head and washer clearance, fastener access, and the complete five-axis retrofit still need verification.
 
-## Remaining interfaces
+## Hardware fit plate
 
-- Five servo tab mounts need M3 bridges that fit the actual servos and clear the surrounding shell.
-- The OEM horns need adapters that preserve the V5 linkage radii and keep the original servo center screws. The larger M3 hardware must clear the yaw, pitch, jaw, and lid linkages at their measured limits.
-- Eyelid hinges, stop slots, and linkage pins need M3 running clearances and a way to retain the screws without clamping the moving parts.
-- Eye shaft clamps, the jaw pivot retention, and the complete kit quantity totals still need checking. Preserve the existing smooth bearing interfaces where they fit.
+The [sliced fit plate](draft/fit_slice/PL01_AD5M_PLA_0p4_sliced.3mf) uses the Adventurer 5M profile with a 0.4 mm nozzle, PLA, and 0.20 mm layers. It contains ten small pieces. Confirm the printer profile and review the [layer preview](draft/fit_slice/PL01_layers.png) before printing.
+
+1. Use A90 with the A10 side bridge and A91 with the A11 end bridge. Set a servo tab against the fixture face and use an M3×12 screw and ordinary nut through the bridge. The nose should hold the tab and the heel should rest on the fixture. Check the clip clears the motor body and holds the tab without bending it.
+2. Pair A40 with A41 for yaw, A42 with A43 for pitch, and A44 with A45 for a lid. Place the OEM arm between the plates, retain its original center screw, and use one M3×10 and plain nut through the two plates beyond the horn tip. The adapters use 12, 14, and 10 mm pivot radii respectively. Check that the arm seats flat between the locating cheeks and does not slip during a gentle hand twist.
+3. Load an ordinary M3 nut in the adapter’s side pocket. Confirm the new pivot screw threads smoothly into the nut while leaving clearance to the original horn. The fit test is unpowered. Keep the clamp pieces for final assembly if their fit is good.
+
+## Mechanism checks in progress
+
+The files in `draft` record individual CAD checks. Several stages contain versions of the same part. The eventual print manifest will select one final version of each reprint.
+
+| Check | Current result |
+| --- | --- |
+| Five servo mounts | [17 sampled poses clear](draft/mounts/servo_mount_clearance.json) |
+| Four lid hinges | [25 sampled poses clear](draft/lid_hinges/lid_hinge_clearance.json) |
+| Globe and crank clamps | [Nine sampled poses clear](draft/yaw_clamps/yaw_clamp_clearance.json) with the original smooth shafts |
+| Jaw horn clamp | [Eight sampled jaw angles clear](draft/jaw_drive/jaw_horn_clearance.json) |
+| Single-arm horn adapters | [13 sampled poses clear](draft/horn_adapters/horn_adapter_clearance.json) with the link arms removed for the scoped check |
+
+The complete assembled linkage and stop checks still govern the larger print plates. Keep the existing V5 parts until the final reprint list is ready.
 
 ## Rebuild the structural draft
 

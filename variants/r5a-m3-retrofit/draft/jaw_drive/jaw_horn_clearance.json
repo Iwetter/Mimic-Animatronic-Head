@@ -1,0 +1,7 @@
+{
+  "status": "PASS_SAMPLED_JAW_HORN_CLEARANCE",
+  "poses": 8,
+  "physical_tested": false,
+  "findings": [],
+  "scope": "Horn clamp, nominal servo, and revised mandible. Pivot and stop hardware checked separately."
+}

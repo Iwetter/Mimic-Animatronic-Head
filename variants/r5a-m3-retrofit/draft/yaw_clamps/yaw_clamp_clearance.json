@@ -1,0 +1,7 @@
+{
+  "status": "PASS_SAMPLED_YAW_CLAMP_CLEARANCE",
+  "physical_tested": false,
+  "poses": 9,
+  "findings": [],
+  "scope": "Globe and crank shaft clamps only. Intended screw contact with the smooth shaft and threaded nut excluded."
+}
